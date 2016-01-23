@@ -1,0 +1,2497 @@
+/* Localizable.strings
+  HarrysGPSSuite
+
+  Created by Harald Schlangmann on 16.10.11.
+  Copyright (c) 2011 Harald Schlangmann. All rights reserved. */
+
+/* Controller titles */
+"Assistant" = "Assistente";
+
+"Lap Details #%hu" = "Dettaglio Giri #%hu";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStaged" = "In Posizione";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelNew" = "Nuovo";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelGo" = "Marcia";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSplit" = "Parziale";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStop" = "Interrompere";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelCancel" = "Annullare";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelReset" = "Azzeramento";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetSpeed" = "Azzeramento Velocità";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelAlert" = "Allarme";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSet" = "Serie";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSetRef" = "Serie";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelVideo" = "Video";
+
+/* Small Buttons */
+"kGapAbbreviated" = "Scarto";
+
+"kLapTimeShort" = "Tempo";
+
+/* Speed labels in GPS View */
+"kCurrentSpeedLabel" = "Velocità";
+
+"kTopSpeedLabel" = "Vmax";
+
+"kLastTopSpeedLabel" = "Ultimo";
+
+"kCurrentSpeedSegment" = "Attuale";
+
+"kVehicleCurrent" = "Attuale";
+
+"kLastTopSpeedSegment" = "Vmax S";
+
+"kTopSpeedSegment" = "Vmax";
+
+/* System configurations */
+"kAbbreviation" = ".";
+
+" (no data)" = " (nessun dato)";
+
+/* Item cannot be played description */
+"Item cannot be played" = "L'elemento non può essere letto";
+
+/* Item cannot be played failure reason */
+"The assets tracks were loaded, but could not be made playable." = "Le tracce sono state caricate, ma non possono essere lette";
+
+/* XIB ressources */
+"Descriptions positioned" = "Radiofari & POI posizionati";
+
+"Club" = "Comunità";
+
+"Classification" = "Classifiche";
+
+"The official application of MICHELIN Pilot Sport Challenge" = "Applicazione ufficiale del MICHELIN Pilot Sport Challenge";
+
+"To participate in MICHELIN Pilot Sport Challenge:" = "Per partecipare al MICHELIN Pilot Sport Challenge:";
+
+"Connect" = "Connettiti";
+
+"Background video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video' and select 'Record Auto'." = "La registrazione video in background è attualmente disabilitata. Ciò significa che LapTimer può solo registrare tempi e dati. Per abilitare anche la registrazione video, selezionare 'Video' e 'Record Auto'";
+
+"kLapAbbreviation" = "G";
+
+"Video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video'." = "La registrazione video è attualmente disabilitata. Ciò significa che il LapTimer può solo registrare tempi e dati. Per abilitare anche la registrazione video, selezionare 'Video'.";
+
+/* Vehicle History (and others) */
+"Event" = "Evento";
+
+/* Update rate gadget for GPS - needs to be short */
+"GPS Rate" = "Rate";
+
+/* Update rate gadget for Accelerometer - needs to be short */
+"Accelerometer Rate" = "Rate";
+
+/* Update rate gadget for OBD - needs to be short */
+"OBD Rate" = "Rate";
+
+/* Social Networks */
+"kSocialNetworkRate" = "Valuta";
+
+"Groups" = "Gruppi";
+
+"LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "Attualmente il LapTimer non ha accesso al video/ audio.  Per abilitare l'accesso, selezionare Settings ‣ Privacy ‣ Microphone ‣ LapTimer.";
+
+/* Controller titles */
+"Classic" = "Cronometro";
+
+"Racer's" = "Pilotaggio";
+
+"Acceleration" = "Accelerazione";
+
+"POI List" = "Lista POI";
+
+"Waypoints" = "Punti di Passaggio";
+
+"Help" = "Aiuto";
+
+"Products" = "Prodotti";
+
+"Dynamics" = "Dinamica";
+
+"Trim" = "Ridurre";
+
+"Trip" = "Viaggio";
+
+"Add-ons" = "Estensioni";
+
+"Tracks" = "Circuiti";
+
+"SuperGPS" = "SuperGPS";
+
+"Server" = "Server";
+
+"Online" = "In linea";
+
+"Satellites" = "Satelliti";
+
+"Timer" = "Cronometro";
+
+"Settings" = "Regolazioni";
+
+"Speedo" = "Contatore";
+
+"Vehicle List" = "Veicoli";
+
+"Sensor List" = "Sensori";
+
+"Video List" = "Video";
+
+/* Units */
+"%.0fs" = "%.0fs";
+
+/* Gadget titles */
+"Signal" = "Segnale";
+
+"Fix Date" = "Data GPS";
+
+"Fix Time" = "Ora GPS";
+
+"Compass" = "Compasso";
+
+"Approach" = "Approccio";
+
+"Engine" = "Motore";
+
+"Speed" = "Velocità";
+
+"Heading" = "Direzione";
+
+"Altitude" = "Altitudine";
+
+"Accuracy" = "Precisione";
+
+"Longitude" = "Longitudine";
+
+"Lateral" = "Laterale";
+
+"Lineal" = "Lineare";
+
+"Slope" = "Pendio";
+
+"Lap" = "Giro";
+
+"Laps" = "Giri";
+
+"Sector" = "Settore";
+
+"Overall Acceleration" = "Accelerazione totale";
+
+"Sky" = "Cielo";
+
+"In View" = "Visibili";
+
+"Tracked" = "Utilizzato";
+
+"Position" = "Posizione";
+
+"Track Mode" = "Modo Pista";
+
+"Street Mode" = "Modo Strada";
+
+"Speed Mode" = "Modo Velocità";
+
+"Cruise Mode" = "Modo Viaggio";
+
+"Overall" = "Totale";
+
+"Lap List" = "Lista dei tempi";
+
+"Lap List (filtered)" = "Lista dei tempi (filtrata)";
+
+"Current Lap" = "Giro attuale";
+
+"GPS Ref. Gap" = "GPS Rif. Gap";
+
+"Current Sector" = "Settore Attuale";
+
+"Straight" = "Linea Diritta";
+
+"Curve" = "Curva";
+
+"Speedometer" = "Tachimetro";
+
+"Engine RPM" = "Contagiri";
+
+"Avg." = "Media";
+
+"Max." = "Massimo";
+
+"Current Time" = "Ora Attuale";
+
+"Travel Time" = "Tempi di Percorso";
+
+"Time Moving" = "Tempi di Spostamento";
+
+"Time not Moving" = "Tempi in Arresto";
+
+"Avg. Speed" = "Velocità Media";
+
+"Avg. Speed Moving" = "Velocità di Spostamento Media";
+
+"Travel Distance" = "Distanza Percorsa";
+
+"Time of Arrival" = "Ora di Arrivo";
+
+"Time Left" = "Tempo Restante";
+
+"Distance Left" = "Distanza Restante";
+
+"Waypoint" = "Punto di Passaggio";
+
+"Navigation" = "Navigazione";
+
+"Calibrating" = "Calibrazione in corso";
+
+"Calibrated" = "Calibrato";
+
+"Lap vs. %@" = "Giro /. %@";
+
+"Lap vs. %@ (%s)" = "Giro /. %@ (%s)";
+
+"Sector vs. %@" = "Settore /. %@";
+
+"Gap vs. %@ (%s)" = "Scarto / %@ (%s)";
+
+"Gap vs. %@" = "Scarto / %@";
+
+"Gap" = "Scarto";
+
+"Best Lap" = "Miglior Giro";
+
+"Best Time" = "Miglior Tempo";
+
+"Last Lap" = "Ultimo Giro";
+
+"Last Time" = "Ultimo Tempo";
+
+"Ref. Lap" = "Giro di riferimento";
+
+"Ref. Time" = "Tempo di riferimento";
+
+"Last Max" = "Massimo Precedente";
+
+"Power" = "Potenza";
+
+"Tank" = "Serbatoio";
+
+"Gear" = "Marcia";
+
+"Coolant" = "Acqua";
+
+"Oil" = "Olio";
+
+"Gear Oil" = "Olio del cambio";
+
+"Auto Close" = "Chiusura automatica";
+
+"Intake" = "Alimentazione";
+
+"Intake Type" = "Tipo di Alimentazione";
+
+"Naturally Aspirated" = "Atmosferico";
+
+"Supercharged" = "Compressore";
+
+"Turbocharged" = "Turbo";
+
+"Engine Type" = "Carburante";
+
+"Otto" = "Benzina";
+
+"Diesel" = "Diesel";
+
+/* Label in Trip View */
+"Continuous" = "Permanente";
+
+"Both" = "Tutti";
+
+"Free" = "Gratuito";
+
+"Buy" = "Acquistare";
+
+"Active" = "Attivo";
+
+"Reload" = "Ricaricare";
+
+"Load" = "Caricare";
+
+"View" = "Vedere";
+
+"On" = "On";
+
+"Off" = "Off";
+
+/* Footer Buttons */
+"Reference" = "Riferimento";
+
+"Export" = "Esportare";
+
+"Send" = "Inviare";
+
+"Purge GPS" = "Svuotare GPS";
+
+"Recalculate" = "Ricalcolare";
+
+"Overlay" = "Overlay";
+
+"Revert" = "Originale";
+
+"Delete" = "Cancellare";
+
+"Delete All" = "Cancellare tutto";
+
+"Check Data" = "Verificare Dati";
+
+"Purge" = "Svuotare";
+
+"Test" = "Test";
+
+"Conflicts" = "Conflitti";
+
+"Certify" = "Certificato";
+
+"System Information" = "Informazioni Sistema";
+
+"Navigate" = "Navigare";
+
+"Reset" = "Reset";
+
+"Duplicate" = "Duplicare";
+
+"Current" = "Attuale";
+
+"Unload" = "Scaricare";
+
+"Move" = "Spostare";
+
+"Download" = "Scaricare";
+
+/* Lap List */
+"Laps: %hu / GPS Fixes: %lu" = "Giri: %hu / Posizione GPS : %lu";
+
+"Unspecified" = "Indefinito";
+
+"Deleting all Lap Data" = "Cancellazione dei dati dei giri";
+
+"Deleting Lap" = "Cancellare il giro";
+
+"Lap #" = "Giro #";
+
+"Results" = "Risultati";
+
+"Speeds" = "Velocità";
+
+"Track Info" = "Informazioni Pista";
+
+"Regularity" = "Regolarità";
+
+"Data Recording" = "Registrazione dei dati";
+
+"Date" = "Data";
+
+"Time" = "Ora";
+
+"Track" = "Circuito";
+
+"Vehicle" = "Veicolo";
+
+"Video" = "Video";
+
+"Add Video" = "Aggiunta Video";
+
+"Master" = "Master";
+
+"Picture in Picture" = "PIP";
+
+"Picture in Picture #%hu" = "PIP #%hu";
+
+"Joined End" = "Fine unita";
+
+"Ends at %s" = "Finito al %s";
+
+"Metadata" = "Metadata";
+
+"Add Note" = "Aggiunta Nota";
+
+"Note" = "Nota";
+
+"Preview" = "Preview";
+
+"Lap Time" = "Tempo sul Giro";
+
+"Virtual Best" = "Miglior Tempo Virtuale";
+
+"Split %lu" = "Intermedio %lu";
+
+"Average" = "Media";
+
+"Max" = "Massimo";
+
+"Set Speed" = "Velocità";
+
+"Penalty" = "Penalità";
+
+"Sector %lu" = "Settore %lu";
+
+"Regularity Speed" = "Velocità Regolare";
+
+"Edit Note" = "Editare Nota";
+
+"'Export Lap Data' will export your database of laps using an e-mail." = "Esportazione dei Dati' esporterà i tuoi tempi sul giro tramite invio di una e-mail.";
+
+"'Receive Lap' will search for other devices willing to send lap data to you." = "Ricezione dei dati' ricercherà altri dispositivi che possono inviarti dei dati.";
+
+"'Send Trackday' sends latest trackday's lap data." = "Invio Sessione' invia i dati degli ultimi giri.";
+
+"Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "Vedere i dettagli di ogni singolo giro per inviare oppure esportare i dati.";
+
+"Cancel" = "Annullare";
+
+"Export Lap Data" = "Esportazione dei Dati";
+
+"Purging Data Recordings..." = "Eliminare registrazione dati";
+
+"Recalculating..." = "Ricalcolo...";
+
+"Housekeeping Databases" = "Gestione database";
+
+"Realigning Recordings..." = "Aggiornamento registrazioni...";
+
+"Removing Old Databases" = "Rimuovere vecchi Database";
+
+"Receive Lap from Friend" = "Ricezione dei Dati di un Amico";
+
+"Send Trackday to Friend" = "Invio di una Sessione ad un Amico";
+
+" to " = " a ";
+
+"Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "Premere su 'Annullare' in caso di dubbio sull'utilizzazione di queste funzioni.";
+
+"GPS Sensor" = "Sensore GPS";
+
+"Internal" = "Interno";
+
+"External" = "Esterno";
+
+"%@ @ %hu.%hu Hz" = "%@ @ %hu.%hu Hz";
+
+"%lu (GPS, ACCEL%s)" = "%lu (GPS, ACCEL%s)";
+
+", OBD" = ", OBD";
+
+"Fixes" = "Punti";
+
+/* Load Track / Add-ons (only partially localizable) */
+"Load Track" = "Caricare Pista";
+
+"Features" = "Caratteristiche";
+
+"Other Apps" = "Altre Apps";
+
+"Campaign" = "Campagna";
+
+"African Track Sets" = "Circuiti Africani";
+
+"Asian Track Sets" = "Circuiti Asiatici";
+
+"Australian Track Sets" = "Circuiti Australiani";
+
+"Australian & NZ Track Sets" = "Circuiti Pacifico Sud";
+
+"European Track Sets" = "Circuiti Europei";
+
+"North American Track Sets" = "Circuiti Nord-Americani";
+
+"South American Track Sets" = "Circuiti Sud-Americani";
+
+"Other POI Sets" = "Altri Gruppi di POI";
+
+"Outdated POI Sets" = "Antichi Gruppi di POI";
+
+"by %@" = "tramite %@";
+
+"Configuration" = "Configurazione";
+
+/* Data Loader / Mailer */
+"Importing..." = "Importazione in corso ...";
+
+"%s Contact" = "%s Contatto";
+
+"Hello,\n\n...\n\nGreetings ...\n\n" = "Ciao,\n\n...\n\nBuongiorno ...\n\n";
+
+"%s POI Set Certification" = "%s Certificazione di Gruppo di POI";
+
+"Hello,\n\nI have compiled the attached POI Set and would like to make it available to the community.\nI provide this POI Set 'as is', and without any warranty. You are welcome to redistribute it as you like.\n\nIn addition to the POI Set attached, I'd like to add the following information:\n\nTitle:\nTITLE SHOWN IN ADD ON VIEW\n\nDescription:\nONE OR TWO SENTENCES ON THE TRACK / THE POI SET\n\nValidation / Accuracy:\n I have tested the data on track: YES/NO\n GPS positions were collected using: A DEVICE/GOOGLE MAPS\n\nSource Information\nPlease cite my name in the Source Section: YES/NO\n\nFurther Information:\nANYTHING ELSE\n\nGreetings NAME\n\n" = "Buongiorno,\n\Ho creato il gruppo unito di POI e vorrei comunicarlo alla comunità.\nFornisco il file 'tale e quale' e senza nessuna garanzia. Potete copiarlo e distribuirlo a volontà.\n\nIn complemento della serie di POI in allegato, desidero aggiungere le seguenti informazioni :\n\nTitolo:\nTITOLO COME INDICATO NELLA LISTA\n\nDescrizione:\nUNA O DUE FASI CHE DESCRIVONO LA PISTA\n\nTest / Precisione :\n Ho testato i dati su strada: SI / NO\n Le posizioni  GPS so+C241no state determinate come segue: UNO STRUMENTO / Google Maps\n\nCitare il mio Nome nella sezione Origine : SI/NO\n\nAltre Informazioni:\nTUTTO IL RESTO\n\nSaluti NOME\n\n";
+
+"... and forwarding to Mail" = "... ed inviato tramite e-mail";
+
+"%s Trace Log" = "%s Cronistoria(e)";
+
+"Tracefile from former run found, preparing..." = "Cronistoria transazione precedente trovata. Preparazione in corso ...";
+
+"Creating Export Files..." = "Creazione dei File d'Esportazione ...";
+
+"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "Questo%@ contiene i seguenti file d'esportazione (i grossi file sono compressi con estensioni gzip %s e .gz):\n\n";
+
+"mail" = "e-mail";
+
+"folder" = "dossier";
+
+"%@: PDF export of one lap\n" = "%@: Esportare PDF di un giro\n";
+
+"%@: database in LapTimer XML format\n" = "%@: Database LapTimer in formato XML\n";
+
+"%@: Google Earth KML file\n" = "%@: File Google Earth KML\n";
+
+"%@: lapped times as universal CSV format\n" = "%@: Giri percorsi in formato universale CSV\n";
+
+"%@: recorded GPS fixes as universal CSV format\n" = "%@: Posizioni GPS in formato universale CSV\n";
+
+"%@: recorded GPS fixes prepared for TrackVision and DashWare data logger input\n" = "%@: Dati GPS preparati per TrackVision e DashWare in formato CSV\n";
+
+"%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@: Dati GPS preparati per Circuit Tools\n";
+
+"... and dropping into Dropbox" = "... ed invio nel tuo Dropbox";
+
+"This %@ contains the following export files:\n\n" = "Questo%@ contiene i file d'esportazione :\n\n";
+
+"%@: vehicle database in XML format\n" = "%@: Database dei Veicoli in formato XML\n";
+
+"%s Export" = "%s Export";
+
+"Adding POI Set:\nDownloading from Net..." = "Aggiunta di una serie di POI :\nTelescaricare sul net...";
+
+"Adding POI Set:\n%hu POIs read..." = "Aggiunta di una serie di POI :\n%hu POI letti ...";
+
+"Day" = "Giorno";
+
+"Session" = "Sessione";
+
+"%hu lap(s) selected" = "%hu giro(i) selezionato(i)";
+
+"%hu '%@' lap(s) selected" = "%hu '%@' giro(i) selezionato(i)";
+
+"%hu lap(s) for last session selected" = "%hu giro(i) dell'ultima sessione selezionata(e)";
+
+"%hu lap(s) from lap's session selected" = "%hu giro(i) della sessione selezionata(e)";
+
+/* Add-on Details */
+"Title" = "Titolo";
+
+"Track Set" = "Circuito";
+
+"Feature" = "Caratteristiche";
+
+"Details" = "Dettagli";
+
+"Hall of Fame" = "Albo d'onore";
+
+"Available for Free" = "Gratuito";
+
+"In App Purchase" = "Acquisto nell'app";
+
+"Active / Loaded" = "Attivo / Caricato";
+
+/* Status vehicles and track (plus Social network) */
+"Status" = "Status";
+
+"Price" = "Prezzo";
+
+"Snapshot" = "Instantanea";
+
+"Copyright" = "Copyright";
+
+"Source" = "Origine";
+
+"Sort" = "Classificazione";
+
+"best lap first" = "Miglior giro";
+
+"most recent lap first" = "Per data";
+
+"Length" = "Durata";
+
+"Drivers" = "Piloti";
+
+"named only" = "Non anonimi";
+
+" on %@" = " con %@";
+
+"Add-on URL" = "URL delle Estensioni";
+
+"Please enter an URL to a valid XML / KML file. More infos are available on www.gps-laptimer.de, follow the link to page 'Tracks'." = "Indica l'URL di un file XML /KML. Maggiori informazioni su www.gps-laptimer.de alla rubrica 'Circuiti'.";
+
+"Processing App Store Payment..." = "Pagamento AppStore in corso ...";
+
+"Validating earlier App Store Payment..." = "Convalida di un precedente pagamento AppStore ...";
+
+"Retrieving Product Data from App Store..." = "Caricamento dei dati prodotto dell'AppStore...";
+
+/* Add-on Manager */
+"Updating Add On List from Server..." = "Aggiornamento della lista a partire dal server...";
+
+"Reloading Add On List from Server..." = "Caricamento della lista a partire dal server...";
+
+/* History Hover Views */
+"Speed [%s] @ Time [s]" = "Velocità [%s] @ Tempo [s]";
+
+"Height [%s] @ Time [s]" = "Altitudine [%s] @ Tempo [s]";
+
+"Acceleration [g] @ Time [s]" = "Accelerazione [g] @ Tempo [s]";
+
+"Satellites [#] @ Time [s]" = "Satelliti [#] @ Tempo [s]";
+
+"Accuracy [%s] @ Time [s]" = "Precisione [%s] @ Tempo [s]";
+
+"Speed (%s) of vehicle measured using GPS and Doppler effect." = "Velocità (%s) misurata tramite GPS ed effetto Doppler.";
+
+"Height (%s) above mean sea level. GPS-measured accuracy is low." = "Altitudine (%s). La precisione misurata dal GPS è bassa.";
+
+"Lateral acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "Accelerazione laterale in multiplo di 'g' (fra 9.78 e 9.82 m/s2).";
+
+"Lineal acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "Accelerazione lineare in multiplo di 'g' (fra 9.78 e 9.82 m/s2).";
+
+"Overall acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "Accelerazione globale in multiplo di 'g' (fra 9.78 e 9.82 m/s2).";
+
+"Satellites used for GPS positioning. Only for supported NMEA devices." = "Satelliti utilizzati per il posizionamento GPS (solamente per i GPS NMEA).";
+
+"Accuracy (%s) of GPS fix." = "Precisione (%s) della Posizione GPS.";
+
+/* Status Gadget */
+"No position information available" = "Nessuna informazione di posizione disponibile";
+
+"Triangulation" = "Triangolazione";
+
+"Position using cell / WLAN triangulation" = "Posizione tramite triangolazione 3G / WLAN";
+
+"GPS" = "GPS";
+
+"Position using device's location service" = "Posizione tramite GPS interno";
+
+"Accessory connected, using NMEA interface" = "Accessorio NMEA collegato";
+
+"Sensor connected, using NMEA interface" = "Sensore connesso, attraverso l'interfaccia NMEA";
+
+/* Signal / GPS Gadget */
+"Acquiring Satellites" = "Acquisizione Satelliti";
+
+"No Fix" = "Nessuna Posizione";
+
+"2D" = "2D";
+
+"%hu Satellites, 2D GPS (NMEA)" = "%hu Satelliti, 2D GPS (NMEA)";
+
+"11 Satellites, 3D+ GPS (NMEA)" = "11 Satelliti, 3D+ GPS (NMEA)";
+
+"2D GPS (NMEA)" = "2D GPS (NMEA)";
+
+"2D Cell/WLAN" = "2D 3G/WLAN";
+
+"3D" = "3D";
+
+"3D+" = "3D+";
+
+"%hu Satellites, %@ GPS (NMEA)" = "%hu Satelliti, %@ GPS (NMEA)";
+
+"%@ GPS (NMEA)" = "%@ GPS (NMEA)";
+
+"3D GPS" = "3D GPS";
+
+/* Vehicle List and Details */
+"Vehicles" = "Veicoli";
+
+"VIN defined" = "VIN definito";
+
+"- no details -" = "- nessun dettaglio -";
+
+"Add new %@" = "Creare %@";
+
+"All Vehicles" = "Qualsiasi Veicolo";
+
+"Item" = "Elemento";
+
+"Vehicle Type" = "Tipo Veicolo";
+
+"Car" = "Automobile";
+
+"Motorbike" = "Motocicletta";
+
+"Kart" = "Go-Kart";
+
+"Bicycle" = "Bicicletta";
+
+"Horse" = "Cavallo";
+
+"Ski" = "Sci";
+
+"Feet" = "A piedi";
+
+"Speedboat" = "Barca a motore";
+
+"Sailboat" = "Barca a vela";
+
+"Wheel Drive Type" = "Tipo";
+
+"Rear-wheel" = "Trazione posteriore";
+
+"Front-wheel" = "Trazione anteriore";
+
+"All-wheel" = "4x4";
+
+"Vehicle #%hu" = "Veicolo #%hu";
+
+"Image" = "Immagine";
+
+"Add Image" = "Aggiungi Immagine";
+
+"VIN" = "VIN";
+
+"Add VIN" = "Aggiungi VIN";
+
+"Max Torque" = "Coppia Massima";
+
+"Max Power" = "Potenza";
+
+"%hu rpm" = "%hu T/mn";
+
+"Max RPM" = "T/mn Max.";
+
+"Shift Flash" = "Interruttore";
+
+"Power Transmission" = "Tipo";
+
+"Front Wheel" = "Ruota anteriore";
+
+"Rear Wheel" = "Ruota posteriore";
+
+"Drive" = "Trasmissione";
+
+"Chart" = "Diagramma";
+
+"Charts" = "Diagrammi";
+
+"Speed [%s] @ Engine [rpm/1000]" = "Velocità [%s] @ [T/mn/1000]";
+
+"Drive Ratio" = "Differenziale";
+
+"Num Gears" = "Numero marce";
+
+"Gear %hu Ratio" = "Rapporto %hu. Ratio";
+
+"Add Gear" = "Aggiunta rapporto";
+
+"please set" = "per favore configurare";
+
+"OBD" = "OBD";
+
+"Fuel" = "Carburante";
+
+"Standard" = "Standard";
+
+"Voltage" = "Voltaggio";
+
+"PIDs" = "ID param.";
+
+"rpm" = "T/mn";
+
+"liter" = "Litro";
+
+"th" = "esimo";
+
+"st" = "primo";
+
+"nd" = "esimo";
+
+"rd" = "esimo";
+
+"Vehicle Name" = "Nome Veicolo";
+
+"Edit VIN" = "Modificare VIN";
+
+"A Vehicle Identification Number (VIN), is a unique 17 digit number used to identify motor vehicles." = "Il VIN è un numero di identificazione del veicolo composto da 17 caratteri utilizzati per identificare i veicoli a motore";
+
+"Torque" = "Coppia";
+
+"Maximum torque developed by vehicle's engine." = "Coppia massima del motore di questo veicolo.";
+
+"Engine rounds per minute at which maximum torque is developed." = "Regime motore alla coppia massima";
+
+"Maximum power developed by vehicle's engine." = "Potenza massima del motore di questo veicolo.";
+
+"Engine rounds per minute at which maximum power is developed." = "Regime motore alla potenza massima.";
+
+"Engine rounds per minute at which the rev limiter is activated." = "Regime motore in cui scatta il limitatore.";
+
+"Threshold" = "Interruttore";
+
+"Percentage of max engine rounds per minute at which the Shift Gear Flash gets active." = "Percentuale del regime massimo che fa scattare il segnale di cambio marcia.";
+
+"Front Wheels" = "Ruote anteriori";
+
+"Rear Wheels" = "Ruote posteriori";
+
+"Tire Code" = "Codice pneumatici";
+
+"Ratio" = "Demoltiplicazione";
+
+"The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "Il rapporto di ponte fornisce la demoltiplicazione della velocità di rotazione fra la scatola del cambio e le ruote.";
+
+"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "Si tratta della demoltiplicazione della velocità di rotazione della scatola del cambio in rapporto a quella del motore.";
+
+"%.2f (limit %hu %s)" = "%.2f (limite %hu %s)";
+
+"Degree" = "Livello";
+
+"Standard direction the trigger will be passed. Trigger will not fire in case heading deviates more than 90°." = "Direzione standard l'innesco sarà superato. L'innesco non scatterà nel caso la testata devia più di 90°.";
+
+"automatic" = "automatico";
+
+/* Map View */
+"Map" = "Map";
+
+"Sat" = "Sat";
+
+"Hybrid" = "Ibrido";
+
+/* Trip Computer View */
+"... since " = "... da ";
+
+"None" = "Nessuno";
+
+"Polar Coord." = "Coord. Polare";
+
+"Crs" = "Traiettoria";
+
+"Today" = "Oggi";
+
+"Bearing to Waypoint" = "Direzione per il Waypoint";
+
+/* Sensors and Sensor List */
+", Battery %hu%%" = ", Batteria %hu%%";
+
+"Connected @ %hu Hz" = "Collegato a %hu Hz";
+
+"Connected" = "Collegato";
+
+"Searching..." = "Ricerca ...";
+
+"Available" = "Disponibile";
+
+"All" = "Tutti";
+
+"Not Available" = "Indisponibile";
+
+"Available, Resolution %hu x %hu" = "Disponibile, Precisione %hu x %hu";
+
+"Not Available (%@:%@)" = "Indisponibile (%@:%@)";
+
+"Searching for %@:%@" = "Ricerca per %@:%@";
+
+"Unknown" = "Sconosciuto";
+
+"GPS/GLONASS Sensors" = "Sensore GPS/GLONASS";
+
+"Engine Sensors" = "Sensore OBD";
+
+"Other Sensors" = "Altri Sensori";
+
+", %hu Satellite(s)" = ", %hu Satellite(i)";
+
+"This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "Questa opzione non è disponibile in questa versione dell'applicazione. Verificare in 'Estensioni' i complementi disponibili.";
+
+/* Sensors */
+", NMEA sentences received: %s" = ", frasi NMEA ricevute : %s";
+
+"NMEA sentences received: %s" = "Frasi NMEA ricevute : %s";
+
+", PIDs received: %@" = ", PID ricevuti : %@";
+
+"PIDs received: %@" = "PID ricevuti : %@";
+
+"Connected and listening to %@:%@" = "Collegato ed in ascolto di %@:%@";
+
+"Connected and listening to %@" = "Collegato ed in ascolto di %@";
+
+"Registered for multicast from %@, listening to port %@" = "Dichiarato per il Multicast di %@, ascolto della Porta %@";
+
+"Listening on port %@" = "Ascolto della Porta %@";
+
+"NMEA Sentences" = "Comandi NMEA";
+
+/* Assistant View */
+"Show on Startup" = "Visualizzare all'avvio";
+
+"Define User" = "Dati Pilota";
+
+"Autocross" = "Gincana";
+
+"New Track" = "Creare Circuito";
+
+"Calibration" = "Calibrazione";
+
+"Start Driving" = "Start!";
+
+"Driver ID ('%@')" = "ID Pilota ('%@')";
+
+"Driver ID" = "ID Pilota";
+
+"Vehicle ('%@')" = "Veicolo ('%@')";
+
+"Define Driver" = "Definire Pilota";
+
+"Define Vehicle" = "Definire Veicolo";
+
+"Continue" = "Continua";
+
+"Select Track" = "Scegliere Circuito";
+
+"Track Selected" = "Circuito scelto";
+
+"Drive!" = "Via !";
+
+"Track Selected ('%@')" = "Circuito scelto ('%@')";
+
+"Name" = "Nome";
+
+"Set" = "Definire";
+
+"Name ('%@')" = "Nome ('%@')";
+
+"Track %hu" = "Circuito %hu";
+
+"Driver Name" = "Nome Pilota";
+
+"Three character driver name used for Online Racing" = "Tre caratteri che identificano il pilota nella classifica on line.";
+
+/* Online View */
+"No Server Status" = "Nessuno Stato Server";
+
+"Track: -" = "Circuito: -";
+
+"Track: %@" = "Circuito: %@";
+
+"ID: %hu" = "Id: %hu";
+
+/* POI List */
+"Overall Waypoints: %hu" = "Totale Waypoints : %hu";
+
+"Overall POIs / Triggers: %hu" = "Totale POIs+Radiofari : %hu";
+
+"Waypoints in Set: %hu" = "Waypoints del gruppo : %hu";
+
+"POIs / Triggers in Set: %hu\nPotential conflicts: %@" = "POI/Radiofari del Gruppo : %hu\nConflitto possibile : %@";
+
+"POIs / Triggers in Set: %hu" = "POI/Radiofari del Gruppo: %hu";
+
+"My Waypoints" = "I miei Waypoints";
+
+"Waypoints in Set" = "Waypoints del Gruppo";
+
+"Waypoint Sets" = "Gruppi di Waypoints";
+
+"My Points of Interest" = "I miei POI";
+
+"Points of Interest in Set" = "POI del Gruppo";
+
+"POI Sets" = "Gruppi di POI";
+
+"Add new Waypoint Set" = "Creare un Gruppo di Waypoint";
+
+"Add new POI Set" = "Creare un Gruppo di POI";
+
+"%hu POIs+Triggers / 1 Lap" = "%hu POI+Radiofari / 1 Giro";
+
+"%hu POIs+Triggers / %hu Laps" = "%hu POI+Radiofari / %hu Giri";
+
+"New Waypoint Set" = "Nuovo Gruppo Waypoint";
+
+"New POI Set" = "Nuovo Gruppo POI";
+
+"A track or POI set name with up to 15 characters. This name needs to be unique, duplicates are not allowed." = "Una pista oppure un POI ha un nome con un massimo di 15 caratteri. Questo nome deve essere unico, i doppioni non sono autorizzati.";
+
+"Edit Name" = "Editare Nome";
+
+"Select Waypoint" = "Selezionare Waypoint";
+
+"%hu Waypoints" = "%hu Waypoints";
+
+"1 Lap" = "1 Giro";
+
+"%hu POIs+Triggers" = "%hu POI+Radiofaro";
+
+"%hu Laps" = "%hu Giri";
+
+/* POI Details */
+"Waypoint #%hu" = "Waypoint #%hu";
+
+"POI Details #%hu" = "POI Dettaglio #%hu";
+
+"POI Type" = "Tipo POI";
+
+"Type" = "Tipo";
+
+"Description" = "Descrizione";
+
+"POI Set" = "Gruppo POI";
+
+"Latitude" = "Latitudine";
+
+"Font Size" = "Taglia polizza";
+
+"Direction" = "Direzione";
+
+"Trigger" = "Radiofaro";
+
+"General" = "Generale";
+
+"Display" = "Visualizzazione";
+
+"Small" = "Piccolo";
+
+"Medium" = "Medio";
+
+"Large" = "Grande";
+
+"Alert" = "Allarme";
+
+"Top Right" = "Alto Destra";
+
+"Top Left" = "Alto Sinistra";
+
+"Bottom Right" = "Basso Destra";
+
+"Bottom Left" = "Basso Sinistra";
+
+"Centered" = "Centrato";
+
+"Bottom" = "Basso";
+
+"Top" = "Alto";
+
+"Trigger Type" = "Tipo Radiofaro";
+
+"Information" = "Informazione";
+
+"Stop / Go" = "Stop / Marcia";
+
+"Stop" = "Arresto";
+
+"Go" = "Marcia";
+
+"Split" = "Intermedio";
+
+"Standing Go" = "Griglia Partenza";
+
+"Select the event you want to happen once you pass the Point of Interest." = "Selezionare l'azione da effettuare al passaggio del radiofaro";
+
+"The Position defines how labels are positioned relative to the POI's polar coordinate." = "La posizione definisce come sarà visualizzata la didascalia in rapporto alle coordinate polari di un POI.";
+
+/* Recalculation buttons */
+"Splits" = "Frazioni";
+
+"All Track's Splits" = "Frazioni di Tutti i Giri";
+
+"Smooth Data" = "Uniformità Dati";
+
+/* GPS Data Recording */
+"All Laps" = "Tutti i Giri";
+
+"All Sectors #%hu" = "Tutti i Settori %hu";
+
+"Laps in %hu" = "Giri in %hu";
+
+"Sectors #%hu in %hu" = "Settori %hu in %hu";
+
+"Laps on %@ ff" = "Giri di %@ ff";
+
+"Sectors #%hu on %@ ff" = "Settori #%hu di %@ ff";
+
+"Laps on %@" = "Giri di %@";
+
+"Sectors #%hu on %@" = "Settori %hu di %@";
+
+" from %@" = " tramite %@";
+
+"Filtered by %@" = "Filtrato da : %@";
+
+"Not filtered by vehicle" = "Nessun Filtro Veicolo";
+
+"Absolutely fastest %@ (%@)" = "Record del Giro %@ (%@)";
+
+"sector or lap" = "Settore o Giro";
+
+"sector" = "Settore";
+
+"Fastest sector or lap at time recorded" = "Migliore Settore / Giro";
+
+"Virtually best lap (sum of best sector times)" = "Record del Giro teorico (Somma dei migliori settori)";
+
+"Lap selected (%@ - %@)" = "Giro selezionato (%@ - %@)";
+
+"Complete" = "Completo";
+
+"Sector #x" = "Settore #x";
+
+"Speed [%s] @ Distance [%s]" = "Velocità [%s] @ Distanza [%s]";
+
+"Lateral Acceleration [g] @ Distance [%s]" = "Accelerazione Laterale [g] @ Distanza [%s]";
+
+"Lineal Acceleration [g] @ Distance [%s]" = "Accelerazione Longitudinale [g] @ Distanza [%s]";
+
+"Overall Acceleration [g-g]" = "Accelerazione globale [g-g]";
+
+"Yaw Rate [°/s] @ Distance [%s]" = "Tasso di Serpeggiamento [°/s] @ Distanza [%s]";
+
+"Height [%s] @ Distance [%s]" = "Altezza [%s] @ Distanza [%s]";
+
+"Engine [rpm/1000] @ Distance [%s]" = "Motore [rpm/1000] @ Distanza [%s]";
+
+"Throttle [%%] @ Distance [%s]" = "Acceleratore [%%] @ Distanza [%s]";
+
+"Coolant Temperature [%@] @ Distance [%s]" = "Temperatura dell'acqua [%@] @ Distanza [%s]";
+
+"Lateral Acceleration" = "Accelerazione Laterale";
+
+"Lineal Acceleration" = "Accelerazione Longitudinale";
+
+"Yaw Rate" = "Tasso di Serpeggiamento";
+
+"Height" = "Altezza";
+
+"Coolant Temperature" = "Temperatura dell'acqua";
+
+"Accumulated Time Gap [s]" = "Gap accumulato [s]";
+
+"Selected " = "Selezionato ";
+
+"(OBD speed dotted)" = "(Velocità ODB in punteggiato)";
+
+"(Oil temperature dotted)" = "(Temperatura olio in punteggiato)";
+
+"Reference not available" = "Riferimento non disponibile";
+
+"Reference " = "Riferimento";
+
+/* Selection Controller */
+"Edit " = "Editare ";
+
+/* Video Controller */
+"Throttle" = "Accelerazione";
+
+", Lap #%hu/%hu" = ", Giro %hu/%hu";
+
+"Lap# %hu/%hu" = "Giro %hu/%hu";
+
+"Processing Video..." = "Elaborazione Video ...";
+
+"Overlaying Video...\n%.0f%% processed (%lu frames)" = "Sovrapposizione Video...\n%.0f%% elaborazione (%lu immagini)";
+
+"Rendering Lead...\n%.0f%% processed (%lu frames)" = "Rendering...\n%.0f%% elaborazione (%lu immagini)";
+
+"Skipping frames..." = "Saltare le immagini...";
+
+"Transfering Video to Library..." = "Trasferimento del Video nella Libreria ...";
+
+"Corner" = "Curva";
+
+"Sector #%hu" = "Settore %hu";
+
+"Show Audi" = "Show Audi";
+
+"Start Videoing" = "Cominciare a filmare";
+
+"Master video o.k." = "Master video o.k.";
+
+", overlay data available" = ", sovrapposizione dati disponibili";
+
+", low memory (%.1f GB missing)" = ", poca memoria (%.1f GB mancante)";
+
+", overlay data missing" = ", sovrapposizione dati mancanti";
+
+"Invalid master video" = "Video master non valido";
+
+", reference PiP video not valid - excluded" = ", video riferimento PiP non valido - escluso";
+
+", reference PiP video included" = ", video riferimento PiP compreso";
+
+", %u out of %u MultiCam PiP video(s) valid and included" = ", %u di %u video MultiCam PiP validi e compresi";
+
+", %u MultiCam PiP video(s) included" = ", %u video MultiCam PiP in dotazione";
+
+"Reference Video" = "Riferimento video";
+
+"Reference Sector" = "Riferimento Settore";
+
+"Cam #%hu" = "Cam #%hu";
+
+/* Videos */
+"Videos" = "Video";
+
+"File Properties" = "Proprietà file";
+
+"%@ Integration" = "Integrazione %@";
+
+"%@ Recordings" = "Registrazioni %@";
+
+"External Cam Recordings" = "Registrazioni External Cam";
+
+"MultiCam Recordings" = "Registrazioni MultiCam";
+
+"Camera Roll" = "Camera bistabile";
+
+"Overlaid Video" = "Video inserita";
+
+"Raw Video" = "Video d'origine";
+
+"Housekeeping" = "Ripulire";
+
+"Play" = "Giocare";
+
+"Re-Link" = "Ricollegamento";
+
+"Video Details" = "Dettagli video";
+
+"Location" = "Localizzazione";
+
+"Not used" = "Non usato";
+
+"Lap #%hu linked" = "Giro #%hu relativo";
+
+"Laps linked" = "Giri relativi";
+
+"Size" = "Taglia";
+
+"Overlay Type" = "Tipo Sovrapposizione";
+
+"Overlaid" = "Sovrapposizione inserita";
+
+"Raw" = "Originale";
+
+"Duration" = "Durata";
+
+"Select" = "Selezionare";
+
+"Raw Videos" = "Vide d'origine";
+
+"Remote" = "Remoto";
+
+"Local" = "Locale";
+
+"Download Started" = "Download avviato";
+
+"Downloading %.0f%%" = "Download %.0f%%";
+
+"Upload Started" = "Upload avviato";
+
+"Not Loaded" = "Non caricato";
+
+"Uploading %.0f%%" = "Upload %.0f%%";
+
+" + %@" = " + %@";
+
+/* Video List */
+"iCloud is disabled currently. To use it, sign in first. iCloud space can be valuable to free up space locally." = "iCloud è attualmente disattivato. Per usarlo, per prima cosa avvialo. Lo spazio iCloud può essere utile per liberare dello spazio localmente.";
+
+"Videos stored locally in %@'s sandbox. Footage you record will be stored here initially. Do housekeeping from here." = "I video sono stoccati nella Sandbox di %@.";
+
+"Videos in iCloud get transferred automatically to %@'s recordings currently. You can change that behavior in Settings." = "I video iCloud sono automaticamente trasferiti alle registrazioni di %@. Puoi modificare questo parametro nelle Regolazioni.";
+
+"Videos stored in iCloud and typically recorded using MultiCam. 'Offline' videos are in the iCloud but not copied locally. Move videos here to free up space locally." = "I video stoccati su iCloud e generalmente registrati con l'aiuto di MultiCam. «OffLine» sono nella nuvola, ma non copiati localmente. Sposta i video qui per liberare localmente dello spazio.";
+
+"Videos stored locally in Photo app. Overlaid videos go here. Move to desktop using iTunes synchronization." = "I video sono stoccati localmente nel dossier app foto come anche i video inseriti. Trasferirli verso il luogo di lavoro utilizzando la sincronizzazione iTunes.";
+
+"Videos stored on %@. Use iCloud to transfer footage to this device." = "Video registrati su %@. Utilizzare iCloud per trasferire delle immagini di questo dispositivo.";
+
+/* Satellites View */
+"No supported NMEA device connected." = "Nessun sensore NMEA esterno rilevato.";
+
+"Acquiring Satellites..." = "Acquisizione Satelliti...";
+
+/* Video Controller */
+"Video recording will start automatically when Start / Finish is passed!" = "La registrazione video verrà automaticamente avviata al passaggio della linea di partenza ...";
+
+"Continuous autofocus set" = "Autofocus permanente selezionato";
+
+"Locked autofocus" = "Autofocus bloccato";
+
+"Acceleration sensor reset, starting over individual calibration..." = "Inizializzazione degli accelerometri. Inizio della calibrazione automatica ...";
+
+"Lap timing started!" = "Cronometraggio avviato";
+
+"Video recording started!" = "Registrazione video avviata";
+
+"Lap timing finished! Make sure you stop video recording later..." = "Cronometraggio terminato. Non dimenticare di interrompere più tardi la registrazione video";
+
+"Lap timing finished!" = "Cronometraggio terminato";
+
+"Stopped recording..." = "Arresto registrazione ...";
+
+"Lap recorded, next lap started!" = "Giro registrato. Inizio del giro successivo";
+
+"Low memory, video recording stopped / disabled! Please free up space and return." = "Memoria insufficiente. Registrazione video annullata. Libera dello spazio e ricomincia.";
+
+/* Assistants */
+"Mount your device in portrait orientation, both pitching, and gearing is allowed." = "Fissa l'dispositivo con orientamento verticale. Inclinazione e rotazione sono autorizzati.";
+
+"Stand still on even surface for Pitch Calibration using gravity." = "Rimani fermo su una superficie orizzontale per una calibrazione tramite gravità.";
+
+"Drive a straight line with moderate speed, do not turn left or right." = "Guida in linea diritta a bassa velocità. Non girare né a destra e né a sinistra.";
+
+"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "Frena o accelera in linea per calibrare la velocità lineare.";
+
+"Device calibrated successfully. Please reset calibration when changing the mount." = "Calibrazione terminata. Non dimenticare di ricalibrare in caso di cambio del supporto.";
+
+"Select your track from LapTimer's database and start driving immediately!" = "Scegli il tuo circuito nel database di LapTimer e comincia a guidare immediatamente !";
+
+"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "Il circuito è caricato e pronto. Il cronometraggio inizierà automaticamente !";
+
+"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "Per creare il tuo circuito temporaneo, vai sulla linea di partenza e premi sul pulsante 'Definire'";
+
+"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "Vai alla linea di arrivo e premi sul pulsante 'Definire' facendo attenzione di ricevere un buon segnale GPS.";
+
+"Your autocross course is ready to use! Just mount your device and start driving." = "Il tuo circuito temporaneo è pronto all'utilizzazione. Fissa il tuo dispositivo in posizione ed inizia a guidare.";
+
+"Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "Indica un codice a 3 caratteri per identificarti sull'albo d'onore, ....";
+
+"Select an existing, or add a new vehicle for driving. Can be changed later on." = "Seleziona un veicolo oppure creane uno. Possibilità di cambio in data successiva.";
+
+"Basic user settings defined. Progress by loading your track or defining an autocross." = "Parametri utilizzatori definiti. Seleziona una pista oppure crea un circuito temporaneo ed In Vettura ....";
+
+"To create your custom track, walk to the start/finish line and press the 'Set' button." = "Per creare la tua pista, vai alla linea di partenza/arrivo e premi sul pulsante 'Creare'";
+
+"Your track is ready to use! Just mount your device and start driving." = "La tua pista è pronta. Fissa l'dispositivo ed inizia a guidare.";
+
+"Define Start" = "Definire la partenza";
+
+"Regular Start" = "Partenza Regolare";
+
+"Standing Start" = "Griglia Partenza";
+
+/* KML Import (Radarfalle) */
+"Radar Trap Tunnel" = "Radar di Tunnel";
+
+"Speed Trap 100" = "Radar 100km/h";
+
+"Speed Trap 10" = "Radar 10km/h";
+
+"Speed Trap 110" = "Radar 110km/h";
+
+"Speed Trap 120" = "Radar 120km/h";
+
+"Speed Trap 130" = "Radar 130km/h";
+
+"Speed Trap 20" = "Radar 20km/h";
+
+"Speed Trap 30 and Stop Light" = "Radar 30km/h e Luci";
+
+"Speed Trap 30" = "Radar 30km/h";
+
+"Speed Trap 40 and Stop Light" = "Radar 40km/h e Luci";
+
+"Speed Trap 40" = "Radar 40km/h";
+
+"Speed Trap 50 and Stop Light" = "Radar 50km/h e Luci";
+
+"Speed Trap 50" = "Radar 50km/h";
+
+"Speed Trap 60 and Stop Light" = "Radar 60km/h e Luci";
+
+"Speed Trap 60" = "Radar 60km/h";
+
+"Speed Trap 70 and Stop Light" = "Radar 70km/h e Luci";
+
+"Speed Trap 70" = "Radar 70km/h";
+
+"Speed Trap 80 and Stop Light" = "Radar 80km/h e Luci";
+
+"Speed Trap 80" = "Radar 80km/h";
+
+"Speed Trap 90 and Stop Light" = "Radar 90km/h e Luci";
+
+"Speed Trap 90" = "Radar 90km/h";
+
+"Speed Trap SCE" = "Radar SCE";
+
+"Speed Trap variabel" = "Radar variabile";
+
+"Stop Light Trap" = "Radar Luci";
+
+/* VideoPro and FollowMe additions */
+"Recording List" = "Lista delle Registrazioni";
+
+"Recordings: %hu / GPS Fixes: %lu" = "Registrazioni: %hu / Posizioni GPS: %lu";
+
+"Back" = "Ritorno";
+
+"Forward" = "Seguente";
+
+"Recording #%hu" = "Registrazioni #%hu";
+
+/* Satellite Sky directions */
+"N" = "N";
+
+"W" = "O";
+
+"E" = "E";
+
+"S" = "S";
+
+/* Activity View messages */
+"Saving Recording Database" = "Memorizzazione Database";
+
+"Migrating to 32bit Recording" = "Migrazione verso registrazione 32 bit";
+
+"Migrating Recording Database" = "Migrazione dei dati registrati";
+
+"Recalculating Acceleration" = "Ricalcolo accelerazione";
+
+"Adjusting Accuracy Calculation" = "Regolazione calcolo della precisione";
+
+"Migrating Lap Database" = "Migrazione storica dei giri";
+
+"Migrating Lap #%hu Recording" = "Migrazione dei dati del giro #%hu";
+
+"Migrating Lap #%hu" = "Migrazione del giro #%hu";
+
+"Recalculating Recordings" = "Ricalcolo delle registrazioni";
+
+"Sending Lap" = "Invio del Giro";
+
+"Receiving Lap" = "Ricezione di un Giro";
+
+"Migrating Points of Interest" = "Migrazione dei POI";
+
+"Exporting Points of Interest" = "Esportazione dei POI";
+
+"Sending Lap #%ldkB" = "Invio del Giro #%ldkB";
+
+"Recalculating Distances for Lap #" = "Ricalcolo della distanza del Giro #";
+
+"Checking Databases" = "Controllo dei Database";
+
+"Re-sorting GPS Data\n(%lu of %lu)..." = "Classificazione dei dati GPS\n(%lu su %lu)";
+
+/* Communication center */
+"Contact" = "Contatto";
+
+/* Social Networks */
+"Forum" = "Forum";
+
+/* Social Networks */
+"Tweet" = "Tweet";
+
+/* Social Networks */
+"Post" = "Post";
+
+/* Audi iRaceTracker */
+"fastest" = "il più veloce";
+
+"last" = "l'ultimo";
+
+"SD Card" = "SD Card";
+
+"Waiting for SD Card..." = "In attesa di una SD Card...";
+
+"Store" = "Memorizzare";
+
+"Send Alert to World" = "Inviare un allarme al Mondo";
+
+/* About Dialog Duplicates */
+"Software intended for use on race tracks only. The author is not responsible for any injuries or property damage that may occur during use of this software." = "Programma concepito unicamente per un utilizzazione in pista. L’autore non può essere tenuto per responsabile in caso di danni quale che sia la sua natura in occasione dell'utilizzazione di questo programma.";
+
+"I Agree" = "Accetto";
+
+/* Certification View */
+"Certification Sanity Check" = "Check-up Certification";
+
+"Triggers exist" = "Radiofari esistenti";
+
+"Triggers have a direction" = "Radiofari con direzione";
+
+"Information POIs exist" = "Descrittivo POI OK";
+
+"POIs have a description" = "POI hanno una descrizione";
+
+"Intermediates exist (1 to 4)" = "Intermediari esistenti (da 1 a 4)";
+
+"POI Set:" = "Serie di POI:";
+
+"Please complete the list if possible. However, please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting LapTimer!" = "Completare, se possibile, la presente lista. Tuttavia non esitare a convalidare anche in caso di informazioni mancanti. Completeremo ulteriormente. Grazie per la tua partecipazione a LapTimer.";
+
+"Please complete the list if possible. Please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting Harry!" = "Completare, se possibile, la presente lista. Tuttavia non esitare a convalidare anche in caso di informazioni mancanti. Completeremo ulteriormente. Grazie per la tua partecipazione ad Harry. ";
+
+"Rework" = "Modificare";
+
+"POIs positioned" = "POI posizionati";
+
+"POIs exist" = "POI esistenti";
+
+/* Export und Export Vehicle View */
+"Lap and Type Selection" = "Selezione Giri e Tipo";
+
+"Text (.csv)" = "Testo (.csv)";
+
+"LapTimer (.hlptrl)" = "LapTimer (.hlptrl)";
+
+"Google Earth® (.kml)" = "Google Earth® (.kml)";
+
+"Adobe® (.pdf) " = "Adobe® (.pdf)";
+
+"Circuit Tools® (.vbo)" = "Circuit Tools® (.vbo)";
+
+"Mail" = "Mail";
+
+"Dropbox" = "Dropbox";
+
+"Send Mail..." = "Invia Mail...";
+
+"Vehicle Selection" = "Selezione Veicolo";
+
+"Export Type" = "Tipo Esportazione";
+
+"LapTimer (.hvehl)" = "LapTimer (.hvehl)";
+
+"This will export the selected vehicle's or all vehicle's definitions to LapTimer's own format. Like all other LapTimer formats, you can open / install this exported file selecting it - e.g. in Mail." = "Per esportare in formato LapTimer le caratteristiche di questo o di tutti i veicoli. Questi dati potranno essere salvati / modificati, selezionando Mail.";
+
+/* Android Help View */
+"Quick Reference" = "Riferimento rapido";
+
+"offline, iOS-ish" = "offline, iOS-ish";
+
+"online, iOS-ish" = "online, iOS-ish";
+
+"online" = "online";
+
+"Offline Documentation - How to Use LapTimer" = "Documentazione offline - Come usare LapTimer";
+
+/* Social Networks */
+"LapTimer Forum" = "Forum LapTimer";
+
+"Central Point of Support - Answers to All Your Questions" = "Centro di Supporto - Risposte a tutte le vostre domande";
+
+"LapTimer on Facebook" = "LapTimer su Facebook";
+
+"The Place to Share - Please Like and Share Your Videos" = "Il luogo per condividere - clicca su Mi Piace et condividi i tuoi video";
+
+"Quick Start Video" = "Quick Start Video";
+
+"Video Tutorial - Available on YouTube" = "Video tutorial - Disponibile su YouTube";
+
+/* Social Networks */
+"Facebook" = "Facebook";
+
+/* Social Networks */
+"Twitter" = "Twitter";
+
+/* Social Networks */
+"SinaWeibo" = "SinaWeibo";
+
+"Save" = "Memorizzare";
+
+/* Track Filters */
+"Track Filter" = "Filtro traccia";
+
+"Oval" = "Ovale";
+
+"Hill" = "Collina";
+
+"Street" = "Strada";
+
+"'%s' POI Set" = "'%s'  POI Set";
+
+"Lap #%d (%s)" = "Giri #%d (%s)";
+
+/* Sensors */
+"Add Sensor" = "Aggiungi sensore";
+
+/* Assistants */
+"Best" = "Migliore";
+
+"Last" = "Ultimo";
+
+"Set Driver ID" = "Definire ID Pilota";
+
+"Define" = "Definisci";
+
+"Advanced Mode" = "Modalità Avanzata";
+
+"Rename" = "Rinominare";
+
+"Define Start / Finish" = "Definire Inizio e Arrivo";
+
+"Define Finish" = "Definire Arrivo";
+
+"Ready for Driving" = "Pronto a Guidare";
+
+/* Android preferences help texts */
+"Short driver ID used for Online Racing: CURRENTVALUE" = "ID driver breve usato per Online Racing: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Define the publishing level for Online Racing; None turns activities off: CURRENTVALUE" = "Definire il livello di pubblicazione per la On-line Racing. Non interrompere le attività: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Turn (loud) startup sound on and off" = "Suono (forte) di avvio e spegnimento";
+
+/* Android preferences help texts */
+"Turn audio signals (e.g. trigger activities) on and off" = "Segnali audio di accensione e spegnimento (ad esempio attività di trigger)";
+
+/* Android preferences help texts */
+"Turn speech messages on lap times on and off" = "Attiva e disattiva i messaggi vocali sui tempi del giro";
+
+/* Android preferences help texts */
+"Select the reference lap the current lap is compared to: CURRENTVALUE" = "Selezionare il giro di riferimento. Il giro attuale viene confrontato con: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select the width of corridor LapTimer uses for trigger detection: CURRENTVALUE" = "Selezionare la larghezza del corridoio LapTimer utilizzata per rilevare l'innesco: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select data compression for GPS recordings: CURRENTVALUE" = "Selezionare la compressione dati per le registrazioni GPS: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select GPS information shown in GPS View: CURRENTVALUE" = "Selezionare le informazioni GPS visulizzate in GPS View: CURRENTVALUE";
+
+"Selects button style to feature small indicators for action performed" = "Seleziona lo stile del pulsante per caratterizzare i piccoli indicatori per l'azione svolta";
+
+/* Android preferences help texts */
+"Select one of the possible formats used for polar coordinates: CURRENTVALUE" = "Selezionare uno dei possibili formati utilizzati per le coordinate polari: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select unit system, use System to get your country defaults: CURRENTVALUE" = "Selezionare unità di sistema, usare sistema per ottenere le impostazioni predefinite del paese: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select power and torque units: CURRENTVALUE" = "Selezionare le unità di potenza e coppia: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select whether manual operation is supported" = "Selezionare se la funzione manuale è supportata";
+
+/* Android preferences help texts */
+"Select default action for manual stops" = "Seleziona azione predefinita per fermate manuali";
+
+"Turn energy saving on and off" = "Attivare e disattivare il risparmio energetico";
+
+/* Android preferences help texts */
+"Reset standard settings when LapTimer is started the next time" = "Ripristina impostazioni standard quando LapTimer sarà riattivato";
+
+/* Android preferences help texts */
+"Expert settings, use only in case you were adviced" = "Impostazioni avanzate, da utilizzare solo se consigliate";
+
+/* Text 2 Speech */
+"%u minute, %hu.%02hu seconds" = "%u minuto, %hu.%02hu secondi";
+
+"%u minutes, %hu.%02hu seconds" = "%u minuti, %hu.%02hu secondi";
+
+/* Map Configuration */
+"Legend" = "Legenda";
+
+"Center" = "Centrare";
+
+"Show Fixes" = "Mostrare Fissi";
+
+"Show Grid/Meter" = "Mostrare Griglia/Dist.";
+
+/* Lap Configuration */
+"Lap Selection" = "Seleziona Giro";
+
+"Highlight Sectors" = "Mostrare Settori";
+
+"Days" = "Giorni";
+
+"Season" = "Stagione";
+
+"Focus Time Delta" = "Focus Time Delta";
+
+/* Diagram Configuration */
+"Show Reference" = "Mostrare Riferimento";
+
+"Show Map" = "Mostrare Mappa";
+
+"Show Time Gap" = "Mostrare Scarti Tempo";
+
+"Allow Any Car" = "Tutti i veicoli";
+
+/* Filter and Lap List drill down */
+"Tags" = "Tags";
+
+"Tag" = "Tag";
+
+"Trackday" = "Trackday";
+
+"Year" = "Anno";
+
+"Make Default" = "Imposta come predefinito";
+
+"Load Default" = "Load Default";
+
+"Delete List" = "Cancella Lista";
+
+"Filters" = "Filtri";
+
+"Filter" = "Filtro";
+
+"All Dates" = "Tutte le Date";
+
+"Last Trackday" = "Ultimo Trackday";
+
+"Last Session" = "Ultima Sessione";
+
+"Any Tags" = "Eventuali Tag";
+
+"Clear Filter" = "Cancella Filtro";
+
+"Dates" = "Date";
+
+"Near Me" = "Nelle Vicinanze";
+
+/* Health Status Hover View */
+"Location Service" = "Servizio di Localizzazione";
+
+"GPS Position" = "Posizione GPS";
+
+"GPS Update Rate" = "Livello di Aggiornamento GPS";
+
+"OBD Update Rate" = "Livello di Aggiornamento OBD ";
+
+"Track Nearby" = "Circuito nelle Vicinanze";
+
+"System Status" = "Stato del Sistema";
+
+"Overall Status:" = "Stato generale:";
+
+"All Set" = "All Set";
+
+"Storage" = "Archivio";
+
+"Conditionally Operational" = "Operativo Condizionale";
+
+"Not Ready" = "Non pronto";
+
+"Press any yellow or red item to get assistance on how to fix the issue (mandatory for red):" = "Premere qualsiasi elemento giallo o rosso per ottenere assistenza su come risolvere il problema (obbligatorio per il rosso):";
+
+"External GPS sensor seems to be available, but cannot be connected. Please turn it off and on to force a reset. In case the problem persists, try to restart LapTimer." = "Il sensore GPS esterno sembra essere disponibile, ma non può essere connesso. Si prega di spegnerlo per forzare un reset. Nel caso il problema persista, provare a riavviare LapTimer.";
+
+"External GPS sensor is available but not used currently. To connect to this sensor, please tick 'Use Accessories' in 'Expert Settings'." = "Il sensore GPS esterno è disponibile ma non utilizzato attualmente. Per connettersi a questo sensore, selezionare  'Use Accessories' in 'Expert Settings'.";
+
+"No GPS position available currently. The reason is either the GPS sensor has no satellite lock so far, or your device allows wifi / mobile triangulation only." = "Nessuna posizione GPS attualmente disponibile. Il motivo è che il sensore GPS non aggancia alcun satellite, o il vostro dispositivo permette solo wifi / triangolazione mobile.";
+
+"The GPS sensor delivers a lower update rate than expected. The reason is most probably a bad GPS reception. Please mount your device in a place it has a better view to the sky." = "Il sensore GPS offre una frequenza di aggiornamento inferiore al previsto. Il motivo è molto probabilmente una cattiva ricezione GPS. Si prega di montare il dispositivo in un luogo che abbia una vista migliore verso il cielo.";
+
+"The GPS sensor does not receive positions. The reason is either the GPS sensor has no satellite lock so far, or the connection is broken. In case of the later, please restart the device." = "Il sensore GPS non riceve posizioni. Il motivo è che il sensore GPS non ha agganciato alcun satellite finora, o che la connessione è interrotta. Nel secondo caso, riavviare il dispositivo.";
+
+"GPS accuracy is too low for proper operation. Please mount your device in a place it has a better view to the sky." = "La precisione del GPS è troppo bassa per un corretto funzionamento. Si prega di montare il dispositivo in un luogo che abbia una vista migliore verso il cielo.";
+
+"GPS accuracy is poor. Please mount your device in a place it has a better view to the sky." = "La precisione del GPS è scarsa. Si prega di montare il dispositivo in un punto che ha una linea migliore verso il cielo.";
+
+"The acceleration sensor is not yet calibrated. Please make sure your device is mounted properly and stand still on flat surface. You may restart calibration manually." = "Il sensore di accelerazione non è ancora calibrato. Assicurati che il tuo dispositivo sia montato correttamente e stia fermo su una superficie piana. È possibile riavviare la calibrazione manualmente.";
+
+"Acceleration sensor calibration is prepared for track use but is not yet finished. You can ignore this as the calibration will be finished during the first hard brake on a straight." = "La calibrazione del sensore di accelerazione è configurata per l'uso in pista, ma non è ancora finita. È possibile ignorare questo in quanto la calibrazione sarà completata durante la prima frenata importante su un rettilineo.";
+
+"The track set nearby is not certfied. In case you have set up your own track set, this is o.k. In case you use a prepared track set, please reload it from the tracks database." = "La traccia impostata nelle vicinanze non è certificata. Nel caso in cui hai impostato il tuo set pista, questo è ok. Nel caso in cui si utilizza un set di pista preparata, riavvia dal database tracce.";
+
+"The track set nearby shows conflicts to other track sets. This will keep LapTimer from detecting laps reliantly. Please remove the conflicts from 'Lap List'." = "La pista impostare nelle vicinanze mostra conflitti con altri set di pista. Ciò permetterà a LapTimer di continuare a rilevare giri dipendente. Si prega di rimuovere i conflitti dalla 'Lista Lap'.";
+
+"No track set found nearby. You can ignore this warning in case you have not yet arrived on track. You need to download a track set for automatic timing operation." = "Nessun set traccia trovata nelle vicinanze. È possibile ignorare questo avviso nel caso in cui non si è ancora arrivati in pista. È necessario scaricare un set di pista per il funzionamento cronometraggio automatico.";
+
+"Location service is disabled for either your device, or LapTimer. Please enable in Settings ‣ Privacy ‣ Location Services, LapTimer requires this service to work correctly." = "Servizio di localizzazione è disattivato sia per il vostro dispositivo, o LapTimer. Si prega di abilitare in Impostazioni ‣ Privacy ‣ Servizi di localizzazione, LapTimer richiede questo servizio per funzionare correttamente.";
+
+"The OBD sensor does not receive data at an expected rate. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "Il sensore OBD non riceve i dati alla velocità prevista. Si prega di verificare la compatibilità tra auto, OBD dongle e LapTimer. Per ulteriori informazioni, consultare la pagina di compatibilità di LapTimer on www.gps-laptimer.de";
+
+"An OBD sensor seems to be available, but cannot be connected. Please turn off and on to force a reset. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "Un sensore OBD sembra essere disponibile, ma non può essere collegato. Si prega di spegnere e riaccendere per forzare un reset. Si prega di verificare la compatibilità tra auto, OBD dongle, e LapTimer. Per ulteriori informazioni, consultare la pagina di compatibilità di LapTimer on www.gps-laptimer.de";
+
+"Please check your storage available. Both data and video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "Si prega di controllare la memoria disponibile. Sia i dati che le registrazioni video falliranno in caso lo spazio di archiviazione rimanente sia troppo basso. Per liberare spazio, per favore considera di rimuovere i vecchi filmati e foto.";
+
+"Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "Risoluzione di registrazione video è impostato su una risoluzione inferiore a quella massima supportata dal dispositivo. Questo avviso può essere ignorato nel caso in cui si desidera salvare spazio o non è necessaria la risoluzione max. Nel caso in cui si desidera utilizzare HiRes, selezionarla in Impostazioni.";
+
+"MultiCam operation is disabled currently. This means MultiCam or other supported external cams around will not be remote controlled by LapTimer. Please enable MultiCam in Settings to make this feature available." = "Funzionamento MultiCam è disattivato attualmente. Questo significa che MultiCam o altre cam esterne supportate non saranno controllate a distanza da LapTimer. Si prega di abilitare MultiCam in Impostazioni per rendere disponibile questa funzionalità.";
+
+"Correct Mounting (Upright)" = "Montaggio Corretto (Verticale)";
+
+"Pitch Calibration (Standstill)" = "Calibrazione Posizione (Arresto)";
+
+"Drive Straight Line (Forward)" = "Linea diritta (Marcia Avanti)";
+
+"Gear Calibration (Acceleration)" = "Calibrazione Velocità (Accelerazione)";
+
+"Force Calibration" = "Forza Calibrazione";
+
+"Add" = "Aggiungi";
+
+"Reference Lap" = "Giro di Riferimento";
+
+"Front Camera" = "Telecamera anteriore";
+
+"Lock Autofocus" = "Bloccare Autofocus";
+
+"Video Stabilizer" = "Stabilizzazione Video";
+
+"External Mic" = "Microfono Esterno";
+
+"Overlay Configuration" = "Configurazione Inserzioni";
+
+"Intro" = "Intro";
+
+"Extro" = "Extro";
+
+"POI / Speed Inserts" = "Inserire POI / Velocità";
+
+"Countdown" = "Cronometro";
+
+"OBD II Data" = "Dati OBD II";
+
+"Date and Timing" = "Data ed Ora";
+
+"Video Sync Setting" = "Parametri Sincronizzazione Video";
+
+"Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "Selezionare l'immagine relativa alla fine del giro e premere su 'Definire'. Per effettuare uno zoom, premere sul cursore.";
+
+/* Video Controller */
+"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "La registrazione video in background è disattiva. La registrazione *non* viene avviata al passaggio sui punti di Partenza / Arrivo!";
+
+"Microphone" = "Microfono";
+
+"BT Mouse" = "BT Mouse";
+
+"Data Filtering" = "Filtraggio dei Dati";
+
+"Strength" = "Forza";
+
+"Light" = "Leggero";
+
+"Strong" = "Forte";
+
+"Apply" = "Applicare";
+
+"Check data that will result when applying the filter using the Strength selected. It is recommended to apply Light only." = "Controllare i dati che risulteranno quando si applica il filtro utilizzando la forza selezionata. Si consiglia di applicare solo Luce.";
+
+"Done" = "Fatto";
+
+"Lap of Day" = "Giro del Giorno";
+
+"Undefined" = "Indefinito";
+
+"Lap #n/a" = "Giro #n/a";
+
+"No laps matching filter criteria" = "Nessun giro che corrisponde ai criteri di filtro";
+
+"Body" = "Corpo";
+
+"Drivetrain" = "Trasmissione";
+
+"Track Set / Temporary" = "Traccia Set / Temporaneo";
+
+"Track Set / Permanent" = "Traccia Set / Permanente";
+
+"Track Set / Oval" = "Traccia Set / Ovale";
+
+"Track Set / Drag Strip" = "Traccia Set / Trascina Strip";
+
+"Track Set / Hillclimb" = "Traccia Set / Hillclimb";
+
+"Track Set / Inactive" = "Traccia Set / Inattivo";
+
+"Track Set / Kart" = "Traccia Set / Kart";
+
+"Track Set / Bicycle" = "Traccia Set / Bicicletta";
+
+"Track Set / Motorbike" = "Traccia Set / Moto";
+
+"Track Set / Testing" = "Traccia Set / Test";
+
+"Free Feature" = "Caratteristica Libera";
+
+"App" = "App";
+
+"No Plot Available" = "Nessun Plot Disponibile";
+
+"Driver(s)" = "Piloti";
+
+"Certified Track Set" = "Traccia Set certificata";
+
+"No Challenges Available" = "Nessuna Sfida Disponibile";
+
+"User POI Set" = "Utente POI Set";
+
+"Challenge" = "Sfida";
+
+"Challenge Submission" = "Presentazione Sfida";
+
+"First Name:" = "Nome:";
+
+"Last Name:" = "Cognome:";
+
+"Last Name" = "Cognome";
+
+"First Name" = "Nome";
+
+"Visibility" = "Visibilità";
+
+"Public" = "Pubblico";
+
+"Not Listed" = "Non Classificato";
+
+"List Code:" = "Codice Lista";
+
+"Submit" = "Inoltra";
+
+"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Per presentato questo challenge, conferma '%FIRST %LAST' è il tuo vero nome e il giro presentato è il tuo personale che hai fatto registrare. Accetti che i tuoi dati del giro verranno copiati sul servere di Harry's LapTimer e caricati da altri utenti LapTimer interessati a questo challenge.";
+
+"Challenges Available" = "Sfide disponibili";
+
+"Refresh" = "Aggiorna";
+
+"User Track Set" = "Utente Track Set";
+
+"Loading Challenges..." = "Caricamento Sfide...";
+
+"Challenges Offline" = "Sfide Offline";
+
+"Certified POI Set" = "Set POI certificato";
+
+"Confirmation" = "Conferma";
+
+"To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "Per visualizzare 'Sfide non in lista', per favore inserisci il codice lista che hai ricevuto dal concorrente prima di premere 'Aggiorna'.";
+
+"List Code" = "Lista codici";
+
+"Retrieving Active Tracks from Server..." = "Recupero tracce attive dal server...";
+
+"Connecting to Server..." = "Connessione al server...";
+
+"Challenges" = "Sfide";
+
+"Refresh Challenges" = "Aggiorna Sfide";
+
+"ID: -" = "ID:-";
+
+"Payload" = "Carico Utile";
+
+"Full Weight" = "Peso Completo";
+
+"Weight" = "Peso";
+
+"Unladen" = "Vuoto";
+
+"Curb Weight" = "Peso a Vuoto";
+
+"Curb weight is the vehicle's total weight including fluids / fuel, but not loaded with passengers / cargo." = "Il Peso a vuoto è il peso totale del veicolo, tra cui fluidi / carburante, ma non caricato con passeggeri / merci.";
+
+"Carrying weight on top of curb weight. Made up from passengers and cargo." = "Portare il peso sulla parte superiore del Peso a vuoto. Costituito da passeggeri e merci.";
+
+"Volumetric Efficiency" = "Efficienza Volumetrica";
+
+"Vol. Efficiency" = "Efficienza Vol.";
+
+"Efficiency" = "Efficienza";
+
+"Measure for efficiency with which the engine can move charge into and out of cylinders." = "Misura dell'efficienza con cui il motore può muovere la carica dentro e fuori i cilindri.";
+
+"Engine Displacement" = "Cilindrata del Motore";
+
+"Volume" = "Volume";
+
+"Engine displacement in cubic centimeters (1000 cc = 1 litre)." = "Cilindrata del motore in centimetri cubici (1000 cc = 1 litro).";
+
+"Displacement" = "Cilindrata";
+
+"cc" = "cc";
+
+"%hu cc" = "%hu cc";
+
+"Initialization" = "Inizializzazione";
+
+"Sensor Information" = "Informazione Sensore";
+
+"Info" = "Info";
+
+"Expert Setting (ASCII)" = "Impostanzioni Avanzate (ASCII)";
+
+"Expert Setting (HEX)" = "Impostanzioni Avanzate (HEX)";
+
+"Ports" = "Porti";
+
+"Volt" = "Volt ";
+
+"Hall" = "Sala";
+
+"Binary" = "Binario";
+
+"Actual support for update rates depends on model and firmware / hardware revisions" = "Il sostegno reale per i tassi di aggiornamento dipende dal modello e le revisioni del firmware / hardware";
+
+"High" = "Alto";
+
+"Low" = "Basso";
+
+"Media Storage" = "Supporti di Memorizzazione";
+
+"Please check your storage available. Data recordings will fail in case remaining storage is too low. To free up space, please consider removing apps and other data." = "Si prega di controllare la memoria disponibile. Le registrazioni di dati falliranno in caso lo spazio di archiviazione rimanente sia troppo basso. Per liberare spazio, considera di rimuovere applicazioni e altri dati.";
+
+"Please check your media storage (SD Card) available. Video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "Controlla il tuo supporto di memorizzazione (SD Card) disponibile. Registrazioni video falliranno nel caso di archiviazione rimanente è troppo bassa. Per liberare spazio, perche eliminando vecchi filmati e foto.";
+
+"High Update Rate" = "Tasso di Aggiornamento Elevato";
+
+"Extended" = "Esteso";
+
+"Laps to Overlay" = "Giri da Ricoprire";
+
+", processing laps" = ",elaborazione giri";
+
+", processing lap" = ",elaborazione giro";
+
+" and #%hu" = " and #%hu";
+
+", and #%hu" = ", and #%hu";
+
+"of the day" = "del giorno";
+
+"Adjust Acceleration" = "Calibra Accelerazione";
+
+"Adjust Lean Angle" = "Calibra Angolo di Piega";
+
+"Continuous exposure set" = "Continua ad esporre il set";
+
+"Lock Exposure" = "Bloccare l'esposizione";
+
+"Locked exposure" = "Esposizione bloccata";
+
+"Deleting Laps" = "Cancellare giri";
+
+"MultiCam" = "MultiCam";
+
+"Close" = "Chiudi";
+
+"Select the frame matching the end of the timed lap, and press 'Set'." = "Selezionare il fotogramma corrispondente alla fine del giro cronometrato e premere 'Set'.";
+
+"GPS Speed" = "Velocità GPS";
+
+"OBD II Gadget" = "OBD II Gadget";
+
+"Please wait..." = "Attendere prego...";
+
+"Master Missing" = "Master perso";
+
+"warning: " = "attenzione:";
+
+"hardware under design for %s" = "Hardware sotto disegno per %s";
+
+"kcal" = "kcal";
+
+"Web" = "Web";
+
+"%.1f hour(s) required" = "%.1f ora/e necessaria/e";
+
+"%d minute(s) required" = "%d minuto/i necessario/i";
+
+"no guess for time required available" = "nessuna valutazione del tempo necessario disponibile";
+
+/* Overlay Quality */
+"Small Size, Low Quality" = "Piccola Dimensione, Bassa qualità";
+
+"Overlay Quality" = "Qualità overlay";
+
+/* Overlay Quality */
+"Large Size, High Quality" = "Grande Dimensione, Alta Qualità";
+
+/* Overlay Quality */
+"Huge Size, Highest Quality" = "Enorme Dimensione, Altissima Qualità";
+
+/* Android preferences help texts */
+"Select resolution used for video recording: CURRENTVALUE" = "Seleziona la risoluzione utilizzata per la registrazione video: CURRENTVALUE";
+
+"Emulated" = "Emulato";
+
+"Videos stored locally in ‘%@‘. Footage you record will be stored here initially. Do housekeeping from here." = "Video archiviati localmente in ‘%@‘. Le immagini registrate saranno inizialmente archiviate qui. Pulire da qui.";
+
+"Videos stored locally in ‘%@‘. Do housekeeping from here." = "Video archiviati localmente in ‘%@‘. Pulire da qui.";
+
+"Air" = "Aria";
+
+"Master video too big" = "Master Video troppo grande";
+
+"Boost" = "Boost";
+
+"Bar" = "Bar";
+
+"kPa" = "kPa";
+
+"Verify Lap" = "Verifica Giro";
+
+/* Export help texts */
+"Comma Seperated Values (.csv) is a versatile export format used for post processing. Desktop software: e.g. Microsoft Excel(TM)." = "Comma Separated Values (.csv) è un formato di esportazione flessibile, utilizzato per la post-elaborazione. Desktop software: per esempio, Microsoft Excel(TM).";
+
+"Harry's LapTimer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between LapTimer apps." = "Il formato Harry's LapTimer (.hlptrl) include informazione completa sul data base giri e veicoli. È utilizzato per backup e trasferimento dati tra applicazioni LapTimer.";
+
+"MICHELIN Lap Timer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between Lap Timer apps." = "Il formato MICHELIN Lap Timer (.hlptrl) include informazione completa sul data base giri e veicoli. È utilizzato per backup e trasferimento dati tra applicazioni Lap Timer.";
+
+"Keyhole Markup Language (.kml) is Google's format for geographic annotation and visualization. Desktop software: Google Earth(TM)." = "Il Keyhole Markup Language (.kml) è il formato Google per la visualizzazione e l'annotazione geografiche. Programma Desktop: Google Earth(TM).";
+
+"Portable Document Format (.pdf) is an open standard format introduced by Adobe Systems(R) to present documents independant of specific applications. Desktop software: any PDF Viewer." = "Il Portable Document Format (.pdf) è un formato standard aperto sto da Adobe Systems(R) per rappresentare documenti in modo indipendente da applicazioni specifiche. Programa Desktop: qualsiasi visualizzatore PDF.";
+
+"VBOX format (.vbo) used by most Racelogic Ltd equipment and dedicated to automotive data recording. Desktop software: Racelogic Circuit Tools(TM)." = "Il formato VBOX (.vbo) è utilizzato dalla maggior parte delle attrezzature Racelogic Ltd. È dedicato alla registrazione dei dati automobilistici. Programma Desktop: Racelogic Circuit Tools(TM).";
+
+"National Marine Electronics Association standard 0183 (.nmea) file format used by GPS and other sensors. Desktop software: e.g. GPSBabel." = "Il formato di file standard 0183 della National Marine Electronics Association (.nmea) è utilizzato dal GPS e da altri sensori. Programma Desktop: per esempio, GPSBabel.";
+
+"GPS Exchange Format (.gpx) is an XML schema designed as a common GPS data format. Desktop software: most GPS viewers." = "Il formato GPS Exchange (.gpx) è uno schema XML progettato come un formato dati GPS comune. Programma Desktop: la maggior parte dei visualizzatori GPS.";
+
+"Press any format extension above to get a description on the format and desktop programs to use. Selected extensions are exported, availability depends on the export scope selected." = "Premi qualsiasi estensione di formato per ottenere la descrizione e il programa desktop da utilizzare. Le estensioni selezionate sono state esportate. La disponibilità dipende dallo scopo di esportazione scelto.";
+
+"Electric" = "Elettrico";
+
+/* Vehicle Details */
+"Laps: %hu" = "Giri: %hu";
+
+/* Vehicle Details */
+"Recordings: %hu" = "Registrazioni: %hu";
+
+"Country" = "Paese";
+
+"Clockwise" = "Senso Orario";
+
+"Counter Clockwise" = "Senso Antiorario";
+
+"Quality" = "Qualità";
+
+"Reply" = "Risposta";
+
+"Message" = "Messaggio";
+
+"Loading..." = "Caricamento in corso...";
+
+"Text of message is not available" = "Il testo del messaggio non è disponibile";
+
+"Laps to Pit" = "Giri fino al Pit";
+
+", identifier '%s'" = ", identificativo '%s'";
+
+"Identifier '%s'" = "Identificativo '%s'";
+
+"Transfer" = "Trasferisce";
+
+"Waiting for Laps...(%u Seconds)" = "In attesa dei giri...(%u secondi)";
+
+"Waiting for Laps..." = "In attesa dei giri...";
+
+"Connecting..." = "Connessione in corso...";
+
+"Wheel speed (%s) of vehicle." = "Velocità ruote (%s) del veicolo.";
+
+"Trailer" = "Rimorchio";
+
+"Numbers in [%s]" = "Numeri in [%s]";
+
+"Combined" = "Combinato";
+
+"Driving" = "Guida";
+
+"Parking" = "Parcheggio";
+
+"Rated o.k." = "Valutato o.k.";
+
+"Limits exceeded!" = "Limiti superati!";
+
+"Vehicle definitions incomplete" = "Definizioni veicolo incomplete";
+
+"Vehicles not defined" = "Veicoli non definiti";
+
+"Define Vehicles" = "Veicoli definiti";
+
+"Device Orientation" = "Orientamento dispositivo";
+
+"Offroad" = "Fuori strada";
+
+"Initializing" = "Inizializzazione";
+
+"Ready to Drive" = "Pronto a Guidare";
+
+"Pitch & Roll" = "Beccheggio e Rollio";
+
+"Rear View" = "Vista posteriore";
+
+"Trip Computer" = "Computer di Viaggio";
+
+"Park Vehicle" = "Parco Veicoli";
+
+"Position Stored..." = "Posizione Memorizzata...";
+
+"to" = "a";
+
+"Catalyst" = "Catalizzatore";
+
+"Device" = "Dispositivo";
+
+"Rating" = "Valutazione";
+
+"Copy to Vehicle" = "Copia in Veicoli";
+
+"Lookup Car" = "Cerca Auto";
+
+"Select criteria to load defaults (cars available in the U.S. only). Once you have found your model, press 'Copy to Vehicle'. Values marked with an exclamation mark differ from your current definitions." = "Seleziona i criteri per caricare i valori predefiniti (auto disponibili solo negli Stati Uniti). Una volta trovato il tuo modello, premi 'Copia in veicolo'. I valori contrassegnati con un punto esclamativo differiscono dalle definizioni attuali.";
+
+"Criteria" = "Criteri";
+
+"Lookup" = "Cerca";
+
+"Make" = "Marchio";
+
+"Model" = "Modello";
+
+"Style" = "Stile";
+
+"Capacity" = "Capacità";
+
+"Gross Mass" = "Massa lorda";
+
+"Gross Weight" = "Peso lordo";
+
+"Width" = "Larghezza";
+
+"Wheelbase" = "Interasse";
+
+"Loading Makes..." = "Caricamento Marchi...";
+
+"Loading Models..." = "Caricamento Modelli...";
+
+"Loading Years..." = "Caricamento Anni...";
+
+"Loading Styles..." = "Caricamento Stili...";
+
+"Loading Engines..." = "Caricamento Motori...";
+
+"Loading Equipment..." = "Caricamento Equipaggiamento...";
+
+"Loading Car..." = "Caricamento Auto...";
+
+"For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "Per le funzioni OBD, compila le sezioni Motore e Trasmissione potenza al fine di ottenere una indicazione della marcia e altre visualizzazioni ragionevoli. Se nessun sensore OBD è utilizzato, compila soltanto la sezione Generale.";
+
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Imposta marchio/modello/anno oppure inserisci un singolo nome di veicolo visualizzato dall'applicazione.";
+
+"Vehicle Description" = "Descrizione del veicolo";
+
+"Make of vehicle, e.g. 'Porsche' or 'Ford'." = "Marca del veicolo. Per esempio: 'Porsche' o 'Ford'.";
+
+"Vehicle Make" = "Marca del veicolo";
+
+"Vehicle Model" = "Modello del veicolo";
+
+"Model of vehicle, e.g. '911' for a Porsche 911 or 'Mustang' for a Ford Mustang." = "Modello del veicolo. Per esempio: '911' per un veicolo Porsche 911 o 'Mustang' per un Ford Mustang.";
+
+"The model year the vehicle has been built for." = "L'anno del modello in cui è stato costruito il veicolo.";
+
+"Vehicle Style" = "Stile del veicolo";
+
+"The specific model style of the vehicle, e.g. 'GT3 RS' for a Porsche 911 GT3 RS or 'V6 Coupe' for Ford Mustang V6 Coupe." = "Lo stile specifico del modello del veicolo. Per esempio: 'GT3 RS' per un veicolo Porsche 911 GT3 RS o 'V6 Coupé' per un Ford Mustang V6 Coupé.";
+
+"Any individual name you want to give to this vehicle. NB: this value is overriden when specifying make/model/year." = "Qualsiasi nome dato a questo veicolo. NB: questo valore è sostituito quando si specifica marchio/modello/anno.";
+
+"Axles" = "Assali";
+
+"Tongue Weight" = "Lingua Peso";
+
+"Unspecified (1)" = "Non specificato (1)";
+
+"Unspecified (2)" = "Non specificato (2)";
+
+"Unspecified (3)" = "Non specificato (3)";
+
+"Gross vehicle mass (GVM) is the maximum operating weight as specified by the manufacturer." = "La massa lorda del veicolo (GVM) è il peso massimo operativo specificato dal fabbricante.";
+
+"%@ and %hu more" = "%@ e %hu più";
+
+"Towing Capacity" = "Capacità di traino";
+
+"Number Axles" = "Numero di assali";
+
+"Body Width" = "Larghezza della carrozzeria";
+
+"Body Length" = "Lunghezza della carrozzeria";
+
+"Body Height" = "Altezza della carrozzeria";
+
+"Vehicle's body width. Does not include mirrors." = "Larghezza della carrozzeria del veicolo. Non include gli specchi";
+
+"Vehicle's full body length." = "Lunghezza complessiva della carrozzeria del veicolo.";
+
+"Vehicle's body height." = "Altezza della carrozzeria del veicolo.";
+
+"Wheelbase is the distance between the centers of the front and rear wheels." = "L'interasse è la distanza tra i centri delle ruote anteriori e posteriori.";
+
+"Distance" = "Distanza";
+
+"Position Set" = "Imposta Posizione";
+
+"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "Per memorizzare la posizione di parcheggio del veicolo e lasciare che l'applicazione li porti in dietro, premi il tasto 'Imposta posizione'.";
+
+"Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "La posizione di parcheggio è stata memorizzata e puoi andare via! Ritorna qui per disattivare gli indirizzi.";
+
+"Turn Off" = "Disattiva";
+
+"Walk Away" = "Vai via";
+
+"Set Position" = "Imposta Posizione";
+
+"Vehicle Roll" = "Rollio Veicolo";
+
+"Vehicle Pitch" = "Beccheggio Veicolo";
+
+"Set Level" = "Imposta Livello";
+
+"Terrain" = "Terreno";
+
+"Roadbook" = "Diario di Viaggio";
+
+"Trips" = "Viaggi";
+
+"Race" = "Gara";
+
+"Prepare Race" = "Prepara gara";
+
+"Analysis" = "Analisi";
+
+"Realtime" = "Tempo reale";
+
+"Lock Calibration" = "Blocca Calibrazione";
+
+"Unlock Calibration" = "Sblocca Calibrazione";
+
+"Recording" = "Registrazione";
+
+"Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "La registrazione è ora attiva Se ha finito di guidare, ritorna al timer e annulla la registrazione del giro di raffreddamento ancora non finito.";
+
+"Restore" = "Ripristina";
+
+"Align" = "Allinea";
+
+"Please start Harry's LapTimer on your iPhone" = "Avvia Harry's LapTimer su iPhone";
+
+"Volume of fuel tank. Full capacity including reserve." = "Volume del serbatoio combustibile. Piena capacità compresa la riserva.";
+
+"Fuel Tank" = "Serbatoio Combustibile";
+
+"Add Default Gear Set" = "Aggiungi Impostazione Marcia Predefinita";
+
+"Result" = "Risultato";
+
+"Paired Bluetooth Devices" = "Dispositivi Bluetooth associati";
+
+"Checklist" = "Checklist";
+
+"Checklists" = "Checklists";
+
+"Action" = "Azione";
+
+"Collapse" = "Collassa";
+
+"Expand" = "Espandi";
+
+"Load Checklist" = "Carica lista controllo";
+
+"Share" = "Condividi";
+
+"Copy of %@" = "Copia di %@";
+
+"Duplicate Checklist" = "Duplica Checklist";
+
+"To create a copy of '%@', enter a unique name for the new checklist and press 'Save'." = "Per creare una copia di '%@', inserisce un unico nome per la lista controllo e premi 'Salva'.";
+
+"To track repeating procedures, either load a predefined checklist from Add-ons or create your own." = "Per tenere traccia delle procedure di ripetizione, carica una lista controllo predefinita da Complementi aggiuntivi o creane una.";
+
+"New Checklist" = "Nuova Checklist";
+
+"New Top-Level Action" = "Nuova Azione a livello superiore";
+
+"New Group" = "Nuovo Gruppo";
+
+"%u available" = "%u disponibile";
+
+"%u in progress" = "%u in atto";
+
+"New Action" = "Nuova Azione";
+
+"Create Checklist" = "Crea lista controllo";
+
+"Please enter a unique name for the new checklist and press 'Save'." = "Inserisci un unico nome per la nuova lista controllo e premi 'Salva'.";
+
+"by myself" = "da solo";
+
+"Create Action" = "Crea Azione";
+
+"Please enter your action's description and press 'Save'. To add an action with both a subject and details what to do, use the 'Subject: Details' convention." = "Inserisci la descrizione dell'azione e premi 'Salva'. Per aggiungere un'azione con un oggetto e dettagli su cosa fare, usa la convenzione 'Oggetto: Dettagli'.";
+
+"Create Top Level Action" = "Crea azione livello superiore";
+
+"Create New Group" = "Crea nuovo Gruppo";
+
+"Please enter a new group's title and press 'Save' to create it. Add the group's actions afterwards." = "Inserisci un nuovo titolo del Gruppo e premi 'Salva' per crearlo. Aggiungi più tardi le azioni del Gruppo.";
+
+"Group" = "Gruppo";
+
+"Rename Action" = "Rinomina azione";
+
+"Rename Checklist" = "Rinomina lista controllo";
+
+"Adding Checklist:\nDownloading from Net..." = "Aggiungere Lista controllo:\nScaricamento dalla rete...";
+
+"Searching for %@" = "Ricerca per %@";
+
+"Distance Focussed" = "Distanza focalizzata";
+
+"Language" = "Linguaggio";
+
+"Truck" = "Autocarro";
+
+"Coach" = "Coach";
+
+"Van" = "Furgone";
+
+"Horse Trailer" = "Rimorchio cavalli";
+
+"Motorhome" = "Motorhome";
+
+"Your vehicle is defined now. Continue with one of the Driving or Parking actions." = "Il veicolo è ora definito. Continua con una della azioni Guida o Parcheggio.";
+
+"In case your vehicle is not listed for selection, add a new one by pressing 'Edit' and selecting 'Add new Vehicle' afterwards." = "Se il veicolo non figura nella selezione, aggiungi uno nuovo premendo 'Modifica' e in seguito seleziona 'Aggiungi nuovo veicolo'.";
+
+"Disabled" = "Disattivato";
+
+"<hl>Invalid SensorTag orientation</hl>, please adjust as required!" = "<hl>Orientamento SensorTag non valido</hl>, regola se necessario!";
+
+"Acceleration Sensors" = "Sensori di accelerazione";
+
+"Beaufort" = "Beaufort";
+
+"Knots" = "Nodi";
+
+"Meter per Second" = "Metri al secondo";
+
+"Standard Speed" = "Velocità standard";
+
+"My Motorbike" = "Mia Motocicletta";
+
+"My Trips" = "Miei Viaggi";
+
+/* About Dialog Duplicates */
+"The author is not responsible for any injuries or property damage that may occur during use of this software." = "L’autore non può essere tenuto per responsabile in caso di danni quale che sia la sua natura in occasione dell'utilizzazione di questo programma.";
+
+"Publish" = "Trasmettere";
+

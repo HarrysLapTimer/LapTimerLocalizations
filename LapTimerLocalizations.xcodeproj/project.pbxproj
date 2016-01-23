@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		F5C4CE6E1C53F696001722F5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F5C4CE6F1C53F696001722F5 /* UILocalization.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = UILocalization.docx; sourceTree = "<group>"; };
+		F5C4CE701C53F696001722F5 /* UILocalization.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UILocalization.pdf; sourceTree = "<group>"; };
+		F5C4CE721C53F6EE001722F5 /* en */ = {isa = PBXFileReference; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5C4CE741C53F708001722F5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5C4CE751C53F70F001722F5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5C4CE761C53F715001722F5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5C4CE771C53F725001722F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5C4CE781C53F730001722F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5C4CE791C53F735001722F5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5C4CE7A1C53F73A001722F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5C4CE7C1C53F7CF001722F5 /* en */ = {isa = PBXFileReference; name = en; path = en.lproj/Root.strings; sourceTree = "<group>"; };
+		F5C4CE7E1C53F7D5001722F5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Root.strings; sourceTree = "<group>"; };
+		F5C4CE7F1C53F7D6001722F5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Root.strings; sourceTree = "<group>"; };
+		F5C4CE801C53F7D7001722F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Root.strings; sourceTree = "<group>"; };
+		F5C4CE811C53F7D8001722F5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Root.strings; sourceTree = "<group>"; };
+		F5C4CE821C53F7D9001722F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Root.strings; sourceTree = "<group>"; };
+		F5C4CE831C53F7D9001722F5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Root.strings"; sourceTree = "<group>"; };
+		F5C4CE841C53F7DA001722F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Root.strings"; sourceTree = "<group>"; };
+		F5C4CE861C53F894001722F5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = de; path = de.lproj/AlertResourcesLocalized.xrd; sourceTree = "<group>"; };
+		F5C4CE871C53F8A1001722F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/AlertResourcesLocalized.xrd; sourceTree = "<group>"; };
+		F5C4CE881C53F8A4001722F5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = it; path = it.lproj/AlertResourcesLocalized.xrd; sourceTree = "<group>"; };
+		F5C4CE891C53F8A6001722F5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = es; path = es.lproj/AlertResourcesLocalized.xrd; sourceTree = "<group>"; };
+		F5C4CE8A1C53F8A8001722F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = fr; path = fr.lproj/AlertResourcesLocalized.xrd; sourceTree = "<group>"; };
+		F5C4CE8B1C53F8AA001722F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ja; path = ja.lproj/AlertResourcesLocalized.xrd; sourceTree = "<group>"; };
+		F5C4CE8C1C53F8AC001722F5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "zh-Hans"; path = "zh-Hans.lproj/AlertResourcesLocalized.xrd"; sourceTree = "<group>"; };
+		F5C4CE8D1C53F8AE001722F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "zh-Hant"; path = "zh-Hant.lproj/AlertResourcesLocalized.xrd"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F55F5E391C53F57400B1ADFF = {
+			isa = PBXGroup;
+			children = (
+				F5C4CE851C53F894001722F5 /* AlertResourcesLocalized.xrd */,
+				F5C4CE731C53F6EE001722F5 /* Localizable.strings */,
+				F5C4CE6E1C53F696001722F5 /* README.md */,
+				F5C4CE6F1C53F696001722F5 /* UILocalization.docx */,
+				F5C4CE701C53F696001722F5 /* UILocalization.pdf */,
+				F5C4CE7D1C53F7CF001722F5 /* Root.strings */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		F55F5E3A1C53F57400B1ADFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = F55F5E3D1C53F57400B1ADFF /* Build configuration list for PBXProject "LapTimerLocalizations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+				de,
+				es,
+				fr,
+				ja,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = F55F5E391C53F57400B1ADFF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		F5C4CE731C53F6EE001722F5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C4CE721C53F6EE001722F5 /* en */,
+				F5C4CE741C53F708001722F5 /* it */,
+				F5C4CE751C53F70F001722F5 /* de */,
+				F5C4CE761C53F715001722F5 /* es */,
+				F5C4CE771C53F725001722F5 /* fr */,
+				F5C4CE781C53F730001722F5 /* ja */,
+				F5C4CE791C53F735001722F5 /* zh-Hans */,
+				F5C4CE7A1C53F73A001722F5 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5C4CE7D1C53F7CF001722F5 /* Root.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C4CE7C1C53F7CF001722F5 /* en */,
+				F5C4CE7E1C53F7D5001722F5 /* it */,
+				F5C4CE7F1C53F7D6001722F5 /* de */,
+				F5C4CE801C53F7D7001722F5 /* fr */,
+				F5C4CE811C53F7D8001722F5 /* es */,
+				F5C4CE821C53F7D9001722F5 /* ja */,
+				F5C4CE831C53F7D9001722F5 /* zh-Hans */,
+				F5C4CE841C53F7DA001722F5 /* zh-Hant */,
+			);
+			name = Root.strings;
+			sourceTree = "<group>";
+		};
+		F5C4CE851C53F894001722F5 /* AlertResourcesLocalized.xrd */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C4CE861C53F894001722F5 /* de */,
+				F5C4CE871C53F8A1001722F5 /* en */,
+				F5C4CE881C53F8A4001722F5 /* it */,
+				F5C4CE891C53F8A6001722F5 /* es */,
+				F5C4CE8A1C53F8A8001722F5 /* fr */,
+				F5C4CE8B1C53F8AA001722F5 /* ja */,
+				F5C4CE8C1C53F8AC001722F5 /* zh-Hans */,
+				F5C4CE8D1C53F8AE001722F5 /* zh-Hant */,
+			);
+			name = AlertResourcesLocalized.xrd;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55F5E3E1C53F57400B1ADFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F55F5E3F1C53F57400B1ADFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55F5E3D1C53F57400B1ADFF /* Build configuration list for PBXProject "LapTimerLocalizations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55F5E3E1C53F57400B1ADFF /* Debug */,
+				F55F5E3F1C53F57400B1ADFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55F5E3A1C53F57400B1ADFF /* Project object */;
+}

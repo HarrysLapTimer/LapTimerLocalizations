@@ -1,0 +1,3459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1000" COMMENT="InformationUnspecifiedCannotBeDeleted">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Veicolo Non Specificato\nnon può essere eliminato." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1100" COMMENT="ConfirmationDeleteVehicle">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "In caso di eliminazione del '^1', tutti i riferimento sono cambiati per il veicolo 'non specificato'. Continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1200" COMMENT="WarningImplementationIsMissing">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Introduzione Mancante" </TITLE>
+        <MESSAGE> "^3 mancante in ^1:^2" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1300" COMMENT="ConfirmationDeleteLap">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Confermi la cancellazione del giro registrato ?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1310" COMMENT="DeleteTrackWithExistingPOIsOrLaps">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Confermi la cancellazione di questa pista? I POI esistenti saranno eliminati ed i giri registrati saranno categorizzati come 'sconosciuto'."</MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Registrazione terminata con successo, LapTimer è operativo. Grazie per l'aiuto !"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1500" COMMENT="BadCharacterInKey">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Carattere erroneo '^1' sulla chiave '^2'. Impossibile terminare la registrazione." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1600" COMMENT="InvalidKey">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "La chiave '^1' non è valida per questa versione di LapTimer. Contatta l'autore per ottenere una nuova chiave."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1700" COMMENT="UnregisteredVersion">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Solamente 3 giri autorizzati per sessione per questa versione non registrata. Grazie di utilizzare LapTimer."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1800" COMMENT="WarningLargeExport">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Con il numero di registrazione del tuo data base, l'esportazione richiederà molto tempo. Continuare con i parametri attuali ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="1900" COMMENT="ConfimationPowerDown">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Cronometro in corso. Il cronometro sarà interrotto se spegni il dispositivo ed il giro non sarà registrato."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Spegnere" </TEXT>
+            <TEXT> "Continuare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2000" COMMENT="ConfimationAppStop">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Cronometro in corso. Se esci dall'applicazione, il giro non sarà registrato."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Finire" </TEXT>
+            <TEXT> "Continuare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2100" COMMENT="Message (for Logging)">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Messaggio" </TITLE>
+        <MESSAGE> "^1" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2110" COMMENT="AssertionFailedFatal">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Non riuscita asserzione irreversibile" </TITLE>
+        <MESSAGE> "Condizione: ^1\n^2\n^3" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Uscita" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2111" COMMENT="AssertionFailedNonFatal">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Non riuscita asserzione non irreversibile" </TITLE>
+        <MESSAGE> "Condizione: ^1\n^2\n^3" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Uscita" </TEXT>
+            <TEXT> "Continua" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2200" COMMENT="GPSLoggingStarted">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Registrazione GPS " </TITLE>
+        <MESSAGE>
+            "Giornalizzazione dei dati GPS per 'LapTimerGPSLogDB.pdb' cominciata. Puoi utilizzare il presente giornale per una rilettura / simulazione al prossimo avvio di LapTimer."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2300" COMMENT="InformationNoDataRecording">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Nessuna registrazione di dati disponible per questo giro." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2400" COMMENT="ConfirmationGPSOperation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Selezione del modo GPS" </TITLE>
+        <MESSAGE> "Seleziona il modo d'operazione GPS desiderato." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "BT" </TEXT>
+            <TEXT> "Serie" </TEXT>
+            <TEXT> "Sim" </TEXT>
+            <TEXT> "Nessuno" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2500" COMMENT="UnregisteredVersionPurgeRecordings">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Visto che si tratta di una versione non registrata, i dati GPS saranno cancellati in uscita dall'applicazione. Grazie di utilizzare LapTimer."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2600" COMMENT="ExportError">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore di scrittura del file '^1'. Verifica la tua carta memoria." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2700" COMMENT="ExportSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "^1 esportato con successo sulla carta memoria." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Importazione della carta memoria terminata con successo !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="2900" COMMENT="ImportError">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Errore sul file importato ^1. Verifica la scheda di memoria. "
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3000" COMMENT="Timelimit info">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Questa è una versione di LapTimer limitata nel tempo. Questa versione scadrà il ^1. Installare una versione completa prima di tale data."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3100" COMMENT="NoValidGPSPosition">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Innesco manuale" </TITLE>
+        <MESSAGE>
+            "Nessuna posizione GPS valida o precisa. Avvio non definito !"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3200" COMMENT="LibraryMissing">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Libreria '^1' non trovata. Installa." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3300" COMMENT="NoPOIDatabaseFound">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Innesco manuale" </TITLE>
+        <MESSAGE> "Data base dei POI inesistente, nessun punto inizio/fine possibile !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3310" COMMENT="POIDefinedNearby">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Selezione POI " </TITLE>
+        <MESSAGE> "Nessun nuovo Punto di Interesse creato ! LapTimer ha rilevato un POI denominato '^1' nelle vicinanze."</MESSAGE>
+        <BUTTONS>
+            <TEXT> "Aprire" </TEXT>
+            <TEXT> "Annullare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3400" COMMENT="OutOfHeapMemory">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Superamento di memoria ! LapTimer verrà probabilmente interrotto."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3500" COMMENT="JPEGCorrupted">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "Problema con la libreria JPEG, l'immagine può essere corrotta." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3600" COMMENT="GPSNotAvailable">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Il GPS esterno collegato in occasione dell'ultimo avvio non è stato trovato. Conservare la presente informazione per il prossimo avvio ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si" </TEXT>
+            <TEXT> "No, selezionare la modalità GPS la prossima volta" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3700" COMMENT="ConfirmGPSPurge">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma la eliminazione" </TITLE>
+        <MESSAGE>
+            "Questo eliminerà tutti i dati GPS per questo giro. I tempi al giro, tempi intermedi, ecc. non saranno interessati. Continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si, eliminai" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3800" COMMENT="ConfirmIntermediatesPurge">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma la soppressione" </TITLE>
+        <MESSAGE>
+            "Questo eliminerà i tempi intermedi di questo giro. Continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si, eliminare i tempi intermedi" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="3900" COMMENT="WarningNoSimulation">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Simulazione" </TITLE>
+        <MESSAGE>
+            "Errore d'apertura di 'LapTimerGPSLogDB. pdb'. Simulazione non avviata !"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4000" COMMENT="GPSLoggingPurgeAppend">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Registrazione GPS" </TITLE>
+        <MESSAGE>
+            "LapTimerGPSLogDB .pdb' esiste. Vuoi cominciare dall'inizio (cancellazione delle registrazioni esistenti) oppure aggiungere delle nuove registrazione alla fine del file ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Eliminare/Cominciare" </TEXT>
+            <TEXT> "Aggiungere" </TEXT>
+            <TEXT> "Annullare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4100" COMMENT="GPSLoggingSuccess">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Registrazione GPS" </TITLE>
+        <MESSAGE>
+            "Registrazione interrotta. ^1 registrazioni scritte in 'LapTimerGPSLogDB .pdb'."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4200" COMMENT="SelectReferenceLap">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Per selezionare un giro di riferimento seleziona 'Miglior Giro' oppure 'Ultimo Giro', aprire 'Dettagli tempo al giorno' e verificare 'Riferimento'."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4300" COMMENT="ErrorOpenMergeDB">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Impossibile aprire i data base incorporati '^1'." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4310" COMMENT="DeleteAllLaps">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Sei sicuro di volere eliminare tutti i giri del tuo data base ? Questa operazione è irreversibile !"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Annullare" </TEXT>
+            <TEXT> "Si, eliminare tutto" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4311" COMMENT="DeleteListedLaps">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Sei sicuro di volere eliminare tutti i giri ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Annullare" </TEXT>
+            <TEXT> "Si, eliminare tutto" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Il data base '^1' è una versione antica. Dai un nuovo nome al file dei dati incorporati in '^2' e riavvia LapTimer per l'aggiornamento."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4500" COMMENT="ErrorWritingData">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore di scrittura dei dati del giro nel data base !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4600" COMMENT="WarningTooManyTracks">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "La pista '^1' non può essere creata. Questo giro sarà categorizzato come pista 'sconosciuta'."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4700" COMMENT="ErrorWritingGPSData">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore di scrittura dei dati GPS nel file !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4800" COMMENT="GPSTimeAdjusted">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Ora sistema fissata a ^1 secondo le informazioni GPS" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="4900" COMMENT="UnknownNMEASentence">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "Ricezione messaggio NMEA $^1,^2*xx sconosciuto..." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5000" COMMENT="OutOfFileMemory">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Superamento della memoria file ! Aumenta la memoria disponibile." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Chiudere LapTimer" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5100" COMMENT="TooManyTracks">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Impossibile creare la pista '^1'. I tempi saranno attribuiti alla pista '^2'."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5130" COMMENT="POISetNotDeletedAsLapsExist">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Scoperta dei tempi registrati per '^1'. Cancellazione dei POI effettuata ma non della totalità." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5131" COMMENT="ConfirmPOISetPurge">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "O.k. per eliminare tutti i POI in questa serie?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Elimina" </TEXT>
+            <TEXT> "Cancella" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5140" COMMENT="ErrorReloadingFromServer">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Lista delle aggiunte non può essere scaricata dal server. Riprova più tardi."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5145" COMMENT="NoActiveTracks">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Nessuna traccia attualmente attiva (oppure il server è inattivo). Riprova più tardi."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5150" COMMENT="TooManyPOISets">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Impossibile aggiungere la serie di POI '^1', numero massimo raggiunto. Cancella i POI non utilizzati."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5160" COMMENT="ConfirmPOISetPurgeAndReload">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Attualmente, ci sono dei POI nel '^1'. Nel caso in cui, doveste effettuare lo scaricamento di questa aggiunta, i POI esistenti saranno sostituiti da quelli scaricati."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Continuare" </TEXT>
+            <TEXT> "Annullare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5170" COMMENT="ErrorLoadingPOISet">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "La serie di POI '^1' non può essere scaricata dal Server^2. Riprova più tardi."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5180" COMMENT="POISetLoadSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Scaricamento con successo di ^1\nPunti di interesse alla serie di POI '^2'."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5200" COMMENT="ProfileSerialToTrigger">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Profilo" </TITLE>
+        <MESSAGE> "Cronistoria: ^1, min/max: ^2, e media ^3." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5300" COMMENT="InvalidInsertion">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Problema di dati sul giro in corso. Giro non valido aggiunto e dati soppressi. Informarne l'autore."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5400" COMMENT="TimelimitPassed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Questa versione di LapTimer è scaduta. Installare una versione totalmente attivata."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Fine" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5500" COMMENT="ManualStopTriggeredLap">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "I tempi sul giro non devono essere interrotti manualmente." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5600" COMMENT="NMEACommandsInfo">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "I comandi NMEA ricevuti fino ad oggi sono : ^1" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5700" COMMENT="WarningProfessionalView">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Questa vista è disponibile solamente nella versione Pro. Per accedervi, effettua un aggiornamento."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5800" COMMENT="ConfirmGPSLoggingPurge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma la soppressione" </TITLE>
+        <MESSAGE> "OK per eliminare le registrazioni della cronistoria ?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="5900" COMMENT="ResetOldVersion">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Il database aperto è di una versione superiore a quella di LapTimer. Utilizzare a scelta l'ultima versione di LapTimer o la memorizzazione dei tuoi database. Reinizializzazione del sistema."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Reset" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6000" COMMENT="WarningGPSTimeSetting">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "L'ora sistema ha uno scarto di più di 30 minuti in rapporto a quello del GPS. Verificare le regolazioni d'ora d'estate oppure disattivare questa possibilità."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Disattiva la regolazione tramite il GPS" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6100" COMMENT="GPSTimeSettingInPrefs">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Funzione disattivata. Puoi attivare la regolazione del tempo GPS, in qualsiasi momento, nei parametri LapTimer."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6200" COMMENT="RegistrationReminder">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Registrarsi" </TITLE>
+        <MESSAGE>
+            "Caro Cliente.\nHai appena acquistato una chiave pubblica presso un rivenditore. Registrati per ricevere la tua chiave personale. Dopo la registrazione, potrai procedere agli aggiornamenti. I tuoi dati personali non saranno condivisi o utilizzati ad altri fini !\n- Harry"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Registrarsi" </TEXT>
+            <TEXT> "No, non questa volta" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6300" COMMENT="MinimalRequirements">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "LapTimer" </TITLE>
+        <MESSAGE>
+            "Spiacente, il tuo dispositivo è inferiore al minimo richiesto per LapTimer :\nGarnet OS (PalmOS >= 5.0), Supporto ad Alta Densità (larghezza dello schermo 320 oppure 240), Supporto Colore (>= 256 Colori)"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Uscire" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6400" COMMENT="ResetPreferences">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Nuova versione rilevata di LapTimer, tutte le regolazioni saranno reinizializzate."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6500" COMMENT="ErrorClosingDB">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Errore di chiusura / scrittura di un database di LapTimer. Aumenta la dimensione della memoria."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Fine di LapTimer" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6600" COMMENT="MigrationWarning">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Questa versione di LapTimer utilizza un sistema di trasferimento dei dati a blocchi non certificati. Un errore al momento del trasferimento provocherà un database corrotto. Realizzare preliminarmente una memorizzazione."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No, uscire" </TEXT>
+            <TEXT> "Si, sono sicuro" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6700" COMMENT="InformationMessageSent">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "^1 inviato con successo a ^2." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6800" COMMENT="ErrorSendingMessage">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "^1 non può essere inviato : ^2" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6900" COMMENT="ErrorValidEMail">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "^1 non sembra essere un indirizzo valido. Messaggio non inviato."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="6910" COMMENT="DeviceNotConfiguredToSendMails">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE>
+            "Il presente dispositivo non è configurato per inviare delle e-mail. Configura il tuo account e-mail e riprova."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7000" COMMENT="NoValidGPSPositionForNavigation">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Non è disponibile nessuna posizione GPS valida. La navigazione non è iniziata !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7100" COMMENT="NoValidCourseOrPositionForNavigation">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Non è impostata nessuna posizione di navigazione o di rotta!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7200" COMMENT="CourseUndefinedForNavigation">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Il percorso attuale non è definito e dunque non può essere utilizzato !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7300" COMMENT="MaxNumberPOIExceeded">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "Superamento del numero massimo di POI." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7400" COMMENT="InAppPurchaseRestricted">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "L'accesso del dispositivo all'AppStore è limitato. Modificare le impostazioni."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7500" COMMENT="AddOnDetailRequestFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "La domanda di dettagli su questa aggiunta non ha avuto successo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7600" COMMENT="PaymentTransactionFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "La transazione di pagamento è fallita : ^1." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="7700" COMMENT="SailTrimFeatureAdded">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Grazie per avere acquistato 'Sail Trim Feature'. Selezionare 'Trim' nella barra degli strumenti per utilizzarla."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8000" COMMENT="ConfirmCertifiedTrackProbablyChange">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Probabilmente, questa azione modificherà la serie predefinita e certificata di punti d'interesse denominati '^1'. Sei sicuro di volere continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si, continuare" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8100" COMMENT="ConfirmCertifiedTrackChange">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Questa azione modificherà la serie predefinita e certificata di punti d'interesse denominata '^1'. Sei sicuro di volere continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si, continuare" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8110" COMMENT="ConfirmTriggerOrPOIAddition">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Questa operazione aggiungerà nuovi trigger o POI al database di LapTimer. Trigger aggiunti per errore sono la causa più frequente di cattivo funzionamento del LapTimer ! Presentazione ed esercitazioni sono ottenibili alla homepage di LapTimer. Quindi continuare solamente nel caso in cui si abbia buona conoscenza della modalità dei trigger di LapTimer."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Ho una buona conoscenza" </TEXT>
+            <TEXT> "Cancella" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8120" COMMENT="TrackSetHasTooManyGoTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "La pista '^1' ha più trigger Go. Fare attenzione a toglierne uno."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8130" COMMENT="TrackSetHasTooManyStopTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "La pista '^1' ha più trigger Stop. Fare attenzione a toglierne uno."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8140" COMMENT="TrackSetHasTooManyStopGoTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "La pista '^1' ha più trigger Stop / Go. Fare attenzione a toglierne uno."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8150" COMMENT="TrackSetHasTooManyIntermediateTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "La pista '^1' supera il numero massimo di suddivisioni (^3). Fare attenzione a ridurre il set a ^2 suddivisioni."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8300" COMMENT="TransferToTrainerFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore di trasferimento !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8400" COMMENT="TransferSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Importazione con successo di ^1 giro(i), ^2 punti GPS e ^3 veicolo(i)."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8500" COMMENT="NoConnectionToInternet">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Nessun collegamento ad Internet, Riprovare ulteriormente !" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "La quantità di dati GPS registrata ha raggiunto un livello critico. Cancellare i dati GPS (vedere pulsante soppressione nei dettagli del giro) per liberare dello spazio." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "I tracciati dei circuiti che si intersecano sono indicati con un punto d'esclamazione rosso. Le intersecazioni possono indurre LapTimer in errore al momento della rilevazione dei radiofari. Per i circuiti con molteplici configurazioni, uno deve essere attivo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8900" COMMENT="ConfirmFileImport">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "File '^1' pronto ad importare. Sei sicuro di volere continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Si, continuare" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8901" COMMENT="FileOpenFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore d'importazione del file '^1' . Dati persi." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8902" COMMENT="FileCannotBeOpenedAlert">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Il file selezionato non può essere trattato da questa applicazione." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="8910" COMMENT="ConfirmFullLoad">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Vuoi procedere al caricamento completo (richiede un certo lasso di tempo), oppure semplicemente ad un aggiornamento ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Aggiornamento" </TEXT>
+            <TEXT> "Caricamento completo" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9000" COMMENT="ProductEnabledSuccessfully">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Opzione installata con successo ed attivata."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9010" COMMENT="RecordingLapFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore di memorizzazione video. L'operazione è stata interrotta oppure la memoria è insufficiente." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9020" COMMENT="ConfirmDeviceMounted">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "L'orientamento del tuo schermo è stato cambiato, i sensori d'accelerazione hanno bisogno di essere ricalibrati. Premere su 'Continuare' quando il montaggio è terminato."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Continuare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9021" COMMENT="ConfirmResetCalibration">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Inizializzazione degli accelerometri. Inizio della calibratura automatica ..."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9022" COMMENT="AutomaticResetCalibration">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertimento" </TITLE>
+        <MESSAGE>
+            "La campionatura è stata reinizializzata automaticamente ..."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9030" COMMENT="ConfirmRecalculate">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Le registrazioni attuali contengono dei dati sulle forze *misurate* laterali e lineari d'accelerazione. Sei sicuro di volere sostituire queste ultime con dei valori calcolati ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Ricalcolare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9031" COMMENT="ConfirmRecalculateAccuracy">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Ricalcolo della precisione GPS per questo giro in funzione dei sensori rilevati '^1'?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Ricalcolare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Il calcolo dei valori di accelerazione dalle posizioni GPS producono migliori risultati per registrazioni su giro in piano. Si deve realizzare una stabilizzazione prima di procedere al calcolo delle forze di accelerazione? Questa operazione non può essere annullata."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Piano" </TEXT>
+            <TEXT> "Salta" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Si può realizzare una stabilizzazione delle registrazioni dei giri? Questo calcolo ricalcolerà e sostituirà le posizioni GPS esistenti. Non può essere annullato."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Piano" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9034" COMMENT="LapSmoothingSuccessfullyAlert">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Le posizioni GPS sono state calcolate di nuovo e sono state stabilizzate con successo."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Le accelerazioni laterali e lineari sono state calcolate con successo sulla base dei dati GPS."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Precisione calcolata in funzione dello HDOP e del tipo di sensore."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9042" COMMENT="RecalculatedSplitsSuccessfully">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "^1 segmento(i) ricalcolato(i) a partire dai dati GPS sul corridoio '^3'. ^2 segmenti esistente(i) sostituito(i)."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9044" COMMENT="RecalculatedTrackSplitsSuccessfully">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Frazione(i) ricalcolate a partire dalle registrazioni GPS per ^1 giro. Tutti i giri con le registrazioni GPS mostrano un numero standard di ^2 frazioni."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9045" COMMENT="RecalculatedTrackSplitsMostlyOk">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Frazione(i) ricalcolate a partire dalle registrazioni GPS per ^1 giro. ^2 giri con registrazioni GPS mostrano serie frazioni non complete che utilizzano un corridio di rilevamento '^3'."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9046" COMMENT="RecalculateLapNoLapRecognized">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "Sia le registrazioni dei dati del giro sono smarrite, sia l'impostazione corrispondente della pista non è stata caricata. Non si applica nessuna modifica."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9047" COMMENT="RecalculateLapNotChanged">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Il giro corrisponde alle registrazioni dei dati, nessuna modifica è necessaria."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9048" COMMENT="RecalculateLapFixedMinorRounding">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Sulla base delle registrazioni dei dati del giro, un errore di arrotondamento minore per il tempo sul giro è stato risolto. Il tempo sul giro è ^1."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9049" COMMENT="RecalculateLapFixedTimeInconsistency">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "Una differenza è stata rilevata e risolta tra le registrazione dei dati e il tempo sul giro (incoerenza). Il tempo sul giro è ora di ^1."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9050" COMMENT="RecalculateLapRecognizedMany">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Sulla base dell'impostazione della pista attuale caricata, la registrazione dei dati del giro rappresenta ^1 giri. Si consiglia dividere il giro in più giri."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Dividi" </TEXT>
+            <TEXT> "Cancella" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9051" COMMENT="RecalculateLapDeleteOriginal">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Il giro è stato diviso in ^1 giri. Vuoi ^2 per sopprimere le registrazioni originali o mantenerle?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Mantieni" </TEXT>
+            <TEXT> "Cancella" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9052" COMMENT="RecalculateLapRecognizedNotAligned">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "Il giro analizzato sembra essere una registrazione manuale. ^1 cercherà di riconoscere i confini del giro e di creare le voci corrispondenti."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9053" COMMENT="RecalculateLapSplitsOnly">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "^1 divisioni ricalcolate dalle registrazioni GPS che sostituiscono ^2 divisioni esistenti."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9054" COMMENT="NoLapsRecognizedInInput">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "^1 importazione letta con successo ma può non riconoscere alcun giro. Verifica se l'impostazione corrispondente de la pista è stata caricata"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9043" COMMENT="ConfirmationCorridor">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Quale larghezza di corridoio vuoi utilizzare ? 'Stretto' rende ^1 più punteggiato."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Stretto" </TEXT>
+            <TEXT> "Normale" </TEXT>
+            <TEXT> "Largo" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9060" COMMENT="MissingOrIllFormedMasterVideo">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Il file video è indisponibile oppure il flusso video o audio è assente. Selezionare un altro video oppure scaricarlo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9061" COMMENT="MissingDataToOverlay">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Le registrazioni di dati da inserire nel video non sono presenti. Inserimento impossibile." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9062" COMMENT="OverlayRequiresAdditionalSpace">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Insuccesso della inserzione video causata da memoria insufficiente. Libera ^1 e riprova." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9063" COMMENT="VideoWritingFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Insuccesso della inserzione video ^1. L'errore incontrato è : ^2. Il processo è stato probabilmente interrotto da un'altra applicazione. Verifica la memoria disponibile e ricomincia." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9064" COMMENT="VideoRecordingStopped">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "Errore della registrazione video (^2). ^1 cercherà di ricominciare la registrazione video nel prossimo giro." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9065" COMMENT="IgnoreMissingOrIllFormedPicInPic">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Questo giro ha una video con inserzione PIP non disponibile. Scegli un altro video oppure scaricalo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Ignora" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9066" COMMENT="SyncPointAdjustmentLocalFilesOnly">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "La modifica della base di tempo è possibile solo per i file locali. Scaricare il video sul dispositivo per cambiare la base di sincronizzazione."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9067" COMMENT="RecordingStoppedDueToLowMemory">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Memoria insufficiente. Registrazione video annullata. Libera dello spazio e ricomincia." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9068" COMMENT="VideoWritingFailedAndroid">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Insuccesso della inserzione video ^1. L'errore incontrato è : ^2." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9069" COMMENT="SoftwareEncodedVideoOverlay">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "Per questo dispositivo Android o edizione ^1, la codifica video con accelerazione hardware non è disponibile. La codifica basata su software sarà utilizzata ma richiede molto tempo per essere completata. Si consiglia di eseguire questo processo di notte con un alimentatore elettrico collegato." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Esegui più tardi" </TEXT>
+            <TEXT> "Continua" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9070" COMMENT="AssetIsMissing">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Video selezionato introvabile, perchè probabilmente spostato. Collega di nuovo il video con la funzione d'edizione." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9071" COMMENT="VideoTypeChange">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "Sostituire il tipo di questo video? Quest'operazione è solo per la manutenzione. Per sostituire un video, seleziona un giro nell'elenco di giri e premi il pulsante 'Overlay' sotto l'anteprima video."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Sovrapponi" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Il video principale non può essere aperto durante l'elaborazione. Si estende probabilmente oltre il limite attuale di 2 GB. Se la risoluzione video è FullHD, lo si deve ridimensionare a HD." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Come fare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9073" COMMENT="VideoMayBecomeTooBig">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "FullHD genera video di grandi dimensioni che si estendono probabilmente oltre il limite attuale di 2 GB durante l'elaborazione di overlay. Questo significa per FullHD che il limite è circa 11 minuti, mentre è 25 minuti per HD. ^1 non limiterà automaticamente le dimensioni."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Registrazione video in corso. Sei sicuro di volere interrompere ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No, continuare" </TEXT>
+            <TEXT> "Interrompere" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Veicolo con l'identificazione ^ 1 rilevato. Vuoi realizzare il link con il tuo veicolo ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Collegare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9091" COMMENT="LinkVehicleWithMake">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Veicolo con l'identificante fabbricante ^ 1 rilevato. Vuoi realizzare il link con il tuo veicolo ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Collegare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9100" COMMENT="SystemInfo">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione sistema" </TITLE>
+        <MESSAGE> "^1" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9101" COMMENT="LapInfo">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Lap Information" </TITLE>
+        <MESSAGE> "^1" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Close" </TEXT>
+            <TEXT> "Details" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9120" COMMENT="ErrorDroppingFileAlert">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "il File '^1' non può essere depositato nel tuo Dropbox." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9130" COMMENT="CurrentVehicleSet">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "^1' definito come il tuo veicolo attuale." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9140" COMMENT="CurrentVehicleMissingOBD">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Per ottenere la visualizzazione corretta del regime motore e della marcia ingranata, devi configurare, in pari tempo, il motore, la scatola del cambio e gli assi per il veicolo '^1'!"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Ignora" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9150" COMMENT="HintOnCustomOBDSettings">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Per collegare un sensore WLAN ODB, devi precisare le sue caratteristiche e la sua porta in Regolazioni > Regolazioni Esperti" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9151" COMMENT="HintOnCustomGPSSettings">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Per collegare un sensore GPS WLAN, devi precisare le sue caratteristiche e la sua porta in Regolazioni > Regolazioni Esperte" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9152" COMMENT="SensorDisabled">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "This sensor is disabled currently. The usual reason for this is ^2 stops scanning for sensors after ^1 minutes to reduce power consumption. To restart scanning for sensors, press the Home button and start ^2 again." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9160" COMMENT="PurgeConflictingPOISets">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "il profilo di pista è in conflitto con la configurazione ^1 già esistente. Sopprimere le configurazioni esistenti (raccomandato, solamente POI)?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Sopprimere" </TEXT>
+            <TEXT> "No" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9170" COMMENT="InvalidGPSCoord-iOS">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Nessuna posizione GPS disponibile per il momento. Per favore, verificare le regolazioni del dispositivo e posizionarsi in un posto con il cielo libero." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9172" COMMENT="InvalidGPSCoordSettings-iOS">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Nessuna posizione GPS disponibile per il momento. Per favore, verificare le regolazioni del dispositivo e posizionarsi in un posto con il cielo libero." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Regolazioni" </TEXT>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9171" COMMENT="InvalidGPSCoord-Android">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Nessuna posizione GPS disponibile per il momento. Per favore, verificare le regolazioni del dispositivo e posizionarsi in un posto con il cielo libero." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Il numero massimo che LapTimer può gestire è stato raggiunto. Per aggiungere una nuova pista, devi innanzitutto eliminarne una vecchia" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "La pista denominata '^1' esiste di già. Cancellare i POI esistenti oppure interrompere la creazione ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancellare" </TEXT>
+            <TEXT> "Stop" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9195" COMMENT="AutocrossStandingStartConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "La posizione iniziale contrassegnata può essere un'area di sosta per una partenza da fermo, oppure una linea di partenza regolare superata in velocità."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Partenza da fermo" </TEXT>
+            <TEXT> "Linea di partenza" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9200" COMMENT="AutocrossCreated">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "La pista '^1' è stata creata con i radiofari di partenza e di arrivo. Vedrai un pulsante 'In posizione' per la griglia di partenza dopo che sarai nella zona definita."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9201" COMMENT="NewTrackCreated">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Pista ^1 creata. Passando il punto definito, il cronometro partirà automaticamente."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9220" COMMENT="StandStillBeforeCharging">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Ferma il tuo veicolo (velocità = 0) sulla griglia di partenza." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9230" COMMENT="ChangeGearNumber-iOS">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Per modificare il numero di marce, premere su 'Editare' poi su aggiungere / sopprimere delle marce." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9231" COMMENT="ChangeGearNumber-Android">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Per cambiare il numero di marce, premere a lungo sulla marcia esistente da eliminare, oppure premere '+ Cambio' per aggiungerne una." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9250" COMMENT="DuplicateVehicleCreated">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Nuovo veicolo '^1' creato utilizzando i parametri del veicolo attuale. Modifica tramite Editare / Assegnare nuovo nome." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResetsAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Cambiando il tipo di veicolo in '^1' rimetterà tutti i campi sui loro valori predefiniti. Ok per continuare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Cancella" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9252" COMMENT="WarnPutInCloth">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "For ^1 users: please do not put your smartphone into your pockets while using ^2. GPS accuracy will degrade to an extent the app will not work any more! Please confirm you have read this warning."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Got it" </TEXT>
+            <TEXT> "Do not show" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9260" COMMENT="TechnicalInformation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione sensore" </TITLE>
+        <MESSAGE> "^1" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9270" COMMENT="PageButtonOffInformation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Hai tolto i pulsanti di avanzamento delle pagine. Per cambiare la pagina, rimetti i pulsanti in funzione oppure realizza uno scorrimento orizzontale." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9280" COMMENT="ConfirmationDeleteVideo">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Questo cancellerà il video selezionato dalla memoria e libererà ^1. Sei sicuro di volere cancellare ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Annullare" </TEXT>
+            <TEXT> "Cancellare" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9281" COMMENT="InconsistentSyncPointsRepair">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Numero di giri a disposizione per sovrapposizioni multiple giri ridotte a causa di punti di sincronizzazione incoerenti. Regola il punto di sincronizzazione del giro ed accetta di regolare la sessione intera."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9282" COMMENT="AdjustVideoForFullSession">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Desideri regolare tutti i video e tutti i punti di sincronizzazione per la sessione del giro, oppure il punto di sincronizzazione per solamente questo giro?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Giro" </TEXT>
+            <TEXT> "Sessione completa" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9290" COMMENT="ConfirmationDeleteVideoHousekeeping">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            Trovato ^1 video non relativi ad un giro e che utilizza ^2 di memoria. Sei sicuro di volere sopprimere i video contrassegnati con un punto interrogativo rosso ?
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Annullare" </TEXT>
+            <TEXT> "Sopprimere" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9291" COMMENT="NothingToHousekeepAlert">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Nessun video può essere soppresso." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9300" COMMENT="VideoFramesDropped">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "^1 immagini perse durante l'inserzione video" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9310" COMMENT="DeleteOrphantVideoConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Questo video non è più assegnato ad un giro. Vuoi sopprimerlo per liberare dello spazio ?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Annullare" </TEXT>
+            <TEXT> "Sopprimere" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9311" COMMENT="RevertToRawVideoConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Vuoi ritornare al video originale ? Il video inserito non sarà cancellato e sarà disponibile nel tuo dossier fotografico."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Annullare" </TEXT>
+            <TEXT> "Ritorno" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9312" COMMENT="RelinkVideoConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Sei sicuro di volere modificare tutti i giri che fanno riferimento al ^1 e collegare ^2 al suo posto? I punti di sincronizzazione non saranno modificati."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancella" </TEXT>
+            <TEXT> "Collegare nuovamente" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9313" COMMENT="RelinkedVideos">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Collegato con successo ^1 giro(i) a ^2." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9315" COMMENT="MoveNotSuccessfulError">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Errore di spostamento del film nel dossier fotografico. Libera dello spazio e riprova." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9316" COMMENT="OverlaySuccessfulPhotoLibrary">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Congratulazioni, i video sovrapposti sono stati generati con successo! Si può accedere al video sovrapposto a partire dai Dettagli Lap ed utilizzando la applicazione Foto" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Congratulazioni, i video sovrapposti sono stati generati con successo! Si può accedere al video sovrapposto a partire dai Dettagli Lap ed utilizzando la carta SD. " </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Per richiedere la sovrapposizione di una motocicletta, si raccomanda di calcolare e di regolare per prima cosa l'accelerazione laterale..." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Regolare" </TEXT>
+            <TEXT> "Continua" </TEXT>
+            <TEXT> "Cancella" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertimento" </TITLE>
+        <MESSAGE> "L'applicazione non è stata fermata correttamente. Utilizzazione del precedente database ..." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "A causa di un livello di memoria insufficiente, non è più possibile il recupero del database. Libera dello spazio in memoria." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Allarme" </TITLE>
+        <MESSAGE> "^1 problema(i) rilevato(i) e corretto(i) nel database." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "^1 problema(i) non soluzionato(i) nel database (^2). l'applicazione si fermerà. Contattare l'autore per recuperare i dati." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Esci" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9332" COMMENT="DatabaseNoProblems">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Verifica del database terminata. Nessun problema riscontrato." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Il database contiene degli errori irrecuperabili (^1). Vuoi ritornare ad una versione precedente ? (le ultime modifiche saranno perse)."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Correggere" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Database recuperati dalla versione precedente (^1)." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Impossibile correggere i problemi del database. Uscire oppure ripartire con un database vuoto ?"
+            "Problems found in database could not be recovered. Quit or start with empty database?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Uscire" </TEXT>
+            <TEXT> "Vuoto" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9336" COMMENT="DatabaseRecoveryPurging">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "^1 database(i) di recupero trovato. Elimina tutto, ma il più recente ^2 libererà ^3 MB di memoria. Non eliminare i più vecchi database di ripristino nel caso in cui non siano stati creati altri backup."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Non ora" </TEXT>
+            <TEXT> "Elimina i vecchi" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Allarme" </TITLE>
+        <MESSAGE> "Il servizio di localizzazione del dispositivo o di ^1 non è più in funzione. Metti il servizio di localizzazione in marcia nei parametri dato che ^1 ha imperativamente bisogno di questo servizio." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9342" COMMENT="LocationServiceDisabled-Android">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Allarme" </TITLE>
+        <MESSAGE> "Il servizio di localizzazione del dispositivo o di ^1 non è più in funzione. Metti il servizio di localizzazione in marcia nei parametri dato che ^1 ha imperativamente bisogno di questo servizio." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9341" COMMENT="PhotoLibraryAccessDisabled">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "L'accesso alla Libreria Foto è disattivata sia per il tuo dispositivo e sia per ^1. Abilitare l'accesso nelle tue impostazioni iOS, ^1 richiede questo servizio per registrare e per avere accesso ai video." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9343" COMMENT="MicrophoneAccessNotGranted">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Hai rifiutato l'accesso al microfono per ^1. Attualmente, non è possibile la registrazione video. Abilita l'accesso in Impostazioni iOS ‣ Privacy ‣ Microfono." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Il servizio di localizzazione del dispositivo è attualmente disabilitato ^1. Ciò potrebe creare problemi al trasferimento in Photo app dei video sovrapposti. Per favore cancella la sovrapposizione e permetti l'accesso ai servizi di localizzazione nelle impostazioni di iOS ‣ Privacy ‣ Servizi di Localizzazione." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Ignore" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9350" COMMENT="InvalidLapForAfterTheFactSubmission">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Questo giro non può essere inviato allo Hall of Fame, dato che il circuito non è certificato oppure manca la registrazione GPS." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9351" COMMENT="ScheduledLapForHallOfFame">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Giro programmato per trasmissione allo Hall of Fame." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9352" COMMENT="DeleteTimeLapped">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Eliminare il ^1 giro guidato da ^2 in modo permanente dallo Hall of Fame?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Elimina" </TEXT>
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9360" COMMENT="LowAvailableDiskSpace">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Allarme" </TITLE>
+        <MESSAGE>
+            "Lo spazio disponibile sul dispositivo è insufficiente, e questo può provocare molteplici problemi ivi compresa la perdita di dati. Ti consigliamo di liberare dello spazio."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9361" COMMENT="LowAvailableDiskSpaceVideoHousekeeping">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Allarme" </TITLE>
+        <MESSAGE>
+            "Lo spazio disponibile sul dispositivo è insufficiente. Verifica se puoi cancellare dei video o liberare dello spazio in altro modo."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9470" COMMENT="CurrentLapReference">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Il giro che è stato appena cronometrato è il nuovo giro di riferimento." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9471" COMMENT="NextLapReference">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Il prossimo giro cronometrato sarà il giro di riferimento." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9472" COMMENT="SelectedLapReference">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Il giro selezionato è il nuovo giro di riferimento." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9500" COMMENT="RomanCharactersOnlyAllowed">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Attualmente, qui si possono utilizzare solamente serie di caratteri latini. Spiacenti per l'eventuale disagio."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9510" COMMENT="SavingToAMISDCardFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "La memorizzazione dei file della scheda SD è fallita. Verifica che il tuo iPhone sia collegato alla macchina e prova di nuovo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Bravo, hai ricevuto un aggiornamento per ^1 ^2!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Il video inizialmente relativo a questo giro non può essere trovato. Le due ragioni più frequenti per questo tipo di problema sono 1) il video è stato sincronizzato con il tuo PC ed è stato eliminato dal tuo dispositivo 2) il video è stato eliminato per errore dalla lista dei video."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9610" COMMENT="MultiCamVideoOffline">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Il video MultiCam '^1' relativo a questo giro non è disponibile su questo dispositivo. Per ottenere i dettagli del video, ti invitiamo a ricollegare il dispositivo MultiCam."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9611" COMMENT="VideoDownloadNotSupportedOrDisabled">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Downloading videos is not supported for external cam ^1, or MultiCam is disabled in general." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9620" COMMENT="VideoNeedsTransferToLocal">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Il video '^1' relativo a questo giro non è disponibile su questo dispositivo. Per utilizzarlo per le inserzioni, devi per prima cosa trasferirlo. Un «tuto» sui trasferimenti - al contempo per MultiCam e video GoPro - è disponibile."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Come ?" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9630" COMMENT="UnloadingVideo">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "La versione locale del video è stata soppressa, questo libera ^1 di spazio. L'operazione funzionerà come compito di base e richiede il collegamento del dispositivo ad una rete wifi. In caso di necessità, puoi scaricare il video successivamente."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9631" COMMENT="NotPossibleToDownloadVideo">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Scaricamento impossibile del video di una taglia di ^1. Libera dello spazio e riprova." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9632" COMMENT="VideoDownloadStarted">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Video with size ^1 is downloaded now. Operation will work in background and requires the device to be connected to a WiFi network." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9633" COMMENT="TransferVideoToCloud">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Trasferimento in corso di un video a partire dal Cloud. L'operazione verrà realizzata in piano posteriore e necessita che questo dispositivo sia collegato ad una rete wifi."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9634" COMMENT="TransferVideoFromCloud">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Copia in corso di un video dal Cloud verso ^1. Il trasferimento si realizza in piano posteriore." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9635" COMMENT="NoMoveToCloudWithAutoReceive">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "^1 è configurato per spostare file da iCloud automaticamente per registrazioni locali. Per permettere il trasferimento di video dall'altra parte, questa funzione deve essere spenta." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Spegni" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9636" COMMENT="VideoDownloadNeedsRelink">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE> "Video downloaded cannot be associated with laps automatically. Once the download has finished, please use Lap List ‣ Lap ‣ Video ‣ Re-Link to associate the lap's session with the video downloaded." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9637" COMMENT="NoMatchingVideoFound">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE> "No matching video found on external cam. Please use Video List to load the video manually and use Lap List ‣ Lap ‣ Video ‣ Re-Link to associate laps." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE> "Per il funzionamento MultiCam, Bluetooth deve essere acceso. Attivare il Bluetooth in Impostazioni iOS ‣ Bluetooth. Disabilitare il Rilevamento MultiCam." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "MultiCam non può essere controllato a distanza con il Bluetooth disattivato. Attivare il Bluetooth in Impostazioni iOS ‣ Bluetooth." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9650" COMMENT="FeatureNotAvailableInAppEdition">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Questa opzione non è disponibile in questa versione dell'applicazione. Verificare in 'Estensioni' i complementi disponibili."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9652" COMMENT="FeatureNotAvailableAddOns">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE>
+            "Questa opzione non è disponibile in questa versione dell'applicazione. Verificare in 'Estensioni' i complementi disponibili."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Estensioni" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9651" COMMENT="MissingTimerView">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Nessuna vista temporizzatore disponibile per l'orientamento del dispositivo corrente. Ruotare il dispositivo oppure verificare 'Add-ons' per eventuali aggiornamenti."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9660" COMMENT="SelectGPSOBDBluetooth">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Collegare '^1' come GPS oppure come sensore OBD ?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "GPS" </TEXT>
+            <TEXT> "OBD" </TEXT>"
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9661" COMMENT="TurnOffGPSHelperApps">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "^1 accederà direttamente al sensore GPS selezionato e fornirà registrazioni di alta precisione. Importante: occorre disattivare qualsiasi applicazione GPS Helper installata. Queste applicazioni non possono essere utilizzate in parallelo e non sono necessarie per il funzionamento ^1!"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9670" COMMENT="CheckSessionOrTrackdayContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Vuoi applicare questa modifica a questo giro, a tutti i giri della stessa sessione, oppure a tutti i giri registrati in questo giorno di percorsi?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Giro" </TEXT>
+            <TEXT> "Sessione" </TEXT>"
+            <TEXT> "Giorno di percorsi" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9671" COMMENT="CheckTrackdayContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Vuoi applicare questa motifica a questo giro, oppure a tutti i giri registrati nel presente giorno di percorsi?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Giro" </TEXT>
+            <TEXT> "Giorno di percorsi" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9672" COMMENT="CheckSessionContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Vuoi applicare questa motifica a questo giro, oppure a tutti i giri registrati nella stessa sessione?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Giro" </TEXT>
+            <TEXT> "Sessione" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9680" COMMENT="MissingRealName">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Per proporre una sfida, devi digitare il tuo vero nome. Questo vero nome verrà mostrato agli altri utenti come origine di questa sfida." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9681" COMMENT="PublicSubmitChallengeConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Conferma di avere letto ed accettato la dichiarazione di presentazione. La tua sfida sarà visibile per tutti gli utenti della pista '^1'." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9682" COMMENT="PublicSubmitChallengeConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Conferma di avere letto ed accettato la dichiarazione di presentazione. La tua sfida sarà visibile per tutti gli utenti della pista '^1' dopo avere digitato il tuo codice segreto '^2'." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9683" COMMENT="SubmittedChallenge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Programma la tua sfida per trasmissione. Controlla la pista '^1' per verificare che la sfida sia online." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9684" COMMENT="LoadedChallenge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE>
+            "Congratulazioni! Hai caricato una sfida ^1 per ^3 emessa da ^2. LapTimer ha impostato questa sfida perchè sia il tuo giro di riferimento. Questo ti permetterà di vedere i divari di tempo e di analizzare il tuo stile di guida nelle registrazioni dei dati!"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9685" COMMENT="ErrorLoadingChallenge">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "La sfida non può essere caricata. Verifica che il tuo collegamento Internet funzioni correttamente e prova di nuovo più tardi." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9686" COMMENT="DeleteChallenge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Cancellazione sfide in programma." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9687" COMMENT="PublicChallengeDetails">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "La tua sfida è disponibile per tutti gli utilizzatori di LapTimer. Fino ad oggi, è stata scaricata ^1 volte." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9688" COMMENT="NotListedChallengeDetails">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "La tua sfida è disponibile per tutti gli utilizzatori di LapTimer, che digitino il Codice corretto ^2. Fino ad oggi, è stata scaricata ^1 volte." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9690" COMMENT="ReconnectingSensor">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Impostazioni del sensore modificate. Nel caso in cui il sensore sia online, viene scollegato e ricollegato per ottenere le nuove impostazioni attive." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9691" COMMENT="SensorInitializationFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "La modifica della configurazione non è riuscita. Scollega / riavvia il sensore e ricollegalo per ottenere i nuovi set di configurazione." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9700" COMMENT="ReferenceLapHasNoVideoAvailable">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Non c'è nessun giro di riferimento disponibile oppure il giro di riferimento non ha nessun video associato." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9701" COMMENT="ReferenceLapSameVideoAsMaster">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Il giro di riferimento ed il giro da sovrapporre utilizzano lo stesso video. A causa di una limitazione tecnica in lettura video, attualmente questa configurazione non è supportata." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9702" COMMENT="ReferenceVideoForSingleLapOnly">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "La sovrapposizione del video di riferimento è disponibile solamente per sovrapposizioni singolo giro. Ridurre il numero di giri da sovrapporre ad un solo giro e prova di nuovo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9800" COMMENT="StopBackgroundRecordingFirst">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Attenzione" </TITLE>
+        <MESSAGE>
+            "Funzione non disponibile in ^1 sta registrando attualmente. Prego ritorni a uno dei panorami timer e Annulla / Fermare la registrazione."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9810" COMMENT="SwitchToAdvancedCalibrationFromRHD">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Il sistema configurato per utilizzare una calibrazione standard predefinita in paesi con guida a destra. Fino a quando il dispositivo è montato in posizione verticale sopra la consola centrale e puntando a te, questa è forse l'impostazione migliore. Usare invece la calibrazione specifica dell'accelerazione?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Preimpostazione standard" </TEXT>
+            <TEXT> "Specifica" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9811" COMMENT="SwitchToAdvancedCalibrationFromLHD">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Il sistema configurato per utilizzare una calibrazione standard predefinita in paesi con guida a sinistra. Fino a quando il dispositivo è montato in posizione verticale sopra la consola centrale e puntando a te, questa è forse l'impostazione migliore. Usare invece la calibrazione specifica dell'accelerazione?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Preimpostazione standard" </TEXT>
+            <TEXT> "Specifica" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9812" COMMENT="FlatCalibrationConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Memorizzare l'orientamento attuale del dispositivo come impostazione di livello o ripristinare i valori predefiniti?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Livello" </TEXT>
+            <TEXT> "Valori predefiniti" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9813" COMMENT="SwitchToAdvancedCalibrationFromMotorbike">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Il Sistema è configurato per utilizzare una calibrazione standard per le motociclette. Fino a quando il dispositivo è montato in posizione piatta nella direzione di marci, questa è forse l'impostazione migliore. Preferisci utilizzare una calibrazione specifica dell'accelerazione?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Preimpostazione standard" </TEXT>
+            <TEXT> "Specifica" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9814" COMMENT="SwitchedToCalibrationPreset">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "La calibrazione dell'accelerazione personalizzata è stata disattivata. Il Sistema userà una preimpostazione standard basata sul tuo Paese e sul tipo di veicolo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9815" COMMENT="SwitchedToIndividualCalibration">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "La calibrazione personalizzata è ora attivata. ^1 monitorerà il movimento del veicolo scegliere una calibrazione ottimizzata. Una volta completata la calibrazione, questa sarà utilizzata per il futuro." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9816" COMMENT="SwitchToAdvancedCalibrationFromVideo">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Il Sistema è configurato per utilizzare una preimpostazione della calibrazione standard per la registrazione video. Fino a quando il dispositivo è montato in posizione verticale con la telecamera puntata in direzione di marcia, questa è forse l'impostazione migliore. Usare invece la calibrazione specifica dell'accelerazione?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Preset" </TEXT>
+            <TEXT> "Individual" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9999" COMMENT="BackgroundVideoRecordingDisabled">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "A causa di alcuni problemi di compatibilità segnalati, la registrazione video di sfondo è temporaneamente disattivata. Per registrare video, basta tenere attiva questa vista e guidare. Ci scusiamo per tutti i disagi, ritorneremo al più presto." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9900" COMMENT="FullWeightExceedsGrossMass">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avvertenza" </TITLE>
+        <MESSAGE>
+            "Il peso complessivo del veicolo (peso a vuoto + carico utile) supera la massa lorda del veicolo (GVM) da ^1."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9901" COMMENT="ReloadPayloadConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Ricaricare il carico utile per regolare le definizioni di ^1 e di ^2 del veicolo a ^3. Conferma la ricarica." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Ricarica" </TEXT>
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9902" COMMENT="MaxSpeedCalculation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. Make sure to have power, power loss, Cp, front surface, and masses defined to get reasonable results." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9910" COMMENT="ChecklistReset">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Tutte le azioni per la lista controllo '^1' sono state reimpostate. Comincia ora dall'inizio!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9911" COMMENT="ChecklistDuplicateCreated">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Una nuova lista controllo '^1' è stata creata. Puoi iniziare immediatamente a lavorare. La lista originale rimarrà inalterata." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9912" COMMENT="SavingChecklistsFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "È fallito il salvataggio delle liste controllo! Assicurati di avere abbastanza spazio di stoccaggio sul dispositivo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9913" COMMENT="DeleteGroupConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Eliminando '^1' saranno eliminate anche le azioni incluse. Sei sicuro di voler eliminare la checklist group '^1'?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Elimina" </TEXT>
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9232" COMMENT="SetDefaultGearSet">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Ciò aggiungerà alcuni rapporti di marcia predefiniti per una scatola di 6-marce. I valori sono probabilmente abbastanza buoni per ^1 marce da altri dati OBD, ma possono fallire in altra situazione. Regola in seguito i valori predefiniti secondo i valori reali del veicolo." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Imposta valori predefiniti" </TEXT>
+            <TEXT> "Cancella" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9914" COMMENT="FavoriteAddedInformation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Tile '^1' has been marked as a favorite. In addition to its standard position, it will appear on top level for fast access. Tap the tile's star again to revert to a standard tile." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9915" COMMENT="FavoriteRemovedInformation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Favorite '^1' made a standard tile and removed from top level. To make it a favorite again, please tap the tile in its standard position." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9920" COMMENT="ContinueLastTrip">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Vuoi continuare il Viaggio '^1' o cominciarne uno nuovo?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Nuovo Viaggio" </TEXT>
+            <TEXT> "Continua" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9921" COMMENT="TripNotStarted">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avviso" </TITLE>
+        <MESSAGE>
+            "Il nuovo Viaggio non è iniziato. Per favore assicurati di aver inserito un nome del viaggio valido e di avere sufficiente memoria disponibile."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9930" COMMENT="AppRequiredToDisplay">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "^1, richiesto per visualizzare, non è installato. Ignora o scarica ^1 dall'AppStore?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "AppStore" </TEXT>
+            <TEXT> "Ignora" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9940" COMMENT="ApplySnapResults">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "'Snap to Road' (using Google Roads) found ^1 positions to be snapped to a road, ^2 positions to be added for a nicer display, and ^3 positions to be removed. Do you want to apply this changes?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Apply" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9941" COMMENT="NoSnapResultsToBeApplied">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "'Snap to Road' (using Google Roads) has not found any changes to apply.'" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9942" COMMENT="ErrorRetrievingSnapToResults">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "'Snap to Road' (using Google Roads) has not been successful. Please check your Internet connection or try again later."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9943" COMMENT="ApplyAugmentResultsAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Conferma" </TITLE>
+        <MESSAGE> "Found ^1 sections to augment with ^2 positions using Google Directions. Do you want to add this positions?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancella" </TEXT>
+            <TEXT> "Aggiungi" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9944" COMMENT="NoAugmentResultsToBeAppliedAlert">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Nessuna sezione da aumentare trovata. La registrazione del Viaggio va già bene." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9945" COMMENT="ErrorRetrievingAugmentsAlert">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Avviso" </TITLE>
+        <MESSAGE>
+            "L'aumento del Viaggio non ha avuto successo. Per favore controlla la tua connessione ad Internet o riprova più tardi."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9946" COMMENT="RemovedVirtualRecords">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "Removed ^1 augmented positions from trip. You can add them again by running 'Augment Trip'." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9947" COMMENT="NoVirtualRecordsToRemove">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Informazione" </TITLE>
+        <MESSAGE> "No augmented positions found for this trip. There is no action required." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9948" COMMENT="MergeLapsConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Are you sure you want to merge this trip with trip '^1'? Once merged, trip '^1' will be removed from the list permanently." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Merge" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9949" COMMENT="MergeNotAvailable">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Merging this trip with the next one is not possible. Potential reasons are: next trip does not exist or belongs to a different group, or this trip or the next trip do not have valid recordings." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9950" COMMENT="StationMerged">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Station selected has been removed, recordings have been adjusted to directly connect previous and next stations. Do you want to run 'Augment Trip' to complete sections probably missing?'" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No, Thanks" </TEXT>
+            <TEXT> "Augment Trip" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9951" COMMENT="DeleteMaintenanceSequence">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This will delete the regular service '^1' and ^2 service(s) performed already. Are you sure you want to delete the complete sequence?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Yes, Delete" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9952" COMMENT="DeleteVehicleEvent">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Do you want to delete this vehicle history entry?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Delete" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9953" COMMENT="NonTrivialMaintenanceDependency">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This introduces a non trivial dependency between regular services (chain or cycle). Are you sure you want to proceed with this change?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Yes, Change" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9954" COMMENT="MaintainInitialRegistrationDate">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE> "Time periods require the vehicle's initial registration date to be defined. Please enter this date now." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9960" COMMENT="AccessAndUnlockLockedLaps">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "To access this laps for analysis or overlays, they need to be unlocked using a day pass. Do you want to use one of your ^1 day passes to unlock all laps recorded on ^2?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Use Day Pass" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9961" COMMENT="DayPassesAdded">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Successfully added ^1 day pass(es) with an overall number of ^2 available now. You can use day passes e.g. by selecting a locked lap from Lap List." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Continue" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9962" COMMENT="VoidAllDaypasses">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Should all day passes be removed for debugging purpose?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Remove" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9963" COMMENT="DayPassRedeemed">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Congratulations! You have unlocked ^1. All laps for this day can be analyzed and exchanged now. In case you have recorded videos in addition, overlaying is available from each lap's details view." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Continue" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9964" COMMENT="FreemiumEdition">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This is the Freemium edition of ^1. It is enabled for real time displays and will store data and videos. To access data for analysis or overlay, please buy a day pass in Administration ‣ Add-ons." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Got it" </TEXT>
+            <TEXT> "Do not show" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

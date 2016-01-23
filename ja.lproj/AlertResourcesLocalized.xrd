@@ -1,0 +1,3448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1000" COMMENT="InformationUnspecifiedCannotBeDeleted">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "車両'指定なし'は\n削除できません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1100" COMMENT="ConfirmationDeleteVehicle">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"車両 '^1'を削除すると車両は'指定なし'になります. 続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1200" COMMENT="WarningImplementationIsMissing">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "実装漏れ" </TITLE>
+		<MESSAGE> "^1:^2 に ^3 が見つかりません" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1300" COMMENT="ConfirmationDeleteLap">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE> "記録ラップを削除しますか?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1310" COMMENT="DeleteTrackWithExistingPOIsOrLaps">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE> "トラックを削除しますか? 関連POIは削除されラップは'指定なし'になります."</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"登録成功、LapTimerが利用可能になりました.ご支持いただき有り難うございます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1500" COMMENT="BadCharacterInKey">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "キー '^2' に不正文字 '^1'　があります.登録できません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1600" COMMENT="InvalidKey">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"キー '^1' は無効です.キー更新のため作者までご連絡お願いします."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1700" COMMENT="UnregisteredVersion">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"未登録バージョンは３ラップのみ可能です.ご使用いただき有難うございます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1800" COMMENT="WarningLargeExport">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"データベースの記録数により外部出力に時間がかかります.今の設定で続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="1900" COMMENT="ConfimationPowerDown">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"計測中.電源OFFでタイマーはリセットされラップは記録されません."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "電源オフ" </TEXT>
+			<TEXT> "続ける" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2000" COMMENT="ConfimationAppStop">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"計測中.終了する場合、ラップは記録されます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+			<TEXT> "続ける" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2100" COMMENT="Message (for Logging)">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "メッセージ" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="2110" COMMENT="AssertionFailedFatal">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Fatal Assertion Failed" </TITLE>
+		<MESSAGE> "Condition: ^1\n^2\n^3" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="2111" COMMENT="AssertionFailedNonFatal">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Non Fatal Assertion Failed" </TITLE>
+		<MESSAGE> "Condition: ^1\n^2\n^3" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+			<TEXT> "続ける" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2200" COMMENT="GPSLoggingStarted">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "GPS記録" </TITLE>
+		<MESSAGE>
+			"Logging of GPS data to 'LapTimerGPSLogDB .pdb' started. You may use this log for replay / simulation at the next start of LapTimer."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    
+    
+    
+    <ALERT_RESOURCE RESOURCE_ID="2300" COMMENT="InformationNoDataRecording">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "ラップ可能な記録データがありません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2400" COMMENT="ConfirmationGPSOperation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "GPSモード選択" </TITLE>
+		<MESSAGE> "お好みのGPS操作モードを選択して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "BT" </TEXT>
+			<TEXT> "Serial" </TEXT>
+			<TEXT> "Sim" </TEXT>
+			<TEXT> "None" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2500" COMMENT="UnregisteredVersionPurgeRecordings">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"未登録バージョンは終了時にGPSデータを削除します.ご利用して頂き有り難うございます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2600" COMMENT="ExportError">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ファイル書き出しエラー '^1'.メモリーカードをご確認下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2700" COMMENT="ExportSuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "'^1' メモリ書き出し成功." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "メモリ読み込み成功!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="2900" COMMENT="ImportError">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"入力ファイル ^1 オープンエラー.メモリカードをご確認下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3000" COMMENT="Timelimit info">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"これは時間制限バージョンです.LapTimer ^1 は止まります.フル機能版をインストールして下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="3100" COMMENT="NoValidGPSPosition">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "マニュアルトリガ" </TITLE>
+		<MESSAGE>
+			"GPS位置情報が無効です.トリガをセットできません!"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3200" COMMENT="LibraryMissing">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ライブラリ '^1' がありません.インストールして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3300" COMMENT="NoPOIDatabaseFound">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "マニュアルトリガ" </TITLE>
+		<MESSAGE> "POIデータベースがありません.一時トリガ Stop/Go は設定されません!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3310" COMMENT="POIDefinedNearby">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "POI選択" </TITLE>
+		<MESSAGE> "新しいPOIは作成されませんでした! LapTimerは POI '^1' を近くに検知しました."</MESSAGE>
+		<BUTTONS>
+			<TEXT> "開く" </TEXT>
+			<TEXT> "キャンセル" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3400" COMMENT="OutOfHeapMemory">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"ヒープが足りません!laptimerはリカバー不能の場合、終了します."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3500" COMMENT="jpegcorrupted">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "jpegライブラリに問題発生、イメージに破損の可能性があります." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3600" COMMENT="gpsnotavailable">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"前回接続したGPSマウスが見つかりません.次回起動時のために情報を保持しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ、次回モード設定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3700" COMMENT="ConfirmGPSPurge">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "削除確認" </TITLE>
+		<MESSAGE>
+			"ラップのGPSデータを削除します.ラップタイム、中間時間は削除しません.続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい、GPSデータ削除" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3800" COMMENT="ConfirmIntermediatesPurge">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "削除確認" </TITLE>
+		<MESSAGE>
+			"ラップの中間時間を削除します.続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい、中間時間削除" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="3900" COMMENT="WarningNoSimulation">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "シミュレーション" </TITLE>
+		<MESSAGE>
+			"エラー操作'LapTimerGPSLogDB.pdb'.シミュレーションは開始されません!"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4000" COMMENT="GPSLoggingPurgeAppend">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "GPS記録" </TITLE>
+		<MESSAGE>
+			"'LapTimerGPSLogDB.pdb' があります.削除して新たにレコード書き込みしますか?既存レコードに追記しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "削除書込み" </TEXT>
+			<TEXT> "追記" </TEXT>
+			<TEXT> "キャンセル" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4100" COMMENT="GPSLoggingSuccess">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "GPS記録" </TITLE>
+		<MESSAGE>
+			"ロギング停止. ^1 レコード書き込み済み'LapTimerGPSLogDB.pdb'."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4200" COMMENT="SelectReferenceLap">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"ベストラップ、ラストラップ以外のラップをリファレンスとして選択するには、'ラップタイム詳細'を開き'リファレンス'をチェックして下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4300" COMMENT="ErrorOpenMergeDB">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "データベースをマージ '^1' をオープンできません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4310" COMMENT="DeleteAllLaps">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"データベースから全てのラップを削除して良いですか?削除すると復旧はできません!"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "キャンセル" </TEXT>
+			<TEXT> "はい、全て削除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4311" COMMENT="DeleteListedLaps">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"データベースから全てのラップを削除して良いですか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "キャンセル" </TEXT>
+			<TEXT> "はい、全て削除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"データベースをマージ '^1' はバージョンが異なります.アップグレードするためにデータベース名を '^2' に変更して再起動して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    
+	<ALERT_RESOURCE RESOURCE_ID="4500" COMMENT="ErrorWritingData">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "データベース書き出しエラー!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4600" COMMENT="WarningTooManyTracks">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"トラック '^1' を作成できませんでした.ラップは'指定なし'トラックに関連つけます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4700" COMMENT="ErrorWritingGPSData">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "GPSデータのデータベース書き込みエラー!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4800" COMMENT="GPSTimeAdjusted">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "GPS情報からシステム時間設定 ^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="4900" COMMENT="UnknownNMEASentence">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "不明NMEAセンテンス $^1,^2*xx 受信..." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5000" COMMENT="OutOfFileMemory">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "メモリ枯渇! 利用可能メモリを増やして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5100" COMMENT="TooManyTracks">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"トラック '^1' を作成できませんでした. ラップタイムをトラック '^2' に記録します."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5130" COMMENT="POISetNotDeletedAsLapsExist">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "'^1'のラップが見つかりました.POIを削除しますが、POIセットは削除しません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="5131" COMMENT="ConfirmPOISetPurge">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "O.k. to purge all POIs in this set?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Purge" </TEXT>
+            <TEXT> "Cancel" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5140" COMMENT="ErrorReloadingFromServer">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"アドオンリストを更新できませんでした.後ほどリトライして下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="5145" COMMENT="NoActiveTracks">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "No tracks active currently (or the server is down). Please try again later."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5150" COMMENT="TooManyPOISets">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"リミットに達したためPOIセット '^1' を作成できませんでした.不要なPOIセットを削除して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5160" COMMENT="ConfirmPOISetPurgeAndReload">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+            "現在、POI '^1' が存在します.アドオンのダウンロードを進める場合、POIは置き換えられます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "進める" </TEXT>
+            <TEXT> "キャンセル" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5170" COMMENT="ErrorLoadingPOISet">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"POIセット '^1' Server^2 からロード出来ませんでした.後ほどリトライして下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5180" COMMENT="POISetLoadSuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"POI ^1　に POIセット '^2　ロード成功'."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5200" COMMENT="ProfileSerialToTrigger">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "プロファイリング" </TITLE>
+		<MESSAGE> "履歴: ^1 最小/最大: ^2 平均: ^3" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5300" COMMENT="InvalidInsertion">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"現在のラップはデータに問題があります、無効ラップは追加されました、作者までご報告して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5400" COMMENT="TimelimitPassed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"本バージョンのLapTimerは無効になりました.フル機能版をインストールしてください."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5500" COMMENT="ManualStopTriggeredLap">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "トリガラップは手動で停止すべきでありません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5600" COMMENT="NMEACommandsInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "NMEAコマンドを受信: ^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5700" COMMENT="WarningProfessionalView">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"LapTimer Professionalのみ可能です.利用にするにはアップグレードしてください."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5800" COMMENT="ConfirmGPSLoggingPurge">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "削除確認" </TITLE>
+		<MESSAGE> "O. k. to purge recorded log records?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="5900" COMMENT="ResetOldVersion">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"データベースのバージョンが一致しません.バックアップ済のデータベースにするか最新のLapTimerにして下さい.システムをリセットします."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "リセット" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6000" COMMENT="WarningGPSTimeSetting">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"システム時間とGPS時間の差が３０分以上あります.サマータイム設定を変更して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "GPS時間設定を無効" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6100" COMMENT="GPSTimeSettingInPrefs">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"フィーチャーは無効になりました.LapTimerの設定からいつでもGPS時間を調整できます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6200" COMMENT="RegistrationReminder">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "登録のお願い" </TITLE>
+		<MESSAGE>
+			"大切なお客様へ.\nあなたはリセラーからキーをご購入されました.お客様のパーソナルキーのご登録をお願い致します.登録後アップデートの資格を得ることが出来ます.お客様のデータを共有したり悪用はいたしません.\n- Harry"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "登録" </TEXT>
+			<TEXT> "いいえ、今回は登録しません" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6300" COMMENT="MinimalRequirements">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "LapTimer" </TITLE>
+		<MESSAGE>
+			"Sorry, your Palm does not meet LapTimer's minimal system re-quirements:\nGarnet OS (PalmOS >= 5.0), High Density support (320 or 240 screen width), Color Support (>= 256 Colors)"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6400" COMMENT="ResetPreferences">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"新しいLapTimerを検知しました.全ての設定はデフォルトにリセットされます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6500" COMMENT="ErrorClosingDB">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"エラー終了/データベースの書き込み.利用可能空きメモリを増やして下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6600" COMMENT="MigrationWarning">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"バックアップしていない状況のデータベース移行です.失敗したら元に戻せません.バックアップなしで進めますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "進める" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6700" COMMENT="InformationMessageSent">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "^1 は ^2 に送信されました." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6800" COMMENT="ErrorSendingMessage">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "^1 は ^2 に送信出来ませんでした." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="6900" COMMENT="ErrorValidEMail">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"^1 は有効なメールアドレスではないようです.メッセージ送信されませんでした."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="6910" COMMENT="DeviceNotConfiguredToSendMails">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE>
+			"デバイスはメール送信できません.メール設定を行いリトライして下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7000" COMMENT="NoValidGPSPositionForNavigation">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "GPSが利用できません、ナビゲーションを開始できません!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7100" COMMENT="NoValidCourseOrPositionForNavigation">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ナビゲーションまたはコースセットがありません!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7200" COMMENT="CourseUndefinedForNavigation">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "現在のコースは未設定で利用できません!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7300" COMMENT="MaxNumberPOIExceeded">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "POI最大数に達しました." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7400" COMMENT="InAppPurchaseRestricted">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"APPストアでの購入が制限されています.設定を変更して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7500" COMMENT="AddOnDetailRequestFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "アドオン詳細要求が失敗" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7600" COMMENT="PaymentTransactionFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "支払い処理が失敗: ^1." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="7700" COMMENT="SailTrimFeatureAdded">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"'Sail Trim Feature'のご購入有り難うございます.タブバーから'Trim' を選択して利用して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8000" COMMENT="ConfirmCertifiedTrackProbablyChange">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"本操作は設定認証済のPOI '^1' を変更する可能性があります.続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8100" COMMENT="ConfirmCertifiedTrackChange">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"本操作は設定認証済のPOI '^1' を変更する可能性があります.続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="8110" COMMENT="ConfirmTriggerOrPOIAddition">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "This operation will add new triggers or POIs to LapTimer's database. Triggers added accidentially are the most frequent reasons for LapTimer malfunction! Introduction and tutorial are available on LapTimer's homepage. Please proceed only in case you are familar with LapTimer's concept of triggers."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "I'm familar" </TEXT>
+            <TEXT> "Cancel" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="8120" COMMENT="TrackSetHasTooManyGoTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Track Set '^1' has more than one Go triggers. Please take care you remove one."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="8130" COMMENT="TrackSetHasTooManyStopTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Track Set '^1' has more than one Stop triggers. Please take care you remove one."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="8140" COMMENT="TrackSetHasTooManyStopGoTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Track Set '^1' has more than one Stop / Go triggers. Please take care you remove one."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="8150" COMMENT="TrackSetHasTooManyIntermediateTriggers">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Track Set '^1' exceeds the max number of splits (^3). Please take care you reduce the set by at least ^2 splits."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8300" COMMENT="TransferToTrainerFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "LapTimerトレーナの送信失敗!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8400" COMMENT="TransferSuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"取り込み成功  ^1 lap(s), GPS測位点 ^2, 車両 ^3."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8500" COMMENT="NoConnectionToInternet">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "インターネット接続不可、後ほどリトライして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "GPS記録データ量が危険レベルに達しました.GPS記録データを削除して下さい.(Lap詳細の削除ボタン)." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "オーバラップするトラックセットがあります. !で示してあります.オーバラップはトリガ検知を不安定にするかもしれません.１つのトラックのみを有効にするべきです." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8900" COMMENT="ConfirmFileImport">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"ファイル '^1' を取り込めます.続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> " はい" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8901" COMMENT="FileOpenFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ファイル '^1' 取り込み失敗.データは追加されませんでした." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8902" COMMENT="FileCannotBeOpenedAlert">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "選択されたファイルは処理できません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8910" COMMENT="ConfirmFullLoad">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"リロードですか? アップデートですか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "アップデート" </TEXT>
+			<TEXT> "リロード" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9000" COMMENT="ProductEnabledSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"アドオンのインストール成功."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9010" COMMENT="RecordingLapFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ビデオセーブ失敗.操作中断されたかメモリ不足." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9020" COMMENT="ConfirmDeviceMounted">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"デバイス位置が変わりました、加速度センサを調整するので固定後に'続ける'を押して下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "続ける" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9021" COMMENT="ConfirmResetCalibration">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+            "加速度センサリセット、自動調整を開始..."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9022" COMMENT="AutomaticResetCalibration">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "キャリブレーションが自動的にリセットされました..."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9030" COMMENT="ConfirmRecalculate">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"現在の記録データは横Gと縦Gの測定値を含んでいます.計算値で置き換えて良いでしょうか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "再計算" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9031" COMMENT="ConfirmRecalculateAccuracy">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"ラップのGPS精度をセンサ '^1' で再計算しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "再計算" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Calculation of acceleration values from GPS positions yields best results for smooth lap recordings. Should a smoothing be applied ahead of calculation of acceleration forces? This step cannot be reverted."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Smooth" </TEXT>
+            <TEXT> "Skip" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Should a smoothing of lap recordings be performed? This calculation will recalculate and override existing GPS positions. It cannot be reverted."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Smooth" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9034" COMMENT="LapSmoothingSuccessfullyAlert">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE>
+            "GPS positions were recalculated and smoothed successfully."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"GPSデータから横Gと縦Gの計算しました."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"HDOP値とセンサタイプからGPS精度を計算しました."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9042" COMMENT="RecalculatedSplitsSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"POI検知 '^3' でスプリット ^1 を再計算. スプリット ^2 に置換えました."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9044" COMMENT="RecalculatedTrackSplitsSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Split(s) recalculated from GPS recordings for ^1 laps. All laps with GPS recordings show a standard number of ^2 splits."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9045" COMMENT="RecalculatedTrackSplitsMostlyOk">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Split(s) recalculated from GPS recordings for ^1 laps. ^2 laps with GPS recordings show incomplete split sets using detection corridor '^3'."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+        
+    <ALERT_RESOURCE RESOURCE_ID="9046" COMMENT="RecalculateLapNoLapRecognized">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Either lap misses data recordings, or the corresponding track set is not loaded currently. No changes applied."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9047" COMMENT="RecalculateLapNotChanged">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE>
+            "Lap matches its data recordings, no changes necessary."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9048" COMMENT="RecalculateLapFixedMinorRounding">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE>
+            "Based on the lap's data recordings, a minor rounding error for the lap time has been fixed. Lap time is ^1."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9049" COMMENT="RecalculateLapFixedTimeInconsistency">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Detected a difference between data recordings and lap time (inconsistency) and fixed it. Lap time is ^1 now."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9050" COMMENT="RecalculateLapRecognizedMany">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Based on the current track set loaded, the lap's data recording represents ^1 laps. It is recommended to split the lap into multiply laps."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Split" </TEXT>
+            <TEXT> "Cancel" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9051" COMMENT="RecalculateLapDeleteOriginal">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Lap has been split into ^1 laps. Do you want ^2 to delete the original recordings or keep it?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Keep" </TEXT>
+            <TEXT> "Delete" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9052" COMMENT="RecalculateLapRecognizedNotAligned">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "The lap analyzed seems to be a manual recording. ^1 will try to recognize lap boundaries and create corresponding lap entries."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9053" COMMENT="RecalculateLapSplitsOnly">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE>
+            "^1 split(s) recalculated from GPS recordings replacing ^2 existing split(s)."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9054" COMMENT="NoLapsRecognizedInInput">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "^1 read import successfully but could not recognize any laps. Please check if the matching track set is loaded."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9043" COMMENT="ConfirmationCorridor">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"POI検知の度合いは? 'ナロー' は高感度です."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "ナロー" </TEXT>
+			<TEXT> "標準" </TEXT>
+			<TEXT> "ワイド" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9060" COMMENT="MissingOrIllFormedMasterVideo">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "エラー" </TITLE>
+        <MESSAGE> "映像トラックまたは音声トラックの欠けでマスタービデオを利用できません. 替りをビデオリストでチェック又はダウンロードして下さい." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9061" COMMENT="MissingDataToOverlay">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "エラー" </TITLE>
+        <MESSAGE> "ラップ記録のデータ欠落でオーバレイが出来ません." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9062" COMMENT="OverlayRequiresAdditionalSpace">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "空きメモリ不足でオーバーレイ失敗.空きメモリ ^1 を確保してリトライして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9063" COMMENT="VideoWritingFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "^1 オーバーレイビデオ書き込み失敗. エラー '^2'.他アプリによる中断の可能性があります.空きメモリを確認してリトライして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9068" COMMENT="VideoWritingFailedAndroid">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "^1 オーバーレイビデオ書き込み失敗. エラー '^2'." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9069" COMMENT="SoftwareEncodedVideoOverlay">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE> "For this ^1 edition or Android smartphone, hardware accelerated video encoding is not available. Software based encoding will be used but requires considerable time to complete. Please consider running this process at night with a power supply attached." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Run later" </TEXT>
+            <TEXT> "Continue" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9064" COMMENT="VideoRecordingStopped">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "予期できないビデオ録画終了 (^2). ^1 次のラップでビデオ録画を再度開始します." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9065" COMMENT="IgnoreMissingOrIllFormedPicInPic">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "ピクチャINピクチャビデオのラップを指定できません. 替りをビデオリストでチェック又はダウンロードして下さい." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Ignore" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9066" COMMENT="SyncPointAdjustmentLocalFilesOnly">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE>
+			"同期ポイントの変更はローカルビデオファイルのみ可能です. 同期ポイントの変更はダウンロードしてから行なって下さい."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9067" COMMENT="RecordingStoppedDueToLowMemory">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "エラー" </TITLE>
+        <MESSAGE> "メモリ不足でビデオ録画を停止し無効化！空きスペースを作って再トライしてね！" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9070" COMMENT="AssetIsMissing">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "選択ビデオが見つかりません、別の場所に移動したのでしょう編集機能で再度リンクして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9071" COMMENT="VideoTypeChange">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Are you sure you want to override the overlay type of this video? This operation is for maintenance only. To overlay a video, please select a lap from Lap List and press the 'Overlay' button you find below the video preview."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Override" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Master video cannot be opened for processing. It probably extends beyond the current limit of 2 GB. In case video resolution is FullHD, please consider scaling it down to HD." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "How-to" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9073" COMMENT="VideoMayBecomeTooBig">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "FullHD generates large videos probably extending beyond the current limit of 2 GB for overlay processing. This means for FullHD the limit is around 11 minutes, while it is 25 minutes for HD. ^1 will not limit the size automatically."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"ビデオ録画中.終了しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "続けない" </TEXT>
+			<TEXT> "フィニッシュ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"車両 ^1 検出.登録車両とリンクしますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "リンク" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9091" COMMENT="LinkVehicleWithMake">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"車両および製造元 ^1 検出.登録車両とリンクしますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "リンク" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9100" COMMENT="SystemInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "システム情報" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9101" COMMENT="LapInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Lap Information" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Close" </TEXT>
+			<TEXT> "Details" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9120" COMMENT="ErrorDroppingFileAlert">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ファイル '^1' をドロップボックスに移動できません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9130" COMMENT="CurrentVehicleSet">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "'^1' を車両として設定." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9140" COMMENT="CurrentVehicleMissingOBD">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"適切な rpm/ギア表示を得るために、車両 '^1' のエンジン情報と駆動情報を設定する必要があります!"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+            <TEXT> "Ignore" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9150" COMMENT="HintOnCustomOBDSettings">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "WLAN OBDセンサと接続するために、カスタムホストの設定とポートアドレスを設定して下さい.(Settings > Expert Settings)" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9151" COMMENT="HintOnCustomGPSSettings">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "WLAN OBDセンサと接続するために、カスタムホストの設定とポートアドレスを設定して下さい.(Settings > Expert Settings)" </MESSAGE>
+		<BUTTONS>
+			<text> "OK" </text>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9152" COMMENT="SensorDisabled">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "This sensor is disabled currently. The usual reason for this is ^2 stops scanning for sensors after ^1 minutes to reduce power consumption. To restart scanning for sensors, press the Home button and start ^2 again." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9160" COMMENT="PurgeConflictingPOISets">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"トラックセットのロードで不整合: ^1. 現在のコンフィグを削除しますか(POIのみを推奨)?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "削除" </TEXT>
+			<TEXT> "いいえ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9170" COMMENT="InvalidGPSCoord-iOS">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "GPS位置情報が利用不可能.デバイス設定を確認して空がよく見える場所に移動して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9172" COMMENT="InvalidGPSCoordSettings-iOS">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "GPS位置情報が利用不可能.デバイス設定を確認して空がよく見える場所に移動して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Settings" </TEXT>"
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9171" COMMENT="InvalidGPSCoord-Android">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "GPS位置情報が利用不可能.デバイス設定を確認して空がよく見える場所に移動して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "LapTimerの管理可能最大数に達しました.トラックを追加するには、まず既存トラックを削除して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"トラックセット '^1' が存在します.既存のPOIを削除しますか?トラック作成をやめますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "削除" </TEXT>
+			<TEXT> "やめる" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9195" COMMENT="AutocrossStandingStartConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+            "The start position marked can be either a staging area for a standing start, or a regular starting line passed at speed."
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Standing Start" </TEXT>
+			<TEXT> "Starting Line" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9200" COMMENT="AutocrossCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "スタート／ストップトリガを含むオートクロスコース '^1' を作成しました. 設定済の場所で'Staged'が表示されます." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9201" COMMENT="NewTrackCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+        <MESSAGE> "　トラック '^1' を作成しました.設定した位置を通るとラップ計測が自動的に始まります." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9220" COMMENT="StandStillBeforeCharging">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "スタンディングスタートの計測のために停止して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9230" COMMENT="ChangeGearNumber-iOS">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "ギア数を変更するには'編集'を押してギアを追加/削除してください." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9231" COMMENT="ChangeGearNumber-Android">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "To change the number of gears, long-press an existing one to delete, or press the '+ Gear' action to add one." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9250" COMMENT="DuplicateVehicleCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "登録車両から新車両 '^1' を作成しました. 変更してください." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResets">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"車両タイプ '^1' の変更は全てのフィルドを本タイプのデフォルト値に戻します.続けますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "続ける" </TEXT>
+			<TEXT> "キャンセル" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9252" COMMENT="WarnPutInCloth">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "For ^1 users: please do not put your smartphone into your pockets while using ^2. GPS accuracy will degrade to an extent the app will not work any more! Please confirm you have read this warning."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Got it" </TEXT>
+            <TEXT> "Do not show" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9260" COMMENT="TechnicalInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "センサー情報" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9270" COMMENT="PageButtonOffInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "左右ボタンページ切り替えを無効.ページ変更はスワイプ動作または再度有効にして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9280" COMMENT="ConfirmationDeleteVideo">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"選択ビデオをメモリから削除して空きメモリ ^1 を増やします. 削除しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "キャンセル" </TEXT>
+			<TEXT> "削除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9281" COMMENT="InconsistentSyncPointsRepair">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Number of laps available for multi lap overlays reduced due to inconsistent sync points. Please adjust the lap's sync point and agree to adjust the full session."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9282" COMMENT="AdjustVideoForFullSession">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Do you want to adjust all videos and sync points for the lap's session, or the sync point for this lap only?"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Lap" </TEXT>
+            <TEXT> "Full Session" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9290" COMMENT="ConfirmationDeleteVideoHousekeeping">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"どのラップともリンクしていないビデオ ^1 が見つかりました.メモリ ^2 を消費しています.!のビデオを削除しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "キャンセル" </TEXT>
+			<TEXT> "削除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9291" COMMENT="NothingToHousekeep">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "整理するビデオが見つかりません." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9300" COMMENT="VideoFramesDropped">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "^1 フレーム落ち／ビデオオーバーレイ." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9310" COMMENT="DeleteOrphantVideoConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"以前にリンクされたビデオはどのラップからも参照されていません.削除して空きスペースを増やしますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "削除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9311" COMMENT="RevertToRawVideoConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"オリジナルに戻しますか?オーバーレイは削除されません.写真アプリで有効です."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "キャンセル" </TEXT>
+			<TEXT> "戻す" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9312" COMMENT="RelinkVideoConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "Sure you want to change all laps referencing video ^1 so far and link ^2 instead? Sync points will not be changed."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Re-Link" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9313" COMMENT="RelinkedVideos">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Successfully linked ^1 lap(s) to ^2." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9315" COMMENT="MoveNotSuccessfulError">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "ビデオをフォトライブラリに移動出来ません.空きスペースを作りリトライしてください." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9316" COMMENT="OverlaySuccessfulPhotoLibrary">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Congratulations, overlaid video generated successfully! The overlaid video can be accessed from Lap Details and using the Photo app." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Congratulations, overlaid video generated successfully! The overlaid video can be accessed from Lap Details and directly on the SD card." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "To apply an overlay for a motorbike, it is recommended to calculate and adjust lateral acceleration first..." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Adjust" </TEXT>
+            <TEXT> "Continue" </TEXT>
+            <TEXT> "Cancel" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+        <MESSAGE> "アプリが異常終了.古いデータベースに移行 ステータス..." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "メモリ不足でデータベース復旧が行えません.空きメモリを確保し再起動して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "データベースの問題 ^1 を検知し修正." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "データベース (^2) に問題 ^1 が見つかりました.終了します.復旧のためリトライもしくは作者までご連絡ださい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9332" COMMENT="DatabaseNoProblems">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "データベースチェック完了、問題なし." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"データベース問題発生 (^1). 以前のバージョンからの復旧にトライしますか? 最近の変更は失われます."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "いいえ" </TEXT>
+			<TEXT> "復旧にトライ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "データベース を (^1) から復旧しました." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+            "データベースに復旧できない問題発生.終了もしくはデータベースを空にして再起動しますか?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "終了" </TEXT>
+			<TEXT> "空にする" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9336" COMMENT="DatabaseRecoveryPurging">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+            "^1 recovery database(s) found. Purging all but the ^2 most recent will free up ^3 MB of memory. Please do not purge old recovery databases in case you have no other backups created."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Not now" </TEXT>
+			<TEXT> "Purge Old" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "デバイスまたは ^1 で位置サービスが利用できません.^1 を動かすために設定アプリで位置サービスを有効にして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9342" COMMENT="LocationServiceDisabled-Android">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "デバイスまたは ^1 で位置サービスが利用できません.^1 を動かすために設定アプリで位置サービスを有効にして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9341" COMMENT="PhotoLibraryAccessDisabled">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE> "Access to Photo Library is disabled for either your device, or ^1. Please enable access in iOS Settings, ^1 requires this service to record and access videos." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9343" COMMENT="MicrophoneAccessNotGranted">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "You have declined access to the microphone for ^1. Video recording is not possible currently. Please enable access in iOS Settings ‣ Privacy ‣ Microphone." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "The device's location service is disabled for ^1 currently. This may create issues when transferring overlaid videos to Photo app. Please cancel overlay and allow access to location service in iOS Settings ‣ Privacy ‣ Location Services." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Cancel" </TEXT>
+			<TEXT> "Ignore" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+    <ALERT_RESOURCE RESOURCE_ID="9350" COMMENT="InvalidLapForAfterTheFactSubmission">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "栄誉の殿堂にラップ提出できません.認証済トラックセットを利用していないかGPS記録ミスです." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9351" COMMENT="ScheduledLapForHallOfFame">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "栄誉の殿堂のラップ転送を予約しました." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9352" COMMENT="DeleteTimeLapped">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Delete the ^1 lap driven by ^2 permanently from Hall of Fame?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Delete" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9360" COMMENT="LowAvailableDiskSpace">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "空きスペース不足.データロスなど不測事態を招きます.空きスペースを増やしてください."
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9361" COMMENT="LowAvailableDiskSpaceVideoHousekeeping">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "空きスペース不足.データロスなど不測事態を招きます.ビデオリストから不要ビデオを削除して空きスペースを増やしてください."
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9470" COMMENT="CurrentLapReference">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "現在の計測ラップがリファレンスになります." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9471" COMMENT="NextLapReference">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "次の計測ラップがリファレンスになります." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9472" COMMENT="SelectedLapReference">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Selected lap is the new reference lap." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9500" COMMENT="LatinCharactersOnlyAllowed">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "現在ラテン文字のみが利用可能です.ご不便をおかけして申し訳ありません."
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9510" COMMENT="SavingToAMISDCardFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "Storing files to SD card failed. Please make sure your iPhone is connected to your car and try again." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "おめ, アップグレードを受信しました ^1 ^2!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "このラップのビデオが見つかりません. よくある２つの原因は 1) ビデオをデスクトップに移動 2) 不意にビデオを削除." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9610" COMMENT="MultiCamVideoOffline">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "本デバイスでこのラップのマルチカムビデオ '^1' が利用できません. ビデオ詳細はマルチカムデバイスに再接続して取得して下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9611" COMMENT="VideoDownloadNotSupportedOrDisabled">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "Downloading videos is not supported for external cam ^1, or MultiCam is disabled in general." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+    <ALERT_RESOURCE RESOURCE_ID="9620" COMMENT="VideoNeedsTransferToLocal">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "本デバイスでこのラップのマルチカムビデオ '^1' が利用できません. オーバレイを利用するには最初に転送が必要です. マルチカム,GoProへの転送は'方法'で参照できます." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "How To" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9630" COMMENT="UnloadingVideo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "ローカルバーションビデオを削除, 空き容量 ^1 プラス. 処理はバックグラウンドで行われWifi接続を要求します. 必要ならば後ほどビデオを再ダウンロード出来ます." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9631" COMMENT="NotPossibleToDownloadVideo">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "エラー" </TITLE>
+		<MESSAGE> "サイズ ^1 のビデオをダウンロード出来ません. 空き容量を増やしてからリトライして下さい." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9632" COMMENT="VideoDownloadStarted">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Video with size ^1 is downloaded now. Operation will work in background and requires the device to be connected to a WiFi network." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+    <ALERT_RESOURCE RESOURCE_ID="9633" COMMENT="TransferVideoToCloud">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "iCloudにビデオ転送中. 処理はバックグラウンドで行われWifi接続を要求します." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9634" COMMENT="TransferVideoFromCloud">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "情報" </TITLE>
+		<MESSAGE> "iCloudから ^1 にビデオ転送中. 処理はバックグラウンドで行われWifi接続を要求します." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9635" COMMENT="NoMoveToCloudWithAutoReceive">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "^1 is configured to move files from iCloud to local recordings automatically. To allow moving videos the other way, this feature needs to be turned off." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+            <TEXT> "Turn Off" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9636" COMMENT="VideoDownloadNeedsRelink">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE> "Video downloaded cannot be associated with laps automatically. Once the download has finished, please use Lap List ‣ Lap ‣ Video ‣ Re-Link to associate the lap's session with the video downloaded." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9637" COMMENT="NoMatchingVideoFound">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE> "No matching video found on external cam. Please use Video List to load the video manually and use Lap List ‣ Lap ‣ Video ‣ Re-Link to associate laps." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE> "For MultiCam operation, Bluetooth needs to be turned on. Please turn on Bluetooth in iOS Settings ‣ Bluetooth. MultiCam Discovery disabled." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "MultiCam cannot be remote controlled with Bluetooth turned off. Please turn on Bluetooth in iOS Settings ‣ Bluetooth." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9650" COMMENT="FeatureNotAvailableInAppEdition">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "本アプリのエディションで本機能は利用できません. 'アドオン'でアップグレード可能かご確認下さい."
+        </MESSAGE>
+		<BUTTONS>
+            <TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9652" COMMENT="FeatureNotAvailableAddOns">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "本アプリのエディションで本機能は利用できません. 'アドオン'でアップグレード可能かご確認下さい."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "アドオン" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9651" COMMENT="MissingTimerView">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "No timer view available for current device orientation. Please either rotate your device or check 'Add-ons' for upgrades available."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9660" COMMENT="SelectGPSOBDBluetooth">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Connect '^1' as GPS or OBD sensor?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "GPS" </TEXT>
+            <TEXT> "OBD" </TEXT>"
+            <TEXT> "Cancel" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9661" COMMENT="TurnOffGPSHelperApps">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "^1 will access the GPS sensor selected directly, and provide highly accurate recordings. Important: you need to turn off any GPS Helper app installed. Theses apps cannot be used in parallel and are not necessary for ^1 operation!"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9670" COMMENT="CheckSessionOrTrackdayContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Do you want to apply this change to this lap, all laps in the same session, or to all laps recorded this trackday?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Lap" </TEXT>
+            <TEXT> "Session" </TEXT>"
+            <TEXT> "Trackday" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9671" COMMENT="CheckTrackdayContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Do you want to apply this change to this lap, or to all laps recorded this trackday?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Lap" </TEXT>
+            <TEXT> "Trackday" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9672" COMMENT="CheckSessionContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Do you want to apply this change to this lap, or to all laps in the same session?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Lap" </TEXT>
+            <TEXT> "Session" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9680" COMMENT="MissingRealName">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "To submit a challenge, you need to enter your real name. This real name will be shown to other users as the origin of this challenge." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9681" COMMENT="PublicSubmitChallengeConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Please confirm you have read and agree to the submission statement. Your challenge will be visible for all users of track '^1'." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9682" COMMENT="PublicSubmitChallengeConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Please confirm you have read and agree to the submission statement. Your challenge will be visible for users of track '^1' after entering your secret code '^2'." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9683" COMMENT="SubmittedChallenge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Scheduled your challenge for transmission. Please check track '^1' to verify the challenge is online." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9684" COMMENT="LoadedChallenge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE>
+            "Congratulations! You loaded a ^1 challenge for ^3 issued by ^2. LapTimer has set this challenge to be your reference lap. This allows you to see time gaps and analyze your driving style in data recordings!"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9685" COMMENT="ErrorLoadingChallenge">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Challenge could not be loaded. Please make sure your Internet connection works and try again later." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9686" COMMENT="DeleteChallenge">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Scheduled challenge for deletion." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+ 
+     <ALERT_RESOURCE RESOURCE_ID="9687" COMMENT="PublicChallengeDetails">
+         <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+         <HELP_ID> 0 </HELP_ID>
+         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+         <TITLE> "Information" </TITLE>
+         <MESSAGE> "Your challenge is available for all LapTimer users. So far, it has been downloaded ^1 times." </MESSAGE>
+         <BUTTONS>
+             <TEXT> "OK" </TEXT>
+         </BUTTONS>
+     </ALERT_RESOURCE>
+     
+     <ALERT_RESOURCE RESOURCE_ID="9688" COMMENT="NotListedChallengeDetails">
+         <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+         <HELP_ID> 0 </HELP_ID>
+         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+         <TITLE> "Information" </TITLE>
+         <MESSAGE> "Your challenge is available for all LapTimer users entering the List Code ^2. So far, it has been downloaded ^1 times." </MESSAGE>
+         <BUTTONS>
+             <TEXT> "OK" </TEXT>
+         </BUTTONS>
+     </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9690" COMMENT="ReconnectingSensor">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Changed sensor settings. In case the sensor is online, it is disconnected and reconnected to get the new settings active." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9691" COMMENT="SensorInitializationFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Changing the configuration failed. Please disconnect / restart the sensor and connect it again to get new configuration set." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9700" COMMENT="ReferenceLapHasNoVideoAvailable">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "There is either no reference lap available, or the reference lap has no video associated." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9701" COMMENT="ReferenceLapSameVideoAsMaster">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "The reference lap and the lap to be overlaid use the same raw video. Due to a technical limitation in video reading, this configuration is not supported currently." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9702" COMMENT="ReferenceVideoForSingleLapOnly">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Reference video overlay is available for single lap overlays only. Reduce the number of laps to overlay to one lap and try again." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9800" COMMENT="StopBackgroundRecordingFirst">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Function not available as ^1 is recording currently. Please return to one of the timer views and Cancel / Stop the recording."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9810" COMMENT="SwitchToAdvancedCalibrationFromRHT">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "System configured to use a standard calibration preset for right-hand traffic countries. As long as your device is mounted upright above the center console pointing to you, this is probably the best setting. Do you want to use individual acceleration calibration instead?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Preset" </TEXT>
+            <TEXT> "Individual" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9811" COMMENT="SwitchToAdvancedCalibrationFromLHT">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "System configured to use a standard calibration preset for left-hand traffic countries. As long as your device is mounted upright above the center console pointing to you, this is probably the best setting. Do you want to use individual acceleration calibration instead?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Preset" </TEXT>
+            <TEXT> "Individual" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9812" COMMENT="FlatCalibrationConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Do you want to store the current device orientation as level setting, or reset to default?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Level" </TEXT>
+            <TEXT> "Default" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9813" COMMENT="SwitchToAdvancedCalibrationFromMotorbike">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "System configured to use a standard calibration preset for motorbikes. As long as your device is mounted nearly flat in driving direction, this is probably the best setting. Do you want to use individual acceleration calibration instead?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Preset" </TEXT>
+			<TEXT> "Individual" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9814" COMMENT="SwitchedToCalibrationPreset">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Individual calibration of acceleration has been turned off. The system will use a preset based on your country and vehicle type now." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9815" COMMENT="SwitchedToIndividualCalibration">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Individual calibration is enabled now. ^1 will monitor vehicle movement to choose an optimized calibration. Once calibration is finished, the result can be locked for future use." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9816" COMMENT="SwitchToAdvancedCalibrationFromVideo">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "System configured to use a standard calibration preset for video recording. As long as your device is mounted upright with the back cam pointing into driving direction, this is probably the best setting. Do you want to use individual acceleration calibration instead?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Preset" </TEXT>
+			<TEXT> "Individual" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9999" COMMENT="BackgroundVideoRecordingDisabled">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Due to some compatibility issues reported, background video recording is disabled temporarily. In case you want to video record, just keep this view active and drive. Sorry for any inconvenience, we will be back soon." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9900" COMMENT="FullWeightExceedsGrossMass">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "The vehicle's full weight (curb weight + payload) exceeds gross vehicle mass (GVM) by ^1."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9901" COMMENT="ReloadPayloadConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Reloading payload will adjust both the ^1's and the ^2's vehicle definitions by ^3. Please confirm you want to reload." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Reload" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9902" COMMENT="MaxSpeedCalculation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. Make sure to have power, power loss, Cp, front surface, and masses defined to get reasonable results." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9910" COMMENT="ChecklistReset">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "All actions for checklist '^1' have been reset. Start from the beginning now!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9911" COMMENT="ChecklistDuplicateCreated">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "A new checklist '^1' has been created. You can start working on it immediately. The original list will will stay unchanged." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9912" COMMENT="SavingChecklistsFailed">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Saving checklists failed! Please make sure you have enough storage available on your device." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9913" COMMENT="DeleteGroupConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Deleting '^1' will delete any actions included too. Are you sure you want to delete checklist group '^1'?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Delete" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9232" COMMENT="SetDefaultGearSet">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This will add some default gear ratios for a 6-speed gearbox. Values are probably good enough to let ^1 display gears from other OBD data, but may fail in other situation. Please adjust defaults by your vehicle's actual values later." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Set Default" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9914" COMMENT="FavoriteAddedInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Tile '^1' has been marked as a favorite. In addition to its standard position, it will appear on top level for fast access. Tap the tile's star again to revert to a standard tile." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9915" COMMENT="FavoriteRemovedInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Favorite '^1' made a standard tile and removed from top level. To make it a favorite again, please tap the tile in its standard position." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9920" COMMENT="ContinueLastTrip">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Do you want to continue the trip '^1' or start a new one?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "New Trip" </TEXT>
+			<TEXT> "Continue" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9921" COMMENT="TripNotStarted">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE>
+			"New trip not started. Please make sure you enter a valid trip name and have enough memory available."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9930" COMMENT="AppRequiredToDisplay">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "^1, which is required for display, is not installed. Ignore or download ^1 from AppStore?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "AppStore" </TEXT>
+			<TEXT> "Ignore" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9940" COMMENT="ApplySnapResults">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "'Snap to Road' (using Google Roads) found ^1 positions to be snapped to a road, ^2 positions to be added for a nicer display, and ^3 positions to be removed. Do you want to apply this changes?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Cancel" </TEXT>
+			<TEXT> "Apply" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9941" COMMENT="NoSnapResultsToBeApplied">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "'Snap to Road' (using Google Roads) has not found any changes to apply.'" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9942" COMMENT="ErrorRetrievingSnapToResults">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE>
+			"'Snap to Road' (using Google Roads) has not been successful. Please check your Internet connection or try again later."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9943" COMMENT="ApplyAugmentResultsAlert">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Found ^1 sections to augment with ^2 positions using Google Directions. Do you want to add this positions?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Cancel" </TEXT>
+			<TEXT> "Add" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9944" COMMENT="NoAugmentResultsToBeAppliedAlert">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "No sections to augment found. The trip recording is fine already." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9945" COMMENT="ErrorRetrievingAugmentsAlert">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE>
+			"Augmenting the trip has not been successful. Please check your Internet connection or try again later."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9946" COMMENT="RemovedVirtualRecords">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Removed ^1 augmented positions from trip. You can add them again by running 'Augment Trip'." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9947" COMMENT="NoVirtualRecordsToRemove">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "No augmented positions found for this trip. There is no action required." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9948" COMMENT="MergeLapsConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Are you sure you want to merge this trip with trip '^1'? Once merged, trip '^1' will be removed from the list permanently." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Cancel" </TEXT>
+			<TEXT> "Merge" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9949" COMMENT="MergeNotAvailable">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "Merging this trip with the next one is not possible. Potential reasons are: next trip does not exist or belongs to a different group, or this trip or the next trip do not have valid recordings." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9950" COMMENT="StationMerged">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Station selected has been removed, recordings have been adjusted to directly connect previous and next stations. Do you want to run 'Augment Trip' to complete sections probably missing?'" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "No, Thanks" </TEXT>
+			<TEXT> "Augment Trip" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9951" COMMENT="DeleteMaintenanceSequence">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This will delete the regular service '^1' and ^2 service(s) performed already. Are you sure you want to delete the complete sequence?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Yes, Delete" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9952" COMMENT="DeleteVehicleEvent">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Do you want to delete this vehicle history entry?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Delete" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9953" COMMENT="NonTrivialMaintenanceDependency">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This introduces a non trivial dependency between regular services (chain or cycle). Are you sure you want to proceed with this change?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Yes, Change" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9954" COMMENT="MaintainInitialRegistrationDate">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE> "Time periods require the vehicle's initial registration date to be defined. Please enter this date now." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9960" COMMENT="AccessAndUnlockLockedLaps">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "To access this laps for analysis or overlays, they need to be unlocked using a day pass. Do you want to use one of your ^1 day passes to unlock all laps recorded on ^2?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Use Day Pass" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9961" COMMENT="DayPassesAdded">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Successfully added ^1 day pass(es) with an overall number of ^2 available now. You can use day passes e.g. by selecting a locked lap from Lap List." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Continue" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9962" COMMENT="VoidAllDaypasses">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Should all day passes be removed for debugging purpose?" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "No" </TEXT>
+            <TEXT> "Remove" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9963" COMMENT="DayPassRedeemed">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Congratulations! You have unlocked ^1. All laps for this day can be analyzed and exchanged now. In case you have recorded videos in addition, overlaying is available from each lap's details view." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Continue" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9964" COMMENT="FreemiumEdition">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "This is the Freemium edition of ^1. It is enabled for real time displays and will store data and videos. To access data for analysis or overlay, please buy a day pass in Administration ‣ Add-ons." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Got it" </TEXT>
+            <TEXT> "Do not show" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

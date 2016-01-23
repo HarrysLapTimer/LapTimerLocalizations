@@ -1,0 +1,212 @@
+/* Work around issue with empty .strings files */
+"X" = "X";
+
+"LapTimer" = "LapTimer";
+
+"Online Racing" = "Course Live";
+
+"Driver ID" = "ID pilote";
+
+"Publish" = "Transmettre";
+
+"Never" = "Jamais";
+
+"Lapping" = "Chronométrage";
+
+"Always" = "En Permanence";
+
+"Event" = "Session";
+
+"Track" = "Circuit";
+
+"Vehicle" = "Véhicule";
+
+"Sound" = "Sons";
+
+"Ticks" = "Tictacs";
+
+"Beeps" = "Bip";
+
+"GPS" = "GPS";
+
+"Gap Measure" = "Ecart temps";
+
+"Fastest Lap" = "Tour + rapide";
+
+"Reference Lap" = "Tour de référence";
+
+"Last Lap" = "Dernier Tour";
+
+"POI Detection" = "Détection de POI";
+
+"Narrow" = "Proche";
+
+"Normal" = "Normal";
+
+"Wide" = "Distant";
+
+"Compression" = "Compression";
+
+"None" = "Aucun";
+
+"Low" = "Faible";
+
+"High" = "Haut";
+
+"Display" = "Affichage";
+
+"Stop Go Mode" = "Mode Stop / Start";
+
+"Manual Timing" = "Chrono Manuel";
+
+"Easy Mode" = "Mode Débutant";
+
+"Speed" = "Vitesse";
+
+/* Current speed" abbreviation without  "speed */
+"kCurrentSpeedSegment" = "Actuel";
+
+/* Last top speed" abbreviation without "speed */
+"kLastTopSpeedSegment" = "Dernier";
+
+/* Highest speed ever" abbreviation without "speed */
+"kTopSpeedSegment" = "Haut";
+
+"Skin" = "Skin";
+
+"Default" = "Défaut";
+
+"Black" = "Noir";
+
+"High Contrast" = "Contraste élevé";
+
+"Day / Night" = "Jour / Nuit";
+
+"Field Indicators" = "Indicateurs de Terrain";
+
+"Polar Format" = "Coordonnées GPS";
+
+"Units" = "Unités";
+
+"System Default" = "Système Standard";
+
+"Metric" = "Métrique";
+
+"Imperial" = "Impérial";
+
+"Power Unit" = "Unité Puissance";
+
+"Energy Saving" = "Economie d'énergie";
+
+"System" = "Système";
+
+"Reset standard settings when LapTimer is started the next time" = "Réinitialiser au prochain démarrage de LapTimer";
+
+"Reset Settings" = "Réinitialiser";
+
+"Expert Settings" = "Mode Expert (Anglais)";
+
+"Overlay Units" = "Unités Incrustation";
+
+"Preferred Resolution" = "Résolution préférée";
+
+"Resolution" = "Résolution";
+
+"192x144 - Low, 3G" = "192x144 - Basse, 3G";
+
+"480x360 - Medium, WiFi" = "480x360 - Moyenne, WiFi";
+
+"640x480 - SD" = "640x480 - SD";
+
+"1280x720 - HD" = "1280x720 - HD";
+
+"Best Available - High" = "Meilleure dispo. - Haute";
+
+"Use iCloud" = "Utiliser iCloud";
+
+"Auto Receive Videos" = "Réception Vidéos automatique";
+
+"Auto Send Videos" = "Envoi vidéo automatique";
+
+"MultiCam Control" = "MultiCam Control";
+
+"Discover MultiCams" = "Discover MultiCams";
+
+"Master" = "Maître";
+
+"Picture in Picture" = "PIP";
+
+"MultiCam Preset" = "Réglages MultiCam";
+
+"GoPro Preset" = "Réglages goPro";
+
+"HERO3/3+ Wifi Password" = "Mot de passe Wifi HERO3/3+";
+
+"Use MultiCam Settings (None)" = "Utiliser les paramètres MultiCam (Aucun)";
+
+"Maximum Resolution (Master)" = "Maximum Resolution (Master)";
+
+"Single Density (Picture in Picture)" = "Simple densité (image dans l'image)";
+
+"Startup" = "Démarrage";
+
+"Driver or Rider ID" = "ID Pilote";
+
+"Hide Page Buttons" = "Cacher les boutons";
+
+"Hide Tab Bar" = "Cacher la barre";
+
+"Behavior" = "Comportement";
+
+"Video" = "Vidéo";
+
+"Speech" = "Discours";
+
+"352x288 - Medium, WiFi" = "352x288 - Moyenne, WiFi";
+
+"External Camera" = "Caméra externe";
+
+"Camera Type" = "Type de caméra";
+
+"Sony Cam" = "Caméra Sony";
+
+"Calibration" = "Calibration";
+
+"Acceleration" = "Accélération";
+
+"Automatic Preset" = "Préréglage automatique";
+
+"Right Hand Traffic Preset" = "Préréglage conduite à droite";
+
+"Left Hand Traffic Preset" = "Préréglage conduite à gauche";
+
+"Individually Measured" = "Mesurés séparément";
+
+"Auto Preset" = "Préréglage auto";
+
+"RHT Preset" = "Préréglage conduite à droite";
+
+"LHT Preset" = "Préréglage conduite à gauche";
+
+"Measured" = "Mesuré";
+
+"Knots" = "Noeuds";
+
+"Wind Speed Unit" = "Unité de mesure de la vitesse du vent.";
+
+"Standard Speed" = "Vitesse standard";
+
+"Meter per Second" = "Mètres par seconde";
+
+"GoPro HERO3/3+" = "GoPro HERO3/3+";
+
+"GoPro HERO4" = "GoPro HERO4";
+
+"Motorbike" = "Moto";
+
+"Warnings" = "Avertissements";
+
+"1920x1080 - FullHD" = "1920x1080 - FullHD";
+
+"3840x2160 - 4K UHD" = "3840x2160 - 4K UHD";
+

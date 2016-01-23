@@ -1,0 +1,1625 @@
+/* Localizable.strings
+  HarrysGPSSuite
+
+  Created by Harald Schlangmann on 16.10.11.
+  Copyright (c) 2011 Harald Schlangmann. All rights reserved. */
+
+/* Controller titles */
+"Assistant" = "アシスタント";
+
+"Lap Details #%hu" = "ラップ詳細 #%hu";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStaged" = "ポジション";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelNew" = "新規";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelGo" = "スタート";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSplit" = "スプリット";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStop" = "ストップ";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelCancel" = "キャンセル";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelReset" = "リセット";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetSpeed" = "リセットスピード";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelAlert" = "アラート";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSet" = "セット";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSetRef" = "リファレンスセット";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelVideo" = "ビデオ";
+
+/* Small Buttons */
+"kGapAbbreviated" = "ギャップ";
+
+"kLapTimeShort" = "タイム";
+
+/* Speed labels in GPS View */
+"kCurrentSpeedLabel" = "現在";
+
+"kTopSpeedLabel" = "最速";
+
+"kLastTopSpeedLabel" = "前回";
+
+"kCurrentSpeedSegment" = "現在";
+
+"kVehicleCurrent" = "現在";
+
+"kLastTopSpeedSegment" = "前回";
+
+"kTopSpeedSegment" = "最速";
+
+/* System configurations */
+"kAbbreviation" = "";
+
+" (no data)" = " (データなし)";
+
+/* XIB ressources */
+"Descriptions positioned" = "トリガーとPOIの設定";
+
+"kLapAbbreviation" = "L";
+
+/* Vehicle History (and others) */
+"Event" = "イベント";
+
+/* Update rate gadget for GPS - needs to be short */
+"GPS Rate" = "GPSレート";
+
+/* Update rate gadget for Accelerometer - needs to be short */
+"Accelerometer Rate" = "更新レート";
+
+/* Update rate gadget for OBD - needs to be short */
+"OBD Rate" = "OBDレート";
+
+/* Social Networks */
+"kSocialNetworkRate" = "レート";
+
+/* Update rate gadget for Accelerometer - needs to be short */
+"Raw Accelerometer Rate" = "更新レート";
+
+/* Controller titles */
+"Classic" = "ストップウォッチ";
+
+"Racer's" = "レーサー";
+
+"Acceleration" = "加速度";
+
+"POI List" = "POIリスト";
+
+"Waypoints" = "道標";
+
+"Help" = "ヘルプ";
+
+"Products" = "製品";
+
+"Dynamics" = "ダイナミクス";
+
+"Trim" = "トリム";
+
+"Trip" = "距離計";
+
+"Add-ons" = "アドオン";
+
+"Tracks" = "トラック";
+
+"SuperGPS" = "スーパーGPS";
+
+"Server" = "サーバ";
+
+"Online" = "オンライン";
+
+"Satellites" = "衛星";
+
+"Timer" = "タイマ";
+
+"Settings" = "セッティング";
+
+"Speedo" = "速度計";
+
+"Vehicle List" = "車両リスト";
+
+"Sensor List" = "センサリスト";
+
+"Video List" = "ビデオリスト";
+
+/* Units */
+"%.0fs" = "%.0fs";
+
+/* Gadget titles */
+"Signal" = "シグナル";
+
+"Fix Date" = "年月日";
+
+"Fix Time" = "時間";
+
+"Compass" = "コンパス";
+
+"Approach" = "アプローチ";
+
+"Engine" = "エンジン";
+
+"Speed" = "速度";
+
+"Heading" = "機首方位";
+
+"Altitude" = "高度";
+
+"Accuracy" = "精度";
+
+"Longitude" = "経度";
+
+"Lateral" = "横G";
+
+"Lineal" = "縦G";
+
+"Slope" = "傾斜";
+
+"Lap" = "ラップ";
+
+"Laps" = "ラップ";
+
+"Sector" = "セクタ";
+
+"Overall Acceleration" = "全体の加速度";
+
+"Sky" = "上空";
+
+"In View" = "捕捉";
+
+"Tracked" = "追跡";
+
+"Position" = "位置";
+
+"Track Mode" = "トラックモード";
+
+"Street Mode" = "ストリートモード";
+
+"Speed Mode" = "スピードモード";
+
+"Cruise Mode" = "クルーズモード";
+
+"Overall" = "全体G";
+
+"Lap List" = "ラップリスト";
+
+"Lap List (filtered)" = "ラップリスト(フィルタ)";
+
+"Current Lap" = "ラップ";
+
+"GPS Ref. Gap" = "ギャップ";
+
+"Current Sector" = "セクタ";
+
+"Straight" = "ストレート";
+
+"Curve" = "カーブ";
+
+"Speedometer" = "スピードメータ";
+
+"Engine RPM" = "エンジン回転数";
+
+"Avg." = "平均";
+
+"Max." = "最大";
+
+"Current Time" = "現在のタイム";
+
+"Travel Time" = "累計タイム";
+
+"Time Moving" = "動作タイム";
+
+"Time not Moving" = "停止タイム";
+
+"Avg. Speed" = "平均スピード​​";
+
+"Avg. Speed Moving" = "平均スピード(動作時)";
+
+"Travel Distance" = "累計距離";
+
+"Time of Arrival" = "到着タイム";
+
+"Time Left" = "残りタイム";
+
+"Distance Left" = "残り距離";
+
+"Waypoint" = "道標";
+
+"Navigation" = "ナビゲーション";
+
+"Calibrating" = "調整中";
+
+"Calibrated" = "調整";
+
+"Lap vs. %@" = "ラップ vs %@";
+
+"Lap vs. %@ (%s)" = "ラップ vs %@ (%s)";
+
+"Sector vs. %@" = "セクター vs %@";
+
+"Gap vs. %@ (%s)" = "ギャップ vs %@ (%s)";
+
+"Gap vs. %@" = "ギャップ vs %@";
+
+"Gap" = "ギャップ";
+
+"Best Lap" = "ベストラップ";
+
+"Best Time" = "ベストタイム";
+
+"Last Lap" = "前回ラップ";
+
+"Last Time" = "前回タイム";
+
+"Ref. Lap" = "リファレンスラップ";
+
+"Ref. Time" = "リファレンスタイム";
+
+"Last Max" = "前回最大G";
+
+"Power" = "パワー";
+
+"Tank" = "タンク";
+
+"Gear" = "ギア";
+
+"Coolant" = "水";
+
+"Oil" = "オイル";
+
+"Gear Oil" = "ギアオイル";
+
+"Auto Close" = "自動終了";
+
+"Intake" = "Intake";
+
+"Intake Type" = "Intake Typ";
+
+"Naturally Aspirated" = "Naturally Aspirated";
+
+"Supercharged" = "Supercharged";
+
+"Turbocharged" = "Turbocharged";
+
+"Engine Type" = "Engine Type";
+
+"Otto" = "Otto";
+
+"Diesel" = "Diesel";
+
+/* Label in Trip View */
+"Continuous" = "連続";
+
+"Both" = "マルチ";
+
+"Free" = "無料";
+
+"Buy" = "購入";
+
+"Active" = "アクティブ";
+
+"Reload" = "リロード";
+
+"Load" = "ロード";
+
+"View" = "表示";
+
+"On" = "オン";
+
+"Off" = "オフ";
+
+/* Footer Buttons */
+"Reference" = "リファレンス";
+
+"Export" = "外部出力";
+
+"Send" = "送信";
+
+"Purge GPS" = "削除GPS";
+
+"Recalculate" = "再計算";
+
+"Overlay" = "オーバーレイ";
+
+"Revert" = "元に戻す";
+
+"Delete" = "削除";
+
+"Delete All" = "全て削除";
+
+"Check Data" = "チェックデータ";
+
+"Purge" = "削除";
+
+"Test" = "テスト";
+
+"Conflicts" = "不一致";
+
+"Certify" = "認証";
+
+"System Information" = "システム情報";
+
+"Navigate" = "移動";
+
+"Reset" = "リセット";
+
+"Duplicate" = "複製";
+
+"Current" = "現在";
+
+"Unload" = "アンロード";
+
+"Move" = "ムーブ";
+
+"Download" = "ダウンロード";
+
+/* Lap List */
+"Laps: %hu / GPS Fixes: %lu" = "周回数: %hu/ GPS測位点: %lu";
+
+"Unspecified" = "指定なし";
+
+"Deleting all Lap Data" = "全ラップ削除中";
+
+"Lap #" = "ラップ番号";
+
+"Results" = "結果";
+
+"Speeds" = "速度";
+
+"Track Info" = "トラック情報";
+
+"Regularity" = "規則性";
+
+"Data Recording" = "記録データ";
+
+"Date" = "年月日";
+
+"Time" = "時間";
+
+"Track" = "トラック";
+
+"Vehicle" = "車両";
+
+"Video" = "ビデオ";
+
+"Add Video" = "ビデオ追加";
+
+"Master" = "マスタ";
+
+"Picture in Picture" = "ピクチャINピクチャ";
+
+"Picture in Picture #%hu" = "ピクチャINピクチャ #%hu";
+
+"Joined End" = "適合完了";
+
+"Ends at %s" = "終了 %s";
+
+"Add Note" = "ノート追加";
+
+"Note" = "ノート";
+
+"Preview" = "プレビュー";
+
+"Lap Time" = "ラップタイム";
+
+"Virtual Best" = "仮想ベスト";
+
+"Split %lu" = "スプリ　%lu";
+
+"Average" = "平均";
+
+"Max" = "最高";
+
+"Set Speed" = "速度セット​​";
+
+"Penalty" = "ペナルティ";
+
+"Sector %lu" = "セクタ　%lu";
+
+"Regularity Speed" = "スピードの規則性​​";
+
+"Edit Note" = "ノートの編集";
+
+"'Export Lap Data' will export your database of laps using an e-mail." = "'ラップ外部出力'はEメールでラップを外部出力します.";
+
+"'Receive Lap' will search for other devices willing to send lap data to you." = "'ラップ受信'は送信デバイスを探し受信します.";
+
+"'Send Trackday' sends latest trackday's lap data." = "'ラップ送信'は前回トラックのラップを送信します.";
+
+"Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "ラップを選択してラップ単位の送受信が可能です.";
+
+"Cancel" = "キャンセル";
+
+"Export Lap Data" = "ラップ外部出力";
+
+"Receive Lap from Friend" = "ラップ受信";
+
+"Send Trackday to Friend" = "ラップ送信";
+
+" to " = " to ";
+
+"Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "本機能がわからない場合はキャンセルを選択してください.管理向けの機能です.";
+
+"GPS Sensor" = "GPSセンサ";
+
+"Internal" = "内部";
+
+"External" = "外部";
+
+"%@ @ %hu.%hu Hz" = "%@ @ %hu.%hu Hz";
+
+"%lu (GPS, ACCEL%s)" = "%lu (GPS, ACCEL%s)";
+
+", OBD" = ", OBD";
+
+"Fixes" = "測位点";
+
+/* Load Track / Add-ons (only partially localizable) */
+"Load Track" = "トラックをロード";
+
+"Features" = "特長";
+
+"Other Apps" = "アプリ情報";
+
+"Campaign" = "キャンペーン";
+
+"African Track Sets" = "アフリカのトラックセット";
+
+"Asian Track Sets" = "アジアのトラックセット";
+
+"Australian Track Sets" = "オーストラリアのトラックセット";
+
+"Australian & NZ Track Sets" = "オーストラリアのトラックセット";
+
+"European Track Sets" = "ヨーロッパのトラックセット";
+
+"North American Track Sets" = "北アメリカのトラックセット";
+
+"South American Track Sets" = "南アメリカのトラックセット";
+
+"Other POI Sets" = "他のPOIセット";
+
+"Outdated POI Sets" = "古いPOIセット";
+
+"by %@" = "by %@";
+
+/* Data Loader / Mailer */
+"Importing..." = "入力中...";
+
+"%s Contact" = "%s コンタクト";
+
+"Hello,\n\n...\n\nGreetings ...\n\n" = "Hello,\n\n...\n\nGreetings ...\n\n";
+
+"%s POI Set Certification" = "%s POI Set Certification";
+
+"Hello,\n\nI have compiled the attached POI Set and would like to make it available to the community.\nI provide this POI Set 'as is', and without any warranty. You are welcome to redistribute it as you like.\n\nIn addition to the POI Set attached, I'd like to add the following information:\n\nTitle:\nTITLE SHOWN IN ADD ON VIEW\n\nDescription:\nONE OR TWO SENTENCES ON THE TRACK / THE POI SET\n\nValidation / Accuracy:\n I have tested the data on track: YES/NO\n GPS positions were collected using: A DEVICE/GOOGLE MAPS\n\nSource Information\nPlease cite my name in the Source Section: YES/NO\n\nFurther Information:\nANYTHING ELSE\n\nGreetings NAME\n\n" = "こんにちは,\n\n添付のPOIセットをコンパイルしたのでコミュニティで共有したいと思います.\nこのPOIセットは保証されたものではありません。どうぞ貴方の好きなようにカスタマイズしてください.\n\n以下に追加情報を記載します.\n\nタイトル:\nアドオン画面のタイトル\n\n説明:\n１,２行のトラック説明\n\n妥当性/正確度:\nトラックでテスト済み: はい/いいえ\nGPS位置情報元: デバイス/グーグルマップ\n\nソース情報\n名前を引用可否: はい/いいえ\n\n追記の情報\n\n敬具\n\n";
+
+"... and forwarding to Mail" = "... 転送メール";
+
+"%s Trace Log" = "%s トレースログ";
+
+"Tracefile from former run found, preparing..." = "トレースファイルが見つかりました, 準備中...";
+
+"Creating Export Files..." = "外部出力ファイル作成中...";
+
+"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "%@ は次の出力ファイルを含みます, 大きいファイルをgzip圧縮しました (拡張子 %s と .gz):\n\n";
+
+"mail" = "メール";
+
+"folder" = "フォルダ";
+
+"%@: PDF export of one lap\n" = "%@: PDF出力 1ラップ\n";
+
+"%@: database in LapTimer XML format\n" = "%@: デーダベース/XMLフォーマット\n";
+
+"%@: Google Earth KML file\n" = "%@: Google Earth KMLファイル\n";
+
+"%@: lapped times as universal CSV format\n" = "%@: ラップタイム CSVフォーマット\n";
+
+"%@: recorded GPS fixes as universal CSV format\n" = "%@: GPS測位点 CSV フォーマット\n";
+
+"%@: recorded GPS fixes prepared for TrackVision and DashWare data logger input\n" = "%@: TrackVision/DashWareデータロガー入力用GPS測位点\n";
+
+"%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n";
+
+"... and dropping into Dropbox" = "... ドロップボックスに入れる";
+
+"This %@ contains the following export files:\n\n" = "%@ は次の外部出力ファイルを含みます:\n\n";
+
+"%@: vehicle database in XML format\n" = "%@: 車両データベース XMLフォーマット\n";
+
+"%s Export" = "%s 外部出力";
+
+"Adding POI Set:\nDownloading from Net..." = "POIセット追加:\nダウンロード中...";
+
+"Adding POI Set:\n%hu POIs read..." = "POIセット追加:\n%hu POI読込み...";
+
+"Day" = "日付";
+
+"Session" = "セッション";
+
+"%hu lap(s) selected" = "選択ラップ %hu";
+
+"%hu '%@' lap(s) selected" = "選択ラップ %hu '%@'";
+
+"%hu lap(s) for last session selected" = "最終セッションの%huラップを選択";
+
+"%hu lap(s) from lap's session selected" = "ラップセッションの%huラップを選択";
+
+/* Add-on Details */
+"Title" = "タイトル";
+
+"Track Set" = "トラックセット";
+
+"Feature" = "機能";
+
+"Details" = "詳細";
+
+"Hall of Fame" = "栄誉の殿堂";
+
+"Available for Free" = "無料で可能";
+
+"In App Purchase" = "アプリケーション購入";
+
+"Active / Loaded" = "アクティブ/ロード";
+
+/* Status vehicles and track (plus Social network) */
+"Status" = "ステータス";
+
+"Price" = "価格";
+
+"Snapshot" = "スナップショット";
+
+"Copyright" = "著作権";
+
+"Source" = "ソース";
+
+"Sort" = "並べ替え";
+
+"best lap first" = "最速ラップ";
+
+"most recent lap first" = "前回の最速ラップ";
+
+"Length" = "長さ";
+
+"Drivers" = "ドライバ";
+
+"named only" = "named only";
+
+" on %@" = " on %@";
+
+"Add-on URL" = "追加URL";
+
+"Please enter an URL to a valid XML / KML file. More infos are available on www.gps-laptimer.de, follow the link to page 'Tracks'." = "正しいXML/KMLファイルのURLを入力して下さい.www.gps-laptimer.deに詳細情報があります.";
+
+"Processing App Store Payment..." = "Appストア支払い処理中...";
+
+"Validating earlier App Store Payment..." = "Appストア支払いを有効化中...";
+
+"Retrieving Product Data from App Store..." = "製品データをAppストアから受信中 ...";
+
+/* Add-on Manager */
+"Updating Add On List from Server..." = "アドオンリストを更新中...";
+
+"Reloading Add On List from Server..." = "アドオンリストをリロード中...";
+
+/* History Hover Views */
+"Speed [%s] @ Time [s]" = "速度[%s] @ 時間[s]";
+
+"Height [%s] @ Time [s]" = "高さ[%s] @ 時間[s]";
+
+"Acceleration [g] @ Time [s]" = "加速度[G] @ 時間[s]";
+
+"Satellites [#] @ Time [s]" = "サテライト[#] @ 時間[s]";
+
+"Accuracy [%s] @ Time [s]" = "精度[%s] @ 時間[s]";
+
+"Speed (%s) of vehicle measured using GPS and Doppler effect." = "スピード(%s)はGPSとドップラ効果で測定.";
+
+"Height (%s) above mean sea level. GPS-measured accuracy is low." = "高度(%s)は海抜です.GPSの高度測定精度は低いっす.";
+
+"Lateral acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "横Gは[9.78~9.82m/s2]の倍数";
+
+"Lineal acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "縦Gは[9.78~9.82m/s2]の倍数";
+
+"Overall acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "全加速度は[9.78~9.82m/s2]の倍数";
+
+"Satellites used for GPS positioning. Only for supported NMEA devices." = "NMEAデバイスのみGPS位置情報を利用します.";
+
+"Accuracy (%s) of GPS fix." = "GPS測位精度(%s).";
+
+/* Status Gadget */
+"No position information available" = "位置情報が利用できません";
+
+"Triangulation" = "三角測量";
+
+"Position using cell / WLAN triangulation" = "電波による三角測量の位置情報を利用";
+
+"GPS" = "GPS";
+
+"Position using device's location service" = "デバイスの位置情報を利用";
+
+"Accessory connected, using NMEA interface" = "アクセサリ接続、NMEAを利用";
+
+/* Signal / GPS Gadget */
+"Acquiring Satellites" = "衛星確認中";
+
+"No Fix" = "測位点なし";
+
+"2D" = "2D";
+
+"%hu Satellites, 2D GPS (NMEA)" = "%hu 衛星, 2DGPS(NMEA)";
+
+"11 Satellites, 3D+ GPS (NMEA)" = "11　衛星, 3D + GPS(NMEA)";
+
+"2D GPS (NMEA)" = "2D GPS(NMEA)";
+
+"2D Cell/WLAN" = "2D Cell/WLAN";
+
+"3D" = "3D";
+
+"3D+" = "3D+";
+
+"%hu Satellites, %@ GPS (NMEA)" = "%hu 衛星, %@ GPS(NMEA)";
+
+"%@ GPS (NMEA)" = "%@ GPS(NMEA)";
+
+"3D GPS" = "3D GPS";
+
+/* Vehicle List and Details */
+"Vehicles" = "車両";
+
+"VIN defined" = "車両識別子";
+
+"- no details -" = "詳細なし";
+
+"Add new %@" = "新規追加 %@";
+
+"All Vehicles" = "全車両";
+
+"Item" = "アイテム";
+
+"Vehicle Type" = "車両タイプ";
+
+"Car" = "車";
+
+"Motorbike" = "バイク";
+
+"Kart" = "カート";
+
+"Bicycle" = "自転車";
+
+"Horse" = "馬";
+
+"Ski" = "スキー";
+
+"Feet" = "走るよ";
+
+"Speedboat" = "スピードボート";
+
+"Sailboat" = "ヨット";
+
+"Wheel Drive Type" = "駆動方式";
+
+"Rear-wheel" = "後輪";
+
+"Front-wheel" = "前輪";
+
+"All-wheel" = "前後輪";
+
+"Vehicle #%hu" = "車両 #%hu";
+
+"Image" = "画像";
+
+"Add Image" = "画像を追加";
+
+"VIN" = "車両識別子";
+
+"Add VIN" = "車両識別子を追加";
+
+"Max Torque" = "最大トルク";
+
+"Max Power" = "最大パワー";
+
+"%hu rpm" = "%hu rpm";
+
+"Max RPM" = "最大回転数";
+
+"Shift Flash" = "シフトランプ";
+
+"Power Transmission" = "駆動方式";
+
+"Front Wheel" = "前輪";
+
+"Rear Wheel" = "後輪";
+
+"Drive" = "駆動輪";
+
+"Chart" = "チャート";
+
+"Charts" = "チャート";
+
+"Speed [%s] @ Engine [rpm/1000]" = "速度[%s] @ 回転数[rpm/1000]";
+
+"Drive Ratio" = "駆動比";
+
+"Num Gears" = "ギア数";
+
+"Gear %hu Ratio" = "ギア比 %hu";
+
+"Add Gear" = "ギア追加";
+
+"please set" = "セットしてね";
+
+"OBD" = "OBD";
+
+"Fuel" = "燃料";
+
+"Standard" = "標準";
+
+"Voltage" = "電圧";
+
+"PIDs" = "PIDs";
+
+"rpm" = "回転数";
+
+"liter" = "liter";
+
+"th" = "th";
+
+"st" = "st";
+
+"nd" = "nd";
+
+"rd" = "rd";
+
+"Vehicle Name" = "車両名";
+
+"Edit VIN" = "車両識別子を編集";
+
+"A Vehicle Identification Number (VIN), is a unique 17 digit number used to identify motor vehicles." = "車両識別子(VIN)は車両を識別するユニークな１７桁の数値です.";
+
+"Torque" = "トルク";
+
+"Maximum torque developed by vehicle's engine." = "車両が最大トルク.";
+
+"Engine rounds per minute at which maximum torque is developed." = "最大トルクのエンジン回転数.";
+
+"Maximum power developed by vehicle's engine." = "車両の最高出力.";
+
+"Engine rounds per minute at which maximum power is developed." = "最高出力のエンジン回転数.";
+
+"Engine rounds per minute at which the rev limiter is activated." = "リミット回転数.";
+
+"Threshold" = "しきい値";
+
+"Percentage of max engine rounds per minute at which the Shift Gear Flash gets active." = "シフトランプ点灯の最高出力のエンジン回転数に対する割合";
+
+"Front Wheels" = "前輪";
+
+"Rear Wheels" = "後輪";
+
+"Tire Code" = "タイヤ";
+
+"Ratio" = "比";
+
+"The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "駆動比はギアボックスとアクスルの回転比.";
+
+"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "ギア比はエンジンとギアボックスの回転比.";
+
+"%.2f (limit %hu %s)" = "%.2f (リミット %hu %s)";
+
+/* Map View */
+"Map" = "地図";
+
+"Sat" = "写真";
+
+"Hybrid" = "両方";
+
+/* Trip Computer View */
+"... since " = "開始時間";
+
+"None" = "なし";
+
+"Polar Coord." = "座標.";
+
+"Crs" = "Crs";
+
+"Today" = "本日";
+
+"Bearing to Waypoint" = "道標の向き";
+
+/* Sensors and Sensor List */
+", Battery %hu%%" = "バッテリ %hu%%";
+
+"Connected @ %hu Hz" = "接続 @ %hu HZ";
+
+"Connected" = "接続";
+
+"Searching..." = "検索中...";
+
+"Available" = "使用可能";
+
+"All" = "すべて";
+
+"Not Available" = "利用不可";
+
+"Available, Resolution %hu x %hu" = "可能解像度 %hu x %hu";
+
+"Not Available (%@:%@)" = "利用不可(%@:%@)";
+
+"Searching for %@:%@" = "検索 %@:%@";
+
+"Unknown" = "不明";
+
+"GPS/GLONASS Sensors" = "GPS/GLONASSセンサ";
+
+"Engine Sensors" = "OBDセンサ";
+
+"Other Sensors" = "他のセンサ";
+
+", %hu Satellite(s)" = ", %hu 衛星";
+
+"This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "本アプリのエディションで本機能は利用できません. 'アドオン'でアップグレード可能かご確認下さい.";
+
+/* Sensors */
+", NMEA sentences received: %s" = ", NMEA検知: %s";
+
+"NMEA sentences received: %s" = "NMEA検知: %s";
+
+", PIDs received: %@" = ", PIDs検知: %@";
+
+"PIDs received: %@" = "PIDs検知: %@";
+
+"Connected and listening to %@:%@" = "接続完了　処理中 %@:%@";
+
+"Connected and listening to %@" = "接続完了　処理中 %@";
+
+"Registered for multicast from %@, listening to port %@" = "マルチキャスト登録　from:%@ Listening-Port:%@";
+
+"Listening on port %@" = "Listening-Port:%@";
+
+"NMEA Sentences" = "NMEAコマンド";
+
+/* Assistant View */
+"Show on Startup" = "スタート時に表示";
+
+"Define User" = "ユーザ設定";
+
+"Autocross" = "オートクロス";
+
+"New Track" = "新規トラック";
+
+"Calibration" = "キャリブレーション";
+
+"Start Driving" = "ドライブ開始";
+
+"Driver ID ('%@')" = "ドライバID　( '%@')";
+
+"Driver ID" = "ドライバID";
+
+"Vehicle ('%@')" = "車両　( '%@')";
+
+"Define Driver" = "ドライバ設定";
+
+"Define Vehicle" = "車両設定";
+
+"Continue" = "続ける";
+
+"Select Track" = "トラックを選択";
+
+"Track Selected" = "トラック";
+
+"Drive!" = "ドライブ！";
+
+"Track Selected ('%@')" = "選択トラック( '%@')";
+
+"Name" = "名前";
+
+"Set" = "セット";
+
+"Name ('%@')" = "名前 ('%@')";
+
+"Track %hu" = "トラック %hu";
+
+"Driver Name" = "ドライバ名";
+
+"Three character driver name used for Online Racing" = "オンラインレーシングは３文字のドライバ名を使用します";
+
+/* Online View */
+"No Server Status" = "No Server Status";
+
+"Track: -" = "トラック: - ";
+
+"Track: %@" = "トラック: %@";
+
+"ID: %hu" = "ID: %hu";
+
+/* POI List */
+"Overall Waypoints: %hu" = "全ての道標: %hu";
+
+"Overall POIs / Triggers: %hu" = "全てのPOIs/トリガ: %hu";
+
+"Waypoints in Set: %hu" = "セット中の道標: %hu";
+
+"POIs / Triggers in Set: %hu\nPotential conflicts: %@" = "セット中のPOIs/トリガ: %hu\n　潜在的な不整合: %@";
+
+"POIs / Triggers in Set: %hu" = "セット中のPOIs/トリガ: %hu";
+
+"My Waypoints" = "マイ道標";
+
+"Waypoints in Set" = "セット中の道標";
+
+"Waypoint Sets" = "道標セット";
+
+"My Points of Interest" = "関心のあるポイント";
+
+"Points of Interest in Set" = "セット中の関心のあるポイント";
+
+"POI Sets" = "POIセット";
+
+"Add new Waypoint Set" = "道標セットの追加";
+
+"Add new POI Set" = "POIセットの追加";
+
+"%hu POIs+Triggers / 1 Lap" = "%hu POIs+トリガ / 1 Lap";
+
+"%hu POIs+Triggers / %hu Laps" = "%hu POIs+トリガ / %hu Laps";
+
+"New Waypoint Set" = "新道標Set";
+
+"New POI Set" = "新POIセット";
+
+"A track or POI set name with up to 15 characters. This name needs to be unique, duplicates are not allowed." = "１５文字までのトラックまたはPOIセット名.重複した命名はできません.";
+
+"Edit Name" = "名前を編集";
+
+"Select Waypoint" = "道標選択";
+
+"%hu Waypoints" = "%hu 道標";
+
+"1 Lap" = "1 Lap";
+
+"%hu POIs+Triggers" = "%hu POIs+トリガ";
+
+"%hu Laps" = "%hu Laps";
+
+/* POI Details */
+"Waypoint #%hu" = "道標 #%hu";
+
+"POI Details #%hu" = "POI詳細 #%hu";
+
+"POI Type" = "POIタイプ";
+
+"Type" = "タイプ";
+
+"Description" = "説明";
+
+"POI Set" = "POIセット";
+
+"Latitude" = "緯度";
+
+"Font Size" = "フォント";
+
+"Direction" = "方向";
+
+"Trigger" = "トリガ";
+
+"General" = "一般的な";
+
+"Display" = "表示";
+
+"Small" = "小";
+
+"Medium" = "中";
+
+"Large" = "大";
+
+"Alert" = "アラート";
+
+"Top Right" = "右上";
+
+"Top Left" = "左上";
+
+"Bottom Right" = "右下";
+
+"Bottom Left" = "左下";
+
+"Centered" = "中央";
+
+"Bottom" = "下";
+
+"Top" = "上";
+
+"Trigger Type" = "トリガタイプ";
+
+"Information" = "情報";
+
+"Stop / Go" = "ストップ/スタート";
+
+"Stop" = "ストップ";
+
+"Go" = "スタート";
+
+"Split" = "スプリット";
+
+"Standing Go" = "スタンディングスタート";
+
+"Select the event you want to happen once you pass the Point of Interest." = "POI通過時のイベントを選択してね.";
+
+"The Position defines how labels are positioned relative to the POI's polar coordinate." = "POI座標に対するラベル配置情報.";
+
+/* Recalculation buttons */
+"Splits" = "Splits";
+
+"All Track's Splits" = "All Track's Splits";
+
+/* GPS Data Recording */
+"All Laps" = "全ラップ";
+
+"All Sectors #%hu" = "全セクタ #%hu";
+
+"Laps in %hu" = "ラップ %hu";
+
+"Sectors #%hu in %hu" = "セクタ #%huin%hu";
+
+"Laps on %@ ff" = "ラップ %@ ff";
+
+"Sectors #%hu on %@ ff" = "セクタ #%hu on %@ ff";
+
+"Laps on %@" = "ラップ %@";
+
+"Sectors #%hu on %@" = "セクタ #%hu on %@";
+
+" from %@" = "から%@";
+
+"Filtered by %@" = "%@でフィルタ";
+
+"Not filtered by vehicle" = "車両フィルタなし";
+
+"Absolutely fastest %@ (%@)" = "最速 %@(%@)";
+
+"sector or lap" = "セクタ or ラップ";
+
+"sector" = "セクタ";
+
+"Fastest sector or lap at time recorded" = "記録中の最速ラップ or 最速セクタ";
+
+"Virtually best lap (sum of best sector times)" = "仮想ベストラップ(最速セクタを集計)";
+
+"Lap selected (%@ - %@)" = "選択ラップ (%@ - %@)";
+
+"Complete" = "完了";
+
+"Sector #x" = "セクタ #x";
+
+"Speed [%s] @ Distance [%s]" = "速度[%s] @ 距離 [%s]";
+
+"Lateral Acceleration [g] @ Distance [%s]" = "横G [G] @ 距離[%s]";
+
+"Lineal Acceleration [g] @ Distance [%s]" = "縦G [G] @ 距離[%s]";
+
+"Overall Acceleration [g-g]" = "全体の加速度 [g-g]";
+
+"Yaw Rate [°/s] @ Distance [%s]" = "ヨーレート [°/s] @ 距離 [%s]";
+
+"Height [%s] @ Distance [%s]" = "高さ[%s] @ 距離[%s]";
+
+"Engine [rpm/1000] @ Distance [%s]" = "回転数[rpm/1000] @ 距離[%s]";
+
+"Throttle [%%] @ Distance [%s]" = "スロットル [%%] @ 距離 [%s]";
+
+"Coolant Temperature [%@] @ Distance [%s]" = "水温 [%@] @ 距離 [%s]";
+
+"Lateral Acceleration" = "横G";
+
+"Lineal Acceleration" = "縦G";
+
+"Yaw Rate" = "ヨーレート";
+
+"Height" = "高さ";
+
+"Coolant Temperature" = "水温";
+
+"Accumulated Time Gap [s]" = "タイムギャップの累計 [S]";
+
+"Selected " = "選択された ";
+
+"(OBD speed dotted)" = "(OBDスピード)";
+
+"(Oil temperature dotted)" = "(油温)";
+
+"Reference not available" = "リファレンスが使用不能";
+
+"Reference " = "リファレンス";
+
+/* Selection Controller */
+"Edit " = "編集​​";
+
+/* Video Controller */
+"Throttle" = "スロットル";
+
+", Lap #%hu/%hu" = ", ラップ #%hu/%hu";
+
+"Lap# %hu/%hu" = "ラップ #%hu/%hu";
+
+"Processing Video..." = "ビデオ処理 ...";
+
+"Overlaying Video...\n%.0f%% processed (%lu frames)" = "ビデオオーバーレイ...\n%.0f%% 処理 (%lu frames)";
+
+"Rendering Lead...\n%.0f%% processed (%lu frames)" = "Rendering Lead...\n%.0f%% 処理 (%lu frames)";
+
+"Skipping frames..." = "フレームスキップ ...";
+
+"Transfering Video to Library..." = "ビデオをライブラリに転送 ...";
+
+"Corner" = "コーナー";
+
+"Sector #%hu" = "セクタ #%hu";
+
+"Start Videoing" = "録画開始";
+
+/* Videos */
+"Videos" = "ビデオ";
+
+"File Properties" = "ファイル属性";
+
+"%@ Integration" = "%@ 結合";
+
+"%@ Recordings" = "%@ 録音";
+
+"External Cam Recordings" = "External Cam 録音";
+
+"MultiCam Recordings" = "MultiCam 録音";
+
+"Camera Roll" = "カメラロール";
+
+"Overlaid Video" = "ビデオオーバーレイ";
+
+"Raw Video" = "Rawビデオ";
+
+"Housekeeping" = "整理";
+
+"Play" = "再生";
+
+"Not used" = "未使用";
+
+"Lap #%hu linked" = "ラップ#%hu リンク";
+
+"Laps linked" = "ラップ リンク";
+
+"Size" = "サイズ";
+
+"Overlay Type" = "オーバーレイタイプ";
+
+"Overlaid" = "オーバーレイ";
+
+"Raw" = "Raw";
+
+"Duration" = "間隔";
+
+"Select" = "選択";
+
+"Raw Videos" = "Rawビデオ";
+
+"Remote" = "リモート";
+
+"Local" = "ローカル";
+
+"Download Started" = "ダウンロード開始";
+
+"Downloading %.0f%%" = "ダウンロード %.0f%%";
+
+"Upload Started" = "アップロード開始";
+
+"Uploading %.0f%%" = "アップロード %.0f%%";
+
+" + %@" = " + %@";
+
+"Videos stored locally in %@'s sandbox. Footage you record will be stored here initially. Do housekeeping from here." = "%@番のサンドボックスにビデオ収容しました. フッテージはここに収容されます. ここから作業をして下さい.";
+
+"Videos in iCloud get transferred automatically to %@'s recordings currently. You can change that behavior in Settings." = "iCloudのビデオを%@番の記録に自動的に転送しました. 本動作はセットで変更できます.";
+
+"Videos stored in iCloud and typically recorded using MultiCam. 'Offline' videos are in the iCloud but not copied locally. Move videos here to free up space locally." = "通常マルチカムで記録されたビデオはiCloudに収容されます. オフラインビデオはiCloudにありローカルには保存されません. ローカルの空きを増やすためにビデオをここに収容して下さい.";
+
+"Videos stored locally in Photo app. Overlaid videos go here. Move to desktop using iTunes synchronization." = "ビデオは写真アプリに記録されます. オーバレイビデオはここにいきます. iTunesの同期でデスクトップに移動して下さい.";
+
+"Videos stored on %@. Use iCloud to transfer footage to this device." = "ビデオ収納済 %@. このデバイスにフッテージを送信するにはiCloudを利用して下さい.";
+
+/* Satellites View */
+"No supported NMEA device connected." = "NMEAデバイスが接続されていません.";
+
+"Acquiring Satellites..." = "衛星確認中...";
+
+/* Video Controller */
+"Video recording will start automatically when Start / Finish is passed!" = "計測地点の通過時にビデオ録画を開始します！";
+
+"Continuous autofocus set" = "連続オートフォーカスセット";
+
+"Locked autofocus" = "オートフォーカスロック";
+
+"Acceleration sensor reset, starting over individual calibration..." = "加速度センサをリセット、再調整中...";
+
+"Lap timing started!" = "ラップ計測開始！";
+
+"Video recording started!" = "ビデオ録画開始！";
+
+"Lap timing finished! Make sure you stop video recording later..." = "ラップ計測終了！あとでビデオ録画の停止を確認してね...";
+
+"Lap timing finished!" = "ラップ計測終了！";
+
+"Stopped recording..." = "記録停止中...";
+
+"Lap recorded, next lap started!" = "ラップ記録、次ラップ開始！";
+
+"Low memory, video recording stopped / disabled! Please free up space and return." = "メモリ不足でビデオ録画を停止し無効化！空きスペースを作って再トライしてね！";
+
+/* Assistants */
+"Mount your device in portrait orientation, both pitching, and gearing is allowed." = "デバイスを縦向きに固定して下さい.";
+
+"Stand still on even surface for Pitch Calibration using gravity." = "平らな面に固定して下さい.";
+
+"Drive a straight line with moderate speed, do not turn left or right." = "穏やかな速度でまっすぐ運転して下さい.";
+
+"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "直線を減速または加速して下さい.自己責任でね！！";
+
+"Device calibrated successfully. Please reset calibration when changing the mount." = "調整完了.固定を変えたら再調整して下さい.";
+
+"Select your track from LapTimer's database and start driving immediately!" = "トラックをデータベースから選択してドライブを開始して下さい！";
+
+"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "トラック選択完了!自動記録するのでデバイスに触れないでね！";
+
+"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "オートクロスを作るにはスタート地点まで歩いていき'セット'を押して下さい.";
+
+"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "ゴール地点へ行き'セット'を押して下さい.GPS感度を確認してね!";
+
+"Your autocross course is ready to use! Just mount your device and start driving." = "オートクロス準備完了！あとはデバイスを固定してドライブするだけ.";
+
+"Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "栄誉の殿堂など利用の際は３文字に省略したあなたの名前を入力して下さい.";
+
+"Select an existing, or add a new vehicle for driving. Can be changed later on." = "既存車両または、作成車両を選択して下さい.後で変更できます.";
+
+"Basic user settings defined. Progress by loading your track or defining an autocross." = "ユーザ設定完了.トラック選択またはオートクロスで先に進んで下さい.";
+
+"To create your custom track, walk to the start/finish line and press the 'Set' button." = "トラックを作るには計測地点まで歩いていき'セット'を押して下さい.";
+
+"Your track is ready to use! Just mount your device and start driving." = "トラック準備完了！あとはデバイスを固定してドライブするだけ.";
+
+"Define Start" = "スタート地点設定";
+
+"Regular Start" = "Regular Start";
+
+"Standing Start" = "スタンディングスタート";
+
+/* KML Import (Radarfalle) */
+"Radar Trap Tunnel" = "ネズミ取り/トンネル";
+
+"Speed Trap 100" = "速度取締 100";
+
+"Speed Trap 10" = "速度取締 10";
+
+"Speed Trap 110" = "速度取締 110";
+
+"Speed Trap 120" = "速度取締 120";
+
+"Speed Trap 130" = "速度取締 130";
+
+"Speed Trap 20" = "速度取締 20";
+
+"Speed Trap 30 and Stop Light" = "速度取締 30 一時停止";
+
+"Speed Trap 30" = "速度取締 30";
+
+"Speed Trap 40 and Stop Light" = "速度取締 40  一時停止";
+
+"Speed Trap 40" = "速度取締 40";
+
+"Speed Trap 50 and Stop Light" = "速度取締 50  一時停止";
+
+"Speed Trap 50" = "速度取締 50";
+
+"Speed Trap 60 and Stop Light" = "速度取締 60  一時停止";
+
+"Speed Trap 60" = "速度取締 60";
+
+"Speed Trap 70 and Stop Light" = "速度取締 70  一時停止";
+
+"Speed Trap 70" = "速度取締 70";
+
+"Speed Trap 80 and Stop Light" = "速度取締 80  一時停止";
+
+"Speed Trap 80" = "速度取締 80";
+
+"Speed Trap 90 and Stop Light" = "速度取締 90  一時停止";
+
+"Speed Trap 90" = "速度取締 90";
+
+"Speed Trap SCE" = "速度取締 SCE";
+
+"Speed Trap variabel" = "速度取締";
+
+"Stop Light Trap" = "一時停止";
+
+/* VideoPro and FollowMe additions */
+"Recording List" = "録画リスト";
+
+"Recordings: %hu / GPS Fixes: %lu" = "録画: %hu/ GPS測位点: %lu";
+
+"Back" = "戻る";
+
+"Forward" = "進む";
+
+"Recording #%hu" = "録画 #%hu";
+
+/* Satellite Sky directions */
+"N" = "北";
+
+"W" = "西";
+
+"E" = "東";
+
+"S" = "南";
+
+/* Activity View messages */
+"Saving Recording Database" = "記録データベースを保存";
+
+"Migrating to 32bit Recording" = "32ビット記録に移動";
+
+"Migrating Recording Database" = "記録データベースを移動";
+
+"Recalculating Acceleration" = "加速度を再計算";
+
+"Adjusting Accuracy Calculation" = "精度計算を調整";
+
+"Migrating Lap Database" = "ラップデータベースを移動";
+
+"Migrating Lap #%hu Recording" = "ラップ記録 #%hu を移動";
+
+"Migrating Lap #%hu" = "ラップ #%hu を移動";
+
+"Recalculating Recordings" = "記録を再計算";
+
+"Sending Lap" = "ラップを送信";
+
+"Receiving Lap" = "ラップを受信";
+
+"Migrating Points of Interest" = "POI移動";
+
+"Exporting Points of Interest" = "POI外部出力";
+
+"Sending Lap #%ldkB" = "ラップを送信 #%ldkB";
+
+"Recalculating Distances for Lap #" = "ラップ距離を再計算";
+
+"Checking Databases" = "データベースをチェック";
+
+"Re-sorting GPS Data\n(%lu of %lu)..." = "GPSデータを仕分け\n(%lu of %lu)...";
+
+/* Communication center */
+"Contact" = "お問い合わせ";
+
+/* Social Networks */
+"Forum" = "フォーラム";
+
+/* Social Networks */
+"Tweet" = "ツイート";
+
+/* Social Networks */
+"Post" = "投稿";
+
+/* Audi iRaceTracker */
+"fastest" = "最速";
+
+"last" = "前回";
+
+"SD Card" = "SDカード";
+
+"Waiting for SD Card..." = "SDカード待ち";
+
+"Store" = "ストア";
+
+/* About Dialog Duplicates */
+"Software intended for use on race tracks only. The author is not responsible for any injuries or property damage that may occur during use of this software." = "レーストラックの利用を目的としたソフトウエアです.本ソフトウエアを利用したことで起因するいかなる怪我、事故、破損について作者は一切の責任を負いません．";
+
+"I Agree" = "承諾";
+
+/* Certification View */
+"Certification Sanity Check" = "認証適合性チェック";
+
+"Triggers exist" = "トリガーの有無";
+
+"Triggers have a direction" = "トリガー向きの有無";
+
+"Information POIs exist" = "POI情報の有無";
+
+"POIs have a description" = "POI説明の有無";
+
+"Intermediates exist (1 to 4)" = "中間トリガーの有無";
+
+"POI Set:" = "POIセット";
+
+"Please complete the list if possible. However, please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting LapTimer!" = "可能ならば完全にしてください";
+
+"Please complete the list if possible. Please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting Harry!" = "可能ならば完全にしてください";
+
+"Rework" = "再作成";
+
+"POIs positioned" = "POIの設定";
+
+"POIs exist" = "POSの有無";
+
+/* Export und Export Vehicle View */
+"Lap and Type Selection" = "ラップ選択";
+
+"Text (.csv)" = "Text (.csv)";
+
+"LapTimer (.hlptrl)" = "LapTimer (.hlptrl)";
+
+"Google Earth® (.kml)" = "Google Earth® (.kml)";
+
+"Adobe® (.pdf) " = "Adobe® (.pdf)";
+
+"Circuit Tools® (.vbo)" = "Circuit Tools® (.vbo)";
+
+"Mail" = "Mail";
+
+"Dropbox" = "Dropbox";
+
+"Vehicle Selection" = "車両選択";
+
+"Export Type" = "外部出力タイプ";
+
+"LapTimer (.hvehl)" = "LapTimer (.hvehl)";
+
+"This will export the selected vehicle's or all vehicle's definitions to LapTimer's own format. Like all other LapTimer formats, you can open / install this exported file selecting it - e.g. in Mail." = "選択した車両を外部出力します.他のフォーマットと同様にメールなどで入出力できます．";
+
+"Lap #%d (%s)" = "ラップ番号 #%d (%s)";
+
+/* Assistants */
+"Best" = "最速";
+
+"Last" = "前回";
+
+"Set Driver ID" = "ドライバ設定";
+
+"Rename" = "名前変更";
+
+"Define Start / Finish" = "計測地点設定";
+
+"Define Finish" = "ゴール地点設定";
+
+"Ready for Driving" = "ドライブ準備OK";
+
+/* Map Configuration */
+"Legend" = "Legend";
+
+"Center" = "センター";
+
+"Show Fixes" = "グリッド/メータ";
+
+"Show Grid/Meter" = "測位点";
+
+/* Lap Configuration */
+"Lap Selection" = "ラップ選択";
+
+"Highlight Sectors" = "ハイライトセクタ";
+
+"Days" = "複数日";
+
+"Season" = "季節";
+
+"Focus Time Delta" = "時間差フォーカス";
+
+/* Diagram Configuration */
+"Show Reference" = "リファレンス";
+
+"Show Map" = "マップ";
+
+"Show Time Gap" = "タイムギャップ";
+
+"Allow Any Car" = "全車可能";
+
+"Correct Mounting (Upright)" = "固定/縦方向";
+
+"Pitch Calibration (Standstill)" = "ピッチング/静止";
+
+"Drive Straight Line (Forward)" = "直線を運転/前方";
+
+"Gear Calibration (Acceleration)" = "ギア調整/加減速";
+
+"Force Calibration" = "調整を強制";
+
+"Add" = "追加";
+
+"Reference Lap" = "\"リファレンスラップ";
+
+"Front Camera" = "フロントカメラ";
+
+"Lock Autofocus" = "オートフォーカスロック";
+
+"Video Stabilizer" = "ビデオ固定";
+
+"External Mic" = "外部マイク";
+
+"Overlay Configuration" = "オーバーレイ設定";
+
+"Intro" = "イントロ";
+
+"Extro" = "エクストロ";
+
+"POI / Speed Inserts" = "POI/スピード";
+
+"Countdown" = "カウントダウン";
+
+"OBD II Data" = "OBD II データ";
+
+"Date and Timing" = "日付とタイミング";
+
+"Video Sync Setting" = "ビデオ同期設定";
+
+"Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "ラップ終了時のフレームを選択してください.スライダ長押しで拡大出来ます.";
+
+"Microphone" = "マイクロフォン";
+
+"Done" = "される";
+
+"Driver(s)" = "ドライバ";
+
+"Sensor Information" = "センサー情報";
+
+"Info" = "情報";
+
+"MultiCam" = "MultiCam";
+
+"Select the frame matching the end of the timed lap, and press 'Set'." = "ラップ終了時のフレームを選択してください.";
+
+"GPS Speed" = "GPS速度";
+
+"warning: " = "警告";
+
+"Air" = "空気";
+
+"Electric" = "電気";
+
+/* Vehicle Details */
+"Laps: %hu" = "周回数: %hu";
+
+/* Vehicle Details */
+"Recordings: %hu" = "録画: %hu";
+
+"Country" = "国";
+
+"Quality" = "品質";
+
+"Reply" = "応答";
+
+"Message" = "メッセージ";
+
+"Loading..." = "ローディング…";
+
+"Text of message is not available" = "メッセージのテキストは使用できない";
+
+"Searching for %@" = "検索 %@";
+
+"Language" = "言語";
+
+/* About Dialog Duplicates */
+"The author is not responsible for any injuries or property damage that may occur during use of this software." = "本ソフトウエアを利用したことで起因するいかなる怪我、事故、破損について作者は一切の責任を負いません．";
+
+"Publish" = "公開";
+

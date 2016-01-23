@@ -1,0 +1,3 @@
+/* Work around issue with empty .strings files */
+"X" = "X";
+

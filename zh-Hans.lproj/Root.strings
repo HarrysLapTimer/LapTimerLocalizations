@@ -1,0 +1,234 @@
+/* Work around issue with empty .strings files */
+"X" = "X";
+
+"LapTimer" = "LapTimer";
+
+"Online Racing" = "在线竞赛";
+
+"Driver ID" = "车手ID";
+
+"Publish" = "发布";
+
+"Never" = "从不";
+
+"Lapping" = "成绩提高时";
+
+"Always" = "始终";
+
+"Event" = "活动";
+
+"Track" = "赛道";
+
+"Vehicle" = "车辆";
+
+"Sound" = "声音";
+
+"Ticks" = "滴答声";
+
+"Beeps" = "提示音";
+
+"GPS" = "GPS";
+
+"Gap Measure" = "时间差测量";
+
+"Fastest Lap" = "最快圈";
+
+"Reference Lap" = "对照圈";
+
+"Last Lap" = "上一圈";
+
+"POI Detection" = "地标触发";
+
+"Narrow" = "窄";
+
+"Normal" = "正常";
+
+"Wide" = "宽";
+
+"Compression" = "压缩";
+
+"None" = "无";
+
+"Low" = "低";
+
+"High" = "高";
+
+"Display" = "界面";
+
+"Stop Go Mode" = "排位发车模式";
+
+"Manual Timing" = "手动计时";
+
+"Easy Mode" = "简易模式";
+
+"Speed" = "速度显示";
+
+/* Current speed" abbreviation without  "speed */
+"kCurrentSpeedSegment" = "当前时速";
+
+/* Last top speed" abbreviation without "speed */
+"kLastTopSpeedSegment" = "短时极速";
+
+/* Highest speed ever" abbreviation without "speed */
+"kTopSpeedSegment" = "最高速";
+
+"Skin" = "界面皮肤";
+
+"Default" = "默认";
+
+"Black" = "暗色";
+
+"High Contrast" = "高对比度";
+
+"Day / Night" = "日/夜自动切换";
+
+"Field Indicators" = "场地指标";
+
+"Polar Format" = "经纬度格式";
+
+"Units" = "单位";
+
+"System Default" = "系统预设";
+
+"Metric" = "公制";
+
+"Imperial" = "英制";
+
+"Power Unit" = "功率单位";
+
+"Energy Saving" = "节能";
+
+"System" = "系统";
+
+"Reset standard settings when LapTimer is started the next time" = "在下次启动App时恢复为默认设置";
+
+"Reset Settings" = "重置设定";
+
+"Expert Settings" = "专家设定";
+
+"Overlay Units" = "信息图层单位";
+
+"Preferred Resolution" = "偏好分辨率";
+
+"Resolution" = "分辨率";
+
+"192x144 - Low, 3G" = "192x144 - 低画质, 3G";
+
+"480x360 - Medium, WiFi" = "480x360 - 中画质, WiFi";
+
+"640x480 - SD" = "640x480 - 标清";
+
+"1280x720 - HD" = "1280x720 - 高清";
+
+"Best Available - High" = "最高分辨率 - 最高画质";
+
+"Use iCloud" = "使用 iCloud";
+
+"Auto Receive Videos" = "自动接收视频";
+
+"Auto Send Videos" = "自动发送视频";
+
+"MultiCam Control" = "MultiCam 多机位控制";
+
+"Discover MultiCams" = "自动侦测MultiCam设备";
+
+"Master" = "主拍摄机位";
+
+"Picture in Picture" = "画中画";
+
+"MultiCam Preset" = "MultiCam配置";
+
+"GoPro Preset" = "GoPro配置";
+
+"HERO3/3+ Wifi Password" = "HERO3/3+ Wifi密码";
+
+"Use MultiCam Settings (None)" = "沿用MultiCam设备设定（不调整）";
+
+"Maximum Resolution (Master)" = "最高分辨率（主拍摄机位）";
+
+"Single Density (Picture in Picture)" = "统一像素密度（画中画）";
+
+"Startup" = "程序启动";
+
+"Driver or Rider ID" = "车手 ID";
+
+"Hide Page Buttons" = "隐藏换页按钮";
+
+"Hide Tab Bar" = "隐藏标签栏";
+
+"Behavior" = "操作设置";
+
+"Video" = "视频";
+
+"Speech" = "语音";
+
+"352x288 - Medium, WiFi" = "352x288 - 中，WiFi";
+
+"External Camera" = "外部相机";
+
+"Camera Type" = "相机类型";
+
+"Sony Cam" = "Sony Cam";
+
+"Calibration" = "校准";
+
+"Acceleration" = "加速度";
+
+"Automatic Preset" = "自动选择配置";
+
+"Right Hand Traffic Preset" = "右侧行车配置";
+
+"Left Hand Traffic Preset" = "左侧行车配置";
+
+"Internal Cam Preset" = "内置相机配置";
+
+"Individually Measured" = "个性化测量";
+
+"Auto Preset" = "自动选择配置";
+
+"RHT Preset" = "右行配置";
+
+"LHT Preset" = "左行配置";
+
+"Cam Preset" = "相机配置";
+
+"Measured" = "已校准";
+
+"Knots" = "节";
+
+"Wind Speed Unit" = "风速单位";
+
+"Standard Speed" = "标准速度";
+
+"Meter per Second" = "米/秒";
+
+"GoPro HERO3/3+" = "GoPro HERO3/3+";
+
+"GoPro HERO4" = "GoPro HERO4";
+
+"Internal Cam" = "内置相机";
+
+"External Cam" = "外置相机";
+
+"Motorbike Preset" = "摩托车配置";
+
+"Motorbike" = "摩托车";
+
+"Warnings" = "警告";
+
+"Missing Power Supply" = "未外接电源";
+
+"Motorbike Use" = "摩托车使用";
+
+"Show Large Hundreds" = "秒数字号放大";
+
+"Freemium Edition" = "免费版";
+
+"1920x1080 - FullHD" = "1920x1080 - 全高清";
+
+"3840x2160 - 4K UHD" = "3840x2160 - 4K超高清";
+
+"Font" = "字体";
+
+"Reference" = "对照";
+

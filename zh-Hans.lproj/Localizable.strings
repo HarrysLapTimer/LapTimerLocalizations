@@ -1,0 +1,3026 @@
+/* Localizable.strings
+  HarrysGPSSuite
+
+  Created by Harald Schlangmann on 16.10.11.
+  Copyright (c) 2011 Harald Schlangmann. All rights reserved. */
+
+/* Controller titles */
+"Assistant" = "辅助";
+
+"Lap Details #%hu" = "计时圈详情 #%hu";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStaged" = "准备发车";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelNew" = "新建";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelGo" = "开始";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSplit" = "分段";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStop" = "停止";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelCancel" = "取消";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelReset" = "重置";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetSpeed" = "重置速度";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelAlert" = "提醒";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSet" = "设定";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSetRef" = "对照圈";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelVideo" = "视频";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelHome" = "返回";
+
+/* Small Buttons */
+"kGapAbbreviated" = "分段差";
+
+"kLapTimeShort" = "圈时";
+
+/* Speed labels in GPS View */
+"kCurrentSpeedLabel" = "当前时速";
+
+"kTopSpeedLabel" = "最高速";
+
+"kLastTopSpeedLabel" = "短时极速";
+
+"kCurrentSpeedSegment" = "当前时速";
+
+"kVehicleCurrent" = "当前车辆";
+
+"kLastTopSpeedSegment" = "短时极速";
+
+"kTopSpeedSegment" = "最高速";
+
+/* System configurations */
+"kAbbreviation" = ".";
+
+" (no data)" = "(无数据)";
+
+/* Item cannot be played description */
+"Item cannot be played" = "无法播放";
+
+/* Item cannot be played failure reason */
+"The assets tracks were loaded, but could not be made playable." = "视频流加载完成，但无法播放";
+
+/* XIB ressources */
+"Descriptions positioned" = "起点与计时标点定位完成";
+
+"The official application LF of MICHELIN Pilot Sport Challenge" = "米其林竞速挑战赛\nder官方应用";
+
+"Club" = "俱乐部";
+
+"Classification" = "排名";
+
+"The official application of MICHELIN Pilot Sport Challenge" = "米其林竞速挑战赛官方应用";
+
+"To participate in MICHELIN Pilot Sport Challenge:" = "参加米其林竞速挑战赛：";
+
+"Connect" = "登入";
+
+"Background video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video' and select 'Record Auto'." = "后台视频录制已停用。LapTimer将只负责圈时计算与数据抓取。您可以点击“视频”并选择“自动记录”来开启录制功能。";
+
+"kPNNT" = "您的附近出现新赛道“%@”。点击载入赛道！";
+
+"kPNNC" = "%@ 在“%@”赛道对你发出了%@挑战。点击接受邀请！";
+
+"kLapAbbreviation" = "L";
+
+"Video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video'." = "视频录制已停用。LapTimer将只负责圈时计算与数据抓取。您可以点击“视频”来开启录制功能。";
+
+/* HeavyDuty */
+"Reload Payload" = "重置负载";
+
+/* Tile View Help */
+"kTileHelpSetupOperation" = "安装应用后，请先使用<ui>车辆设定</ui>功能。在车辆列表中点击<ui>编辑</ui>并<ui>添加车辆</ui>，而后配置车辆相关数据。";
+
+/* Tile View Help */
+"kTileHelpDetailsSensorStatus" = "<ui>传感器列表</ui>将显示当前传感器的状态及可用性。如需采集<ui>发动机</ui>数据，需使用兼容的OBD II传感器。<ui>后视拍摄</ui>也要使用兼容的相机。";
+
+/* Tile View Help */
+"kTileHelpParking" = "<ui>停车</ui>将储存当前停车位置，并记录全部的停车位置。<ui>房车水准仪</ui>可用以保持货车或露营车的平衡";
+
+/* Tile View Help */
+"kTileHelpPlanAndReviewTrips" = "计划以及显示<ui>航程</ui>。PRODUCTNAME包括以路标为基础的导航。<ui>航标</ui>将在<ui>地图</ui>或者<ui>汽车监控电脑</ui>中设置。<ui>航程</ui>列出所有被标示的路线，并允许导出以及显示。";
+
+/* Tile View Help */
+"kTileHelpMaintainFeatures" = "加载额外的PRODUCTNAME功能 (<ui>扩展</ui>),读取所有<ui>车辆</ui>并更改<ui>设置</ui>。<ui>传感器</ui>显示所用内部和外部的传感器（例如：兼容的 PRODUCTNAME OBD II 适配器）。";
+
+/* Tile View Help */
+"kTileHelpWelcome" = "欢迎使用<hl>LONGPRODUCTNAME</hl>。\n请选择功能组查看可使用的功能。如果您想设置快捷方式，请点击功能界面的黄色星标。";
+
+/* Tile View Help */
+"kTileHelpWelcomeBuddy" = "欢迎使用<hl>LONGPRODUCTNAME</hl>。<ui>Bordcompurter</ui>将会车载电脑";
+
+/* Tile View Help */
+"kTileHelpPlanAndReviewTrips2" = "PRODUCTNAME包括以路标为基础的导航(<ui>汽车监控电脑</ui>)。<ui>航点</ui>将在<ui>地图</ui>或者<ui>GPS</ui>中设置。您还可以在<ui>功能插件</ui>中从服务器上读取所需的路标数据。";
+
+/* Tile View Help */
+"kTileHelpSetupRace" = "首先，请<ui>定义用户</ui>，配置所需的车手以及车辆。在离开维修区前<ui>载入赛道</ui>。也可以使用<ui>绕桩赛</ui>和<ui>新建赛道</ui>来创建自有赛段。";
+
+/* Tile View Help */
+"kTileHelpWelcomeLapTimer" = "欢迎使用<hl>LONGPRODUCTNAME</hl>。本应用的功能包括<ui>赛前整备</ui>，<ui>赛道计时</ui>和行驶过程的<ui>数据分析</ui>。请从中选择一个功能。";
+
+/* Tile View Help */
+"kTileHelpRace" = "在竞速中可使用不同的功能菜单。新手建议使用<ui>数字秒表</ui>，在直立或横置屏幕的状态下均可使用。PRODUCTNAME的 <ui>视频</ui> 界面只能横置屏幕使用。";
+
+/* Tile View Help */
+"kTileHelpAnalytics" = "PRODUCTNAME中用于分析行驶数据的菜单。 <ui>即时信息</ui>中包括全部的实时数据信息。可在<ui>计时圈</ui>中查看所有图表数据。您也可以在这里给视频压印数据图层。";
+
+/* Tile View Help */
+"kTileHelpRealtime" = "所有传感器数据的功能菜单(<ui>GPS</ui>、<ui>卫星</ui>、<ui>加速度</ui>和<ui>发动机</ui>信息)即时。点击<ui>在线实况</ui>，可查看世界各地活跃中的赛道(包括正在赛道上驾驶的车手及最佳成绩车手)。";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetCalibration" = "重置";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelLockCalibration" = "锁定";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelUnlockCalibration" = "解锁";
+
+/* Vehicle History (and others) */
+"Event" = "竞速活动";
+
+/* Update rate gadget for GPS - needs to be short */
+"GPS Rate" = "GPS刷新率";
+
+/* Update rate gadget for Accelerometer - needs to be short */
+"Accelerometer Rate" = "加速度刷新率";
+
+/* Update rate gadget for OBD - needs to be short */
+"OBD Rate" = "OBD刷新率";
+
+"kTileHelpUsingRearCam" = "界面上显示的<ui>后视画面</ui>会有<hl>5秒左右的延迟</hl>\n\n故本功能不能替代后视镜。";
+
+/* HeavyDuty */
+"Towing Vehicle" = "牵引车";
+
+/* HeavyDuty */
+"Towing vehicle and trailer defined" = "定义牵引车和拖车";
+
+/* HeavyDuty */
+"Select Towing Vehicle" = "选择牵引车";
+
+/* Social Networks */
+"kSocialNetworkRate" = "为App评分";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelPresetCalibration" = "配置";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelAdvancedCalibration" = "手动校准";
+
+/* Update rate gadget for Accelerometer - needs to be short */
+"Raw Accelerometer Rate" = "原始加速度刷新率";
+
+"Groups" = "分组";
+
+"LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer目前未被允许访问手机内的视频/音频资源。请在设定 ‣ 隐私 ‣ 麦克风 ‣ LapTimer中启用授权。";
+
+/* Controller titles */
+"Classic" = "经典秒表";
+
+"Racer's" = "车手视图";
+
+"Acceleration" = "加速度";
+
+"POI List" = "地标列表";
+
+"Waypoints" = "航点";
+
+"Help" = "帮助";
+
+"Products" = "产品";
+
+"Dynamics" = "动态";
+
+"Trim" = "平衡";
+
+"Trip" = "出行";
+
+"Add-ons" = "功能插件";
+
+"Tracks" = "赛道";
+
+"SuperGPS" = "超级GPS";
+
+"Server" = "服务器";
+
+"Online" = "在线实况";
+
+"Satellites" = "卫星";
+
+"Timer" = "计时";
+
+"Settings" = "设置";
+
+"Speedo" = "时速表";
+
+"Vehicle List" = "车辆列表";
+
+"Sensor List" = "传感器列表";
+
+"Video List" = "视频列表";
+
+/* Units */
+"%.0fs" = "%.0fs";
+
+/* Gadget titles */
+"Signal" = "信号";
+
+"Fix Date" = "采样日期";
+
+"Fix Time" = "采样时间";
+
+"Compass" = "罗盘";
+
+"Approach" = "通道";
+
+"Engine" = "发动机";
+
+"Speed" = "速度";
+
+"Heading" = "朝向";
+
+"Altitude" = "海拔";
+
+"Accuracy" = "精度";
+
+"Longitude" = "经度";
+
+"Lateral" = "横向";
+
+"Lineal" = "纵向";
+
+"Slope" = "坡角";
+
+"Lap" = "计时圈";
+
+"Laps" = "计时圈";
+
+"Sector" = "计时段";
+
+"Overall Acceleration" = "整体加速度";
+
+"Sky" = "星图";
+
+"In View" = "范围内";
+
+"Tracked" = "已接收";
+
+"Position" = "位置";
+
+"Track Mode" = "赛道模式";
+
+"Street Mode" = "街道模式";
+
+"Speed Mode" = "测速模式";
+
+"Cruise Mode" = "巡航模式";
+
+"Overall" = "整体";
+
+"Lap List" = "计时圈列表";
+
+"Lap List (filtered)" = "计时圈列表(筛选)";
+
+"Current Lap" = "当前计时圈";
+
+"GPS Ref. Gap" = "对照圈GPS差时";
+
+"Current Sector" = "当前计时段";
+
+"Straight" = "直线";
+
+"Curve" = "曲线";
+
+"Speedometer" = "时速表";
+
+"Engine RPM" = "发动机转速";
+
+"Avg." = "平均";
+
+"Max." = "最大";
+
+"Current Time" = "当前时间";
+
+"Travel Time" = "行程时间";
+
+"Time Moving" = "运动时间";
+
+"Time not Moving" = "静止时间";
+
+"Avg. Speed" = "平均速度";
+
+"Avg. Speed Moving" = "运动中平均速度";
+
+"Travel Distance" = "行程距离";
+
+"Time of Arrival" = "到达时间";
+
+"Time Left" = "所需时间";
+
+"Distance Left" = "距离目标";
+
+"Waypoint" = "航点";
+
+"Navigation" = "导航";
+
+"Calibrating" = "校准中";
+
+"Calibrated" = "已校准";
+
+"Lap vs. %@" = "计时圈 vs. %@";
+
+"Lap vs. %@ (%s)" = "计时圈 vs. %@(%s)";
+
+"Sector vs. %@" = "计时段 vs. %@";
+
+"Gap vs. %@ (%s)" = "差时 vs. %@(%s)";
+
+"Gap vs. %@" = "差时 vs. %@";
+
+"Gap" = "差时";
+
+"Best Lap" = "最快圈";
+
+"Best Time" = "最快圈时";
+
+"Last Lap" = "上一圈";
+
+"Last Time" = "上一圈时";
+
+"Ref. Lap" = "对照圈";
+
+"Ref. Time" = "对照圈时";
+
+"Last Max" = "短时极值";
+
+"Power" = "动力";
+
+"Tank" = "油箱";
+
+"Gear" = "档位";
+
+"Coolant" = "冷却液";
+
+"Oil" = "燃料";
+
+"Gear Oil" = "变速箱油";
+
+"Auto Close" = "自动关闭";
+
+"Intake" = "进气";
+
+"Intake Type" = "进气类型";
+
+"Naturally Aspirated" = "自然吸气";
+
+"Supercharged" = "机械增压";
+
+"Turbocharged" = "涡轮增压";
+
+"Engine Type" = "发动机类型";
+
+"Otto" = "汽油";
+
+"Diesel" = "柴油";
+
+/* Label in Trip View */
+"Continuous" = "连续";
+
+"Both" = "全部";
+
+"Free" = "免费";
+
+"Buy" = "购买";
+
+"Active" = "启用";
+
+"Reload" = "刷新";
+
+"Load" = "载入";
+
+"View" = "查看";
+
+"On" = "开";
+
+"Off" = "关";
+
+/* Footer Buttons */
+"Reference" = "对照";
+
+"Export" = "导出";
+
+"Send" = "发送";
+
+"Purge GPS" = "清空GPS";
+
+"Recalculate" = "重新计算";
+
+"Overlay" = "数据图层";
+
+"Revert" = "还原";
+
+"Delete" = "删除";
+
+"Delete All" = "全部删除";
+
+"Check Data" = "数据校验";
+
+"Purge" = "清空";
+
+"Test" = "测试";
+
+"Conflicts" = "冲突";
+
+"Certify" = "认证";
+
+"System Information" = "系统信息";
+
+"Navigate" = "导航";
+
+"Reset" = "重设";
+
+"Duplicate" = "复制";
+
+"Current" = "即时";
+
+"Unload" = "卸除";
+
+"Move" = "移动";
+
+"Download" = "下载";
+
+/* Lap List */
+"Laps: %hu / GPS Fixes: %lu" = "计时圈：%hu / GPS采样点：%lu";
+
+"Unspecified" = "未定义";
+
+"Deleting all Lap Data" = "删除全部计时圈";
+
+"Deleting Lap" = "删除计时圈";
+
+"Lap #" = "计时圈 #";
+
+"Results" = "结果";
+
+"Speeds" = "时速";
+
+"Track Info" = "赛道信息";
+
+"Regularity" = "节奏性";
+
+"Data Recording" = "数据采集";
+
+"Date" = "日期";
+
+"Time" = "时间";
+
+"Track" = "赛道";
+
+"Vehicle" = "车辆";
+
+"Video" = "视频";
+
+"Add Video" = "添加视频";
+
+"Master" = "主视频";
+
+"Picture in Picture" = "画中画";
+
+"Picture in Picture #%hu" = "画中画 #%hu";
+
+"Joined End" = "合并结尾";
+
+"Ends at %s" = "终止于 %s";
+
+"Metadata" = "元数据";
+
+"Add Note" = "添加笔记";
+
+"Note" = "笔记";
+
+"Preview" = "预览";
+
+"Lap Time" = "圈时";
+
+"Virtual Best" = "最佳拟合";
+
+"Split %lu" = "分段 %lu";
+
+"Average" = "平均";
+
+"Max" = "最大";
+
+"Set Speed" = "设定速度";
+
+"Penalty" = "差时";
+
+"Sector %lu" = "计时段 %lu";
+
+"Regularity Speed" = "惯用速度";
+
+"Edit Note" = "编辑笔记";
+
+"'Export Lap Data' will export your database of laps using an e-mail." = "“导出计时圈数据”将使用电子邮件来导出您的圈时数据。";
+
+"'Receive Lap' will search for other devices willing to send lap data to you." = "“接收计时圈”将会搜寻是否有其他设备尝试着要传送数据给您。";
+
+"'Send Trackday' sends latest trackday's lap data." = "“发送赛道日”可把最近一次赛道日的全部计时圈打包发送。";
+
+"Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "检视计时圈的详细信息，而后决定是否发送或导出计时圈数据。";
+
+"Cancel" = "取消";
+
+"Export Lap Data" = "导出计时圈数据";
+
+"Purging Data Recordings..." = "正在删除储存数据…";
+
+"Recalculating..." = "正在重新计算数据…";
+
+"Housekeeping Databases" = "正在清理数据…";
+
+"Realigning Recordings..." = "正在重新排列数据…";
+
+"Removing Old Databases" = "正在移除旧数据…";
+
+"Receive Lap from Friend" = "自好友处接收计时圈数据";
+
+"Send Trackday to Friend" = "发送赛道日数据给好友";
+
+" to " = " 到 ";
+
+"Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如您不清楚这些功能对于维护的意义, 请按“取消”";
+
+"GPS Sensor" = "GPS传感器";
+
+"Internal" = "内部";
+
+"External" = "外部";
+
+"%@ @ %hu.%hu Hz" = "%@ @ %hu.%hu Hz";
+
+"%lu (GPS, ACCEL%s)" = "%lu (GPS，加速度%s)";
+
+", OBD" = "，OBD";
+
+"Fixes" = "采样点";
+
+/* Load Track / Add-ons (only partially localizable) */
+"Load Track" = "载入赛道";
+
+"Features" = "功能";
+
+"Other Apps" = "其他App";
+
+"Campaign" = "活动";
+
+"African Track Sets" = "非洲赛道组";
+
+"Asian Track Sets" = "亚洲赛道组";
+
+"Australian Track Sets" = "澳洲赛道组";
+
+"Australian & NZ Track Sets" = "澳洲&新西兰赛道组";
+
+"European Track Sets" = "欧洲赛道组";
+
+"North American Track Sets" = "北美洲赛道组";
+
+"South American Track Sets" = "南美洲赛道组";
+
+"Other POI Sets" = "其他地标";
+
+"Outdated POI Sets" = "过期地标";
+
+"by %@" = "来自%@";
+
+"Configuration" = "配置";
+
+/* Data Loader / Mailer */
+"Importing..." = "正在导入…";
+
+"%s Contact" = "%s联络";
+
+"Hello,\n\n...\n\nGreetings ...\n\n" = "您好，\n\n...\n\n诚挚的问候 ...\n\n";
+
+"%s POI Set Certification" = "%s地标组认证";
+
+"Hello,\n\nI have compiled the attached POI Set and would like to make it available to the community.\nI provide this POI Set 'as is', and without any warranty. You are welcome to redistribute it as you like.\n\nIn addition to the POI Set attached, I'd like to add the following information:\n\nTitle:\nTITLE SHOWN IN ADD ON VIEW\n\nDescription:\nONE OR TWO SENTENCES ON THE TRACK / THE POI SET\n\nValidation / Accuracy:\n I have tested the data on track: YES/NO\n GPS positions were collected using: A DEVICE/GOOGLE MAPS\n\nSource Information\nPlease cite my name in the Source Section: YES/NO\n\nFurther Information:\nANYTHING ELSE\n\nGreetings NAME\n\n" = "您好，\n\n我已经完成地标信息的采集，并希望可以公开分享。\n我原样提交此套地标信息，且无法提供任何后续支持。您可以在任何时间重新分配此地标组。\n\n除了地标组数据，我同时提供以下信息：\n\n名称：\n【在“功能插件”视图中将展示的名称】\n\n描述：\n【对赛道/地标组的一两句描述】\n\n可信度/精度：\n我已在赛道上测试过此数据：【YES/NO】\n GPS数据搜集方式：【硬件设备/Google Map】\n\n来源信息：\n在来源说明中展示我的名字：【YES/NO】\n\n更多信息：\n【其他任何信息】\n\n此致 【姓名】\n\n";
+
+"... and forwarding to Mail" = "... 并转发至信箱";
+
+"%s Trace Log" = "%s 定位日志";
+
+"Tracefile from former run found, preparing..." = "发现上一次驾驶的定位文件，正在进行准备…";
+
+"Creating Export Files..." = "制作导出文件中…";
+
+"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "此%@包含以下导出格式，比较大的文件会利用GZIP来压缩(扩展名%s和.gz)：\n\n";
+
+"mail" = "邮件";
+
+"folder" = "文件夹";
+
+"%@: PDF export of one lap\n" = "%@：单计时圈的PDF文件\n";
+
+"%@: database in LapTimer XML format\n" = "%@：LapTimer XML格式数据库\n";
+
+"%@: Google Earth KML file\n" = "%@：Google Earth KML格式\n";
+
+"%@: lapped times as universal CSV format\n" = "%@：以通用CSV格式整理的圈时数据\n";
+
+"%@: recorded GPS fixes as universal CSV format\n" = "%@：以通用CSV格式整理的GPS采样点数据\n";
+
+"%@: recorded GPS fixes prepared for TrackVision and DashWare data logger input\n" = "%@：为TrackVision以及DashWare数据采集器输入优化的GPS采样点数据\n";
+
+"%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@：为Circuit Tools分析工具优化的GPS采样点数据\n";
+
+"... and dropping into Dropbox" = "…并同步至Dropbox中";
+
+"This %@ contains the following export files:\n\n" = "此%@包含以下导出格式：\n\n";
+
+"%@: vehicle database in XML format\n" = "%@：XML格式车辆数据库\n";
+
+"%s Export" = "%s导出";
+
+"Adding POI Set:\nDownloading from Net..." = "添加地标组：\n正在下载中…";
+
+"Adding POI Set:\n%hu POIs read..." = "添加地标组：\n已读取%hu地标…";
+
+"Day" = "天";
+
+"Session" = "计时段";
+
+"%hu lap(s) selected" = "已选%hu计时圈";
+
+"%hu '%@' lap(s) selected" = "已选%hu“%@”计时圈";
+
+"%hu lap(s) for last session selected" = "已为上一计时段选择%hu计时圈";
+
+"%hu lap(s) from lap's session selected" = "已从各计时段中选择%hu计时圈";
+
+/* Add-on Details */
+"Title" = "名称";
+
+"Track Set" = "赛道组";
+
+"Feature" = "功能";
+
+"Details" = "细节";
+
+"Hall of Fame" = "名人堂";
+
+"Available for Free" = "免费提供";
+
+"In App Purchase" = "App内购买";
+
+"Active / Loaded" = "可用/已载入";
+
+/* Status vehicles and track (plus Social network) */
+"Status" = "状态";
+
+"Price" = "价格";
+
+"Snapshot" = "快照";
+
+"Copyright" = "版权";
+
+"Source" = "来源";
+
+"Sort" = "排序";
+
+"best lap first" = "圈时排序";
+
+"most recent lap first" = "更新时间排序";
+
+"Length" = "长度";
+
+"Drivers" = "车手";
+
+"named only" = "仅显示署名车手";
+
+" on %@" = " 驾驶 %@";
+
+"Add-on URL" = "加入URL ";
+
+"Please enter an URL to a valid XML / KML file. More infos are available on www.gps-laptimer.de, follow the link to page 'Tracks'." = "请输入有效的URL(XML/KML数据)，更多的讯息请参照www.gps-laptimer.de中的“Tracks”项目。";
+
+"Processing App Store Payment..." = "正在处理App Store付款...";
+
+"Validating earlier App Store Payment..." = "正在查验过往的App Store付款信息...";
+
+"Retrieving Product Data from App Store..." = "正在检索App Store商品信息...";
+
+/* Add-on Manager */
+"Updating Add On List from Server..." = "从服务器上更新添加名单...";
+
+"Reloading Add On List from Server..." = "从服务器上重新读取添加名单...";
+
+/* History Hover Views */
+"Speed [%s] @ Time [s]" = "时速[%s] @ 时间[s]";
+
+"Height [%s] @ Time [s]" = "高度[%s] @ 时间[s]";
+
+"Acceleration [g] @ Time [s]" = "加速度[g] @ 时间[s]";
+
+"Satellites [#] @ Time [s]" = "卫星[#] @ 时间[s]";
+
+"Accuracy [%s] @ Time [s]" = "精度[%s] @ 时间[s]";
+
+"Speed (%s) of vehicle measured using GPS and Doppler effect." = "以GPS和多普勒效应推算出的车速(%s)。";
+
+"Height (%s) above mean sea level. GPS-measured accuracy is low." = "高度 (%s)即海拔数据, GPS对此数据的测量精度较低。";
+
+"Lateral acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "以“g”数来显示横向加速度 (g为9.78-9.82m/s2之间)。";
+
+"Lineal acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "以“g”数来显示纵向加速度 (g为9.78-9.82m/s2之间)。";
+
+"Overall acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "以“g”数来显示合成加速度 (g为9.78-9.82m/s2之间)。 ";
+
+"Satellites used for GPS positioning. Only for supported NMEA devices." = "GPS定位所连接的卫星，只支持NMEA设备。";
+
+"Accuracy (%s) of GPS fix." = "GPS采样点的精度(%s)。";
+
+/* Status Gadget */
+"No position information available" = "无可用的定位信息";
+
+"Triangulation" = "三角测量";
+
+"Position using cell / WLAN triangulation" = "使用蜂窝移动网络/WLAN三角测量定位";
+
+"GPS" = "GPS";
+
+"Position using device's location service" = "使用设备的定位功能来定位";
+
+"Accessory connected, using NMEA interface" = "配件已连接，使用NMEA接口";
+
+"Sensor connected, using NMEA interface" = "传感器已连接，使用NMEA接口";
+
+/* Signal / GPS Gadget */
+"Acquiring Satellites" = "正在检测卫星信号";
+
+"No Fix" = "无定位点";
+
+"2D" = "2D";
+
+"%hu Satellites, 2D GPS (NMEA)" = "%hu颗卫星，2D GPS(NMEA)";
+
+"11 Satellites, 3D+ GPS (NMEA)" = "11颗卫星，3D+ GPS(NMEA)";
+
+"2D GPS (NMEA)" = "2D GPS(NMEA)";
+
+"2D Cell/WLAN" = "2D蜂窝网络/WLAN";
+
+"3D" = "3D";
+
+"3D+" = "3D+";
+
+"%hu Satellites, %@ GPS (NMEA)" = "%hu颗卫星，%@GPS(NMEA)";
+
+"%@ GPS (NMEA)" = "%@GPS(NMEA)";
+
+"3D GPS" = "3D GPS";
+
+/* Vehicle List and Details */
+"Vehicles" = "车辆";
+
+"VIN defined" = "通过VIN确定";
+
+"- no details -" = "- 无信息 -";
+
+"Add new %@" = "增加新的%@";
+
+"All Vehicles" = "全部的车辆";
+
+"Item" = "项目";
+
+"Vehicle Type" = "车辆种类";
+
+"Car" = "车辆";
+
+"Motorbike" = "摩托车";
+
+"Kart" = "卡丁车";
+
+"Bicycle" = "自行车";
+
+"Horse" = "马匹";
+
+"Ski" = "滑板";
+
+"Feet" = "步行";
+
+"Speedboat" = "快艇";
+
+"Sailboat" = "帆船";
+
+"Wheel Drive Type" = "驱动轮布局";
+
+"Rear-wheel" = "后轮驱动";
+
+"Front-wheel" = "前轮驱动";
+
+"All-wheel" = "四轮驱动";
+
+"Vehicle #%hu" = "车辆 #%hu";
+
+"Image" = "照片";
+
+"Add Image" = "添加照片";
+
+"VIN" = "VIN";
+
+"Add VIN" = "添加 VIN";
+
+"Max Torque" = "最大扭矩";
+
+"Max Power" = "最大功率";
+
+"%hu rpm" = "%hu转速";
+
+"Max RPM" = "最高转速";
+
+"Shift Flash" = "换档提示灯";
+
+"Power Transmission" = "动力传输";
+
+"Front Wheel" = "前轮";
+
+"Rear Wheel" = "后轮";
+
+"Drive" = "传动";
+
+"Chart" = "图表";
+
+"Charts" = "图表";
+
+"Speed [%s] @ Engine [rpm/1000]" = "时速[%s] @ 转速[rpm/1000]";
+
+"Drive Ratio" = "终传比";
+
+"Num Gears" = "档位数";
+
+"Gear %hu Ratio" = "%hu档齿比";
+
+"Add Gear" = "增加档位";
+
+"please set" = "请设定";
+
+"OBD" = "OBD";
+
+"Fuel" = "燃料";
+
+"Standard" = "标准";
+
+"Voltage" = "电压";
+
+"PIDs" = "PIDs";
+
+"rpm" = "rpm";
+
+"liter" = "升";
+
+"th" = "th";
+
+"st" = "st";
+
+"nd" = "nd";
+
+"rd" = "rd";
+
+"Vehicle Name" = "车辆名称";
+
+"Edit VIN" = "编辑 VIN";
+
+"A Vehicle Identification Number (VIN), is a unique 17 digit number used to identify motor vehicles." = "车辆辨识号(VIN)是一组用于辨识车辆信息的17位编号。";
+
+"Torque" = "扭矩";
+
+"Maximum torque developed by vehicle's engine." = "车辆发动机提供的最大扭矩。";
+
+"Engine rounds per minute at which maximum torque is developed." = "发动机输出最大扭矩时的转速。";
+
+"Maximum power developed by vehicle's engine." = "车辆发动机提供的最大功率。";
+
+"Engine rounds per minute at which maximum power is developed." = "发动机输出最大功率时的转速。";
+
+"Engine rounds per minute at which the rev limiter is activated." = "发动机断油转速。";
+
+"Threshold" = "触发线";
+
+"Percentage of max engine rounds per minute at which the Shift Gear Flash gets active." = "换档提示灯触发时的转速与发动机最大转速的比值。";
+
+"Front Wheels" = "前轮";
+
+"Rear Wheels" = "后轮";
+
+"Tire Code" = "轮胎型号";
+
+"Ratio" = "齿比";
+
+"The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "终传比是变速箱输出轴与驱动轴之间的转速比例。";
+
+"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "齿比是特定档位上发动机转速与变速箱输出轴转速的比值。";
+
+"%.2f (limit %hu %s)" = "%.2f (极速 %hu %s)";
+
+"Degree" = "度";
+
+"Standard direction the trigger will be passed. Trigger will not fire in case heading deviates more than 90°." = "向正常方向前进时将通过触发点，当行进角偏离90度以上时不会启动。";
+
+"automatic" = "自动";
+
+/* Map View */
+"Map" = "地图";
+
+"Sat" = "卫星";
+
+"Hybrid" = "混合";
+
+/* Trip Computer View */
+"... since " = "... 从 ";
+
+"None" = "无";
+
+"Polar Coord." = "极坐标";
+
+"Crs" = "路线";
+
+"Today" = "今天";
+
+"Bearing to Waypoint" = "指向路点方向";
+
+/* Sensors and Sensor List */
+", Battery %hu%%" = ", 电量 %hu%%";
+
+"Connected @ %hu Hz" = "已连接 %hu Hz";
+
+"Connected" = "已连接";
+
+"Searching..." = "搜寻中...";
+
+"Available" = "可用设备";
+
+"All" = "全部";
+
+"Not Available" = "未连接";
+
+"Available, Resolution %hu x %hu" = "可用，分辨率 %hu x %hu";
+
+"Not Available (%@:%@)" = "不可用(%@:%@)";
+
+"Searching for %@:%@" = "正在搜寻 %@:%@";
+
+"Unknown" = "未知";
+
+"GPS/GLONASS Sensors" = "GPS/GLONASS 传感器";
+
+"Engine Sensors" = "OBD 传感器";
+
+"Other Sensors" = "其他传感器";
+
+", %hu Satellite(s)" = ", %hu 卫星";
+
+"This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "此功能在这个版本无法使用，请在'功能插件'查看升级选项。";
+
+/* Sensors */
+", NMEA sentences received: %s" = "，收到NMEA信息: %s";
+
+"NMEA sentences received: %s" = "收到NMEA信息: %s";
+
+", PIDs received: %@" = "，接收到PIDs: %@";
+
+"PIDs received: %@" = "接收到PIDs: %@";
+
+"Connected and listening to %@:%@" = "连接并接收%@:%@";
+
+"Connected and listening to %@" = "连接并接收%@";
+
+"Registered for multicast from %@, listening to port %@" = "已登记为多机位设备%@，接收端口：%@";
+
+"Listening on port %@" = "接收端口：%@";
+
+"NMEA Sentences" = "NMEA 指令";
+
+/* Assistant View */
+"Show on Startup" = "启动时显示";
+
+"Define User" = "定义用户";
+
+"Autocross" = "计时绕桩赛";
+
+"New Track" = "新的赛道";
+
+"Calibration" = "校准";
+
+"Start Driving" = "开始驾驶";
+
+"Driver ID ('%@')" = "车手 ID ('%@')";
+
+"Driver ID" = "车手 ID ";
+
+"Vehicle ('%@')" = "车辆 ('%@')";
+
+"Define Driver" = "定义车手";
+
+"Define Vehicle" = "定义车辆";
+
+"Continue" = "继续";
+
+"Select Track" = "选择赛道";
+
+"Track Selected" = "赛道已选择";
+
+"Drive!" = "开始驾驶！";
+
+"Track Selected ('%@')" = "赛道已选择 ('%@')";
+
+"Name" = "名字";
+
+"Set" = "设定";
+
+"Name ('%@')" = "名称('%@')";
+
+"Track %hu" = "赛道 %hu";
+
+"Driver Name" = "车手名";
+
+"Three character driver name used for Online Racing" = "在线车手排行榜中驾驶员名字以3个字母显示";
+
+/* Online View */
+"No Server Status" = "没有服务器信息";
+
+"Track: -" = "赛道: -";
+
+"Track: %@" = "赛道: %@";
+
+"ID: %hu" = "ID: %hu";
+
+/* POI List */
+"Overall Waypoints: %hu" = "全部航点: %hu";
+
+"Overall POIs / Triggers: %hu" = "全部地标/触发点: %hu";
+
+"Waypoints in Set: %hu" = "航点组: %hu";
+
+"POIs / Triggers in Set: %hu\nPotential conflicts: %@" = "路标/触发点组: %hu\n潜在的冲突: %@";
+
+"POIs / Triggers in Set: %hu" = "路标/触发点组: %hu";
+
+"My Waypoints" = "我的航点";
+
+"Waypoints in Set" = "航点组";
+
+"Waypoint Sets" = "航点组";
+
+"My Points of Interest" = "我的地标";
+
+"Points of Interest in Set" = "地理座标组";
+
+"POI Sets" = "地标组";
+
+"Add new Waypoint Set" = "新增航点组";
+
+"Add new POI Set" = "新增地标";
+
+"%hu POIs+Triggers / 1 Lap" = "%hu 地标+触发点 / 1计时圈";
+
+"%hu POIs+Triggers / %hu Laps" = "%hu 地标+触发点 / %hu计时圈";
+
+"New Waypoint Set" = "新航点组";
+
+"New POI Set" = "新地标组";
+
+"A track or POI set name with up to 15 characters. This name needs to be unique, duplicates are not allowed." = "赛道或地标组可以使用至多15个字符进行命名，名字必须唯一，不能重复。";
+
+"Edit Name" = "编辑名字";
+
+"Select Waypoint" = "选择航点";
+
+"%hu Waypoints" = "%hu 航点";
+
+"1 Lap" = "1个计时圈";
+
+"%hu POIs+Triggers" = "%hu 地标+触发点";
+
+"%hu Laps" = "%hu个计时圈";
+
+/* POI Details */
+"Waypoint #%hu" = "航点 #%hu";
+
+"POI Details #%hu" = "地标详情 #%hu";
+
+"POI Type" = "POI 类型";
+
+"Type" = "种类";
+
+"Description" = "描述";
+
+"POI Set" = "地标组";
+
+"Latitude" = "纬度";
+
+"Font Size" = "字号";
+
+"Direction" = "方向";
+
+"Trigger" = "触发点";
+
+"General" = "常规";
+
+"Display" = "显示";
+
+"Small" = "小";
+
+"Medium" = "中";
+
+"Large" = "大";
+
+"Alert" = "警告";
+
+"Top Right" = "右上";
+
+"Top Left" = "左上";
+
+"Bottom Right" = "右下";
+
+"Bottom Left" = "左下";
+
+"Centered" = "中间";
+
+"Bottom" = "底部";
+
+"Top" = "顶部";
+
+"Trigger Type" = "触发点类型";
+
+"Information" = "信息";
+
+"Stop / Go" = "起点兼终线";
+
+"Stop" = "结束";
+
+"Go" = "起点";
+
+"Split" = "分段";
+
+"Standing Go" = "排位发车起跑";
+
+"Select the event you want to happen once you pass the Point of Interest." = "选择经过地标后您想执行的动作。";
+
+"The Position defines how labels are positioned relative to the POI's polar coordinate." = "位置决定标签相对于路点的极坐标未知。";
+
+/* Recalculation buttons */
+"Splits" = "分段";
+
+"All Track's Splits" = "全部赛道分段";
+
+"Smooth Data" = "平滑数据";
+
+/* GPS Data Recording */
+"All Laps" = "全部计时圈";
+
+"All Sectors #%hu" = "所有计时段 %hu";
+
+"Laps in %hu" = "%hu 计时圈";
+
+"Sectors #%hu in %hu" = "%hu 计时段 %hu";
+
+"Laps on %@ ff" = "%@ ff计时圈";
+
+"Sectors #%hu on %@ ff" = "%hu 计时段 %@ ff";
+
+"Laps on %@" = "%@ 计时圈";
+
+"Sectors #%hu on %@" = "%hu 计时段 %@";
+
+" from %@" = "从 %@";
+
+"Filtered by %@" = "使用 %@ 过滤";
+
+"Not filtered by vehicle" = "没有车辆过滤";
+
+"Absolutely fastest %@ (%@)" = "历史最快%@(%@)";
+
+"sector or lap" = "计时段或计时圈";
+
+"sector" = "计时段";
+
+"Fastest sector or lap at time recorded" = "最快计时段或计时圈成绩";
+
+"Virtually best lap (sum of best sector times)" = "潜力单圈成绩(各计时段最好成绩的总和)";
+
+"Lap selected (%@ - %@)" = "已选计时圈 (%@ - %@)";
+
+"Complete" = "完成";
+
+"Sector #x" = "计时段 #x";
+
+"Speed [%s] @ Distance [%s]" = "速度 [%s] @ 里程 [%s]";
+
+"Lateral Acceleration [g] @ Distance [%s]" = "横向加速度 [g] @ 里程 [%s]";
+
+"Lineal Acceleration [g] @ Distance [%s]" = "纵向加速度 [g] @ 里程 [%s]";
+
+"Overall Acceleration [g-g]" = "合成加速度 [g-g]";
+
+"Yaw Rate [°/s] @ Distance [%s]" = "偏航率 [°/s] @ 里程 [%s]";
+
+"Height [%s] @ Distance [%s]" = "高度 [%s] @ 里程 [%s]";
+
+"Engine [rpm/1000] @ Distance [%s]" = "转速 [rpm/1000] @ 里程 [%s]";
+
+"Throttle [%%] @ Distance [%s]" = "油门 [%%] @ 里程 [%s]";
+
+"Coolant Temperature [%@] @ Distance [%s]" = "冷却液温度 [%@] @ 里程 [%s]";
+
+"Lateral Acceleration" = "横向加速度";
+
+"Lineal Acceleration" = "纵向加速度";
+
+"Yaw Rate" = "偏航率";
+
+"Height" = "高度";
+
+"Coolant Temperature" = "冷却液温度";
+
+"Accumulated Time Gap [s]" = "累计时间差 [s]";
+
+"Selected " = "已选择";
+
+"(OBD speed dotted)" = "(虚线：OBD 时速)";
+
+"(Oil temperature dotted)" = "(虚线：油温)";
+
+"Reference not available" = "无对照圈数据";
+
+"Reference " = "对照";
+
+/* Selection Controller */
+"Edit " = "编辑 ";
+
+/* Video Controller */
+"Throttle" = "油门";
+
+", Lap #%hu/%hu" = "，计时圈 #%hu/%hu";
+
+"Lap# %hu/%hu" = "计时圈# %hu/%hu";
+
+"Processing Video..." = "正在合成视频...";
+
+"Overlaying Video...\n%.0f%% processed (%lu frames)" = "压制数据图层...\n%.0f%% 已处理 (%lu 帧)";
+
+"Rendering Lead...\n%.0f%% processed (%lu frames)" = "运算时间...\n%.0f%%已处理 (%lu 帧)";
+
+"Skipping frames..." = "跳过帧...";
+
+"Transfering Video to Library..." = "正将视频转输至储存库...";
+
+"Corner" = "弯道";
+
+"Sector #%hu" = "计时段 %hu";
+
+"Show Audi" = "显示Audi";
+
+"Start Videoing" = "开始录制";
+
+"Master video o.k." = "主机位视频正常";
+
+", overlay data available" = "，数据图层可用";
+
+", low memory (%.1f GB missing)" = ", 内存不足 (缺少 %.1f GB)";
+
+", overlay data missing" = "，数据图层不可用";
+
+"Invalid master video" = "无效的主拍摄机位视频";
+
+", reference PiP video not valid - excluded" = "，没有对照圈的画中画视频 – 已排除";
+
+", reference PiP video included" = "，包含对照圈的画中画视频";
+
+", %u out of %u MultiCam PiP video(s) valid and included" = "，%u 中 %u 有效的多镜头画中画视频";
+
+", %u MultiCam PiP video(s) included" = ", %u有效的MultiCam画中画视频并放入";
+
+"Reference Video" = "对照圈视频";
+
+"Reference Sector" = "对照计时段";
+
+"Cam #%hu" = "相机 #%hu";
+
+/* Videos */
+"Videos" = "视频";
+
+"File Properties" = "文件属性";
+
+"%@ Integration" = "%@ 整合";
+
+"%@ Recordings" = "%@ 记录";
+
+"External Cam Recordings" = "External Cam 记录";
+
+"MultiCam Recordings" = "MultiCam 记录";
+
+"Camera Roll" = "相机胶卷";
+
+"Overlaid Video" = "带有数据图层的视频";
+
+"Raw Video" = "原始视频";
+
+"Housekeeping" = "清理";
+
+"Play" = "播放";
+
+"Re-Link" = "重新关联";
+
+"Video Details" = "视频信息";
+
+"Location" = "位置";
+
+"Not used" = "未使用的";
+
+"Lap #%hu linked" = "计时圈 #%hu 已关联";
+
+"Laps linked" = "已关联计时圈";
+
+"Size" = "尺寸";
+
+"Overlay Type" = "数据图层类型";
+
+"Overlaid" = "已添加数据图层";
+
+"Raw" = "原始";
+
+"Duration" = "时长";
+
+"Select" = "选择";
+
+"Raw Videos" = "原始视频";
+
+"Remote" = "远程";
+
+"Local" = "本地";
+
+"Download Started" = "下载已开始";
+
+"Downloading %.0f%%" = "下载中 %.0f%%";
+
+"Upload Started" = "上传已开始";
+
+"Not Loaded" = "未载入";
+
+"Uploading %.0f%%" = "正在上传 %.0f%%";
+
+" + %@" = " + %@";
+
+/* Video List */
+"iCloud is disabled currently. To use it, sign in first. iCloud space can be valuable to free up space locally." = "iCloud 目前已关闭，如需启用，请先登入。iCloud可以帮助释放本地空间。";
+
+"Videos stored locally in %@'s sandbox. Footage you record will be stored here initially. Do housekeeping from here." = "视频保存于%@s 的沙盒空间。您录制的片段将会存在此处，您可以在这里进行数据清理。";
+
+"Videos in iCloud get transferred automatically to %@'s recordings currently. You can change that behavior in Settings." = "iCloud中的视频会自动传输至 %@s 的录制区，您可以在设置菜单中修改。";
+
+"Videos stored in iCloud and typically recorded using MultiCam. 'Offline' videos are in the iCloud but not copied locally. Move videos here to free up space locally." = "数据储存于iCloud，通常是用MultiCam录制的多机位视频。'脱机' 视频将会保存在iCloud中，但不会复制到设备上。移出视频可释放本地设备的存储空间。";
+
+"Videos stored locally in Photo app. Overlaid videos go here. Move to desktop using iTunes synchronization." = "视频储存于本地照片应用程序。已压印数据图层的视频将保存在此处。建议使用iTunes来移动文件到桌面端。";
+
+"Videos stored on %@. Use iCloud to transfer footage to this device." = "视频储存于%@。使用iCloud来传输到此设备。";
+
+/* Satellites View */
+"No supported NMEA device connected." = "未连接支持的NMEA设备。";
+
+"Acquiring Satellites..." = "正在接收卫星信号…";
+
+/* Video Controller */
+"Video recording will start automatically when Start / Finish is passed!" = "视频将会在经过起点 / 终点的时候开始录制...";
+
+"Continuous autofocus set" = "连续自动对焦";
+
+"Locked autofocus" = "自动对焦锁定";
+
+"Acceleration sensor reset, starting over individual calibration..." = "加速度计重置，正在重新自动校准…";
+
+"Lap timing started!" = "圈时记录已开始！";
+
+"Video recording started!" = "视频录制已开始！";
+
+"Lap timing finished! Make sure you stop video recording later..." = "圈时记录已完成！稍后请结束视频录制…";
+
+"Lap timing finished!" = "圈时记录已完成！";
+
+"Stopped recording..." = "录制已停止…";
+
+"Lap recorded, next lap started!" = "本圈记录已完成，开始新一圈！";
+
+"Low memory, video recording stopped / disabled! Please free up space and return." = "储存空间不足，视频录像已停止或禁用！请清理出更多空间后继续操作。";
+
+/* Assistants */
+"Mount your device in portrait orientation, both pitching, and gearing is allowed." = "请把设备直立，倾斜和换档操作都是容许的。";
+
+"Stand still on even surface for Pitch Calibration using gravity." = "在水平地面上静止车身，利用重力进行倾斜校准。";
+
+"Drive a straight line with moderate speed, do not turn left or right." = "以正常速度直线行驶，不要左转或右转...";
+
+"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "利用直线段加速或制动来进行档位校准。请自行承担可能存在的风险!";
+
+"Device calibrated successfully. Please reset calibration when changing the mount." = "设备校准已完成，如改变固定方式，请重新校准。";
+
+"Select your track from LapTimer's database and start driving immediately!" = "从LapTimer数据库中选择您所在的赛道后，便可立刻开始赛道竞速！";
+
+"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "赛道数据载入完成！点击“开始驾驶！”按钮即刻开始驾驶, 无需再控制LapTimer，它将自动计时!";
+
+"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "走到起点线并按下“设定”按钮来建立自定义绕桩赛赛道。";
+
+"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "走到终点线并按下“设定”按钮。请确保GPS信号良好！";
+
+"Your autocross course is ready to use! Just mount your device and start driving." = "您的绕桩赛赛道已可以使用！固定好设备后，即可开始驾驶。";
+
+"Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "请输入准备上传至名人堂的3字母的姓名缩写。";
+
+"Select an existing, or add a new vehicle for driving. Can be changed later on." = "选择一款现有，或加入某款全新的车辆来进行驾驶。也可以在之后修改。";
+
+"Basic user settings defined. Progress by loading your track or defining an autocross." = "用户基础设定已完成，请载入您所在的赛道或定义一个新的绕桩赛赛道。";
+
+"To create your custom track, walk to the start/finish line and press the 'Set' button." = "走到起点/终点线并按下“设定”按钮建立自定义赛道。";
+
+"Your track is ready to use! Just mount your device and start driving." = "您的赛道已可以使用！固定好设备后，即可开始驾驶。";
+
+"Define Start" = "定义起点";
+
+"Regular Start" = "一般起跑";
+
+"Standing Start" = "排位发车起跑";
+
+/* KML Import (Radarfalle) */
+"Radar Trap Tunnel" = "雷达测速通道";
+
+"Speed Trap 100" = "测速 100";
+
+"Speed Trap 10" = "测速 10";
+
+"Speed Trap 110" = "测速 110";
+
+"Speed Trap 120" = "测速 120";
+
+"Speed Trap 130" = "测速 130";
+
+"Speed Trap 20" = "测速 20";
+
+"Speed Trap 30 and Stop Light" = "测速 30 信号灯";
+
+"Speed Trap 30" = "测速 30";
+
+"Speed Trap 40 and Stop Light" = "测速 40 信号灯";
+
+"Speed Trap 40" = "测速 40";
+
+"Speed Trap 50 and Stop Light" = "测速 50 信号灯";
+
+"Speed Trap 50" = "测速 50";
+
+"Speed Trap 60 and Stop Light" = "测速 60 信号灯";
+
+"Speed Trap 60" = "测速 60";
+
+"Speed Trap 70 and Stop Light" = "测速 70 信号灯";
+
+"Speed Trap 70" = "测速 70";
+
+"Speed Trap 80 and Stop Light" = "测速 80 信号灯";
+
+"Speed Trap 80" = "测速 80";
+
+"Speed Trap 90 and Stop Light" = "测速 90 信号灯";
+
+"Speed Trap 90" = "测速 90";
+
+"Speed Trap SCE" = "测速 SCE";
+
+"Speed Trap variabel" = "测速 可变限速";
+
+"Stop Light Trap" = "信号灯探头";
+
+/* VideoPro and FollowMe additions */
+"Recording List" = "视频列表";
+
+"Recordings: %hu / GPS Fixes: %lu" = "视频：%hu / GPS采样点：%lu";
+
+"Back" = "返回";
+
+"Forward" = "向前";
+
+"Recording #%hu" = "视频 #%hu";
+
+/* Satellite Sky directions */
+"N" = "北";
+
+"W" = "西";
+
+"E" = "东";
+
+"S" = "南";
+
+/* Activity View messages */
+"Saving Recording Database" = "正在写入数据";
+
+"Migrating to 32bit Recording" = "正在转为32bit数据";
+
+"Migrating Recording Database" = "正在迁移数据";
+
+"Recalculating Acceleration" = "正在重新计算加速度";
+
+"Adjusting Accuracy Calculation" = "正在测算数据精度";
+
+"Migrating Lap Database" = "正在迁移圈时数据库";
+
+"Migrating Lap #%hu Recording" = "正在迁移计时圈 #%hu";
+
+"Migrating Lap #%hu" = "正在迁移计时圈 #%hu";
+
+"Recalculating Recordings" = "重新计算录制中";
+
+"Sending Lap" = "正在发送计时圈数据";
+
+"Receiving Lap" = "正在接收计时圈数据";
+
+"Migrating Points of Interest" = "移动地标中";
+
+"Exporting Points of Interest" = "导出地标中";
+
+"Sending Lap #%ldkB" = "正在发送计时圈 #%ldkB";
+
+"Recalculating Distances for Lap #" = "重新计算计时圈里程 #";
+
+"Checking Databases" = "正在检查数据库";
+
+"Re-sorting GPS Data\n(%lu of %lu)..." = "正在重新排列GPS数据\n(%lu / %lu)";
+
+/* Communication center */
+"Contact" = "联络";
+
+/* Social Networks */
+"Forum" = "论坛";
+
+/* Social Networks */
+"Tweet" = "Twitter推荐";
+
+/* Social Networks */
+"Post" = "微博推荐";
+
+/* Audi iRaceTracker */
+"fastest" = "最快";
+
+"last" = "最后";
+
+"SD Card" = "SD卡";
+
+"Waiting for SD Card..." = "正在等待SD卡…";
+
+"Store" = "储存";
+
+"Send Alert to World" = "传送警告";
+
+/* About Dialog Duplicates */
+"Software intended for use on race tracks only. The author is not responsible for any injuries or property damage that may occur during use of this software." = "此软件仅适于赛道使用。作者不对任何使用本软件过程中的受伤或财产损失负责。";
+
+"I Agree" = "我同意";
+
+/* Certification View */
+"Certification Sanity Check" = "检查认证完整性";
+
+"Triggers exist" = "存在触发点";
+
+"Triggers have a direction" = "触发点带方向过滤";
+
+"Information POIs exist" = "存在地标信息";
+
+"POIs have a description" = "地标带描述信息";
+
+"Intermediates exist (1 to 4)" = "存在分段(1到4之间) ";
+
+"POI Set:" = "地标组：";
+
+"Please complete the list if possible. However, please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting LapTimer!" = "请尽可能填写完整。如发现缺少您需要的功能，请直接提出。我将认真评估可行性。感谢支持LapTimer！";
+
+"Please complete the list if possible. Please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting Harry!" = "请尽可能填写完整。如发现缺少您需要的功能，请直接提出。我将认真评估可行性。感谢支持Harry！";
+
+"Rework" = "重做";
+
+"POIs positioned" = "地标已放置";
+
+"POIs exist" = "地标已存在";
+
+/* Export und Export Vehicle View */
+"Lap and Type Selection" = "计时圈及数据格式选择";
+
+"Text (.csv)" = "文本格式 (.csv)";
+
+"LapTimer (.hlptrl)" = "LapTimer格式 (.hlptrl)";
+
+"Google Earth® (.kml)" = "Google地球® (.kml)";
+
+"Adobe® (.pdf) " = "Adobe® (.pdf)";
+
+"Circuit Tools® (.vbo)" = "Circuit Tools® (.vbo)";
+
+"Mail" = "邮件";
+
+"Dropbox" = "Dropbox";
+
+"Send Mail..." = "发送邮件…";
+
+"Vehicle Selection" = "车辆选择";
+
+"Export Type" = "导出文件格式";
+
+"LapTimer (.hvehl)" = "LapTimer格式 (.hvehl)";
+
+"This will export the selected vehicle's or all vehicle's definitions to LapTimer's own format. Like all other LapTimer formats, you can open / install this exported file selecting it - e.g. in Mail." = "此功能可将所选或所有车辆信息导出为LapTimer专用格式。跟所有其他LapTimer格式一样，您可以使用LapTimer打开或装载文件。";
+
+/* Android Help View */
+"Quick Reference" = "快捷手册";
+
+"offline, iOS-ish" = "脱机，iOS版本";
+
+"online, iOS-ish" = "在线，iOS版本";
+
+"online" = "在线";
+
+"Offline Documentation - How to Use LapTimer" = "脱机文档 – LapTimer使用入门";
+
+/* Social Networks */
+"LapTimer Forum" = "LapTimer 官方讨论区";
+
+"Central Point of Support - Answers to All Your Questions" = "客服中心 – 回答所有问题";
+
+"LapTimer on Facebook" = "LapTimer Facebook页面";
+
+"The Place to Share - Please Like and Share Your Videos" = "分享之地 – 快去点赞并分享您的视频";
+
+"Quick Start Video" = "快速启动视频";
+
+"Video Tutorial - Available on YouTube" = "视频教学 – 可在YouTube上找到哟";
+
+/* Social Networks */
+"Facebook" = "Facebook";
+
+/* Social Networks */
+"Twitter" = "Twitter";
+
+/* Social Networks */
+"SinaWeibo" = "新浪微博";
+
+"Save" = "储存";
+
+/* Track Filters */
+"Track Filter" = "赛道筛选";
+
+"Oval" = "椭圆型赛道";
+
+"Hill" = "山路";
+
+"Street" = "街道";
+
+"'%s' POI Set" = "“%s”地标组";
+
+"Lap #%d (%s)" = "计时圈 #%d (%s)";
+
+/* Sensors */
+"Add Sensor" = "增加传感器";
+
+/* Assistants */
+"Best" = "最快圈";
+
+"Last" = "上一圈";
+
+"Set Driver ID" = "设定车手ID";
+
+"Define" = "定义";
+
+"Advanced Mode" = "高级模式";
+
+"Rename" = "重命名";
+
+"Define Start / Finish" = "定义起点/终点";
+
+"Define Finish" = "定义终点线";
+
+"Ready for Driving" = "可开始驾驶";
+
+/* Android preferences help texts */
+"Short driver ID used for Online Racing: CURRENTVALUE" = "车手在线排行中使用的短字母代号: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Define the publishing level for Online Racing; None turns activities off: CURRENTVALUE" = "圈时上传服务器设置；可选择停用: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Turn (loud) startup sound on and off" = "启动声效开关";
+
+/* Android preferences help texts */
+"Turn audio signals (e.g. trigger activities) on and off" = "提示音(如经过触发点)开关";
+
+/* Android preferences help texts */
+"Turn speech messages on lap times on and off" = "圈时语音提示开关";
+
+/* Android preferences help texts */
+"Select the reference lap the current lap is compared to: CURRENTVALUE" = "与当前计时圈进行比较的对照圈: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select the width of corridor LapTimer uses for trigger detection: CURRENTVALUE" = "设置终点直道宽度，LapTimer将由此调整圈时算法: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select data compression for GPS recordings: CURRENTVALUE" = "GPS数据的压缩等级: CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select GPS information shown in GPS View: CURRENTVALUE" = "在GPS视图中的GPS 信息: CURRENTVALUE";
+
+"Selects button style to feature small indicators for action performed" = "小时速表的按钮样式";
+
+/* Android preferences help texts */
+"Select one of the possible formats used for polar coordinates: CURRENTVALUE" = "极坐标显示格式：CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select unit system, use System to get your country defaults: CURRENTVALUE" = "度量单位设置，默认匹配系统的国家地区设置：CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select power and torque units: CURRENTVALUE" = "功率和扭矩单位：CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select whether manual operation is supported" = "手动计时";
+
+/* Android preferences help texts */
+"Select default action for manual stops" = "手动结束计时";
+
+"Turn energy saving on and off" = "节能功能开关";
+
+/* Android preferences help texts */
+"Reset standard settings when LapTimer is started the next time" = "勾选此项目后，LapTimer将在下次启动时重置所有设置";
+
+/* Android preferences help texts */
+"Expert settings, use only in case you were adviced" = "仅可在指导下使用专家设定";
+
+/* Text 2 Speech */
+"%u minute, %hu.%02hu seconds" = "%u 分 %hu 点 %02hu 秒";
+
+"%u minutes, %hu.%02hu seconds" = "%u 分 %hu 点 %02hu 秒";
+
+/* Map Configuration */
+"Legend" = "图例";
+
+"Center" = "应用";
+
+"Show Fixes" = "显示采样点";
+
+"Show Grid/Meter" = "显示网格/标尺";
+
+/* Lap Configuration */
+"Lap Selection" = "选择计时圈";
+
+"Highlight Sectors" = "高亮计时段";
+
+"Days" = "天";
+
+"Season" = "季度";
+
+"Focus Time Delta" = "放大时间差";
+
+/* Diagram Configuration */
+"Show Reference" = "显示对照圈";
+
+"Show Map" = "显示地图";
+
+"Show Time Gap" = "显示时间差";
+
+"Allow Any Car" = "允许任何车辆";
+
+/* Filter and Lap List drill down */
+"Tags" = "标签";
+
+"Tag" = "标签";
+
+"Trackday" = "赛道日";
+
+"Year" = "年";
+
+"Make Default" = "设为默认项";
+
+"Load Default" = "加载默认项";
+
+"Delete List" = "删除名单";
+
+"Filters" = "筛选器";
+
+"Filter" = "筛选器";
+
+"All Dates" = "全部日期";
+
+"Last Trackday" = "上个赛道日";
+
+"Last Session" = "上个计时段";
+
+"Any Tags" = "任何标签";
+
+"Clear Filter" = "清除筛选项";
+
+"Dates" = "日期";
+
+"Near Me" = "附近";
+
+/* Health Status Hover View */
+"Location Service" = "位置服务";
+
+"GPS Position" = "GPS位置";
+
+"GPS Update Rate" = "GPS采样率";
+
+"OBD Update Rate" = "OBD采样率";
+
+"Track Nearby" = "附近赛道";
+
+"System Status" = "系统状态";
+
+"Overall Status:" = "整体状态：";
+
+"All Set" = "准备完成";
+
+"Storage" = "储存空间";
+
+"Conditionally Operational" = "运行存在限制";
+
+"Not Ready" = "未准备就绪";
+
+"Press any yellow or red item to get assistance on how to fix the issue (mandatory for red):" = "点击黄色或红色按钮可获取修复问题的建议(红色为必须解决的重要项目)：";
+
+"External GPS sensor seems to be available, but cannot be connected. Please turn it off and on to force a reset. In case the problem persists, try to restart LapTimer." = "侦测到外置GPS传感器, 但是无法连接。重启设备来强制重设。如果问题还是存在，请重新启动LapTimer。";
+
+"External GPS sensor is available but not used currently. To connect to this sensor, please tick 'Use Accessories' in 'Expert Settings'." = "侦测到外置GPS传感器，但未被使用。如要连接此传感器，请勾选专家设定中的“Use Accessories”。";
+
+"No GPS position available currently. The reason is either the GPS sensor has no satellite lock so far, or your device allows wifi / mobile triangulation only." = "GPS传感器没有连接到任何卫星，无法定位。或是设备只支持Wifi/ 蜂窝基站定位。";
+
+"The GPS sensor delivers a lower update rate than expected. The reason is most probably a bad GPS reception. Please mount your device in a place it has a better view to the sky." = "GPS传感器的更新率比预期的低，GPS或许信号接收不良，请把设备固定在正对天空且无遮挡的位置。";
+
+"The GPS sensor does not receive positions. The reason is either the GPS sensor has no satellite lock so far, or the connection is broken. In case of the later, please restart the device." = "GPS传感器无法执行定位。有可能是无法锁定卫星信号或连接出错。若始终如此，请重启设备。";
+
+"GPS accuracy is too low for proper operation. Please mount your device in a place it has a better view to the sky." = "GPS定位精度过低，请把设备固定在正对天空无遮挡的位置。";
+
+"GPS accuracy is poor. Please mount your device in a place it has a better view to the sky." = "GPS定位精度过低，请把设备固定在正对天空无遮挡的位置。";
+
+"The acceleration sensor is not yet calibrated. Please make sure your device is mounted properly and stand still on flat surface. You may restart calibration manually." = "加速传感器尚未校准。请确保设备是否被正确紧固于平坦的表面上。您可以重新进行手动校准。";
+
+"Acceleration sensor calibration is prepared for track use but is not yet finished. You can ignore this as the calibration will be finished during the first hard brake on a straight." = "加速传感器已可用于赛道，但完整的校准过程尚在进行。校准将在第一次直线大力制动后完成。";
+
+"The track set nearby is not certfied. In case you have set up your own track set, this is o.k. In case you use a prepared track set, please reload it from the tracks database." = "附近的赛道组未通过认证。如果您已设置自己的赛道组则不影响使用。如果您准备使用应用预设的赛道组，请在数据库中重新载入赛道。";
+
+"The track set nearby shows conflicts to other track sets. This will keep LapTimer from detecting laps reliantly. Please remove the conflicts from 'Lap List'." = "赛道组与附近其他赛道发生冲突。LapTimer 会自行检测赛道可信度。请从“计时圈列表”内移除冲突的赛道。";
+
+"No track set found nearby. You can ignore this warning in case you have not yet arrived on track. You need to download a track set for automatic timing operation." = "附近未找到赛道，如果您还没有抵达赛道，您可以忽略本讯息。您必须下载赛道组来使用自动计时。";
+
+"Location service is disabled for either your device, or LapTimer. Please enable in Settings ‣ Privacy ‣ Location Services, LapTimer requires this service to work correctly." = "设备或是LapTimer的定位服务已被关闭，请在设定 ‣ 隐私 ‣ 定位服务中重新开启，LapTimer的运行需要定位服务的支持。";
+
+"The OBD sensor does not receive data at an expected rate. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "OBD传感器无法在预期速率下接收数据。请检查车辆，OBD传感器和LapTimer之间的兼容性。更多资料，请查看www.gps-laptimer.de中的设备兼容性页面。";
+
+"An OBD sensor seems to be available, but cannot be connected. Please turn off and on to force a reset. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "搜寻到一个OBD传感器, 但无法连接。请关闭后重新启动设备来重置。请检查车辆，OBD传感器和LapTimer之间的兼容性。更多资料，请查看www.gps-laptimer.de中的设备兼容性页面。";
+
+"Please check your storage available. Both data and video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "请检查设备存储空间是否足够。存储空间过小会造成数据和视频录制失败。请删除之前的视频和照片来释放一些空间。";
+
+"Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "视频当前的分辨率低于系统最高可支持的分辨率。如果您不需要最高分辨率，可以忽略此讯息。如果您要使用高分辨率，可以在设置中选择。";
+
+"MultiCam operation is disabled currently. This means MultiCam or other supported external cams around will not be remote controlled by LapTimer. Please enable MultiCam in Settings to make this feature available." = "MultiCam操作已禁用。这意味着MultiCam或其它外置摄影机不会被LapTimer控制。如需启用，请在设置中的MultiCam项目中进行设置。";
+
+"Correct Mounting (Upright)" = "确认固定方式(直立设备)";
+
+"Pitch Calibration (Standstill)" = "颠簸校准(静止)";
+
+"Drive Straight Line (Forward)" = "直线行驶(匀速向前)";
+
+"Gear Calibration (Acceleration)" = "档位校准 (加速)";
+
+"Force Calibration" = "强制校准";
+
+"Add" = "添加";
+
+"Reference Lap" = "对照圈";
+
+"Front Camera" = "车头相机";
+
+"Lock Autofocus" = "锁定焦距";
+
+"Video Stabilizer" = "视频稳定器";
+
+"External Mic" = "外置麦克风";
+
+"Overlay Configuration" = "数据图层设置";
+
+"Intro" = "片头";
+
+"Extro" = "片尾";
+
+"POI / Speed Inserts" = "地标/速度标签";
+
+"Countdown" = "倒数计时";
+
+"OBD II Data" = "OBD II数据";
+
+"Date and Timing" = "日期与时间";
+
+"Video Sync Setting" = "视频同步设定";
+
+"Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "选择与计时圈末尾符合的画面帧，然后按下“设定”。长按滑轨可放大比例";
+
+/* Video Controller */
+"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "后台视频记录已被禁用。经过起点/终点时录像【不会】启动！";
+
+"Microphone" = "麦克风";
+
+"BT Mouse" = "蓝牙鼠标";
+
+"Data Filtering" = "数据筛选";
+
+"Strength" = "强度";
+
+"Light" = "轻";
+
+"Strong" = "重";
+
+"Apply" = "应用";
+
+"Check data that will result when applying the filter using the Strength selected. It is recommended to apply Light only." = "当使用强度选择后会开始筛选数据。建议使用轻强度。";
+
+"Done" = "完成";
+
+"Lap of Day" = "当日最速圈";
+
+"Undefined" = "未定义";
+
+"Lap #n/a" = "计时圈 #n/a ";
+
+"No laps matching filter criteria" = "无符合条件的计时圈";
+
+"Body" = "车身";
+
+"Drivetrain" = "传动系统";
+
+"Track Set / Temporary" = "赛道组 / 临时";
+
+"Track Set / Permanent" = "赛道组 / 常设";
+
+"Track Set / Oval" = "赛道组 / 椭圆型";
+
+"Track Set / Drag Strip" = "赛道组 / 直线加速";
+
+"Track Set / Hillclimb" = "赛道组 / 山路";
+
+"Track Set / Inactive" = "赛道组 / 未开启";
+
+"Track Set / Kart" = "赛道组 / 卡丁车";
+
+"Track Set / Bicycle" = "赛道组 / 自行车";
+
+"Track Set / Motorbike" = "赛道组 / 摩托车";
+
+"Track Set / Testing" = "赛道组 / 测试";
+
+"Free Feature" = "免费功能";
+
+"App" = "App";
+
+"No Plot Available" = "无绘图数据";
+
+"Driver(s)" = "车手";
+
+"Certified Track Set" = "已认证的赛道组";
+
+"No Challenges Available" = "暂无挑战";
+
+"User POI Set" = "自定义地标组";
+
+"Challenge" = "挑战";
+
+"Challenge Submission" = "发出挑战";
+
+"First Name:" = "名：";
+
+"Last Name:" = "姓：";
+
+"Last Name" = "姓";
+
+"First Name" = "名";
+
+"Visibility" = "可见度";
+
+"Public" = "公开";
+
+"Not Listed" = "非公开";
+
+"List Code:" = "挑战代码：";
+
+"Submit" = "提交";
+
+"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "如要提交此挑战，请确认“%FIRST %LAST”是您的真实姓名，且提交的计时圈数据是您个人的真实驾驶记录。并同意您的单圈数据将会被复制到Harry’s LapTimer服务器，传输给其他对这个挑战感兴趣的用户。";
+
+"Challenges Available" = "存在可挑战项目";
+
+"Refresh" = "刷新";
+
+"User Track Set" = "自定义赛道组";
+
+"Loading Challenges..." = "正在载入挑战…";
+
+"Challenges Offline" = "离线挑战";
+
+"Certified POI Set" = "已认证地标组";
+
+"Confirmation" = "确认";
+
+"To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "请先输入从挑战发起者处得到的挑战代码，点击“刷新”后便可显示“非公开挑战”";
+
+"List Code" = "挑战代码";
+
+"Retrieving Active Tracks from Server..." = "正从服务器获取存在活动的赛道列表…";
+
+"Connecting to Server..." = "正在连接服务器…";
+
+"Challenges" = "挑战";
+
+"Refresh Challenges" = "刷新挑战";
+
+"ID: -" = "ID: -";
+
+"Payload" = "载重";
+
+"Full Weight" = "整备质量";
+
+"Weight" = "重量";
+
+"Unladen" = "空载重量";
+
+"Curb Weight" = "车身净重";
+
+"Curb weight is the vehicle's total weight including fluids / fuel, but not loaded with passengers / cargo." = "车身净重指车辆含油液/燃料，但不含乘客/货物的重量。";
+
+"Carrying weight on top of curb weight. Made up from passengers and cargo." = "车身净重以外由乘客/货物组成的重量。";
+
+"Volumetric Efficiency" = "容积效率";
+
+"Vol. Efficiency" = "容积效率";
+
+"Efficiency" = "效率";
+
+"Measure for efficiency with which the engine can move charge into and out of cylinders." = "发动机活塞缸体充气与排气的效率。";
+
+"Engine Displacement" = "发动机排量";
+
+"Volume" = "容量";
+
+"Engine displacement in cubic centimeters (1000 cc = 1 litre)." = "以立方厘米计算的发动机排量（1000cc = 1升）。 ";
+
+"Displacement" = "排量";
+
+"cc" = "cc";
+
+"%hu cc" = "%hu cc";
+
+"Initialization" = "初始化";
+
+"Sensor Information" = "传感器信息";
+
+"Info" = "信息";
+
+"Expert Setting (ASCII)" = "专家设定(ASCII)";
+
+"Expert Setting (HEX)" = "专家设定(HEX)";
+
+"Ports" = "接口";
+
+"Volt" = "电压";
+
+"Hall" = "霍尔";
+
+"Binary" = "二进制";
+
+"Actual support for update rates depends on model and firmware / hardware revisions" = "更新频率取决于设备型号和固件/硬件版本";
+
+"High" = "高";
+
+"Low" = "低";
+
+"Media Storage" = "媒体存储";
+
+"Please check your storage available. Data recordings will fail in case remaining storage is too low. To free up space, please consider removing apps and other data." = "请检查可用存储空间。剩余空间太少会造成数据记录失败。若要释放空间，请考虑删除应用程序和其他数据。";
+
+"Please check your media storage (SD Card) available. Video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "请检查储存空间（SD卡）。剩余空间太少会造成数据记录失败。如要释放空间，请考虑删除之前的视频与照片。";
+
+"High Update Rate" = "高更新率";
+
+"Extended" = "拓展";
+
+"Laps to Overlay" = "压印数据图层的计时圈";
+
+", processing laps" = "，正在生成计时圈";
+
+", processing lap" = "，正在生成计时圈";
+
+" and #%hu" = " 与 #%hu";
+
+", and #%hu" = "，与 #%hu ";
+
+"of the day" = "一天中";
+
+"Adjust Acceleration" = "调整加速度";
+
+"Adjust Lean Angle" = "调整倾斜角";
+
+"Continuous exposure set" = "连续曝光设定";
+
+"Lock Exposure" = "曝光锁定";
+
+"Locked exposure" = "曝光已锁定";
+
+"Deleting Laps" = "删除计时圈";
+
+"MultiCam" = "MultiCam";
+
+"Close" = "关闭";
+
+"Select the frame matching the end of the timed lap, and press 'Set'." = "选择与计时圈末尾吻合的画面帧，然后点击“设定”";
+
+"GPS Speed" = "GPS时速";
+
+"OBD II Gadget" = "OBD II设备";
+
+"Please wait..." = "请等待…";
+
+"Master Missing" = "缺少主拍摄机位";
+
+"warning: " = "警告：";
+
+"hardware under design for %s" = "为%s所设计的硬件";
+
+"kcal" = "千卡";
+
+"Web" = "网络";
+
+"%.1f hour(s) required" = "需要%.1f小时";
+
+"%d minute(s) required" = "需要%d分钟";
+
+"no guess for time required available" = "暂时无法预估时间";
+
+/* Overlay Quality */
+"Small Size, Low Quality" = "小尺寸，低画质";
+
+"Overlay Quality" = "数据图层画质";
+
+/* Overlay Quality */
+"Large Size, High Quality" = "大尺寸，高画质";
+
+/* Overlay Quality */
+"Huge Size, Highest Quality" = "超大尺寸，最高画质";
+
+/* Android preferences help texts */
+"Select resolution used for video recording: CURRENTVALUE" = "视频录制分辨率：CURRENTVALUE";
+
+/* Android preferences help texts */
+"Select overlay encoding size and quality: CURRENTVALUE" = "数据图层的尺寸与画质：CURRENTVALUE";
+
+"Emulated" = "模拟";
+
+"Videos stored locally in ‘%@‘. Footage you record will be stored here initially. Do housekeeping from here." = "视频保存于“%@”。新的视频将被保存在此。您可以在此进行数据清理。";
+
+"Videos stored locally in ‘%@‘. Do housekeeping from here." = "视频保存于“%@”。您可以在此进行数据清理。";
+
+"Air" = "空气";
+
+"Master video too big" = "主机位视频文件过大";
+
+"Boost" = "增压";
+
+"Bar" = "Bar";
+
+"kPa" = "kPa";
+
+"Verify Lap" = "验证计时圈";
+
+/* Export help texts */
+"Comma Seperated Values (.csv) is a versatile export format used for post processing. Desktop software: e.g. Microsoft Excel(TM)." = "逗号分隔列表 (.csv)格式，是多功能的后期处理输出格式。桌面端应用软件：例如Microsoft Excel(TM)";
+
+"Harry's LapTimer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between LapTimer apps." = "Harry's LapTimer专用(.hlptrl)格式，包括完整的赛道与车辆数据库信息，可用以备份，或在LapTimer应用间共享数据。";
+
+"MICHELIN Lap Timer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between Lap Timer apps." = "MICHELIN Lap Timer专用(.hlptrl)格式，包括完整的赛道与车辆数据库信息，可用以备份，或在LapTimer应用间共享数据。";
+
+"Keyhole Markup Language (.kml) is Google's format for geographic annotation and visualization. Desktop software: Google Earth(TM)." = "Keyhole Markup Language(.kml)格式，谷歌发布的地理标注与可视化格式。桌面端应用软件：Google Earth(TM)。";
+
+"Portable Document Format (.pdf) is an open standard format introduced by Adobe Systems(R) to present documents independant of specific applications. Desktop software: any PDF Viewer." = "可移动文本(.pdf)格式，是由Adobe Systems(R)提供的开放标准格式，用以处理特定应用的独立文档。桌面端应用软件：任意PDF浏览器";
+
+"VBOX format (.vbo) used by most Racelogic Ltd equipment and dedicated to automotive data recording. Desktop software: Racelogic Circuit Tools(TM)." = "VBOX专用(.vbo)格式，Racelogic Ltd旗下绝大多数设备的记录格式，被赛车运动界广泛采用。桌面端应用软件：Racelogic Circuit Tools(TM)。";
+
+"National Marine Electronics Association standard 0183 (.nmea) file format used by GPS and other sensors. Desktop software: e.g. GPSBabel." = "美国国家海洋电子协会标准0183(.nmea)格式，被GPS和其他传感器采用。桌面端应用软件：GPSBabel。";
+
+"GPS Exchange Format (.gpx) is an XML schema designed as a common GPS data format. Desktop software: most GPS viewers." = "GPS交换(.gpx)格式，以XML架构所设计的常见GPS数据格式。桌面端应用软件：绝大部分的GPS浏览器。";
+
+"Press any format extension above to get a description on the format and desktop programs to use. Selected extensions are exported, availability depends on the export scope selected." = "点击以上任意格式扩展名，可查阅详细的格式介绍以及应用软件推荐。最终数据将被导出为选择的格式。";
+
+"Electric" = "电动";
+
+/* Vehicle Details */
+"Laps: %hu" = "计时圈: %hu";
+
+/* Vehicle Details */
+"Recordings: %hu" = "录像：%hu";
+
+"Country" = "国家";
+
+"Clockwise" = "顺时针";
+
+"Counter Clockwise" = "逆时针";
+
+"Quality" = "品质";
+
+"Reply" = "回复";
+
+"Message" = "消息";
+
+"Loading..." = "正在载入…";
+
+"Text of message is not available" = "消息文本不可用";
+
+"Laps to Pit" = "剩余圈数";
+
+", identifier '%s'" = "，识别器“%s”";
+
+"Identifier '%s'" = "识别器“%s”";
+
+"Transfer" = "传送";
+
+"Waiting for Laps...(%u Seconds)" = "等待计时圈…(%u秒)";
+
+"Waiting for Laps..." = "等待计时圈…";
+
+"Connecting..." = "正在连接…";
+
+"Wheel speed (%s) of vehicle." = "车辆轮速(%s)";
+
+/* HeavyDuty */
+"Rating %.0f%% (Pulled Mass/Truck GVM)" = "牵引比例 %.0f%% (牵引质量/牵引车总重量)";
+
+"Trailer" = "拖车";
+
+"Numbers in [%s]" = "数值[%s]";
+
+"Combined" = "已连接";
+
+/* HeavyDuty */
+"Towing Status" = "牵引状态";
+
+/* HeavyDuty */
+"Towing Capacity (TC) met" = "最大牵引能力（TC）";
+
+"Gross Truck Weight (GVM) Rating" = "牵引车总重量（GVM）比例";
+
+/* HeavyDuty */
+"Gross Trailer Weight (GVM) Rating" = "拖车总重量（GVM）比例";
+
+"Driving" = "行驶中";
+
+"Parking" = "停车中";
+
+"Rated o.k." = "比例正常";
+
+"Limits exceeded!" = "超过限额";
+
+"Vehicle definitions incomplete" = "车辆设定未完成";
+
+"Vehicles not defined" = "车辆未设定";
+
+"Define Vehicles" = "设定车辆";
+
+"Device Orientation" = "设备方向";
+
+"Offroad" = "越野";
+
+"Initializing" = "正在初始化";
+
+"Ready to Drive" = "可以开始驾驶";
+
+"Pitch & Roll" = "颠簸与侧倾";
+
+"Rear View" = "后视视角";
+
+"Trip Computer" = "行车电脑";
+
+"Park Vehicle" = "停车";
+
+/* HeavyDuty */
+"Leveling" = "水平";
+
+"Position Stored..." = "位置已储存...";
+
+"to" = "到";
+
+"Catalyst" = "尾气催化器";
+
+"Device" = "设备";
+
+"Rating" = "评分";
+
+/* HeavyDuty */
+"(Pulled Mass/Truck GVM)" = "（牵引质量/牵引车总重量）";
+
+"Copy to Vehicle" = "复制到车辆";
+
+"Lookup Car" = "查找车辆";
+
+"Select criteria to load defaults (cars available in the U.S. only). Once you have found your model, press 'Copy to Vehicle'. Values marked with an exclamation mark differ from your current definitions." = "选择读取默认车辆参数（仅限美国的车辆）。找到车辆型号后，请按“复制到车辆”按钮。标识有感叹号的数值与当前定义车辆有所区别。";
+
+"Criteria" = "标准";
+
+"Lookup" = "查找";
+
+"Make" = "品牌";
+
+"Model" = "型号";
+
+"Style" = "款式";
+
+/* HeavyDuty */
+"Towing" = "拖引";
+
+"Capacity" = "载客量";
+
+"Gross Mass" = "最大总量";
+
+"Gross Weight" = "总重量";
+
+"Width" = "宽度";
+
+"Wheelbase" = "轴距";
+
+"Loading Makes..." = "正在载入品牌…";
+
+"Loading Models..." = "正在载入型号…";
+
+"Loading Years..." = "正在载入年份…";
+
+"Loading Styles..." = "正在载入款式…";
+
+"Loading Engines..." = "正在载入发动机数据…";
+
+"Loading Equipment..." = "正在载入配置数据…";
+
+"Loading Car..." = "正在载入车辆数据…";
+
+"For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "请填写发动机与传动系统部分内容以获得合适的档位和OBD功能适配。如果没有可用的OBD传感器，只需完成“常规”部分的内容。";
+
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "请设置品牌/型号/年份或输入个性化的车辆别名。";
+
+"Vehicle Description" = "车辆描述";
+
+"Make of vehicle, e.g. 'Porsche' or 'Ford'." = "制造商名称，例如：“保时捷”、“福特”。";
+
+"Vehicle Make" = "品牌";
+
+"Vehicle Model" = "型号";
+
+"Model of vehicle, e.g. '911' for a Porsche 911 or 'Mustang' for a Ford Mustang." = "车辆型号，例如：保时捷的“911”，福特的“野马”。";
+
+"The model year the vehicle has been built for." = "车辆制造年份。";
+
+"Vehicle Style" = "款式";
+
+"The specific model style of the vehicle, e.g. 'GT3 RS' for a Porsche 911 GT3 RS or 'V6 Coupe' for Ford Mustang V6 Coupe." = "具体的车辆款式，例如：保时捷911 GT3 RS的“GT3 RS”，福特野马V6 Coupe的“V6 Coupe”。";
+
+"Any individual name you want to give to this vehicle. NB: this value is overriden when specifying make/model/year." = "设定您的车辆名称。注意：这将取代具体的品牌/型号/年份进行显示。";
+
+"Axles" = "轮轴";
+
+"Tongue Weight" = "拖挂重量";
+
+/* HeavyDuty */
+"Hitch 2 Axle" = "双轴拖挂";
+
+"Unspecified (1)" = "未定义（1）";
+
+"Unspecified (2)" = "未定义（2）";
+
+"Unspecified (3)" = "未定义（3）";
+
+"Gross vehicle mass (GVM) is the maximum operating weight as specified by the manufacturer." = "车辆总重量（GVM）是制造厂商所规定的车重加负载的最大重量。";
+
+"%@ and %hu more" = "%@等%hu条";
+
+/* HeavyDuty */
+"Number of trailer axles." = "拖车车轴数量";
+
+/* HeavyDuty */
+"Maximum towing capacity of a vehicle. Needs to be bigger than the trailer's weight." = "车辆最大牵引力。需大于拖车重量。";
+
+"Towing Capacity" = "牵引重量";
+
+"Number Axles" = "车轴数量";
+
+/* HeavyDuty */
+"Distance between the tow hitch's end (hook) and trailer's axle. For trailers with 2 axles, the distance to the center between axles is used. Used to simulate towing geometry." = "挂钩末端与拖车车轴之间的距离。对有双车轴的拖车，这个距离指两个车轴之间的距离。";
+
+/* HeavyDuty */
+"Tongue weight of the trailer is the force applied to the trailer hitch when pulling." = "拖车挂钩牵引力是指拖车被牵引时的力量。";
+
+"Body Width" = "车身宽度";
+
+"Body Length" = "车身长度";
+
+"Body Height" = "车身高度";
+
+"Vehicle's body width. Does not include mirrors." = "车辆宽度。不包括后视镜。";
+
+"Vehicle's full body length." = "整车长度";
+
+"Vehicle's body height." = "整车高度";
+
+"Wheelbase is the distance between the centers of the front and rear wheels." = "轴距是前轮和后轮中心的距离。";
+
+"Distance" = "距离";
+
+"Position Set" = "位置设定";
+
+"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "请按下“设定位置”以储存停车位置，并让应用指引您找到车子。";
+
+"Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "您的停车位置已经储存，可以离开！您可以在应用中找到当前位置与停车位置。";
+
+"Turn Off" = "关闭";
+
+"Walk Away" = "离开";
+
+"Set Position" = "设定位置";
+
+"Vehicle Roll" = "车辆侧倾角";
+
+"Vehicle Pitch" = "车辆前后倾角";
+
+"Set Level" = "设置水平";
+
+"Terrain" = "地形";
+
+"Roadbook" = "路书";
+
+"Trips" = "出行";
+
+"Race" = "竞速";
+
+"Prepare Race" = "赛前整备";
+
+"Analysis" = "数据分析";
+
+"Realtime" = "实时数据";
+
+"Lock Calibration" = "锁定校准";
+
+"Unlock Calibration" = "解锁校准";
+
+"Recording" = "正在录制";
+
+"Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "录制已在进行中。当您完成驾驶，请转到计时功能菜单，取消未完成的冷却圈。";
+
+"Restore" = "恢复";
+
+/* HeavyDuty */
+"Leveling Options" = "水平选项";
+
+/* HeavyDuty */
+"Hitch" = "挂钩";
+
+/* HeavyDuty */
+"Flat" = "平整";
+
+/* HeavyDuty */
+"Focus" = "对焦";
+
+"Align" = "对齐";
+
+/* HeavyDuty */
+"Flat Option" = "平整选项";
+
+/* HeavyDuty */
+"Flat Leveling" = "水平平整";
+
+/* HeavyDuty */
+"Cam Option" = "相机选项";
+
+/* HeavyDuty */
+"Roll Leveling (Step 1)" = "侧向水平调整（步骤1）";
+
+/* HeavyDuty */
+"Pitch Leveling (Step 2)" = "前后水平调整（步骤2）";
+
+/* HeavyDuty */
+"<hl>Invalid device orientation</hl>, please adjust as required!" = "<hl>设备方向不合规</hl>，请调整设备！";
+
+/* HeavyDuty */
+"<hl>Caravan's roll is level!</hl>" = "<hl>野营车已达到横向水平！</hl>";
+
+"Level" = "水平";
+
+/* HeavyDuty */
+"<hl>Raise left</hl> or lower right <hl>by %@</hl>." = "<hl><抬高左边/hl>或降低右边<hl>%@</hl>。";
+
+/* HeavyDuty */
+"<hl>Raise right</hl> or lower left <hl>by %@</hl>." = "<hl><抬高右边/hl>或降低左边<hl>%@</hl>。";
+
+/* HeavyDuty */
+"<hl>Caravan's pitch is level!</hl>" = "<hl>野营车的前后已达到水平！</hl>";
+
+/* HeavyDuty */
+"<hl>Lower hitch by %@</hl>." = "<hl>降低挂钩%@</hl>";
+
+/* HeavyDuty */
+"<hl>Raise hitch by %@</hl>." = "<hl>抬高挂钩%@</hl>";
+
+/* HeavyDuty */
+"Cam Leveling" = "相机水平";
+
+/* HeavyDuty */
+"No cam available" = "相机不可用";
+
+/* HeavyDuty */
+"Camera Control (Step 1)" = "相机控制（步骤1）";
+
+/* HeavyDuty */
+"Adjustment (Step 2)" = "调整（步骤2）";
+
+/* HeavyDuty */
+"Align to Roof" = "对齐顶部";
+
+/* HeavyDuty */
+"Roll Done!" = "侧向水平调整完成";
+
+/* HeavyDuty */
+"Pitch Done!" = "前后水平调整完成";
+
+/* HeavyDuty */
+"Adjust Roll" = "调整侧倾角";
+
+/* HeavyDuty */
+"Adjust Pitch" = "调整前倾角";
+
+/* HeavyDuty */
+"Please enter Flat Leveling in Harry's Heavy Duty - Camper Edition" = "请在Harry's Heavy Duty - Camper Edition中输入水平选项";
+
+/* HeavyDuty */
+"Flip" = "翻转";
+
+"Please start Harry's LapTimer on your iPhone" = "请在您的iPhone上打开Harry's LapTimer";
+
+/* HeavyDuty */
+"For leveling instructions using <hl>unit %s</hl>, press <ui>Caravan</ui> to configure your caravan." = "请使用<hl>单位 %s</hl>获得水平调整的指示，请按下<ui>野营车</ui>以设置您的野营车。";
+
+/* HeavyDuty */
+"To use this assistant, place the smartphone flat onto the caravan's floor, or a stable desk or table. Make sure the top of the phone is pointing towards the hitch." = "请把您的手机放在野营车的地板，或桌面上，以使用本助手。确认手机的顶部朝向挂钩方向。";
+
+/* HeavyDuty */
+"This assistant will help you to level both roll and pitch of your caravan. We start with leveling the caravan's roll. Please use level ramps or wooden blocks to level the roll." = "本助手将会帮助您调整野营车的侧向与前后的水平。我们先调整侧向的水平。请使用斜坡或厚木板来调整侧倾角。";
+
+/* HeavyDuty */
+"Caravan's roll is level, we continue with leveling pitch by adjusting the hitch." = "野营车的侧向水平调整已完成，请通过调整挂钩以调节前后水平。";
+
+/* HeavyDuty */
+"Roll has changed, we need to re-adjust it." = "侧倾角已改变，需要重新调整。";
+
+/* HeavyDuty */
+"Congratulations, caravan is level both for roll and pitch." = "恭喜，野营车已调节为水平。";
+
+/* HeavyDuty */
+"Place device flat on the caravan's floor, a table, or a desk and let the top point to the hitch. The app will issue directions to raise or lower the trailer." = "请把设备平放在野营车的地板，餐桌或桌子上，手机顶部对准挂钩。本应用会指示您抬高或降低拖车。";
+
+/* HeavyDuty */
+"Walk to the side or back of the caravan. Align the guide shown in the cam preview to the trailer's roof line and follow directions to raise or lower the trailer." = "请走到野营车的旁边或后面。根据指南指示，对齐相机预览画面和拖车的车顶线条，抬高或降低拖车。";
+
+"Volume of fuel tank. Full capacity including reserve." = "油箱总容量，包括备用的汽油储备。";
+
+"Fuel Tank" = "油箱";
+
+"Add Default Gear Set" = "添加默认档位齿比模板";
+
+"Result" = "结果";
+
+"Paired Bluetooth Devices" = "已配对的蓝牙设备";
+
+"Checklist" = "检查表单";
+
+"Checklists" = "检查表单";
+
+"Action" = "项目";
+
+"Collapse" = "收起";
+
+"Expand" = "展开";
+
+"Load Checklist" = "载入检查表单";
+
+"Share" = "分享";
+
+"Copy of %@" = "%@的副本";
+
+"Duplicate Checklist" = "复制表单";
+
+"To create a copy of '%@', enter a unique name for the new checklist and press 'Save'." = "请输入新表单的名称，并点击‘保存’，以创建'%@'的副本。";
+
+"To track repeating procedures, either load a predefined checklist from Add-ons or create your own." = "请读取已创建的表单或在功能插件中创建一个新的表单，以实行重复的任务。";
+
+"New Checklist" = "新建表单";
+
+"New Top-Level Action" = "新建顶层项目";
+
+"New Group" = "新建群组";
+
+"%u available" = "%u可用";
+
+"%u in progress" = "%u正在处理中";
+
+"New Action" = "新建项目";
+
+"Create Checklist" = "创建表单";
+
+"Please enter a unique name for the new checklist and press 'Save'." = "请为新赛前检查表输入名称，并点击‘保存’。";
+
+"by myself" = "由我创建";
+
+"Create Action" = "创建项目";
+
+"Please enter your action's description and press 'Save'. To add an action with both a subject and details what to do, use the 'Subject: Details' convention." = "请输入项目描述并点击“保存”。添加包括主题和描述的任务，请使用“主题：描述”选项。";
+
+"Create Top Level Action" = "创建顶层项目";
+
+"Create New Group" = "创建新群组";
+
+"Please enter a new group's title and press 'Save' to create it. Add the group's actions afterwards." = "请输入新的群组名称并点击“保存”以创建。您也可以为群组添加项目。";
+
+"Group" = "群组";
+
+"Rename Action" = "项目重命名";
+
+"Rename Checklist" = "表单重命名";
+
+"Adding Checklist:\nDownloading from Net..." = "添加表单：\n下载中…";
+
+"Searching for %@" = "搜寻 %@";
+
+"Distance Focussed" = "聚点距离";
+
+"Language" = "语言";
+
+"Truck" = "卡车";
+
+"Coach" = "马车";
+
+"Van" = "货车";
+
+"Horse Trailer" = "马拖车";
+
+"Motorhome" = "野营车";
+
+/* HeavyDuty */
+"Select an existing, or add a new trailer for towing. Can be changed later on." = "请选择已经储存的车辆，或者添加新拖车。可在之后修改";
+
+/* HeavyDuty */
+"Select Trailer" = "选择拖车";
+
+/* HeavyDuty */
+"No Trailer" = "无拖车";
+
+"Your vehicle is defined now. Continue with one of the Driving or Parking actions." = "您的车辆已设置。请使用驾驶或停车选项以继续。";
+
+"In case your vehicle is not listed for selection, add a new one by pressing 'Edit' and selecting 'Add new Vehicle' afterwards." = "如果您的车没有被列为选项，请点击“编辑”和“添加新车”以继续。";
+
+/* HeavyDuty */
+"Install TI SensorTag with the power button towards ground and level. Let the top point to the hitch. The app will issue directions to raise or lower trailer." = "安装TI SensorTag时，请把电源按钮朝下并保持与地面水平。保持最高点朝向牵引杆。本应用将会指引您调整朝向。";
+
+"Disabled" = "已停用";
+
+"<hl>Invalid SensorTag orientation</hl>, please adjust as required!" = "<hl>SensorTag方向错误</hl>，请调整方向。";
+
+"Acceleration Sensors" = "加速度传感器";
+
+/* Weather */
+"Windchill" = "风速";
+
+/* Weather */
+"Heat Index" = "热度";
+
+/* Weather */
+"Weather" = "天气";
+
+/* Weather */
+"Weather Station" = "气象站";
+
+/* Weather */
+"Wind" = "风";
+
+/* Weather */
+"Comfort" = "舒适";
+
+"Station data by OpenWeatherMap.com" = "气象数据由OpenWeatherMap.com提供";
+
+/* Weather */
+"hPa" = "hPa";
+
+"%rH" = "%rH";
+
+/* Weather */
+"bf" = "bf";
+
+/* Weather */
+"NE" = "东北";
+
+"SE" = "东南";
+
+"SW" = "西南";
+
+"NW" = "西北";
+
+/* Weather */
+"Please enter a location or any name for this sensor. Adding a location allows you to identify individual sensors." = "请为这个传感器输入一个位置或名字。位置标注可用以识别各个传感器。";
+
+"You can add an arbitrary number of wireless <hl>TI SensorTags</hl> measuring temperature, barometric pressure, and humidity. For more information, please check our <ln>Compatibility</ln> page.\n\nStation data by OpenWeatherMap.com" = "您可以添加任意数量的无线<hl>TI SensorTags</hl>以测量气温，气压，空气湿度。更多信息，请查看<ln>兼容性</ln>页面。\n\n气象信息由OpenWeatherMap.com提供。";
+
+/* Weather */
+"Wind Speed Unit" = "风速单位";
+
+"Beaufort" = "蒲福风级";
+
+"Knots" = "节";
+
+"Meter per Second" = "米每秒";
+
+"Standard Speed" = "标准速度";
+
+"Disturbances [K-index] @ Time [h]" = "干扰度 [K指数] @ 时间 [小时]";
+
+"Environment" = "环境";
+
+"K-index quantifies disturbances of earth's magnetic field. Values > 5 are critical for GPS operation." = "K指数是对地球磁场水平分量变动的量化描述。超过5的K指数将对GPS产生严重干扰。";
+
+"Considerable disturbances in the horizontal component of earth's magnetic field detected. K-index values beyond 5 are considered a magnetic storm and will infuence GPS accuracy. Check GPS View for more details." = "监测到相当强地球磁场干扰。超过5的K指数可视为电磁风暴，影响GPS的精度。";
+
+"Magnetic Condition" = "磁场";
+
+"K-index provided by GFZ Potsdam" = "K指数由GFZ Potsdam提供";
+
+"Critical" = "严重";
+
+"Warning" = "警告";
+
+"OK" = "好";
+
+"Good" = "优";
+
+"Method" = "方法";
+
+"Switch View..." = "切换视图…";
+
+"(Lineal acceleration dotted)" = "(虚线标出纵向加速度)";
+
+"(Lateral acceleration dotted)" = "(虚线标出侧向加速度)";
+
+"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLife View Streaming: %@\nNumber of Videos: %hu\n" = "%@\n电池状态：%hu%%\n剩余录制时间：%s\n录制中：%@\n视频流：%@\n视频数量：%hu\n";
+
+"Auto Preset" = "自动配置";
+
+"RHT Preset" = "靠右行驶配置";
+
+"LHT Preset" = "靠左行驶配置";
+
+"Cam Preset" = "相机配置";
+
+"Measured" = "已测量";
+
+"Motorbike Preset" = "摩托车";
+
+"GoPro HERO3/3+" = "GoPro HERO3/3+";
+
+"GoPro HERO4" = "GoPro HERO4";
+
+"Internal Cam" = "内置相机";
+
+"External Cam" = "外置相机";
+
+"Average Heart Rate [bpm]" = "平均心率 [bpm]";
+
+"Average heart rate" = "平均心率";
+
+"Videos stored on %@. While in a Wifi, footage can be transferred to this device." = "视频储存于%@。当设备连接Wifi时，可以传输视频至本设备。";
+
+/* Quick Reference - keep length */
+"Personalize <hl>PRODUCTNAME</hl> by entering your <ui>Driver ID</ui>. Then specify a vehicle. Be sure to select the right type (e.g. <ui>Car</ui> or <ui>Bike</ui>)!" = "请输入<ui>车手 ID</ui>以及车辆种类以设置<hl>PRODUCTNAME</hl>。请确保您选择了正确的车辆类型（例如：<ui>车</ui>或者<ui>摩托车</ui>）！";
+
+/* Quick Reference - keep length */
+"Select <ui>Load Track</ui> for new track locations and configurations. Or set up your own track using <ui>New Autocross</ui> or <ui>New Track</ui>." = "请选择<ui>载入赛道</ui>以设置新的赛道地点。或者使用<ui>新建绕桩赛</ui>或<ui>新建赛道</ui>创建自己的赛道。";
+
+/* Quick Reference - keep length */
+"Use a stable mount and a power supply. Choose position with best possible GPS accuracy. Ideally, add an <ln>external GPS</ln>." = "请使用稳定的支架与电源，选择最好的位置以确保GPS精度。使用<ln>外置GPS设备</ln>效果更佳。";
+
+/* Quick Reference - keep length */
+"Attach your phone according to one of 4 valid mounting presets or let <hl>PRODUCTNAME</hl> calibrate orientation individually." = "请将您的手机固定在4种典型的安装位置或者使用<hl>PRODUCTNAME</hl>的校准功能确定设备朝向。";
+
+/* Quick Reference - keep length */
+"Be sure <hl>PRODUCTNAME's</hl> <ui>System Status</ui> shows an overall rating <ui>All Set</ui>. A red alert should not be ignored—press it to get help." = "请确认<hl>PRODUCTNAME</hl>的<ui>系统状态</ui>界面显示<ui>所有项目就绪</ui>的显示。请不要忽视任何红色警告框————点击可获得相关帮助。";
+
+/* Quick Reference - keep length */
+"Select a timer view (e.g. <ui>Timer</ui> or <ui>Speedo</ui>) before leaving the pits. For video, press the <ui>Video</ui> button." = "离开维修站前，请进入计时菜单（如<ui>秒表</ui>或<ui>时速表</ui>）。若要拍摄视频，请点击<ui>视频</ui>按钮。";
+
+/* Quick Reference - keep length */
+"Back in the pits, <ui>Cancel</ui> the cool down lap. This will purge an incomplete lap entry from <ui>Lap List</ui> and finish video recording." = "返回维修站后，请<ui>取消</ui>冷胎圈。这将删除冷却圈并结束视频录制。";
+
+/* Quick Reference - keep length */
+"Select any lap from <ui>Lap List</ui> and follow <ui>Data Recordings</ui> to analyse your drive using the many built-in charts and graphs." = "请选择<ui>计时圈列表</ui>中的任意计时圈，并使用<ui>数据记录</ui>中的图表来分析您的驾驶过程。";
+
+/* Quick Reference - keep length */
+"Select any lap from <ui>Lap List</ui> and press <ui>Overlay</ui> to add telemetry to your video ready for upload to <ln>YouTube</ln>." = "请选择<ui>计时圈列表</ui>中的任意计时圈，并点击<ui>数据图层</ui>以在视频中压印行驶数据。视频可以随时上传至<ln>Youtube</ln>。";
+
+"My Motorbike" = "我的摩托车";
+
+"Lean Angle" = "倾角";
+
+"Lean Angle [°] @ Distance [%s]" = "倾角[°] @ 里程[%s]";
+
+"Videos stored on %@. Access is not available for this app edition or cam type-or MultiCam is disabled currently." = "视频存储于%@。视频不能用于当前的应用版本/相机型号。";
+
+"Heart Rate [bpm] @ Distance [%s]" = "心率[bpm] @ 里程[%s]";
+
+/* Overlay Quality */
+"Medium Size, Medium Quality" = "中等尺寸，中等画质";
+
+/* HeavyDuty */
+"Recording Trip..." = "正在录制出行…";
+
+"Ready to Start a Trip!" = "开始出行！";
+
+"Trips: %hu / GPS Fixes: %lu" = "出行记录：%hu / GPS采样点：%lu ";
+
+"Trips: %hu" = "出行记录：%hu";
+
+"%hu Trips" = "%hu 出行记录";
+
+"Options" = "选项";
+
+"Edit" = "编辑";
+
+"Trip Name" = "出行名称";
+
+"Please enter a short name for your trip. It will allow you to identify it in your list of trips later. Try e.g. 'Summer Holiday 2016'" = "请输入简短的出行名称。比如：“2016年夏”。您的出行记录将会被储存在系统中。";
+
+"My Trips" = "我的出行";
+
+"Google Earth" = "Google地球";
+
+"No Trip Recording" = "无出行记录";
+
+"Currently trip recording is inactive. In case you want LapTimer to provide trip plots later, please turn recording on in LapTimer ‣ Roadbook." = "当前出行的录制功能不已禁用。如果您想用LapTimer显示已行驶的轨迹。请转到Laptimer ‣ 路书，并打开录制功能。";
+
+"Augment Trip" = "继续出行";
+
+"Remove Augmentation" = "删除出行段落";
+
+"%ld minute" = "%ld 分";
+
+"%ld hour" = "%ld 时";
+
+"%ld hours" = "%ld 时";
+
+"%ld day" = "%ld 天";
+
+"%ld days" = "%ld 天";
+
+"Augmenting Trip\n(Google Directions)..." = "计算航程\n(Google Directions)...";
+
+"Augmenting Trip #%hu\n(Google Directions)..." = "计算航程 #%hu\n(Google Directions)...";
+
+"Please check <ln>Compatibility</ln> for recommended accessories and sensors." = "请检查推荐配件与传感器的<ln>兼容性</ln>。";
+
+"Daily Trip" = "每日航程";
+
+"No trips matching filter criteria" = "没有找到合适的航程";
+
+"%hu '%@' trip(s) selected" = "%hu '%@'航程已选择";
+
+"%hu trip(s) selected" = "%hu 航程已选择";
+
+/* About Dialog Duplicates */
+"The author is not responsible for any injuries or property damage that may occur during use of this software." = "作者对使用本软件过程中的发生受伤或财产损失概不负责。";
+
+"Trip #%hu" = "出行 #%hu";
+
+/* Campground etc */
+"Station" = "营地";
+
+"Station Description" = "营地描述";
+
+"Set the name you want to see for the station selected. This will actually create or change a Waypoint. To fully manage it, please use Waypoints View." = "请选择营地的名称。它将创建或改变一个航点。若要管理航点，请转到航点菜单。";
+
+/* Campgrounds etc */
+"Stations" = "营地";
+
+/* Health Status */
+"Battery status is low and/or no power supply is connected. Please attach a power supply as soon as possible." = "低电量/外接电源没有连接。请尽快连接电源。";
+
+/* Android preferences help texts */
+"This preference's current value: CURRENTVALUE" = "当前设置值：CURRENTVALUE";
+
+/* Android preferences help texts */
+"Monitor power supply status and issue a warning if not connected" = "检查外接电源状态。如没有连接外接电源，则给出警告";
+
+"Warn user to not put smartphone into cloth / leather while driving" = "警告，请不要在车辆行驶途中把手机放在衣物内";
+
+/* Social Networks */
+"I'm in the road for %@ now!" = "我正前往 %@！";
+
+/* Social Networks */
+"Me and my %@ did a %@" = "我和我的 %@ 跑完了 %@";
+
+/* Social Networks */
+" on %@!" = "在 %@！";
+
+/* Jump to last station in HeavyDuty */
+"Show Last" = "显示最后";
+
+/* Android preferences help */
+"Sets whether hundreds seconds are shown large" = "加大秒数字号";
+
+"History" = "历史记录";
+
+/* Starting milage for odometer */
+"Start" = "起始";
+
+/* Vehicle History */
+"Odometer" = "里程表";
+
+/* Help text vehicle details */
+"Odometer value at start of recordings. For new vehicles, tracked from the beginning, this will be zero." = "开始记录时的里程表数值。对于新车，数值为零。";
+
+/* Update rate gadget for GPS - needs to be short */
+"NMEA Rate" = "NMEA刷新率";
+
+/* Update rate gadget for OBD - needs to be short */
+"PID Rate" = "PID刷新率";
+
+", update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = ", 更新率 (原始/总计/净值/请求)：%hu/%hu/%hu/%hu Hz";
+
+"Based on Harry's LapTimer, © H. Schlangmann" = "基于Harry's LapTimer, © H. Schlangmann";
+
+/* Vehicle Details */
+"Front Overhang" = "车头前悬";
+
+"Hitch Length" = "挂钩长度";
+
+"Turn Circle" = "转弯直径";
+
+"Diameter" = "直径";
+
+"Front overhang is the lengths of a car which extend beyond the wheelbase at the front." = "车头前悬指车头到前轮中心的距离。";
+
+/* Trailer Vehicle Details */
+"The length of a trailer's hitch extending from coupling to body." = "拖车挂钩长度是挂钩最远端到车身的距离。";
+
+"The turning circle of a vehicle is the diameter of the smallest circular turn that the vehicle is capable of making." = "车辆的转弯直径是车辆转弯时可以达到的最小圆周直径。";
+
+"Towing Simulator" = "牵引模拟";
+
+"Administration" = "管理";
+
+"HiRes" = "高分辨率";
+
+"LoRes" = "低分辨率";
+
+"Battery" = "电池";
+
+"Overviews" = "总览";
+
+"Publish" = "发布";
+
+"Cd" = "风阻系数";
+
+"Powerloss" = "动力损耗";
+
+"Frontal Area" = "迎风面积";
+
+"My" = "我的";
+
+"System" = "系统";
+

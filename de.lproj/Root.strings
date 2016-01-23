@@ -1,0 +1,234 @@
+/* Work around issue with empty .strings files */
+"X" = "X";
+
+"LapTimer" = "LapTimer";
+
+"Online Racing" = "Online Rennen";
+
+"Driver ID" = "Fahrerkennung";
+
+"Publish" = "Veröffentlichen";
+
+"Never" = "Nie";
+
+"Lapping" = "Zeitnahme";
+
+"Always" = "Immer";
+
+"Event" = "Veranstaltung";
+
+"Track" = "Strecke";
+
+"Vehicle" = "Fahrzeug";
+
+"Sound" = "Töne";
+
+"Ticks" = "Ticks";
+
+"Beeps" = "Hinweise";
+
+"GPS" = "GPS";
+
+"Gap Measure" = "Abweichungsart";
+
+"Fastest Lap" = "Beste Runde";
+
+"Reference Lap" = "Referenz Runde";
+
+"Last Lap" = "Letzte Runde";
+
+"POI Detection" = "POI Erkennung";
+
+"Narrow" = "Eng";
+
+"Normal" = "Normal";
+
+"Wide" = "Weit";
+
+"Compression" = "Kompression";
+
+"None" = "Keine";
+
+"Low" = "Niedrig";
+
+"High" = "Hoch";
+
+"Display" = "Anzeige";
+
+"Stop Go Mode" = "Stopp Start Modus";
+
+"Manual Timing" = "Manuelle Zeitnahme";
+
+"Easy Mode" = "Einsteiger Modus";
+
+"Speed" = "Geschwindigkeit";
+
+/* Current speed" abbreviation without  "speed */
+"kCurrentSpeedSegment" = "Aktuelle";
+
+/* Last top speed" abbreviation without "speed */
+"kLastTopSpeedSegment" = "Letzte";
+
+/* Highest speed ever" abbreviation without "speed */
+"kTopSpeedSegment" = "Top";
+
+"Skin" = "Skin";
+
+"Default" = "Standard";
+
+"Black" = "Schwarz";
+
+"High Contrast" = "Hoher Kontrast";
+
+"Day / Night" = "Tag / Nacht";
+
+"Field Indicators" = "Feld Indikatoren";
+
+"Polar Format" = "Polar Koordinaten";
+
+"Units" = "Einheiten";
+
+"System Default" = "System Standard";
+
+"Metric" = "Metrisch";
+
+"Imperial" = "Imperial";
+
+"Power Unit" = "Einheit Leistung";
+
+"Energy Saving" = "Energie Sparen";
+
+"System" = "System";
+
+"Reset standard settings when LapTimer is started the next time" = "Standard Einstellungen beim nächsten Start wieder herstellen";
+
+"Reset Settings" = "Zurücksetzen";
+
+"Expert Settings" = "Expert Settings (Englisch)";
+
+"Overlay Units" = "Einheiten Overlay";
+
+"Preferred Resolution" = "Bevorzugte Auflösung";
+
+"Resolution" = "Auflösung";
+
+"192x144 - Low, 3G" = "192x144 - Niedrig, 3G";
+
+"480x360 - Medium, WiFi" = "480x360 - Mittel, WiFi";
+
+"640x480 - SD" = "640x480 - SD";
+
+"1280x720 - HD" = "1280x720 - HD";
+
+"Best Available - High" = "Beste Verfügbare - Hoch";
+
+"Use iCloud" = "iCloud nutzen";
+
+"Auto Receive Videos" = "Videos autom. empfangen";
+
+"Auto Send Videos" = "Videos autom. senden";
+
+"MultiCam Control" = "MultiCam Steuerung";
+
+"Discover MultiCams" = "MultiCams suchen";
+
+"Master" = "Hauptfilm";
+
+"Picture in Picture" = "Bild im Bild";
+
+"MultiCam Preset" = "MultiCam Standard";
+
+"GoPro Preset" = "GoPro Standard";
+
+"HERO3/3+ Wifi Password" = "HERO3/3+ Wifi Passwort";
+
+"Use MultiCam Settings (None)" = "MultiCam Einstellung (Keines)";
+
+"Maximum Resolution (Master)" = "Maximale Auflösung (Hauptfilm)";
+
+"Single Density (Picture in Picture)" = "Einfache Auflösung (Bild im Bild)";
+
+"Startup" = "Neustart";
+
+"Driver or Rider ID" = "Eigene Kennung";
+
+"Hide Page Buttons" = "Seitliche Buttons ausblenden";
+
+"Hide Tab Bar" = "Tabs ausblenden";
+
+"Behavior" = "Verhalten";
+
+"Video" = "Video";
+
+"Speech" = "Sprachausgabe";
+
+"352x288 - Medium, WiFi" = "352x288 - Mittel, WiFi";
+
+"External Camera" = "Externe Kamera";
+
+"Camera Type" = "Kamera Typ";
+
+"Sony Cam" = "Sony Kamera";
+
+"Calibration" = "Kalibrierung";
+
+"Acceleration" = "Beschleunigung";
+
+"Automatic Preset" = "Automatische Voreinstellung";
+
+"Right Hand Traffic Preset" = "Voreinstellung Rechtsverkehr";
+
+"Left Hand Traffic Preset" = "Voreinstellung Linksverkehr";
+
+"Internal Cam Preset" = "Voreinstellung interne Kamera";
+
+"Individually Measured" = "Individuell gemessen";
+
+"Auto Preset" = "Voreinstellung";
+
+"RHT Preset" = "Rechtsverkehr";
+
+"LHT Preset" = "Linksverkehr";
+
+"Cam Preset" = "Kamera";
+
+"Measured" = "Gemessen";
+
+"Knots" = "Knoten";
+
+"Wind Speed Unit" = "Windgeschwindigkeit";
+
+"Standard Speed" = "Standard";
+
+"Meter per Second" = "Meter pro Sekunde";
+
+"GoPro HERO3/3+" = "GoPro HERO3/3+";
+
+"GoPro HERO4" = "GoPro HERO4";
+
+"Internal Cam" = "Interne Kamera";
+
+"External Cam" = "Externe Kamera";
+
+"Motorbike Preset" = "Voreinstellung Motorrad";
+
+"Motorbike" = "Motorrad";
+
+"Warnings" = "Warnungen";
+
+"Missing Power Supply" = "Fehlende Stromversorgung";
+
+"Motorbike Use" = "Nutzung auf Motorrad";
+
+"Show Large Hundreds" = "Hunderstel gross zeigen";
+
+"Freemium Edition" = "Freemium Edition";
+
+"1920x1080 - FullHD" = "1920x1080 - FullHD";
+
+"3840x2160 - 4K UHD" = "3840x2160 - 4K UHD";
+
+"Font" = "Font";
+
+"Reference" = "Referenz";
+

@@ -1,0 +1,150 @@
+/* Work around issue with empty .strings files */
+"X" = "X";
+
+"LapTimer" = "ラップタイマ";
+
+"Online Racing" = "オンラインレーシング";
+
+"Driver ID" = "ドライバID";
+
+"Publish" = "公開";
+
+"Never" = "未公開";
+
+"Lapping" = "ラップ中";
+
+"Always" = "常時";
+
+"Event" = "イベント";
+
+"Track" = "トラック";
+
+"Vehicle" = "車両";
+
+"Sound" = "サウンド";
+
+"Ticks" = "チクタク音";
+
+"Beeps" = "ビープ音";
+
+"GPS" = "GPS";
+
+"Gap Measure" = "ギャップ基準";
+
+"Fastest Lap" = "最速ラップ";
+
+"Reference Lap" = "リファレンスラップ";
+
+"Last Lap" = "前回ラップ";
+
+"POI Detection" = "POI検出";
+
+"Narrow" = "狭め";
+
+"Normal" = "ノーマル";
+
+"Wide" = "広め";
+
+"Compression" = "圧縮";
+
+"None" = "なし";
+
+"Low" = "低";
+
+"High" = "高";
+
+"Display" = "ディスプレイ";
+
+"Stop Go Mode" = "Stop Go モード";
+
+"Manual Timing" = "マニュアルタイミング";
+
+"Easy Mode" = "簡易モード";
+
+"Speed" = "スピード";
+
+/* Current speed" abbreviation without  "speed */
+"kCurrentSpeedSegment" = "現在";
+
+/* Last top speed" abbreviation without "speed */
+"kLastTopSpeedSegment" = "前回の最速";
+
+/* Highest speed ever" abbreviation without "speed */
+"kTopSpeedSegment" = "最速";
+
+"Skin" = "スキン";
+
+"Default" = "デフォルト";
+
+"Black" = "黒";
+
+"High Contrast" = "ハイコントラスト";
+
+"Day / Night" = "デイ/ナイト";
+
+"Field Indicators" = "フィールドインジケータ";
+
+"Polar Format" = "座標";
+
+"Units" = "単位";
+
+"System Default" = "デフォルト";
+
+"Metric" = "メトリック";
+
+"Imperial" = "英単位";
+
+"Power Unit" = "電源ユニット";
+
+"Energy Saving" = "省エネ";
+
+"Reset standard settings when LapTimer is started the next time" = "次回LapTimer起動時に標準設定にリセット";
+
+"Reset Settings" = "設定リセット";
+
+"Expert Settings" = "エキスパート設定";
+
+"Overlay Units" = "オーバーレイユニット";
+
+"Resolution" = "解像度";
+
+"Best Available - High" = "可能解像度";
+
+"Use iCloud" = "iCloud利用";
+
+"Auto Receive Videos" = "ビデオ自動受信";
+
+"Auto Send Videos" = "ビデオ自動送信";
+
+"Master" = "マスタ";
+
+"Picture in Picture" = "ピクチャINピクチャ";
+
+"MultiCam Preset" = "MultiCam プリセット";
+
+"GoPro Preset" = "GoProプリセット";
+
+"HERO3/3+ Wifi Password" = "HERO3/3+ Wifiパスワード";
+
+"Startup" = "開始";
+
+"Driver or Rider ID" = "ドライバID";
+
+"Hide Page Buttons" = "ページボタン非表示";
+
+"Hide Tab Bar" = "タブを隠す";
+
+"Behavior" = "動作";
+
+"Video" = "ビデオ";
+
+"Sony Cam" = "Sony Cam";
+
+"Acceleration" = "加速度";
+
+"GoPro HERO3/3+" = "GoPro HERO3/3+";
+
+"GoPro HERO4" = "GoPro HERO4";
+
+"Motorbike" = "バイク";
+
