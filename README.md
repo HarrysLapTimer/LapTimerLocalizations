@@ -8,4 +8,4 @@ Any unauthorized access and reuse is not accepted and will be pursued legally.
 
 In case you have questions, please contact me by mail (Harry@gps-laptimer.de).
 
-- Harry
+Harry
