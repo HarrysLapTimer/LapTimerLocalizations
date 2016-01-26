@@ -569,7 +569,8 @@
 
 "Send Trackday to Friend" = "Sende Tagesdaten an Freund";
 
-" to " = " bis ";
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "bis";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "Bei Unsicherheit was diese Funktionen tun bitte 'Abbruch' wählen. Die Funktionen sind zur Wartung bestimmt.";
 
@@ -2337,7 +2338,8 @@
 
 "Position Stored..." = "Position gespeichert...";
 
-"to" = "auf";
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "auf";
 
 "Catalyst" = "Katalysator";
 
@@ -3313,4 +3315,7 @@
 "Drag coefficient (abbreviated as cd, cx, or cW) quantifying the vehicle's aerodynamic resistance." = "Der Strömungs-Widerstandsbeiwert (abgekürzt cW) ist ein Maß für den aerodynamischen Strömungswiderstand  eines Fahrzeugs.";
 
 "My" = "Mein";
+
+/* Media player control */
+"Pause" = "Pause";
 

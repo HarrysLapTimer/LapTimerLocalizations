@@ -566,7 +566,8 @@
 
 "Send Trackday to Friend" = "发送赛道日数据给好友";
 
-" to " = " 到 ";
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "到";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如您不清楚这些功能对于维护的意义, 请按“取消”";
 
@@ -2334,7 +2335,8 @@
 
 "Position Stored..." = "位置已储存...";
 
-"to" = "到";
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "到";
 
 "Catalyst" = "尾气催化器";
 
