@@ -193,3 +193,9 @@
 /* Vehicle History */
 "kEventClassification" = "Classification";
 
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "to";
+
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "to";
+

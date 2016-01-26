@@ -486,7 +486,8 @@
 
 "Send Trackday to Friend" = "Invio di una Sessione ad un Amico";
 
-" to " = " a ";
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "a";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "Premere su 'Annullare' in caso di dubbio sull'utilizzazione di queste funzioni.";
 
@@ -2234,7 +2235,8 @@
 
 "Position Stored..." = "Posizione Memorizzata...";
 
-"to" = "a";
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "a";
 
 "Catalyst" = "Catalizzatore";
 
