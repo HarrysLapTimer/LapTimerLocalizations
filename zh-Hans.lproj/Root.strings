@@ -63,13 +63,13 @@
 
 "Speed" = "速度显示";
 
-/* Current speed" abbreviation without  "speed */
+/* Current speed, abbreviation without  speed */
 "kCurrentSpeedSegment" = "当前时速";
 
-/* Last top speed" abbreviation without "speed */
+/* Last top speed abbreviation without speed */
 "kLastTopSpeedSegment" = "短时极速";
 
-/* Highest speed ever" abbreviation without "speed */
+/* Highest speed ever, abbreviation without speed */
 "kTopSpeedSegment" = "最高速";
 
 "Skin" = "界面皮肤";

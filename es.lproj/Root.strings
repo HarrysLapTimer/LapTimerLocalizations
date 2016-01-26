@@ -63,13 +63,13 @@
 
 "Speed" = "Velocidad";
 
-/* Current speed" abbreviation without  "speed */
+/* Current speed, abbreviation without  speed */
 "kCurrentSpeedSegment" = "Actual";
 
-/* Last top speed" abbreviation without "speed */
+/* Last top speed abbreviation without speed */
 "kLastTopSpeedSegment" = "Máxima Reciente";
 
-/* Highest speed ever" abbreviation without "speed */
+/* Highest speed ever, abbreviation without speed */
 "kTopSpeedSegment" = "Máxima";
 
 "Skin" = "Tema";
