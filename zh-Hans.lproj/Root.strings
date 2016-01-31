@@ -64,7 +64,11 @@
 "Speed" = "速度显示";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Current speed, abbreviation without speed */
+=======
+/* Current speed, abbreviation without  speed */
+>>>>>>> HarrysLapTimer/master
 =======
 /* Current speed, abbreviation without  speed */
 >>>>>>> HarrysLapTimer/master
