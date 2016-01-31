@@ -63,7 +63,11 @@
 
 "Speed" = "速度显示";
 
+<<<<<<< HEAD
 /* Current speed, abbreviation without speed */
+=======
+/* Current speed, abbreviation without  speed */
+>>>>>>> HarrysLapTimer/master
 "kCurrentSpeedSegment" = "当前时速";
 
 /* Last top speed abbreviation without speed */

@@ -1,3 +1,12 @@
 /* Work around issue with empty .strings files */
 "X" = "X";
 
+/* Current speed, abbreviation without  speed */
+"kCurrentSpeedSegment" = "Current";
+
+/* Last top speed abbreviation without speed */
+"kLastTopSpeedSegment" = "Last";
+
+/* Highest speed ever, abbreviation without speed */
+"kTopSpeedSegment" = "Top";
+
