@@ -62,7 +62,7 @@
 
 "kCurrentSpeedSegment" = "当前时速";
 
-"kVehicleCurrent" = "当前车辆";
+"kVehicleCurrent" = "当前";
 
 "kLastTopSpeedSegment" = "短时极速";
 
@@ -159,13 +159,13 @@
 "Event" = "活动";
 
 /* Update rate gadget for GPS - needs to be short */
-"GPS Rate" = "GPS刷新率";
+"GPS Rate" = "刷新率";
 
 /* Update rate gadget for Accelerometer - needs to be short */
-"Accelerometer Rate" = "加速度刷新率";
+"Accelerometer Rate" = "刷新率";
 
 /* Update rate gadget for OBD - needs to be short */
-"OBD Rate" = "OBD刷新率";
+"OBD Rate" = "刷新率";
 
 "kTileHelpUsingRearCam" = "界面上显示的<ui>后视画面</ui>会有<hl>5秒左右的延迟</hl>\n\n故本功能不能替代后视镜。";
 
@@ -188,7 +188,7 @@
 "kSportChronoButtonLabelAdvancedCalibration" = "手动校准";
 
 /* Update rate gadget for Accelerometer - needs to be short */
-"Raw Accelerometer Rate" = "原始加速度刷新率";
+"Raw Accelerometer Rate" = "刷新率";
 
 "Groups" = "分组";
 
@@ -486,7 +486,7 @@
 
 "Track Info" = "赛道信息";
 
-"Regularity" = "节奏性";
+"Regularity" = "节奏感";
 
 "Data Recording" = "数据采集";
 
@@ -566,8 +566,7 @@
 
 "Send Trackday to Friend" = "发送赛道日数据给好友";
 
-/* e.g. from lap A *to* lap B */
-"kFromTo" = "到";
+" to " = " 到 ";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如您不清楚这些功能对于维护的意义, 请按“取消”";
 
@@ -1351,6 +1350,8 @@
 
 "Play" = "播放";
 
+"Link" = "关联"
+
 "Re-Link" = "重新关联";
 
 "Video Details" = "视频信息";
@@ -1465,11 +1466,11 @@
 
 "Your track is ready to use! Just mount your device and start driving." = "您的赛道已可以使用！固定好设备后，即可开始驾驶。";
 
-"Define Start" = "定义起点";
+"Define Start" = "设定起点线";
 
-"Regular Start" = "一般起跑";
+"Regular Start" = "冲线计时";
 
-"Standing Start" = "排位发车起跑";
+"Standing Start" = "静态起步计时";
 
 /* KML Import (Radarfalle) */
 "Radar Trap Tunnel" = "雷达测速通道";
@@ -1802,7 +1803,7 @@
 
 "Season" = "季度";
 
-"Focus Time Delta" = "放大时间差";
+"Focus Time Delta" = "仅查看差异部分";
 
 /* Diagram Configuration */
 "Show Reference" = "显示对照圈";
@@ -2335,10 +2336,9 @@
 
 "Position Stored..." = "位置已储存...";
 
-/* e.g. moving 50 kg of luggage *to* vehicle */
-"kMoveToVehicle" = "到";
+"to" = "到";
 
-"Catalyst" = "尾气催化器";
+"Catalyst" = "排气催化";
 
 "Device" = "设备";
 
@@ -2977,10 +2977,10 @@
 "Odometer value at start of recordings. For new vehicles, tracked from the beginning, this will be zero." = "开始记录时的里程表数值。对于新车，数值为零。";
 
 /* Update rate gadget for GPS - needs to be short */
-"NMEA Rate" = "NMEA刷新率";
+"NMEA Rate" = "刷新率";
 
 /* Update rate gadget for OBD - needs to be short */
-"PID Rate" = "PID刷新率";
+"PID Rate" = "刷新率";
 
 ", update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = ", 更新率 (原始/总计/净值/请求)：%hu/%hu/%hu/%hu Hz";
 
