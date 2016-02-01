@@ -7,7 +7,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "無法辨識的信息\n無法刪除。" </MESSAGE>
+		<MESSAGE> "未定義的車輛\n無法刪除。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -19,7 +19,7 @@
 		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
 		<MESSAGE>
-			"當您刪除車輛信息“^1”，全部的數據將會移至“無法辨識車輛”，是否繼續？"
+			"當您刪除車輛信息“^1”，全部的對照圈信息將會移至“未定義車輛”，是否繼續？"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "是" </TEXT>
@@ -55,7 +55,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
-		<MESSAGE> "是否刪除賽道？目前的地標將會被刪除，現有的賽道將會移至到“無法辨識”。"</MESSAGE>
+		<MESSAGE> "是否刪除賽道？目前的地標將會被刪除，現有的計時圈將標記爲“未定義”。"</MESSAGE>
 		<BUTTONS>
 			<TEXT> "是" </TEXT>
 			<TEXT> "否" </TEXT>
@@ -105,7 +105,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"未註冊的版本，每次使用只能記錄3個完整計時圈，感謝您使用LapTimer。"
+			"這個未註冊的版本，每次使用只能記錄3個完整計時圈，感謝您使用LapTimer。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -206,7 +206,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "此計時圈無可用的數據記錄。" </MESSAGE>
+		<MESSAGE> "無可用的計時圈數據。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -304,7 +304,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "手動開啓" </TITLE>
 		<MESSAGE>
-			"沒有可用的GPS位置，開啓失敗!"
+			"沒有可用的GPS位置，設置失敗!"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -340,7 +340,7 @@
 		<TITLE> "POI 選擇" </TITLE>
 		<MESSAGE> "沒有建立新的地標(POI)！LapTimer搜尋到附近有“^1”。"</MESSAGE>
 		<BUTTONS>
-			<TEXT> "開啓" </TEXT>
+			<TEXT> "打開" </TEXT>
 			<TEXT> "取消" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
@@ -363,7 +363,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
-		<MESSAGE> "JPEG數據庫異常，圖像可能已損壞。" </MESSAGE>
+		<MESSAGE> "JPEG數據庫異常，圖像無法處理。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -375,11 +375,11 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
 		<MESSAGE>
-			"未發現上次連接的GPS設備，下次開啓時是否保留此設定。"
+			"未發現上次連接的GPS設備，下次開啓時是否保留此提示？"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "是" </TEXT>
-			<TEXT> "否， 下次才選擇模式。" </TEXT>
+			<TEXT> "否， 下次啓動時變更模式。" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -389,7 +389,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "刪除確認" </TITLE>
 		<MESSAGE>
-			"將會清空此次的GPS數據記錄。單圈時間、計時段時間和其他信息不受此影響，是否繼續？"
+			"將會清空此次的GPS數據記錄。圈時、計時段等其他信息不受此影響，是否繼續？"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "是，刪除GPS數據" </TEXT>
@@ -417,7 +417,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "模擬" </TITLE>
 		<MESSAGE>
-			"啓動“LapTimerGPSLogDB.pdb”錯誤，模擬功能不會啓動。"
+			"啓動“LapTimerGPSLogDB.pdb”錯誤，模擬功能未啓動。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -458,7 +458,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
 		<MESSAGE>
-			"如要選取非最佳圈或最後圈的對照信息，請開啓'Lap Time Details'（圈時詳情）和選'Reference'（對照）。"
+			"如要選取最快圈或前一圈以外的計時圈作爲對照，請開啓“計時圈詳情”並點擊“對照圈”。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -486,7 +486,7 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "取消" </TEXT>
-			<TEXT> "是， 刪除全部。" </TEXT>
+			<TEXT> "是，刪除全部。" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -522,7 +522,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "寫入計時圈數據到數據庫時發生錯誤!" </MESSAGE>
+		<MESSAGE> "計時圈數據寫入數據庫時發生錯誤!" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -534,7 +534,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"賽道'^1'無法建立。計時圈數據將被儲存到'無法辨識'的賽道。"
+			"賽道'^1'無法建立。計時圈數據將被儲存到'未定義'賽道。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -581,7 +581,7 @@
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE> "內存不足！請增加可用的內存。" </MESSAGE>
 		<BUTTONS>
-			<TEXT> "關閉 LapTimer" </TEXT>
+			<TEXT> "關閉LapTimer" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -591,7 +591,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"無法建立賽道'^1'，已統計的計時圈將會記錄在賽道 '^2'。"
+			"無法建立賽道'^1'，計時圈將會記錄在賽道 '^2'。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -603,7 +603,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "找到爲 '^1'記錄的計時圈，已刪除個別地標，但並沒有刪除全套地標。" </MESSAGE>
+		<MESSAGE> "找到爲'^1'記錄的計時圈，已刪除個別地標，但並沒有刪除全套地標。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -614,9 +614,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            <MESSAGE> "刪除在此設定內的POI？" </MESSAGE>
-        </MESSAGE>
+        <MESSAGE> "確定刪除此地標組？" </MESSAGE>
         <BUTTONS>
             <TEXT> "刪除" </TEXT>
             <TEXT> "取消" </TEXT>
@@ -642,7 +640,7 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "警告" </TITLE>
         <MESSAGE>
-            "目前沒有在線的賽道活動(或沒有連接到服務器)。請稍後再試。"
+            "目前沒有在線的賽道活動。請稍後再試。"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
@@ -655,7 +653,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE>
-			"上限已達到，不能加入地標 '^1'，請刪除不常用的地標。"
+			"地標上限已達到，無法添加'^1'，請刪除不常用的地標。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -668,7 +666,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
 		<MESSAGE>
-            "在 '^1'內現有地標數據，如繼續進行此拓展插件下載，原有的地標數據會被取代。"
+            "在'^1'內現有地標數據，如繼續進行此拓展插件下載，原有的地標數據會被取代。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "繼續" </TEXT>
@@ -682,7 +680,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE>
-			"地標設置'^1' 無法從服務器^2輸出，請稍後再試。"
+			"無法從服務器^2載入地標組'^1'，請稍後再試。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -695,7 +693,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
 		<MESSAGE>
-			"成功讀取  ^1\n 地標到地標設置'^2'。"
+			"成功讀取^1\n至地標組'^2'。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -707,7 +705,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "分析" </TITLE>
-		<MESSAGE> "歷史記憶: ^1， 最小/最大: ^2，和平均 ^3。" </MESSAGE>
+		<MESSAGE> "歷史: ^1， 最小/最大: ^2，和平均 ^3。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -719,7 +717,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE>
-			"現有的計時圈出現數據問題，不能加載，相關記錄已被清除，請聯繫開發者。"
+			"現有的計時圈出現數據問題，無法加載，相關記錄已被清除，請聯繫開發者。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -744,7 +742,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "不能手動停止啓動的計時圈。" </MESSAGE>
+		<MESSAGE> "自動觸發的計時圈無法採用手動方式停止。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -778,7 +776,7 @@
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "刪除確認" </TITLE>
+		<TITLE> "確認刪除" </TITLE>
 		<MESSAGE> "是否要刪除數據記錄？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "是" </TEXT>
@@ -792,7 +790,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE>
-			"此開啓的數據庫版本比使用中的LapTimer更新，請恢復至之前已備份的數據庫或使用新版LapTimer。系統將重啓。"
+			"目前開啓的數據庫版本比當前LapTimer更新，請恢復至之前已備份的數據庫或使用新版LapTimer。系統將重啓。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "重啓程序" </TEXT>
@@ -819,7 +817,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
 		<MESSAGE>
-			"功能現在關閉，您可以在任何時間從LapTimer設定裏重新啓動GPS時間校對。"
+			"功能已關閉，您可以隨時在LapTimer設定中重新啓動GPS時間校對。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -885,7 +883,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"此版本的LapTimer使用'非儲存'的方式轉移數據庫。數據庫會以段落方式轉移。轉移器期間發生的錯誤會引起數據庫損毀，請先備份後繼續。"
+			"此版本的LapTimer使用了'有風險'的方式轉移數據庫。數據庫會以段落方式轉移。轉移器期間發生的錯誤會引起數據庫損毀，請先備份後繼續。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "否，取消" </TEXT>
@@ -979,7 +977,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
-		<MESSAGE> "顯示地標已超出最大數量。" </MESSAGE>
+		<MESSAGE> "已超出最大地標顯示數量。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -991,7 +989,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"您的設備無法訪問AppStore，請檢查相關設定。"
+			"您的設備無法訪問App Store，請檢查設定 ‣ iTunes / App Stores。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -1003,7 +1001,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "拓展插件詳情獲取失敗。" </MESSAGE>
+		<MESSAGE> "無法下載拓展插件信息。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -1014,7 +1012,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "交易失敗：^1。" </MESSAGE>
+		<MESSAGE> "支付失敗：^1。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -1039,7 +1037,7 @@
 		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
 		<MESSAGE>
-			"這個動作可能會改變預定和認證過的景點名稱'^1'。您確定要繼續嗎？"
+			"這個動作可能會改變預設且經認證的地標'^1'。您確定要繼續嗎？"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "是，繼續" </TEXT>
@@ -1053,1591 +1051,14 @@
 		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
 		<MESSAGE>
-			"這個動作可能會改變預定和認證過的景點名稱'^1'。您確定要繼續嗎？"
+			"這個動作會改變預設且經認證的地標'^1'。您確定要繼續嗎？"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "是，繼續" </TEXT>
 			<TEXT> "否" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8300" COMMENT="TransferToTrainerFailed">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "交易失敗！" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8400" COMMENT="TransferSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"已成功導入^1賽道，^2GPS採樣點，和^3車輛信息。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8500" COMMENT="NoConnectionToInternet">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "無法連接到網絡，請稍候再試！" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "可供GPS記錄數據的存儲空間已經不足。請清除GPS數據以騰出空間。(請參照賽道信息裏的清除按鈕)" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "部分賽道路徑出現干涉， 已被打上紅色感嘆號。干涉會影響觸發點感應。對於有數個路線配置的賽道，只能使用其中一個。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8900" COMMENT="ConfirmFileImport">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"文件'^1'已經準備導入，確定要繼續？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "是，繼續" </TEXT>
-			<TEXT> "否" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8901" COMMENT="FileOpenFailed">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "文件'^1'導入失敗。數據未被添加。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8902" COMMENT="FileCannotBeOpenedAlert">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "所選的文件在此程序下無法打開。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="8910" COMMENT="ConfirmFullLoad">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"您想強制執行完整重載(需要一些時間)，或只需要更新？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "更新" </TEXT>
-			<TEXT> "完整重載" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9000" COMMENT="ProductEnabledSuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"已成功安裝並啓用拓展插件。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9010" COMMENT="RecordingLapFailed">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "操作被中斷或是內存過低，視頻存儲失敗。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9020" COMMENT="ConfirmDeviceMounted">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"設備方向已改變，加速傳感器需要重新校準。固定妥當後，請按“繼續”按鈕。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "繼續" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9021" COMMENT="ConfirmResetCalibration">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-            "加速傳感器已重置，重新開始自動校準…"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9022" COMMENT="AutomaticResetCalibration">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-            "已自動重置校準"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9030" COMMENT="ConfirmRecalculate">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"目前的數據記錄內有經*硬件測量*出的橫向和直線加速率，您是否真的想用計算值代替實測值？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "重新計算" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9031" COMMENT="ConfirmRecalculateAccuracy">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"是否重新計算傳感器信息，以檢測此賽道的GPS精度？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "重新計算" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "利用加速值信息調整GPS採樣點，是否要利用數據平滑功能進行計算？此步驟無法還原。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "平滑數據" </TEXT>
-            <TEXT> "跳過" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "是否使用數據平滑功能計算圈時？此操作將重新計算並覆蓋現有的GPS位置。它不能被還原。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "否" </TEXT>
-            <TEXT> "平滑數據" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9034" COMMENT="LapSmoothingSuccessfullyAlert">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE>
-            "GPS位置已完成計算調整與平滑修正。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"橫向與直線加速率已從GPS數據中記算出。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"根據HDOP值和傳感器類型，成功重新計算GPS精度。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9042" COMMENT="RecalculatedSplitsSuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"^1分段已在GPS檢測中通過^3的記錄計算出來，取代了已存在的^2分段。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9060" COMMENT="MissingOrIllFormedMasterVideo">
-        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "主視頻不可用或缺少視頻/音頻。請確認視頻列表，或重新傳輸設備中的視頻。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9061" COMMENT="MissingDataToOverlay">
-        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "此計時圈缺少壓印信息圖層所需的GPS數據記錄，信息圖層匹配失敗。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9062" COMMENT="OverlayRequiresAdditionalSpace">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "因爲沒有足夠的空間，添加信息圖層失敗。請再清理出^ 1空間，然後再試一次。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9063" COMMENT="VideoWritingFailed">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "^1無法爲視頻壓印信息圖層。錯誤：'^2'。本程序是否被另一個應用程序所中斷？請檢查可用內存，然後重試。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9068" COMMENT="VideoWritingFailedAndroid">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "^1無法生成完整視頻。錯誤：'^2'。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9069" COMMENT="SoftwareEncodedVideoOverlay">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE> "對於當前^1版本的安卓設備，視頻的硬件解碼加速不可用。軟件解碼需要相當的時間。請連接電源並在夜晚執行當前進程。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "稍後運行" </TEXT>
-            <TEXT> "繼續" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9064" COMMENT="VideoRecordingStopped">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "視頻錄像在不可預期的情況下已結束(^2)。^1將會嘗試着在下一計時圈重新開始錄像。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9065" COMMENT="IgnoreMissingOrIllFormedPicInPic">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE> "此計時圈的畫中畫視頻無法開啓，請於視頻清單選取或下載。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-            <TEXT> "忽略" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9066" COMMENT="SyncPointAdjustmentLocalFilesOnly">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"更改同步點只能用在本地視頻檔中進行。請下載這個視頻到您的設備來改變改變計時圈與視頻的同步點。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9067" COMMENT="RecordingStoppedDueToLowMemory">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "內存不足，視頻錄像中止或無法使用！請釋放出更多空間後繼續。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9070" COMMENT="AssetIsMissing">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "無法找到選擇的視頻，它可能已被移動到另一位置。請使用編輯功能重新尋找視頻文件。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9071" COMMENT="VideoTypeChange">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "確認變更當前視頻的信息圖層設置？請選擇計時圈，並點擊視頻瀏覽下方的“信息圖層”按鈕，以壓印信息圖層。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-            <TEXT> "變更" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
-        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "主視頻不能打開。 可能視頻已超過2GB的大小限制。若視頻分辨率爲全高清，請把分辨率降至高清品質。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-            <TEXT> "幫助" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9073" COMMENT="VideoMayBecomeTooBig">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "壓印全高清的信息圖層可能會超出2GB的文件大小限制。一般而言，全高清視頻限制時間大約在11分鐘，而高清在25分鐘左右。^1將不會自動縮減視頻大小。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"視頻錄製中，確定要結束？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否，繼續錄製" </TEXT>
-			<TEXT> "結束錄製" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"檢測到車輛VIN碼^1。您想匹配到當前車輛嗎？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "匹配" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9091" COMMENT="LinkVehicleWithMake">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"檢測車輛製造商信息^1。您想匹配到當前車輛嗎？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "匹配" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9100" COMMENT="SystemInfo">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "系統信息" </TITLE>
-		<MESSAGE> "^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-	
-	<ALERT_RESOURCE RESOURCE_ID="9101" COMMENT="LapInfo">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "計時圈信息" </TITLE>
-		<MESSAGE> "^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "關閉" </TEXT>
-			<TEXT> "詳情" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="9120" COMMENT="ErrorDroppingFileAlert">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "文件'^1'無法上傳至Dropbox。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9130" COMMENT="CurrentVehicleSet">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "已將'^1'設置爲當前車輛。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9140" COMMENT="CurrentVehicleMissingOBD">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"您需要設定好車輛'^1'的發動機和傳動系統參數才能得到有效的轉數/檔位顯示。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-            <TEXT> "忽略" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9150" COMMENT="HintOnCustomOBDSettings">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息n" </TITLE>
-		<MESSAGE> "連接任何WLAN OBD傳感器，請在 設置 ‣ 專家設置 下配置主機和端口地址 " </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9151" COMMENT="HintOnCustomGPSSettings">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "連接任何WLAN GPS傳感器，請在 設置 ‣ 專家設置 下配置主機和端口地址" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9152" COMMENT="SensorDisabled">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE> "此傳感器暫已斷開連接。通常的原因是^2在啓動^1分鐘後，爲了節省電源而停止了外部傳感器的掃描。請退出應用並重新開啓^2，便可重新掃描傳感器。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9160" COMMENT="PurgeConflictingPOISets">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"加載的賽道組與現有的賽道組發生衝突/ 配置^1。 刪除現有的配置(建議: 地標)？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "刪除" </TEXT>
-			<TEXT> "否" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9170" COMMENT="InvalidGPSCoord-iOS">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "GPS定位不可用，請檢查您的設備設定 (iOS設定 ‣ 隱私 ‣ 定位服務) 然後移動到沒有遮擋的位置。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="9172" COMMENT="InvalidGPSCoordSettings-iOS">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE> "GPS定位不可用，請檢查您的設備設定，然後移動到沒有遮擋的位置。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "設定" </TEXT>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9171" COMMENT="InvalidGPSCoord-Android">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "GPS定位不可用，請檢查您的設備設定 (Android設定 ‣ 個人 ‣ 位置服務) 然後移動到沒有阻礙的地方。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "已到達LapTimer最大可管理數量，如果要增加賽道，請先移除現有賽道。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"賽道名稱'^1'已經存在，刪除現有的地標進行替換還是取消新增賽道信息？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "刪除並替換" </TEXT>
-			<TEXT> "取消" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9200" COMMENT="AutocrossCreated">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "已建立包括起點和終點的繞樁賽賽道'^1'，您會見到 “準備發車”按扭進行排位發車起跑。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9201" COMMENT="NewTrackCreated">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-        <MESSAGE> "賽道'^1'已建立。當您駕車到指定的位置，計時將自動啓動。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9220" COMMENT="StandStillBeforeCharging">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "請把您的車輛停至(速度爲0)起點線之前。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9230" COMMENT="ChangeGearNumber-iOS">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "調整檔位數量，請按“編輯”來增加/減少總檔位數。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9231" COMMENT="ChangeGearNumber-Android">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "更改排檔數，長按現有的檔位數據刪除，或是按“增加檔位”來進行新增。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9250" COMMENT="DuplicateVehicleCreated">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "已使用現有的車輛設定創建新的車輛'^1'。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResets">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"更改車輛類型爲'^1'後，需要重新設定車輛數據，是否確定繼續？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-			<TEXT> "取消" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9252" COMMENT="WarnPutInCloth">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "^1親愛的用戶：使用^2時，請不要將設備放置在衣物口袋中。 GPS精度將大幅降低，應用無法正常工作！請確認您已獲悉這項警告。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "明白！" </TEXT>
-            <TEXT> "不再提示" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9260" COMMENT="TechnicalInformation">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "傳感器信息" </TITLE>
-		<MESSAGE> "^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9270" COMMENT="PageButtonOffInformation">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "您已經把用於換頁的左右按鈕關閉，請利用手指滑動的方式來換頁，或是開啓按鈕功能。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9280" COMMENT="ConfirmationDeleteVideo">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"此操作將從內存中刪除所選擇的視頻並釋放^1存儲空間，確定刪除？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "取消" </TEXT>
-			<TEXT> "刪除" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9281" COMMENT="InconsistentSyncPointsRepair">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "由於同步點不一致，使可壓印信息圖層的計時圈減少。請調整計時圈的同步點，並應用至全部羣組。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9282" COMMENT="AdjustVideoForFullSession">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "您希望調整全部的視頻以及羣組，還是隻更改本計時圈的同步點？"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "本計時圈" </TEXT>
-            <TEXT> "全部羣組" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9290" COMMENT="ConfirmationDeleteVideoHousekeeping">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"偵測到^1視頻沒有關聯到任何的賽道並且使用了^2內存。您是否確定要刪除帶有紅色歎號的視頻？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "取消" </TEXT>
-			<TEXT> "刪除" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9291" COMMENT="NothingToHousekeep">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "沒有找到可整理的視頻。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9300" COMMENT="VideoFramesDropped">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "視頻壓印信息圖層後，視頻幀數將被降低。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9310" COMMENT="DeleteOrphantVideoConfirmation">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"視頻並沒有關聯到任何對照圈。您是否要刪除來釋放內存？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "刪除" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9311" COMMENT="RevertToRawVideoConfirmation">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"是否想恢復爲原始視頻？帶有信息圖層的視頻將不會被刪除，仍儲存在您的照片應用程序裏。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "取消" </TEXT>
-			<TEXT> "恢復" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9315" COMMENT="MoveNotSuccessfulError">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "移動視頻至照片數據庫失敗，請釋放一些空間再繼續嘗試。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9316" COMMENT="OverlaySuccessfulPhotoLibrary">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE> "信息圖層視頻已成功壓印！可以從計時圈詳情以及照片應用程序中獲取。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE> "信息圖層視頻已成功壓印！可在計時圈詳情以及SD卡中獲取。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE> "如果要在摩托車視頻中壓印信息圖層，建議先計算並調整橫向加速度" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "調整加速度" </TEXT>
-            <TEXT> "繼續操作" </TEXT>
-            <TEXT> "取消" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-        <MESSAGE> "沒有正確關閉程序，數據庫將回滾至之前的備份…" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "因爲內存不足，程序將會在沒有數據恢復功能的狀態下運行，我們強烈建議您關閉來釋放內存。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "偵測到數據庫有^1問題，已修復。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "數據庫發現^1無法解決的問題。程序將會關閉，請稍候再試或者與作者聯絡。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "關閉" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9332" COMMENT="DatabaseNoProblems">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "數據庫檢查完畢，沒有發現問題。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"數據庫發現無法解決的問題(^1)。您是否要試着恢復到先前版本？最近的改變將不會儲存。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "嘗試恢復" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "數據庫成功恢復到先前版本(^1)。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-            "恢復初始設置未成功。退出程序或創建一個新的數據庫。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "退出程序" </TEXT>
-			<TEXT> "新建數據庫" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "您的設備定位服務是關閉的或^1，^1需要開啓此功能來讓程序運作正常。(iOS 設定 ‣ 隱私 ‣ 定位服務)" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9342" COMMENT="LocationServiceDisabled-Android">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "您的設備或^1定位服務是關閉的，^1需要開啓此功能來讓程序運作正常。(Android 設定 ‣ 個人 ‣ 位置服務)" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9341" COMMENT="PhotoLibraryAccessDisabled">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "您的設備或^1相冊服務功能是關閉的，^1需要開啓此功能來讓程序能正常存取視頻。(iOS 設定 > 隱私 > 照片)" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9343" COMMENT="MicrophoneAccessNotGranted">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "您已對^1停用麥克風功能，視頻錄製無法啓動。請至iOS設定‣ 隱私 ‣ 麥克風 中開啓。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-	
-	<ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE> "^1 當前設備位置服務被關閉。這將導致信息圖層視頻的傳輸問題。請取消信息圖層並在iOS中開啓位置服務：設置 ‣ 隱私 ‣ 位置服務。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "取消" </TEXT>
-			<TEXT> "忽略" </TEXT>"
-		</BUTTONS>
-	</ALERT_RESOURCE>
-	
-    <ALERT_RESOURCE RESOURCE_ID="9350" COMMENT="InvalidLapForAfterTheFactSubmission">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "由於使用未認證的賽道，或遺失GPS記錄。計時圈無法發送至名人堂。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9351" COMMENT="ScheduledLapForHallOfFame">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "準備發送至名人堂。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9352" COMMENT="DeleteTimeLapped">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE> "從名人堂中刪除^2的^1計時圈？ " </MESSAGE>
-        <BUTTONS>
-            <TEXT> "刪除" </TEXT>
-            <TEXT> "取消" </TEXT>"
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9360" COMMENT="LowAvailableDiskSpace">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-            "此設備的可用空間不足，請注意這個狀況會造成包括數據遺失在內的多種問題，請釋放一些空間。"
-        </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9361" COMMENT="LowAvailableDiskSpaceVideoHousekeeping">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-            "此的設備可使用空間不足，請檢查是否從“視頻列表”裏刪除沒有用的視頻。或是從別的地方釋放空間。"
-        </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9470" COMMENT="CurrentLapReference">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "當前計時圈將會替換爲新的對照圈。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9471" COMMENT="NextLapReference">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "下一計時圈將會替換爲新的參考圈。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9500" COMMENT="RomanCharactersOnlyAllowed">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-            "目前這裏只能使用拉丁字母，造成不便請見諒。"
-        </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9510" COMMENT="SavingToAMISDCardFailed">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "儲存至SD卡失敗，請確定您的iPhone連接到您的車輛並再試一次。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "恭喜! 您已接收了^1 ^2的更新!" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "無法搜尋到原本對照圈的視頻，最常見的兩個原因爲 1)此視頻已經同步到您的計算機並從此設備上刪除。 2)此視頻已經不小心被刪除。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9610" COMMENT="MultiCamVideoOffline">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "連接到此賽道的MultiCam多機位視頻'^1'無法使用在這個設備上，請連絡您的MultiCam設備提供商。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9611" COMMENT="VideoDownloadNotSupportedOrDisabled">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "外置相機不支持下載視頻^1，或MultiCam不可用。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-	
-    <ALERT_RESOURCE RESOURCE_ID="9620" COMMENT="VideoNeedsTransferToLocal">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "關聯到此賽道的視頻'^1' 無法使用在這個設備上，如果您要讓它覆蓋，您必須要先轉換。可以參照 “如何轉換MultiCam和GoPro視頻”。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-			<TEXT> "如何轉換" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9630" COMMENT="UnloadingVideo">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "儲存於此設備的視頻已刪除，釋放了^1的空間。此操作會在設備連接到WiFi網絡時於後臺自動進行。當需要時，可重新下載視頻。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9631" COMMENT="NotPossibleToDownloadVideo">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "現在無法下載大小爲^1的視頻。請釋放出空間並再次嘗試。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9632" COMMENT="VideoDownloadStarted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "大小爲^1的視頻將被下載。操作將在後臺執行，且需要連接到WiFi網絡。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-	
-    <ALERT_RESOURCE RESOURCE_ID="9633" COMMENT="TransferVideoToCloud">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "傳送視頻到iCloud中。此操作會在設備連接到WiFi網絡時於後臺自動進行。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9634" COMMENT="TransferVideoFromCloud">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "視頻從iCloud傳送到^1中，此操作將在後臺自動進行。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9635" COMMENT="NoMoveToCloudWithAutoReceive">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE> "^1 已設定爲自動移動iCloud的文件到本地儲存。如要以別的方式移動視頻，請關閉此功能。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-            <TEXT> "關閉" </TEXT>"
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="9636" COMMENT="VideoDownloadNeedsRelink">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "視頻文件不能自動關聯到計時圈。下載完成後，請使用 計時圈列表 ‣ 計時圈圈 ‣ 視頻 ‣ 重新關聯 以關聯視頻。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="9637" COMMENT="NoMatchingVideoFound">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "外置相機中沒有找到合適的視頻。請從視頻列表中手動加載視頻並使用 計時圈列表 ‣ 計時圈 ‣ 視頻 ‣ 重新關聯單圈" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "要使用MultiCam功能，必須開啓藍牙。請開啓iOS設定內的藍牙，啓用MultiCam搜尋功能。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "藍牙關閉時， MultiCam功能無法使用，請開啓iOS設定內的藍牙功能。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9650" COMMENT="FeatureNotAvailableInAppEdition">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-            "此功能在此版本上無法使用，請檢查是否有更新。"
-        </MESSAGE>
-		<BUTTONS>
-            <TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9652" COMMENT="FeatureNotAvailableAddOns">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "此功能在此版本上無法使用，請檢查是否有更新。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-            <TEXT> "外掛" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9660" COMMENT="SelectGPSOBDBluetooth">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE> "設定傳感器類型，'^1'是GPS還是OBD設備？" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "GPS" </TEXT>
-            <TEXT> "OBD" </TEXT>"
-            <TEXT> "取消" </TEXT>"
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9661" COMMENT="TurnOffGPSHelperApps">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "^1將直接獲取GPS傳感器權限，並提供精確的數據採集。重要：您需要關閉一切GPS相關應用。這些應用不能同時開啓，也不要對^1進行任何操作！"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9195" COMMENT="AutocrossStandingStartConfirmation">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "起步位置可選，從發車區靜態起步，或以一定速度穿過起點線。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "一般起跑" </TEXT>
-            <TEXT> "起點線觸發" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9044" COMMENT="RecalculatedTrackSplitsSuccessfully">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE>
-            "從GPS記錄中重新計算^1計時圈的分段時間。全部計時圈的GPS記錄顯示標準分段數爲^2。
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9045" COMMENT="RecalculatedTrackSplitsMostlyConfirmation">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE>
-            "從GPS記錄中重新計算^1計時圈的分段時間。 ^2圈中GPS記錄利用檢測器'^3'來顯示非完整分段。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9046" COMMENT="RecalculateLapNoLapRecognized">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "錄製數據缺失，或相應的賽道設定沒有成功讀取。更改無效。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9047" COMMENT="RecalculateLapNotChanged">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE>
-            "錄製數據匹配，無需更改。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9048" COMMENT="RecalculateLapFixedMinorRounding">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE>
-            "根據計時圈錄製數據，修正了誤差錯誤。圈時：^1。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9049" COMMENT="RecalculateLapFixedTimeInconsistency">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "發現並修復了錄製數據與圈時（不一致）之間的誤差。圈時：^1"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9050" COMMENT="RecalculateLapRecognizedMany">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE>
-            "基於當前賽道設置，錄製數據共^1計時圈。推薦把整個錄製數據分割爲多個單圈。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "分割" </TEXT>
-            <TEXT> "取消" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9051" COMMENT="RecalculateLapDeleteOriginal">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "錄製數據分割爲^1圈。是否刪除^2原始數據？"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "保留並繼續" </TEXT>
-            <TEXT> "刪除" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9052" COMMENT="RecalculateLapRecognizedNotAligned">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "計時圈分析顯示爲手動錄製。^1將嘗試獲取每圈的分割點，並創建相應的單圈。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9053" COMMENT="RecalculateLapSplitsOnly">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE>
-            "^1分段將被^2分段替代。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9054" COMMENT="NoLapsRecognizedInInput">
-        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "警告" </TITLE>
-        <MESSAGE>
-            "^1導入讀取成功，但不能獲得任何計時圈信息。請檢查匹配的賽道設置是否已讀取。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9472" COMMENT="SelectedLapReference">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE> "選擇圈爲新的對照圈。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9043" COMMENT="ConfirmationCorridor">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"使用何種地標檢測通道，使用'窄'的可以讓^1運算時更挑剔。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "窄" </TEXT>
-			<TEXT> "正常" </TEXT>
-			<TEXT> "寬" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="8110" COMMENT="ConfirmTriggerOrPOIAddition">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -2697,78 +1118,1058 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "警告" </TITLE>
         <MESSAGE>
-            "賽道組'^1'超過最大分段數量(^3)。請留意，至少要減少^2分段。"
+            "賽道組'^1'超過最大分段數量(^3)。請留意並減少^2個分段。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="8300" COMMENT="TransferToTrainerFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "交易失敗！" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8400" COMMENT="TransferSuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+			"已成功導入^1條賽道，^2組GPS採樣點，和^3套車輛信息。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8500" COMMENT="NoConnectionToInternet">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "無法連接到網絡，請稍候再試！" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "可供GPS記錄數據的存儲空間已經不足。請清除GPS數據以騰出空間。(點擊計時圈詳情頁的清理按鈕可瞭解更多細節)" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "部分賽道路徑出現干涉，已被打上紅色感嘆號。干涉會影響觸發點感應。對於有數套路線配置的賽道，只能使用其中一套。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8900" COMMENT="ConfirmFileImport">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"文件'^1'已經準備導入，是否繼續？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "是，繼續" </TEXT>
+			<TEXT> "否" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8901" COMMENT="FileOpenFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "文件'^1'導入失敗。數據未添加。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8902" COMMENT="FileCannotBeOpenedAlert">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "所選的文件無法使用本程序打開。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="8910" COMMENT="ConfirmFullLoad">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"您想強制執行完整重載（需要一些時間），或只需要更新？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "更新" </TEXT>
+			<TEXT> "完整重載" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9000" COMMENT="ProductEnabledSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+			"拓展插件已成功安裝並啓用。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9010" COMMENT="RecordingLapFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "視頻存儲失敗。操作被中斷，或是內存過低。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9020" COMMENT="ConfirmDeviceMounted">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"設備方向已改變，加速傳感器需要重新校準。固定妥當後，請按“繼續”按鈕。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "繼續" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9021" COMMENT="ConfirmResetCalibration">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+            "加速傳感器已重置，重新開始自動校準……"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9022" COMMENT="AutomaticResetCalibration">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "已自動重置校準……"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9030" COMMENT="ConfirmRecalculate">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"目前的數據記錄內有*使用硬件測量的*橫向與縱向加速率，您是否真的想用計算值代替實測值？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "否" </TEXT>
+			<TEXT> "重新計算" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9031" COMMENT="ConfirmRecalculateAccuracy">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"是否重新計算傳感器'^1'信息，以檢測此賽道的GPS精度？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "否" </TEXT>
+			<TEXT> "重新計算" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "利用GPS採樣點校準加速度數值，是否要啓用數據平滑選項進行計算？此操作無法撤銷。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "平滑數據" </TEXT>
+            <TEXT> "跳過" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "是否使用數據平滑功能計算圈時？此操作將重新計算並覆蓋現有的GPS位置。此操作無法撤銷。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "否" </TEXT>
+            <TEXT> "平滑數據" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9034" COMMENT="LapSmoothingSuccessfullyAlert">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE>
+            "GPS定位信息已完成計算調整以及平滑修正。"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9336" COMMENT="DatabaseRecoveryPurging">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+	<ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+			"橫向與直線加速率已從GPS數據中記算出。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+			"已根據HDOP數據及傳感器型號成功校準GPS精度。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9042" COMMENT="RecalculatedSplitsSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+			"已在GPS檢測中使用'^3'計算出^1個分段，替代了已存在的^2個分段。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9044" COMMENT="RecalculatedTrackSplitsSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+            "從GPS記錄中計算出^1個計時圈的分段時間。 所有帶有GPS信息的計時圈都將以^2個分段進行標記。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9045" COMMENT="RecalculatedTrackSplitsMostlyConfirmation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
+        <TITLE> "信息" </TITLE>
         <MESSAGE>
-            "已找到^1舊數據庫。若刪除所有^2舊數據庫，將清出^3 MB存儲空間。除非有備份，否則請不要清除舊的數據庫。"
+            "從GPS記錄中計算出了^1個計時圈的分段時間。 其中^2個計時圈的GPS數據包含使用傳感器'^3'抓取的不完整分段信息。"
         </MESSAGE>
         <BUTTONS>
-            <TEXT> "取消" </TEXT>
-            <TEXT> "刪除舊數據" </TEXT>
+            <TEXT> "確定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9670" COMMENT="CheckSessionOrTrackdayContext">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE> "將此操作覆蓋到本計時圈，還是在羣組中的所有圈，或在此賽道日所記錄的全部計時圈？" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "本計時圈" </TEXT>
-            <TEXT> "羣組中所有" </TEXT>"
-            <TEXT> "此賽道日" </TEXT>"
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9671" COMMENT="CheckTrackdayContext">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE> "將此操作覆蓋到本計時圈，還是在此賽道日所記錄的全部計時圈？" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "本計時圈" </TEXT>
-            <TEXT> "此賽道日" </TEXT>"
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9672" COMMENT="CheckSessionContext">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE> "將此操作覆蓋到本計時圈，還是在羣組中的所有圈？" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "本計時圈" </TEXT>
-            <TEXT> "羣組中所有" </TEXT>"
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9651" COMMENT="MissingTimerView">
+    <ALERT_RESOURCE RESOURCE_ID="9046" COMMENT="RecalculateLapNoLapRecognized">
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "警告" </TITLE>
         <MESSAGE>
-            "在目前設備方向沒有可用的定時器。請旋轉您的設備或檢查是否有附加組件升級。"
+            "錄製數據缺失，或相應的賽道設定沒有成功讀取。操作失敗。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9047" COMMENT="RecalculateLapNotChanged">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE>
+            "計時圈與其數據匹配，無需更改。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9048" COMMENT="RecalculateLapFixedMinorRounding">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE>
+            "根據計時圈錄製數據，對圈時測算結果進行了微調修正。新的圈時爲：^1"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9049" COMMENT="RecalculateLapFixedTimeInconsistency">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "發現並修復了錄製數據與圈時測算結果之間的匹配錯誤。新的圈時爲：^1"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9050" COMMENT="RecalculateLapRecognizedMany">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "基於當前載入的賽道組配置，本計時圈數據事實上包含了^1個計時圈。建議將整個錄製數據分割爲多個單圈。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "分割" </TEXT>
+            <TEXT> "取消" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9051" COMMENT="RecalculateLapDeleteOriginal">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "計時圈數據已被分割爲^1個單圈。是否需要^2刪除原始數據？"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "保留" </TEXT>
+            <TEXT> "刪除" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9052" COMMENT="RecalculateLapRecognizedNotAligned">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "分析顯示本計時圈爲手動計時。^1將嘗試辨認每圈的準確分割點，並創建相應的單圈數據。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9053" COMMENT="RecalculateLapSplitsOnly">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE>
+            "GPS數據中識別出^1個分段，將替代原有的^2個分段。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9054" COMMENT="NoLapsRecognizedInInput">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "^1已成功讀取導入文件，但未能識別任何計時圈信息。請檢查匹配的賽道組是否已載入。"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9312" COMMENT="RelinkVideoConfirmation">
+<ALERT_RESOURCE RESOURCE_ID="9043" COMMENT="ConfirmationCorridor">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"使用何種地標觸發寬度，使用'窄'的可以讓^1在數據運算時更挑剔。對於定義有車輛運動方向的觸發點，^1將始終使用'寬'設置"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "窄" </TEXT>
+			<TEXT> "正常" </TEXT>
+			<TEXT> "寬" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9060" COMMENT="MissingOrIllFormedMasterVideo">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "錯誤" </TITLE>
+        <MESSAGE> "主機位視頻不可用或缺少音視頻文件。請檢查視頻列表視圖，重新傳輸或選擇設備中的視頻。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9061" COMMENT="MissingDataToOverlay">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "錯誤" </TITLE>
+        <MESSAGE> "此計時圈缺少壓印信息圖層所需的GPS數據記錄，無法執行壓印。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9062" COMMENT="OverlayRequiresAdditionalSpace">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "由於儲存空間不足，壓印信息圖層失敗。請繼續清理出^1空間，然後再試一次。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9063" COMMENT="VideoWritingFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "^1無法爲視頻壓印信息圖層。錯誤：'^2'。本程序可能被另一款應用程序中斷。請檢查可用內存，然後重試。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9068" COMMENT="VideoWritingFailedAndroid">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "^1在壓印數據圖層時無法寫入視頻文件。錯誤：'^2'。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9069" COMMENT="SoftwareEncodedVideoOverlay">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE> "對於當前^1版本的安卓設備，視頻編碼的硬件加速不可用。軟件壓縮編碼需要相當長的時間。請連接電源，並儘可能在夜晚等設備閒置時間執行此進程。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "以後再說" </TEXT>
+            <TEXT> "立即執行" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9064" COMMENT="VideoRecordingStopped">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "視頻錄像不明原因結束(^2)。^1將在下一計時圈嘗試重啓錄像。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9065" COMMENT="IgnoreMissingOrIllFormedPicInPic">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "爲此計時圈選定的畫中畫視頻無法打開，請於視頻列表重新選擇或重新下載視頻。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+            <TEXT> "忽略" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9066" COMMENT="SyncPointAdjustmentLocalFilesOnly">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE>
+			"更改同步點操作只能在本地視頻文件中進行。請將此視頻下載到您的設備以繼續操作。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9067" COMMENT="RecordingStoppedDueToLowMemory">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "內存不足，視頻錄像已中止或禁用！請釋放出更多空間後繼續。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9070" COMMENT="AssetIsMissing">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "無法找到所選視頻，它可能已被移動到另一位置。請使用'編輯'按鈕功能重新關聯視頻文件。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9071" COMMENT="VideoTypeChange">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "確認變更當前視頻的信息圖層類型？此功能僅僅是視頻維護操作，如需壓印數據圖層，請選擇計時圈，並點擊視頻瀏覽下方的'信息圖層'按鈕，以壓印信息圖層。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+            <TEXT> "變更" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "錯誤" </TITLE>
+        <MESSAGE> "主機位視頻無法打開。 可能視頻超過2GB的大小限制。若視頻分辨率爲'全高清'，請把分辨率降至'高清'畫質。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+            <TEXT> "幫助" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9073" COMMENT="VideoMayBecomeTooBig">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "爲視頻壓印'全高清'的信息圖層可能會超出2GB的文件大小限制。一般而言，2GB全高清視頻限制約爲11分鐘，而2GB高清在25分鐘左右。^1無法自動縮小視頻尺寸。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"視頻持續錄製中，確定結束錄製？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "否，繼續錄製" </TEXT>
+			<TEXT> "結束" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"檢測到車輛VIN碼：^1。將此信息關聯到當前車輛嗎？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "否" </TEXT>
+			<TEXT> "關聯" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9091" COMMENT="LinkVehicleWithMake">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"檢測到車輛製造商信息：^1。將此信息關聯到當前車輛嗎？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "否" </TEXT>
+			<TEXT> "關聯" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9100" COMMENT="SystemInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "系統信息" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9101" COMMENT="LapInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "計時圈信息" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "關閉" </TEXT>
+			<TEXT> "詳情" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9120" COMMENT="ErrorDroppingFileAlert">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "文件'^1'無法上傳至Dropbox。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9130" COMMENT="CurrentVehicleSet">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "已將'^1'設置爲當前車輛。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9140" COMMENT="CurrentVehicleMissingOBD">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+			"您需要設定好車輛'^1'的發動機和傳動系統參數才能得到有效的轉速/檔位顯示。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+            <TEXT> "忽略" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9150" COMMENT="HintOnCustomOBDSettings">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "如需連接任何WiFi型OBD傳感器，請在 設置 ‣ 專家設置 下配置主機和端口地址 " </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9151" COMMENT="HintOnCustomGPSSettings">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "如需連接任何WiFi型GPS傳感器，請在 設置 ‣ 專家設置 下配置主機和端口地址" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9152" COMMENT="SensorDisabled">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "此傳感器已斷開連接。通常的是由於^2在啓動^1分鐘後，將停止外部傳感器的掃描以節能。退回桌面並重新點擊^2，便可重新掃描傳感器。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9160" COMMENT="PurgeConflictingPOISets">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"加載的賽道組與現有賽道組發生衝突：^1。 是否要刪除現有的配置(建議操作，僅影響地標信息)？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "刪除" </TEXT>
+			<TEXT> "否" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9170" COMMENT="InvalidGPSCoord-iOS">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "GPS定位不可用，請檢查您的設備設定 (iOS設定 ‣ 隱私 ‣ 定位服務) 然後移動到正對天空、沒有遮擋的位置。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9172" COMMENT="InvalidGPSCoordSettings-iOS">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE> "GPS定位不可用，請檢查您的設備設定，然後移動到正對天空、沒有遮擋的位置。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "設定" </TEXT>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9171" COMMENT="InvalidGPSCoord-Android">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "GPS定位不可用，請檢查您的設備設定 (Android設定 ‣ 個人 ‣ 位置服務) 然後移動到正對天空、沒有遮擋的位置。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "已到達LapTimer最大管理數量，如果要增加賽道，請先移除一條現有賽道。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"命名爲'^1'的賽道已經存在，是否清除此賽道組內現有地標？或是取消賽道創建？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "清除" </TEXT>
+			<TEXT> "取消" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9195" COMMENT="AutocrossStandingStartConfirmation">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "請選擇起點線模式：是從靜態起步計時的排位起跑，還是一般的衝線計時，。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "靜態起步計時" </TEXT>
+            <TEXT> "衝線計時" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9200" COMMENT="AutocrossCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "已建立具有起點和終線觸發點的計時繞樁賽賽道'^1'，當您進入起跑區域，按下'準備發車'按鈕便可自動記錄。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9201" COMMENT="NewTrackCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+        <MESSAGE> "賽道'^1'已創建。當您經過指定位置，計時模塊將自動啓動。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9220" COMMENT="StandStillBeforeCharging">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "請將您的車輛停至起點線之前的區域(時速=0)。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9230" COMMENT="ChangeGearNumber-iOS">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "如需調整總檔位數量，請按“編輯”來增加/減少總檔位數。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9231" COMMENT="ChangeGearNumber-Android">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "如需調整總檔位數量，長摁具體的檔位可進行刪除，或是點擊“增加檔位”來添加總檔位數。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9250" COMMENT="DuplicateVehicleCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "已使用現有的車輛設定創建新的車輛'^1'。請編輯並重新命名此車輛。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResets">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"更改車輛類型爲'^1'後，需要重新設定車輛數據，是否確定繼續？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+			<TEXT> "取消" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9252" COMMENT="WarnPutInCloth">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "^1親愛的用戶：使用^2時，請不要將設備放置在衣物口袋中。GPS精度將大幅降低，應用亦無法正常工作！請確認您已獲悉這項警告。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "明白！" </TEXT>
+            <TEXT> "不再提示" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9260" COMMENT="TechnicalInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "傳感器信息" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9270" COMMENT="PageButtonOffInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "您已經把用於換頁的左右按鈕關閉，請利用滑動的方式來換頁，或是開啓按鈕功能。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9280" COMMENT="ConfirmationDeleteVideo">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"此操作將從本機刪除所選擇的視頻並釋放^1存儲空間，確定刪除？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "取消" </TEXT>
+			<TEXT> "刪除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9281" COMMENT="InconsistentSyncPointsRepair">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "由於同步點不一致，可壓印信息圖層的計時圈減少。請調整計時圈的同步點，並應用至整個小節。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9282" COMMENT="AdjustVideoForFullSession">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "您希望整個小節的視頻同步點，還是隻更改本計時圈？"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "本計時圈" </TEXT>
+            <TEXT> "整個小節" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9290" COMMENT="ConfirmationDeleteVideoHousekeeping">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"偵測到^1視頻沒有關聯到任何的賽道並且使用了^2存儲空間。您是否確定刪除這條帶有紅色歎號的視頻？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "取消" </TEXT>
+			<TEXT> "刪除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9291" COMMENT="NothingToHousekeep">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "未找到可清理的視頻。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9300" COMMENT="VideoFramesDropped">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "視頻壓印信息圖層時，幀率將被降低。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9310" COMMENT="DeleteOrphantVideoConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"視頻並沒有關聯到任何對照圈。您是否要刪除來釋放內存？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "保留" </TEXT>
+			<TEXT> "刪除" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9311" COMMENT="RevertToRawVideoConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"是否恢復爲原始視頻素材？帶有信息圖層的視頻不會被刪除，仍將儲存在您的照片程序中。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "取消" </TEXT>
+			<TEXT> "恢復" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+   <ALERT_RESOURCE RESOURCE_ID="9312" COMMENT="RelinkVideoConfirmation">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
@@ -2778,7 +2179,7 @@
         </MESSAGE>
         <BUTTONS>
             <TEXT> "取消" </TEXT>
-            <TEXT> "重新連接" </TEXT>
+            <TEXT> "重新關聯" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2793,12 +2194,609 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9315" COMMENT="MoveNotSuccessfulError">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "移動視頻至相機膠捲失敗，請釋放一些空間後再繼續嘗試。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9316" COMMENT="OverlaySuccessfulPhotoLibrary">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "視頻已成功壓印信息圖層！可以從計時圈詳情及照片應用中獲取。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "視頻已成功壓印信息圖層！可在計時圈詳情及SD卡中獲取。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "如果要在摩托車視頻中壓印信息圖層，建議先計算並調整橫向加速度" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "調整加速度" </TEXT>
+            <TEXT> "繼續操作" </TEXT>
+            <TEXT> "取消" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+        <MESSAGE> "沒有正確關閉程序，數據庫將回滾至之前的狀態……" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "因爲內存不足，程序將會在缺少數據應急恢復能力的狀態下運行，強烈建議您先退出程序，釋放內存後重啓。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "偵測到^1項數據庫問題，已修復。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "發現^1項無法解決的數據庫錯誤。程序將會關閉，請稍候再試或與作者聯絡。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "關閉" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9332" COMMENT="DatabaseNoProblems">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "數據庫檢查完畢，未發現問題。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+			"數據庫發現無法解決的問題(^1)。您是否要嘗試恢復到先前版本？最近的改變將不會儲存。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "否" </TEXT>
+			<TEXT> "嘗試恢復" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "數據庫成功恢復到先前版本(^1)。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE>
+            "恢復初始設置失敗。退出程序，還是以空數據庫重置？"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "退出程序" </TEXT>
+			<TEXT> "重置數據庫" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9336" COMMENT="DatabaseRecoveryPurging">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "已找到^1組舊數據庫備份文件。若刪除除了最近數據備份以外的所有^2舊數據庫，可清理出^3MB存儲空間。清除舊的備份數據庫之前請自行歸檔這些文件。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "取消" </TEXT>
+            <TEXT> "刪除舊數據" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "設備或^1的定位服務已被禁用，請在iOS 設定 ‣ 隱私 ‣ 定位服務中啓用，^1需要此功能來確保程序運作正常。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9342" COMMENT="LocationServiceDisabled-Android">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "設備或^1的定位服務已被禁用，請在Android 設定 ‣ 個人 ‣ 位置服務中啓用，^1需要此功能來確保程序運作正常。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9341" COMMENT="PhotoLibraryAccessDisabled">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "設備或^1的相冊訪問權限已被阻止，請在iOS 設定 > 隱私 > 照片中啓用，^1需要此功能來確保程序正常存取視頻。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9343" COMMENT="MicrophoneAccessNotGranted">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "您阻止^1調用設備的麥克風，視頻錄製將無法啓動。請在iOS設定‣ 隱私 ‣ 麥克風中開啓。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE> "當前^1的位置服務已被禁用。這將導致壓印有信息圖層的視頻傳輸出現問題。請取消圖層壓印並在iOS中開啓位置服務：設置 ‣ 隱私 ‣ 位置服務。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "取消" </TEXT>
+			<TEXT> "忽略並繼續" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+    <ALERT_RESOURCE RESOURCE_ID="9350" COMMENT="InvalidLapForAfterTheFactSubmission">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "由於使用了未經認證的賽道，或GPS記錄缺失。計時圈記錄無法發送至名人堂。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9351" COMMENT="ScheduledLapForHallOfFame">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "計時圈記錄將發送至名人堂。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9352" COMMENT="DeleteTimeLapped">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "從名人堂中刪除車手^2的^1計時圈？ " </MESSAGE>
+        <BUTTONS>
+            <TEXT> "刪除" </TEXT>
+            <TEXT> "取消" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9360" COMMENT="LowAvailableDiskSpace">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "此設備的可用空間不足，請注意這個狀況會造成數據遺失等多重問題，請釋放一些空間。"
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9361" COMMENT="LowAvailableDiskSpaceVideoHousekeeping">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "此的設備可使用空間不足，請在“視頻列表”中刪除無用的視頻。或是從別的地方釋放一些空間。"
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9470" COMMENT="CurrentLapReference">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "當前圈計時完成後將被設定爲新的對照圈。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9471" COMMENT="NextLapReference">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "下一圈完成計時後被設定爲新的對照圈。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9472" COMMENT="SelectedLapReference">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "所選擇的計時圈已被設定爲新的對照圈。" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9500" COMMENT="RomanCharactersOnlyAllowed">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "目前此處只能使用拉丁字母。造成不便，敬請見諒。"
+        </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9510" COMMENT="SavingToAMISDCardFailed">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "文件無法儲存至SD卡，請確認您的iPhone已連接到車輛並再試一次。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "恭喜! 您已完成^1 ^2的升級！" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "無法找到對照圈所關聯的視頻，最常見的兩個原因爲：1)此視頻已經同步到您的計算機，並從此設備上自動刪除。 2)此視頻在視頻列表中不小心被刪除。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9610" COMMENT="MultiCamVideoOffline">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "已關聯到此計時圈的MultiCam視頻'^1'在當前設備上無法訪問。請重新連接MultiCam設備。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9611" COMMENT="VideoDownloadNotSupportedOrDisabled">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "外置攝像機^1不支持視頻下載功能，或MultiCam功能已停用。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+    <ALERT_RESOURCE RESOURCE_ID="9620" COMMENT="VideoNeedsTransferToLocal">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "關聯到此計時圈的視頻'^1'在當前設備上無法訪問，如果您想要對其進行數據圖層壓印操作，必須先將其傳輸到本設備。關於如何傳輸MultiCam和GoPro視頻，可參考官網的幫助文檔。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+			<TEXT> "幫助文檔" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9630" COMMENT="UnloadingVideo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "視頻在本地的副本已刪除，釋放了^1的空間。設備連接到WiFi網絡時，後臺將自動進行操作。當需要時，可重新下載此視頻。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9631" COMMENT="NotPossibleToDownloadVideo">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "現在無法下載大小爲^1的視頻。請釋放出空間並再次嘗試。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+	<ALERT_RESOURCE RESOURCE_ID="9632" COMMENT="VideoDownloadStarted">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "大小爲^1的視頻將被下載。設備連接到WiFi網絡時，後臺將自動進行操作。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+    <ALERT_RESOURCE RESOURCE_ID="9633" COMMENT="TransferVideoToCloud">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "正上傳視頻到iCloud中。設備連接到WiFi網絡時，後臺將自動進行操作。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9634" COMMENT="TransferVideoFromCloud">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "信息" </TITLE>
+		<MESSAGE> "正從iCloud下載視頻到^1中，後臺將自動進行操作。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9635" COMMENT="NoMoveToCloudWithAutoReceive">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE> "^1已設定爲自動將iCloud雲端文件下載到本地儲存。如要以別的方式傳輸視頻，請關閉此功能。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+            <TEXT> "關閉" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9636" COMMENT="VideoDownloadNeedsRelink">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "視頻文件不能自動關聯到計時圈。下載完成後，請使用 計時圈列表 ‣ 計時圈圈 ‣ 視頻 ‣ 重新關聯 進行視頻關聯。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9637" COMMENT="NoMatchingVideoFound">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "外置相機中沒有找到合適的視頻。請從視頻列表中手動加載視頻並使用 計時圈列表 ‣ 計時圈 ‣ 視頻 ‣ 重新關聯 進行視頻關聯。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE> "使用MultiCam功能必須開啓藍牙。請在MultiCam開關關閉的狀態下開啓 iOS設定 ‣ 藍牙，啓用MultiCam搜尋功能。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "錯誤" </TITLE>
+		<MESSAGE> "藍牙關閉時，MultiCam的遙控功能無法使用，請開啓 iOS設定 ‣ 藍牙。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9650" COMMENT="FeatureNotAvailableInAppEdition">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "警告" </TITLE>
+		<MESSAGE>
+            "此功能在本版本無法使用，請檢查'拓展插件'中的相關升級選項。"
+        </MESSAGE>
+		<BUTTONS>
+            <TEXT> "確定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9652" COMMENT="FeatureNotAvailableAddOns">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE>
+            "此功能在本版本無法使用，請檢查'拓展插件'中的相關升級選項。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+            <TEXT> "功能拓展" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9651" COMMENT="MissingTimerView">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "目前設備安裝方向無可用的計時界面。請旋轉您的設備或檢查'拓展插件'中的相關升級選項。"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9660" COMMENT="SelectGPSOBDBluetooth">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
+		<TITLE> "確認" </TITLE>
+		<MESSAGE> "將'^1'配置爲GPS設備還是OBD設備？" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "GPS" </TEXT>
+            <TEXT> "OBD" </TEXT>"
+            <TEXT> "取消" </TEXT>"
+		</BUTTONS>
+	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9661" COMMENT="TurnOffGPSHelperApps">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE>
+            "^1將直接連通所選的GPS傳感器，提供精確的數據採集。重要提示：您需要關閉一切GPS相關應用。這些應用不能同時開啓，也不要對^1進行任何操作！"
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "確定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+  
+    <ALERT_RESOURCE RESOURCE_ID="9670" COMMENT="CheckSessionOrTrackdayContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "將此操作應用到本計時圈，還是在本節中的全部計時圈，還是在此賽道日記錄的全部計時圈？" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "本計時圈" </TEXT>
+            <TEXT> "本小節" </TEXT>"
+            <TEXT> "本賽道日" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9671" COMMENT="CheckTrackdayContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "將此操作應用到本計時圈，還是在此賽道日記錄的全部計時圈？" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "本計時圈" </TEXT>
+            <TEXT> "本賽道日" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9672" COMMENT="CheckSessionContext">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "將此操作應用到本計時圈，還是在本節中的全部計時圈？" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "本計時圈" </TEXT>
+            <TEXT> "本小節" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9680" COMMENT="MissingRealName">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "如果要提交挑戰，您需要輸入您的真實名字。此名字將展示給其他用戶。" </MESSAGE>
+        <MESSAGE> "如果要發佈挑戰，需要輸入您的真名。此名字將展示給其他用戶。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2809,7 +2807,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "請確認您已閱讀聲明並同意提交。您的挑戰將對“^1”的所有用戶可見。" </MESSAGE>
+        <MESSAGE> "請確認您已閱讀聲明並同意提交。您的挑戰將對所有下載'^1'賽道信息的用戶可見。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
             <TEXT> "取消" </TEXT>"
@@ -2821,7 +2819,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "請確認您已閱讀聲明並同意提交。在輸入您的密碼“^2”後，您的挑戰將對“^1”的用戶可見。" </MESSAGE>
+        <MESSAGE> "請確認您已閱讀聲明並同意提交。您的挑戰將對所有下載'^1'賽道信息，並準確輸入挑戰碼'^2'的用戶可見。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
             <TEXT> "取消" </TEXT>"
@@ -2833,7 +2831,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "已發送您的挑戰。請查看賽道“^1”，確認此挑戰已上線。" </MESSAGE>
+        <MESSAGE> "已發佈您的挑戰。請查看賽道'^1'，確認此挑戰已上線。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2845,7 +2843,7 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
         <MESSAGE>
-            "恭喜！您將於^2發佈的^1挑戰^3。LapTimer會將此挑戰設置爲對照圈。您可以看到具體的時間差，並在數據記錄裏分析您的駕駛風格！"
+            "恭喜！您將於^1賽道挑戰由^2所發佈的挑戰^3。LapTimer將以此挑戰設置爲對照圈。您可以看到具體的圈時差信息，並在數據記錄中分析您的駕駛風格！"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
@@ -2857,7 +2855,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "挑戰無法加載，請連接到網絡並稍後再試。" </MESSAGE>
+        <MESSAGE> "無法加載挑戰，請檢查網絡並稍後再試。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2879,7 +2877,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "全部的LapTimer用戶都可以看到您的挑戰。它已經被下載^1次。" </MESSAGE>
+        <MESSAGE> "所有LapTimer用戶都可以查看您的挑戰。截止目前，它已被下載^1次。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2890,7 +2888,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "您的挑戰可被所有輸入密碼^2的使用者看見。它已經被下載^1次。" </MESSAGE>
+        <MESSAGE> "所有輸入挑戰碼'^2'的LapTimer用戶都可以查看您的挑戰。截止目前，它已被下載^1次。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2901,7 +2899,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "傳感器設定已變更。如果已連接，它會重新聯機來啓用新設定。" </MESSAGE>
+        <MESSAGE> "傳感器設定已變更。如果目前傳感器尚在連接，它將斷線並重新連接來啓用新設定。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2912,7 +2910,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "更改配置失敗。請斷開/重啓傳感器，而後重新連接來獲取新的配置。" </MESSAGE>
+        <MESSAGE> "更改配置失敗。請斷開或重啓傳感器，而後重新連接來獲取新的配置。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2923,7 +2921,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "沒有對照圈，或是此對照圈沒有相關視頻。" </MESSAGE>
+        <MESSAGE> "無可用對照圈，或是此對照圈沒有關聯的視頻。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2934,7 +2932,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "對照圈和展示圈使用了相同的原始視頻。由於在視頻讀取技術上的限制，目前不支持該設定。" </MESSAGE>
+        <MESSAGE> "對照圈和展示圈使用了相同的原始視頻。由於視頻讀取的限制，目前不支持該設定。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2945,7 +2943,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "對照視頻僅適用於單計時圈。請減少至一圈，然後再試一次。" </MESSAGE>
+        <MESSAGE> "對照視頻僅適用於單計時圈。請調整爲單圈，然後再試一次。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -2957,7 +2955,7 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "警告" </TITLE>
         <MESSAGE>
-            "因^1正在錄製中所以功能無法使用。請退回任一的計時視圖並取消/停止錄製。"
+            "^1正在記錄數據，此功能暫時無法使用。請回到任意的計時視圖，取消或停止錄製。"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
@@ -2969,7 +2967,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "目前系統預設國家爲靠右行駛。理想的固定位置：設備固定在儀表盤正上方，並對準駕駛員。是否要進行鍼對性的加速度校準？" </MESSAGE>
+        <MESSAGE> "目前系統已被設置爲靠右行駛的國家或地區。標準安裝位置：固定於中控臺正上方，設備顯示屏正對駕駛員，這將是最佳的監測位置。是否要針對非標準安裝位置進行鍼對性的加速度校準？" </MESSAGE>
         <BUTTONS>
             <TEXT> "使用預設值" </TEXT>
             <TEXT> "針對性校準" </TEXT>
@@ -2981,7 +2979,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "目前系統預設國家爲靠左行駛。理想的固定位置：設備固定在儀表盤正上方，並對準駕駛員。是否要進行鍼對性的加速度校準？" </MESSAGE>
+        <MESSAGE> "目前系統已被設置爲靠左行駛的國家或地區。標準安裝位置：固定於中控臺正上方，設備顯示屏正對駕駛員，這將是最佳的監測位置。。是否要針對非標準安裝位置進行鍼對性的加速度校準？" </MESSAGE>
         <BUTTONS>
             <TEXT> "使用預設值" </TEXT>
             <TEXT> "針對性校準" </TEXT>
@@ -2993,7 +2991,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "設置當前設備位置爲水平放置，或恢復到默認狀態。" </MESSAGE>
+        <MESSAGE> "是否希望將當前設備設定爲水平放置，或重置爲默認狀態。" </MESSAGE>
         <BUTTONS>
             <TEXT> "水平放置" </TEXT>
             <TEXT> "默認" </TEXT>
@@ -3005,7 +3003,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
-		<MESSAGE> "目前系統預設爲摩托車模式。理想的固定位置：儘可能保持設備的水平，屏幕頂端對準行駛方向。 是否要進行鍼對性的加速度校準？" </MESSAGE>
+		<MESSAGE> "目前系統已被設定爲摩托車模式。標準安裝位置：儘可能保持設備的水平，屏幕頂端對準行駛方向，這將是最佳的監測位置。 是否要針對非標準安裝位置進行鍼對性的加速度校準？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "使用預設值" </TEXT>
 			<TEXT> "針對性校準" </TEXT>
@@ -3017,7 +3015,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "針對性加速度校準已關閉。系統將根據您的國家和車輛種類自行設定。" </MESSAGE>
+		<MESSAGE> "針對性加速度校準已關閉。系統將根據您的國家和車輛種類自動設定。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -3028,7 +3026,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "針對性加速度校準開啓。^1將監控車輛的移動模式並選擇最好的校準設置。一旦校準完成，可鎖定配置方便未來使用。" </MESSAGE>
+		<MESSAGE> "針對性加速度校準已開啓。^1將監控車輛的移動模式，自動進行校準設置。一旦校準完成，可鎖定此配置方便未來使用。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -3039,7 +3037,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
-		<MESSAGE> "視頻錄製模式下將使用專用的視頻拍攝配置。理想的固定位置：設備固定在前檔風玻璃正上方，並把後置攝像頭對齊行駛方向。是否要進行鍼對性的加速度校準？" </MESSAGE>
+		<MESSAGE> "視頻錄製模式下將使用特殊的軟件配置。標準安裝位置：設備固定在前檔風玻璃正上方，屏幕朝向車內，後背攝像頭對準行駛方向，這將是最佳的監測位置。是否要針對非標準安裝位置進行鍼對性的加速度校準？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "使用預設值" </TEXT>
 			<TEXT> "針對性校準" </TEXT>
@@ -3051,7 +3049,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "由於一些兼容性問題，後臺的視頻錄製暫時不可用。如果您想要錄製視頻，請在行駛中將本界面保持在系統前臺。對您造成的不便，我們深感抱歉。" </MESSAGE>
+        <MESSAGE> "由於一些兼容性問題，後臺視頻錄製功能暫不可用。如果您想要錄製視頻，請在行駛中將本界面保持在系統前臺。對您造成的不便，我們深感抱歉。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -3063,7 +3061,7 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "警告" </TITLE>
         <MESSAGE>
-            "整車重量（淨重＋載重）超過車輛最大總質量(GVM)^1。"
+            "整車重量（淨重＋載重）已超出車輛允許的最大總量(GVM)^1。"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
@@ -3075,9 +3073,9 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "重裝負載將調整^1和^2的車輛設定^3。請確認重裝。" </MESSAGE>
+        <MESSAGE> "重置負載將調整^1和^2的車輛設定^3。請確認重置。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "重裝" </TEXT>
+            <TEXT> "重置" </TEXT>
             <TEXT> "取消" </TEXT>"
         </BUTTONS>
     </ALERT_RESOURCE>
@@ -3086,10 +3084,10 @@
         <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Information" </TITLE>
-        <MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. Make sure to have power, power loss, Cp, front surface, and masses defined to get reasonable results." </MESSAGE>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "極速信息由引擎功率、傳動系統損耗、空氣阻力、防傾設置以及車體重量共同計算而出，請在車輛信息頁確定以上相關信息的準確性，以取得最可靠的計算結果。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "確定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3098,7 +3096,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "表單“^1”中的所有任務已被重置。請重新開始！" </MESSAGE>
+        <MESSAGE> "檢查表'^1'中的所有任務已被重置。您可以開始重新填寫！" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -3120,7 +3118,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "錯誤" </TITLE>
-        <MESSAGE> "檢查表單存儲失敗！請確認當前設備有足夠的空間。" </MESSAGE>
+        <MESSAGE> "檢查表單保存失敗！請確認當前設備有足夠的空間。" </MESSAGE>
         <BUTTONS>
             <TEXT> "確定" </TEXT>
         </BUTTONS>
@@ -3131,7 +3129,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "刪除'^1'將會刪除包含的所有項目。是否刪除分組'^1'？" </MESSAGE>
+        <MESSAGE> "刪除'^1'將會刪除其中包含的所有項目。是否刪除分組'^1'？" </MESSAGE>
         <BUTTONS>
             <TEXT> "刪除" </TEXT>
             <TEXT> "取消" </TEXT>"
@@ -3143,9 +3141,9 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "默認狀態爲六速手動變速箱的齒比設置。大部分數值將足以顯示^1檔位，但可能在某些情況下失效。請根據您的車輛設定修改具體數值。" </MESSAGE>
+        <MESSAGE> "默認數據爲六速手動變速箱的齒比設定，通常能較好的支持^1連接OBD設備時的檔位顯示功能，但可能在某些情況下失效。請根據您的車輛設定修改具體數值。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "恢復默認值" </TEXT>
+            <TEXT> "設爲默認值" </TEXT>
             <TEXT> "取消" </TEXT>"
         </BUTTONS>
     </ALERT_RESOURCE>
@@ -3155,7 +3153,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "'^1'被設爲收藏。除了它目前的位置，您還可以在系統首頁中快速進入。再次點按星標可恢復原狀態。" </MESSAGE>
+		<MESSAGE> "功能視圖'^1'已被設爲收藏。除了當前的位置，您還可以在應用首頁中快速進入此功能視圖。再次點按星標可恢復之前的狀態。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -3166,7 +3164,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "信息" </TITLE>
-		<MESSAGE> "收藏項目'^1'返回原狀態並在首頁中移除。如果要再次設爲收藏，請找到項目後再次點擊星標。" </MESSAGE>
+		<MESSAGE> "收藏的功能視圖'^1'已恢復原狀態並從首頁移除。如果要再次設爲收藏，請找到該項目並再次點擊星標。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -3177,7 +3175,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
-		<MESSAGE> "繼續行程'^1'或開始一個新的行程？" </MESSAGE>
+		<MESSAGE> "繼續行程'^1'，還是開始一個新的行程？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "新建行程" </TEXT>
 			<TEXT> "繼續" </TEXT>"
@@ -3190,7 +3188,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"新的行程沒有啓動。請確認輸入有效的行程名稱，您的設備有足夠的內存空間。"
+			"新的行程沒有啓動。請確認輸入行程名稱有效，或者您的設備有足夠的內存空間。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
@@ -3202,7 +3200,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
-		<MESSAGE> "用以顯示^1的程序未安裝。可忽略或從AppStore下載 ^1 ？" </MESSAGE>
+		<MESSAGE> "用以顯示^1的程序尚未安裝。可從AppStore下載^1，或暫時忽略" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "轉到AppStore" </TEXT>
 			<TEXT> "忽略" </TEXT>"
@@ -3214,7 +3212,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "確認" </TITLE>
-		<MESSAGE> "'Snap to Road'（使用Google Roads），發現^1 位置顯示道路，添加^2位置以獲得更好的顯示，移除^3位置。接受變更？" </MESSAGE>
+		<MESSAGE> "'街景視圖'（使用Google Roads），發現^1 位置顯示道路，添加^2位置以獲得更好的顯示，移除^3位置。接受變更？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "取消" </TEXT>
 			<TEXT> "確認" </TEXT>"
@@ -3342,11 +3340,11 @@
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "This will delete the regular service '^1' and ^2 service(s) performed already. Are you sure you want to delete the complete sequence?" </MESSAGE>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "此操作將刪除常規保養'^1'以及^2次歷史養護數據。確定要刪除整個養護序列麼？" </MESSAGE>
         <BUTTONS>
-            <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Delete" </TEXT>"
+            <TEXT> "取消" </TEXT>
+            <TEXT> "是的，請刪除" </TEXT>"
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3354,11 +3352,11 @@
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Do you want to delete this vehicle history entry?" </MESSAGE>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "是否要刪除本條車輛歷史記錄？" </MESSAGE>
         <BUTTONS>
-            <TEXT> "Cancel" </TEXT>
-            <TEXT> "Delete" </TEXT>"
+            <TEXT> "取消" </TEXT>
+            <TEXT> "刪除" </TEXT>"
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3366,11 +3364,11 @@
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "This introduces a non trivial dependency between regular services (chain or cycle). Are you sure you want to proceed with this change?" </MESSAGE>
+        <TITLE> "確認" </TITLE>
+        <MESSAGE> "此操作將帶來養護之前無法忽視的依賴關係（如序列性養護或週期性養護）。是否繼續執行此變更？" </MESSAGE>
         <BUTTONS>
-            <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Change" </TEXT>"
+            <TEXT> "取消" </TEXT>
+            <TEXT> "是的，執行變更" </TEXT>"
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3378,10 +3376,10 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
-        <MESSAGE> "Time periods require the vehicle's initial registration date to be defined. Please enter this date now." </MESSAGE>
+        <TITLE> "警告" </TITLE>
+        <MESSAGE> "設定週期前需設置車輛的首次登記日期。請在此進行設置。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "確定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3390,9 +3388,9 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "請使用功能日票，以解鎖計時圈分析與信息圖層壓印。確認使用^1功能日票解鎖所有記錄在^2上的計時圈？" </MESSAGE>
+        <MESSAGE> "數據分析與信息圖層壓印功能需使用日票進行解鎖。您共有^1張日票，是否使用一張解鎖所有記錄於^2的計時圈？" </MESSAGE>
         <BUTTONS>
-            <TEXT> "使用功能日票" </TEXT>
+            <TEXT> "使用日票" </TEXT>
             <TEXT> "取消" </TEXT>"
         </BUTTONS>
     </ALERT_RESOURCE>
@@ -3402,7 +3400,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "成功添加 ^1功能日票，您現在擁有^2張日票，可以馬上進行使用。例如：從計時圈列表中選擇一個被鎖定的計時圈。" </MESSAGE>
+        <MESSAGE> "成功採購^1張功能日票，您現在擁有^2張日票，可以馬上進行使用。比如從'計時圈列表'中解鎖某日的全部計時圈數據分析。" </MESSAGE>
         <BUTTONS>
             <TEXT> "繼續" </TEXT>
         </BUTTONS>
@@ -3413,7 +3411,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "確認刪除所有功能日票？" </MESSAGE>
+        <MESSAGE> "確定要調試應用並刪除所有功能日票？" </MESSAGE>
         <BUTTONS>
             <TEXT> "取消" </TEXT>
             <TEXT> "刪除" </TEXT>
@@ -3425,7 +3423,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "恭喜！您解鎖了^1。所有計時圈可以被分析並替換。如果您錄製了視頻， 可以在計時圈詳情頁壓印信息圖層。" </MESSAGE>
+        <MESSAGE> "恭喜！您已解鎖日期：^1。當日的所有計時圈可以被分析與導出。如果您錄製了視頻， 可以在計時圈詳情頁壓印信息圖層。" </MESSAGE>
         <BUTTONS>
             <TEXT> "繼續" </TEXT>
         </BUTTONS>
@@ -3436,7 +3434,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "確認" </TITLE>
-        <MESSAGE> "這是^1的免費版本。它可以顯示即時信息並儲存數據與視頻。如果您需要數據分析或爲視頻壓印信息圖層，請在管理 ‣ 擴展中，購買功能日票。" </MESSAGE>
+        <MESSAGE> "這是^1的免費版本。它可以顯示即時信息並儲存數據與視頻。如果您需要分析這些數據或爲視頻壓印信息圖層，請在 管理 ‣ 功能拓展 中，購買功能日票。" </MESSAGE>
         <BUTTONS>
             <TEXT> "明白" </TEXT>
             <TEXT> "不再顯示" </TEXT>
@@ -3444,3 +3442,4 @@
     </ALERT_RESOURCE>
 
 </PALMOS_RESOURCE_FILE>
+

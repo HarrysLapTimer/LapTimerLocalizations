@@ -46,7 +46,7 @@
 "kSportChronoButtonLabelVideo" = "視頻";
 
 /* SportChrono Buttons */
-"kSportChronoButtonLabelHome" = "返回";
+"kSportChronoButtonLabelHome" = "主菜單";
 
 /* Small Buttons */
 "kGapAbbreviated" = "分段差";
@@ -62,7 +62,7 @@
 
 "kCurrentSpeedSegment" = "當前時速";
 
-"kVehicleCurrent" = "當前車輛";
+"kVehicleCurrent" = "當前";
 
 "kLastTopSpeedSegment" = "短時極速";
 
@@ -138,7 +138,7 @@
 "kTileHelpWelcomeLapTimer" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。本應用的功能包括<ui>賽前整備</ui>，<ui>賽道計時</ui>和行駛過程的<ui>數據分析</ui>。請從中選擇一個功能。";
 
 /* Tile View Help */
-"kTileHelpRace" = "在競速中可使用不同的功能菜單。新手建議使用<ui>數字秒錶</ui>，在直立或橫置屏幕的狀態下均可使用。PRODUCTNAME的 <ui>視頻</ui> 界面只能橫置屏幕使用。";
+"kTileHelpRace" = "在競速中可使用不同的功能菜單。新手建議使用<ui>計時器</ui>，在直立或橫置屏幕的狀態下均可使用。PRODUCTNAME的 <ui>視頻</ui> 界面只能橫置屏幕使用。";
 
 /* Tile View Help */
 "kTileHelpAnalytics" = "PRODUCTNAME中用於分析行駛數據的菜單。 <ui>即時信息</ui>中包括全部的實時數據信息。可在<ui>計時圈</ui>中查看所有圖表數據。您也可以在這裏給視頻壓印數據圖層。";
@@ -156,16 +156,16 @@
 "kSportChronoButtonLabelUnlockCalibration" = "解鎖";
 
 /* Vehicle History (and others) */
-"Event" = "競速活動";
+"Event" = "活動";
 
 /* Update rate gadget for GPS - needs to be short */
-"GPS Rate" = "GPS刷新率";
+"GPS Rate" = "刷新率";
 
 /* Update rate gadget for Accelerometer - needs to be short */
-"Accelerometer Rate" = "加速度刷新率";
+"Accelerometer Rate" = "刷新率";
 
 /* Update rate gadget for OBD - needs to be short */
-"OBD Rate" = "OBD刷新率";
+"OBD Rate" = "刷新率";
 
 "kTileHelpUsingRearCam" = "界面上顯示的<ui>後視畫面</ui>會有<hl>5秒左右的延遲</hl>\n\n故本功能不能替代後視鏡。";
 
@@ -188,7 +188,7 @@
 "kSportChronoButtonLabelAdvancedCalibration" = "手動校準";
 
 /* Update rate gadget for Accelerometer - needs to be short */
-"Raw Accelerometer Rate" = "原始加速度刷新率";
+"Raw Accelerometer Rate" = "刷新率";
 
 "Groups" = "分組";
 
@@ -227,7 +227,7 @@
 
 "Satellites" = "衛星";
 
-"Timer" = "計時";
+"Timer" = "計時器";
 
 "Settings" = "設置";
 
@@ -486,7 +486,7 @@
 
 "Track Info" = "賽道信息";
 
-"Regularity" = "節奏性";
+"Regularity" = "節奏感";
 
 "Data Recording" = "數據採集";
 
@@ -566,8 +566,7 @@
 
 "Send Trackday to Friend" = "發送賽道日數據給好友";
 
-/* e.g. from lap A *to* lap B */
-"kFromTo" = "到";
+" to " = " 到 ";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如您不清楚這些功能對於維護的意義, 請按“取消”";
 
@@ -669,15 +668,15 @@
 
 "Day" = "天";
 
-"Session" = "計時段";
+"Session" = "節";
 
-"%hu lap(s) selected" = "已選%hu計時圈";
+"%hu lap(s) selected" = "已選%hu個計時圈";
 
 "%hu '%@' lap(s) selected" = "已選%hu“%@”計時圈";
 
-"%hu lap(s) for last session selected" = "已爲上一計時段選擇%hu計時圈";
+"%hu lap(s) for last session selected" = "已選擇上一節的%hu個計時圈";
 
-"%hu lap(s) from lap's session selected" = "已從各計時段中選擇%hu計時圈";
+"%hu lap(s) from lap's session selected" = "已選擇此節的%hu個計時圈";
 
 /* Add-on Details */
 "Title" = "名稱";
@@ -856,7 +855,7 @@
 
 "Max Power" = "最大功率";
 
-"%hu rpm" = "%hu轉速";
+"%hu rpm" = "%hu rpm";
 
 "Max RPM" = "最高轉速";
 
@@ -874,7 +873,7 @@
 
 "Charts" = "圖表";
 
-"Speed [%s] @ Engine [rpm/1000]" = "時速[%s] @ 轉速[rpm/1000]";
+"Speed [%s] @ Engine [rpm/1000]" = "時速[%s] @ 轉速[千轉/分]";
 
 "Drive Ratio" = "終傳比";
 
@@ -1004,9 +1003,9 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "此功能在這個版本無法使用，請在'功能插件'查看升級選項。";
 
 /* Sensors */
-", NMEA sentences received: %s" = "，收到NMEA信息: %s";
+", NMEA sentences received: %s" = "，接收到NMEA信息: %s";
 
-"NMEA sentences received: %s" = "收到NMEA信息: %s";
+"NMEA sentences received: %s" = "接收到NMEA信息: %s";
 
 ", PIDs received: %@" = "，接收到PIDs: %@";
 
@@ -1049,11 +1048,11 @@
 
 "Select Track" = "選擇賽道";
 
-"Track Selected" = "賽道已選擇";
+"Track Selected" = "已選選擇";
 
 "Drive!" = "開始駕駛！";
 
-"Track Selected ('%@')" = "賽道已選擇 ('%@')";
+"Track Selected ('%@')" = "已選賽道 ('%@')";
 
 "Name" = "名字";
 
@@ -1083,9 +1082,9 @@
 
 "Waypoints in Set: %hu" = "航點組: %hu";
 
-"POIs / Triggers in Set: %hu\nPotential conflicts: %@" = "路標/觸發點組: %hu\n潛在的衝突: %@";
+"POIs / Triggers in Set: %hu\nPotential conflicts: %@" = "地標/觸發點組: %hu\n潛在的衝突: %@";
 
-"POIs / Triggers in Set: %hu" = "路標/觸發點組: %hu";
+"POIs / Triggers in Set: %hu" = "地標/觸發點組: %hu";
 
 "My Waypoints" = "我的航點";
 
@@ -1156,7 +1155,7 @@
 
 "Large" = "大";
 
-"Alert" = "警告";
+"Alert" = "警示";
 
 "Top Right" = "右上";
 
@@ -1176,15 +1175,15 @@
 
 "Information" = "信息";
 
-"Stop / Go" = "起點兼終線";
+"Stop / Go" = "起點/終點線";
 
-"Stop" = "結束";
+"Stop" = "終線";
 
 "Go" = "起點";
 
 "Split" = "分段";
 
-"Standing Go" = "排位發車起跑";
+"Standing Go" = "排位發車位";
 
 "Select the event you want to happen once you pass the Point of Interest." = "選擇經過地標後您想執行的動作。";
 
@@ -1236,29 +1235,29 @@
 
 "Sector #x" = "計時段 #x";
 
-"Speed [%s] @ Distance [%s]" = "速度 [%s] @ 里程 [%s]";
+"Speed [%s] @ Distance [%s]" = "速度[%s] @ 里程[%s]";
 
-"Lateral Acceleration [g] @ Distance [%s]" = "橫向加速度 [g] @ 里程 [%s]";
+"Lateral Acceleration [g] @ Distance [%s]" = "橫向加速度[g] @ 里程[%s]";
 
-"Lineal Acceleration [g] @ Distance [%s]" = "縱向加速度 [g] @ 里程 [%s]";
+"Lineal Acceleration [g] @ Distance [%s]" = "縱向加速度[g] @ 里程[%s]";
 
-"Overall Acceleration [g-g]" = "合成加速度 [g-g]";
+"Overall Acceleration [g-g]" = "合成加速度[g-g]";
 
-"Yaw Rate [°/s] @ Distance [%s]" = "偏航率 [°/s] @ 里程 [%s]";
+"Yaw Rate [°/s] @ Distance [%s]" = "偏轉速率[°/s] @ 里程[%s]";
 
-"Height [%s] @ Distance [%s]" = "高度 [%s] @ 里程 [%s]";
+"Height [%s] @ Distance [%s]" = "高度[%s] @ 里程[%s]";
 
-"Engine [rpm/1000] @ Distance [%s]" = "轉速 [rpm/1000] @ 里程 [%s]";
+"Engine [rpm/1000] @ Distance [%s]" = "轉速[千轉/分] @ 里程[%s]";
 
-"Throttle [%%] @ Distance [%s]" = "油門 [%%] @ 里程 [%s]";
+"Throttle [%%] @ Distance [%s]" = "油門[%%] @ 里程[%s]";
 
-"Coolant Temperature [%@] @ Distance [%s]" = "冷卻液溫度 [%@] @ 里程 [%s]";
+"Coolant Temperature [%@] @ Distance [%s]" = "冷卻液溫度[%@] @ 里程[%s]";
 
 "Lateral Acceleration" = "橫向加速度";
 
 "Lineal Acceleration" = "縱向加速度";
 
-"Yaw Rate" = "偏航率";
+"Yaw Rate" = "偏轉速率";
 
 "Height" = "高度";
 
@@ -1266,7 +1265,7 @@
 
 "Accumulated Time Gap [s]" = "累計時間差 [s]";
 
-"Selected " = "已選擇";
+"Selected " = "已選";
 
 "(OBD speed dotted)" = "(虛線：OBD 時速)";
 
@@ -1274,7 +1273,7 @@
 
 "Reference not available" = "無對照圈數據";
 
-"Reference " = "對照";
+"Reference " = "對照圈";
 
 /* Selection Controller */
 "Edit " = "編輯 ";
@@ -1351,6 +1350,8 @@
 
 "Play" = "播放";
 
+"Link" = "關聯"
+
 "Re-Link" = "重新關聯";
 
 "Video Details" = "視頻信息";
@@ -1363,7 +1364,7 @@
 
 "Laps linked" = "已關聯計時圈";
 
-"Size" = "尺寸";
+"Size" = "大小";
 
 "Overlay Type" = "數據圖層類型";
 
@@ -1465,11 +1466,11 @@
 
 "Your track is ready to use! Just mount your device and start driving." = "您的賽道已可以使用！固定好設備後，即可開始駕駛。";
 
-"Define Start" = "定義起點";
+"Define Start" = "設定起點線";
 
-"Regular Start" = "一般起跑";
+"Regular Start" = "衝線計時";
 
-"Standing Start" = "排位發車起跑";
+"Standing Start" = "靜態起步計時";
 
 /* KML Import (Radarfalle) */
 "Radar Trap Tunnel" = "雷達測速通道";
@@ -1721,7 +1722,7 @@
 
 "Rename" = "重命名";
 
-"Define Start / Finish" = "定義起點/終點";
+"Define Start / Finish" = "定義起點/終點線";
 
 "Define Finish" = "定義終點線";
 
@@ -1802,7 +1803,7 @@
 
 "Season" = "季度";
 
-"Focus Time Delta" = "放大時間差";
+"Focus Time Delta" = "僅查看差異部分";
 
 /* Diagram Configuration */
 "Show Reference" = "顯示對照圈";
@@ -1820,7 +1821,7 @@
 
 "Trackday" = "賽道日";
 
-"Year" = "年";
+"Year" = "年份";
 
 "Make Default" = "設爲默認項";
 
@@ -1836,7 +1837,7 @@
 
 "Last Trackday" = "上個賽道日";
 
-"Last Session" = "上個計時段";
+"Last Session" = "上一節";
 
 "Any Tags" = "任何標籤";
 
@@ -1921,11 +1922,11 @@
 
 "Reference Lap" = "對照圈";
 
-"Front Camera" = "車頭相機";
+"Front Camera" = "前置攝像頭";
 
-"Lock Autofocus" = "鎖定焦距";
+"Lock Autofocus" = "鎖定對焦";
 
-"Video Stabilizer" = "視頻穩定器";
+"Video Stabilizer" = "視頻防抖";
 
 "External Mic" = "外置麥克風";
 
@@ -1948,7 +1949,7 @@
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "選擇與計時圈末尾符合的畫面幀，然後按下“設定”。長按滑軌可放大比例";
 
 /* Video Controller */
-"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "後臺視頻記錄已被禁用。經過起點/終點時錄像【不會】啓動！";
+"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "後臺視頻記錄已被禁用。經過起點/終點線時錄像【不會】啓動！";
 
 "Microphone" = "麥克風";
 
@@ -2335,10 +2336,9 @@
 
 "Position Stored..." = "位置已儲存...";
 
-/* e.g. moving 50 kg of luggage *to* vehicle */
-"kMoveToVehicle" = "到";
+"to" = "到";
 
-"Catalyst" = "尾氣催化器";
+"Catalyst" = "排氣催化";
 
 "Device" = "設備";
 
@@ -2368,7 +2368,7 @@
 
 "Capacity" = "載客量";
 
-"Gross Mass" = "最大總量";
+"Gross Mass" = "最大總重";
 
 "Gross Weight" = "總重量";
 
@@ -2427,7 +2427,7 @@
 
 "Gross vehicle mass (GVM) is the maximum operating weight as specified by the manufacturer." = "車輛總重量（GVM）是製造廠商所規定的車重加負載的最大重量。";
 
-"%@ and %hu more" = "%@等%hu條";
+"%@ and %hu more" = "%@及其餘%hu條";
 
 /* HeavyDuty */
 "Number of trailer axles." = "拖車車軸數量";
@@ -2499,7 +2499,7 @@
 
 "Recording" = "正在錄製";
 
-"Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "錄製已在進行中。當您完成駕駛，請轉到計時功能菜單，取消未完成的冷卻圈。";
+"Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "錄製已在進行中。當您完成駕駛，請轉到計時器功能菜單，取消未完成的冷卻圈。";
 
 "Restore" = "恢復";
 
@@ -2787,7 +2787,7 @@
 
 "Critical" = "嚴重";
 
-"Warning" = "警告";
+"Warning" = "警示";
 
 "OK" = "好";
 
@@ -2803,17 +2803,17 @@
 
 "%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLife View Streaming: %@\nNumber of Videos: %hu\n" = "%@\n電池狀態：%hu%%\n剩餘錄製時間：%s\n錄製中：%@\n視頻流：%@\n視頻數量：%hu\n";
 
-"Auto Preset" = "自動配置";
+"Auto Preset" = "自動選擇配置";
 
-"RHT Preset" = "靠右行駛配置";
+"RHT Preset" = "右行地區配置";
 
-"LHT Preset" = "靠左行駛配置";
+"LHT Preset" = "左行地區配置";
 
-"Cam Preset" = "相機配置";
+"Cam Preset" = "攝像機配置";
 
 "Measured" = "已測量";
 
-"Motorbike Preset" = "摩托車";
+"Motorbike Preset" = "摩托車配置";
 
 "GoPro HERO3/3+" = "GoPro HERO3/3+";
 
@@ -2845,7 +2845,7 @@
 "Be sure <hl>PRODUCTNAME's</hl> <ui>System Status</ui> shows an overall rating <ui>All Set</ui>. A red alert should not be ignored—press it to get help." = "請確認<hl>PRODUCTNAME</hl>的<ui>系統狀態</ui>界面顯示<ui>所有項目就緒</ui>的顯示。請不要忽視任何紅色警告框————點擊可獲得相關幫助。";
 
 /* Quick Reference - keep length */
-"Select a timer view (e.g. <ui>Timer</ui> or <ui>Speedo</ui>) before leaving the pits. For video, press the <ui>Video</ui> button." = "離開維修站前，請進入計時菜單（如<ui>秒錶</ui>或<ui>時速表</ui>）。若要拍攝視頻，請點擊<ui>視頻</ui>按鈕。";
+"Select a timer view (e.g. <ui>Timer</ui> or <ui>Speedo</ui>) before leaving the pits. For video, press the <ui>Video</ui> button." = "離開維修站前，請進入計時菜單（如<ui>計時器</ui>或<ui>時速表</ui>）。若要拍攝視頻，請點擊<ui>視頻</ui>按鈕。";
 
 /* Quick Reference - keep length */
 "Back in the pits, <ui>Cancel</ui> the cool down lap. This will purge an incomplete lap entry from <ui>Lap List</ui> and finish video recording." = "返回維修站後，請<ui>取消</ui>冷胎圈。這將刪除冷卻圈並結束視頻錄製。";
@@ -2925,7 +2925,7 @@
 "%hu trip(s) selected" = "%hu 航程已選擇";
 
 /* About Dialog Duplicates */
-"The author is not responsible for any injuries or property damage that may occur during use of this software." = "作者對使用本軟件過程中的發生受傷或財產損失概不負責。";
+"The author is not responsible for any injuries or property damage that may occur during use of this software." = "作者對使用本軟件過程中發生的受傷或財產損失概不負責。";
 
 "Trip #%hu" = "出行 #%hu";
 
@@ -2977,10 +2977,10 @@
 "Odometer value at start of recordings. For new vehicles, tracked from the beginning, this will be zero." = "開始記錄時的里程錶數值。對於新車，數值爲零。";
 
 /* Update rate gadget for GPS - needs to be short */
-"NMEA Rate" = "NMEA刷新率";
+"NMEA Rate" = "刷新率";
 
 /* Update rate gadget for OBD - needs to be short */
-"PID Rate" = "PID刷新率";
+"PID Rate" = "刷新率";
 
 ", update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = ", 更新率 (原始/總計/淨值/請求)：%hu/%hu/%hu/%hu Hz";
 
