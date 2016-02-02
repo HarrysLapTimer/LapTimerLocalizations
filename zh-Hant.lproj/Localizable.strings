@@ -190,6 +190,12 @@
 /* Update rate gadget for Accelerometer - needs to be short */
 "Raw Accelerometer Rate" = "刷新率";
 
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "到";
+
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "到";
+
 "Groups" = "分組";
 
 "LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer目前未被允許訪問手機內的視頻/音頻資源。請在設定 ‣ 隱私 ‣ 麥克風 ‣ LapTimer中啓用授權。";
@@ -565,8 +571,6 @@
 "Receive Lap from Friend" = "自好友處接收計時圈數據";
 
 "Send Trackday to Friend" = "發送賽道日數據給好友";
-
-" to " = " 到 ";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如您不清楚這些功能對於維護的意義, 請按“取消”";
 
@@ -1349,8 +1353,6 @@
 "Housekeeping" = "清理";
 
 "Play" = "播放";
-
-"Link" = "關聯"
 
 "Re-Link" = "重新關聯";
 
@@ -2336,8 +2338,6 @@
 
 "Position Stored..." = "位置已儲存...";
 
-"to" = "到";
-
 "Catalyst" = "排氣催化";
 
 "Device" = "設備";
@@ -3023,6 +3023,10 @@
 "Frontal Area" = "迎風面積";
 
 "My" = "我的";
+
+"Link" = "關聯";
+
+"to" = "到";
 
 "System" = "系統";
 

@@ -115,6 +115,12 @@
 /* Update rate gadget for Accelerometer - needs to be short */
 "Raw Accelerometer Rate" = "Taux";
 
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "à";
+
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "Vers";
+
 "Groups" = "Groupes";
 
 "LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer ne donne pas accès au système vidéo / audio pour le moment. Veuillez activer l'accès dans Paramètres ‣ Confidentialité ‣ Microphone ‣ LapTimer.";
@@ -490,9 +496,6 @@
 "Receive Lap from Friend" = "Réception de Données d'un Ami";
 
 "Send Trackday to Friend" = "Envoie d'une Session à un Ami";
-
-/* e.g. from lap A *to* lap B */
-"kFromTo" = "à";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "Appuyez sur 'Annuler' en cas de doute sur l'utilisation de ces fonctions.";
 
@@ -2242,9 +2245,6 @@
 "Park Vehicle" = "Garer un véhicule";
 
 "Position Stored..." = "Emplacement mis en mémoire...";
-
-/* e.g. moving 50 kg of luggage *to* vehicle */
-"kMoveToVehicle" = "Vers";
 
 "Catalyst" = "Catalyseur";
 

@@ -193,6 +193,12 @@
 /* Vehicle History */
 "kEventClassification" = "Klassifikation";
 
+/* e.g. from lap A *to* lap B */
+"kFromTo" = "bis";
+
+/* e.g. moving 50 kg of luggage *to* vehicle */
+"kMoveToVehicle" = "auf";
+
 "Groups" = "Gruppen";
 
 "LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "Für LapTimer wurde der Zugriff auf Video / Audio unterbunden. Um Video Aufzeichungen zu ermöglichen, bitte den Zugriff gewähren: Einstellungen ‣ Datenschutz ‣ Mikrofon ‣ LapTimer.";
@@ -568,9 +574,6 @@
 "Receive Lap from Friend" = "Empfange Daten von Freund";
 
 "Send Trackday to Friend" = "Sende Tagesdaten an Freund";
-
-/* e.g. from lap A *to* lap B */
-"kFromTo" = "bis";
 
 "Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "Bei Unsicherheit was diese Funktionen tun bitte 'Abbruch' wählen. Die Funktionen sind zur Wartung bestimmt.";
 
@@ -2338,9 +2341,6 @@
 
 "Position Stored..." = "Position gespeichert...";
 
-/* e.g. moving 50 kg of luggage *to* vehicle */
-"kMoveToVehicle" = "auf";
-
 "Catalyst" = "Katalysator";
 
 "Device" = "Gerät";
@@ -3318,4 +3318,6 @@
 
 /* Media player control */
 "Pause" = "Pause";
+
+"Link" = "Link";
 
