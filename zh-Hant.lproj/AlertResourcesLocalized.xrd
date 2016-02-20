@@ -3474,5 +3474,18 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9973" COMMENT="AskForVehicleCertification">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Congratulations, you have entered all details for ^1. Please help Harry building a repository of vehicles by contributing your work to ^2's community." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Later" </TEXT>
+            <TEXT> "Never" </TEXT>
+            <TEXT> "Contribute" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 </PALMOS_RESOURCE_FILE>
 

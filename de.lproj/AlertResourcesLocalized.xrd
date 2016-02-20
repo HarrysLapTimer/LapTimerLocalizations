@@ -3547,4 +3547,17 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9973" COMMENT="AskForVehicleCertification">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Gratulation, Du hast alle Details für ^1 erfasst. Bitte trage zum Aufbau einer Fahrzeug Datenbank für alle Nutzer von ^2 bei, indem Du das Fahrzeug zertifizierst." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Später" </TEXT>
+            <TEXT> "Nie" </TEXT>
+            <TEXT> "Gerne!" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 </PALMOS_RESOURCE_FILE>

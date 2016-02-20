@@ -3352,3 +3352,6 @@
 
 "Model Year" = "Modelljahr";
 
+/* Android preference help */
+"Ask for vehicle certification once a vehicle has been completed" = "Frage nach Fahrzeug Zertifizierung wenn alle Details erfasst sind";
+
