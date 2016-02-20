@@ -3456,4 +3456,37 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9970" COMMENT="VehicleCertificationContributor">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Thank you for sharing your vehicle definition, it will help others to set up ^1 faster! You have been recorded as the original contributor of ^2. Your submission is queued for certification now. Please re-submit in case you adjust values." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9971" COMMENT="VehicleCertificationSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Thank you for sharing your vehicle definition, it will help others to set up ^1 faster! Your refinement of ^2 is queued for certification now. Please re-submit in case you adjust values." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9972" COMMENT="VehicleCertificationNotSuccessful">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "The submission of vehicle data has not been successful. Please check your Internet connection and try again later." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 </PALMOS_RESOURCE_FILE>

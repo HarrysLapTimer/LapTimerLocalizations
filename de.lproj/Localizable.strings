@@ -914,7 +914,7 @@
 
 "rd" = "e(r)";
 
-"Vehicle Name" = "Fahrz.name";
+"Vehicle Name" = "Fahrzeugname";
 
 "Edit VIN" = "FIN bearbeiten";
 
@@ -2397,7 +2397,7 @@
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Entweder Hersteller / Modell / Modelljahr auswählen oder einen individuellen Namen für das Fahrzeug eintragen. Der Name wird in der App zur Identifikation des Fahrzeugs genutzt.";
 
-"Vehicle Description" = "Fahrzeugname";
+"Vehicle Description" = "Beschreibung";
 
 "Make of vehicle, e.g. 'Porsche' or 'Ford'." = "Hersteller des Fahrzeugs, z. B. 'Porsche' oder 'Ford'.";
 
@@ -3320,4 +3320,35 @@
 "Pause" = "Pause";
 
 "Link" = "Link";
+
+"Select the country the vehicle has been manufactured for. Vehicles typically differ by country to match local legislation and preferences." = "Wähle das Land für das das Fahrzeug hergestellt / zugelassen wurde. Fahrzeuge unterscheiden sich nach Ländern um lokale Zulassungsvoraussetzungen oder Gepflogenheiten zu erfüllen.";
+
+/* Vehicle Certification */
+"Thanks for supporting development of <hl>PRODUCTNAME</hl>'s database of vehicles. Data submitted will be anonymized and shared with other users." = "Danke für die Unterstützung beim Aufbau einer Fahrzeugdatenbank für <hl>PRODUCTNAME</hl>. Übertragene Daten werden anonymisiert und anschliessend mit anderen Nutzern geteilt.";
+
+/* Vehicle Certification */
+"Vehicle Certification" = "Fahrzeug Zertifizierung";
+
+/* Vehicle Certification */
+"Stock values included only" = "Nur Standardwerte enthalten";
+
+/* Vehicle Certification */
+"I agree data will be shared" = "Stimme Veröffentlichung zu";
+
+/* Vehicle Certification */
+"No duplicates seen" = "Keine Duplikate erkannt";
+
+"E-Mail" = "E-Mail";
+
+/* Vehicle Certification */
+"Contributor name (optional)" = "Vor- und Nachname (Option)";
+
+"Your e-mail (for Harry)" = "Deine E-Mail (für Harry)";
+
+/* Vehicle Certification */
+"Submission Details" = "Details";
+
+"%hu Vehicle(s)" = "%hu Fahrzeug(e)";
+
+"Model Year" = "Modelljahr";
 
