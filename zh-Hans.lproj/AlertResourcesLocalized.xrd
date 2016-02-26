@@ -3445,10 +3445,10 @@
         <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Information" </TITLE>
-        <MESSAGE> "Thank you for sharing your vehicle definition, it will help others to set up ^1 faster! You have been recorded as the original contributor of ^2. Your submission is queued for certification now. Please re-submit in case you adjust values." </MESSAGE>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "感谢您共享车辆配置信息，这将帮助其他^1用户更快的进行软件配置！您将被记录为^2的初始贡献者。提交的配置认证信息正在审核中，如需对配置进行修正，请再次进行提交。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "确定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3456,10 +3456,10 @@
         <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Information" </TITLE>
-        <MESSAGE> "Thank you for sharing your vehicle definition, it will help others to set up ^1 faster! Your refinement of ^2 is queued for certification now. Please re-submit in case you adjust values." </MESSAGE>
+        <TITLE> "信息" </TITLE>
+        <MESSAGE> "感谢您共享车辆配置信息，这将帮助其他^1用户更快的进行软件配置！您对^2提交的配置信息正在审核中，如需对配置进行修正，请再次进行提交。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "确定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3467,10 +3467,10 @@
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Error" </TITLE>
-        <MESSAGE> "The submission of vehicle data has not been successful. Please check your Internet connection and try again later." </MESSAGE>
+        <TITLE> "错误" </TITLE>
+        <MESSAGE> "车辆配置信息提交失败。请检查您的网络状况，稍后再试。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "确定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3478,12 +3478,12 @@
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Congratulations, you have entered all details for ^1. Please help Harry building a repository of vehicles by contributing your work to ^2's community." </MESSAGE>
+        <TITLE> "确认" </TITLE>
+        <MESSAGE> "恭喜，您已填写了全套^1的配置信息。强烈建议您提交此配置至服务器，协助Harry建立车型数据库，造福整个^2用户社群。" </MESSAGE>
         <BUTTONS>
-            <TEXT> "Later" </TEXT>
-            <TEXT> "Never" </TEXT>
-            <TEXT> "Contribute" </TEXT>
+            <TEXT> "以后再说" </TEXT>
+            <TEXT> "不再提醒" </TEXT>
+            <TEXT> "上传配置" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
