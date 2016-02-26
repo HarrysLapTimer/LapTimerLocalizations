@@ -293,7 +293,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
 		<MESSAGE>
-            "Sie benutzen eine Zeit-limitierte Version von LapTimer. LapTimer ist bis zum ^1 funktionsfähig. Bitte installiere eine neue Version."
+            "Du benutzt eine Zeit-limitierte Version von LapTimer. LapTimer ist bis zum ^1 funktionsfähig. Bitte installiere eine neue Version."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -858,7 +858,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Please register" </TITLE>
 		<MESSAGE>
-            "Lieber LapTimer Kunden. Sie nutzen einen Reseller-Lizenzschlüssel. Registrieren Sie sich bitte um einen persönlichen Schlüssel zu erhalten und damit auch für ein Update berechtigt zu sein." 
+            "Lieber LapTimer Nutzer. Du nutzt einen Reseller-Lizenzschlüssel. Registriere Dich bitte um einen persönlichen Schlüssel zu erhalten und damit auch für ein Update berechtigt zu sein."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Registrieren" </TEXT>
@@ -2599,7 +2599,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
-		<MESSAGE> "Gratulation, Sie haben einen Upgrade auf ^1 ^2 erhalten!" </MESSAGE>
+		<MESSAGE> "Gratulation, Du hast ein Upgrade auf ^1 ^2 erhalten!" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
@@ -3511,6 +3511,52 @@
         <BUTTONS>
             <TEXT> "OK" </TEXT>
             <TEXT> "Nicht zeigen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9970" COMMENT="VehicleCertificationContributor">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Danke für das Teilen der Fahrzeugdefinition, es wird anderen helfen ^1 schneller zu nutzen! Du wurdest als Ersteller von ^2 gespeichert. Die Daten sind nun für die Zertifizerung vorgemerkt. Wenn Werte angepasst werden, bitte erneut Zertifizieren." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9971" COMMENT="VehicleCertificationSuccessful">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Danke für das Teilen der Fahrzeugdefinition, es wird anderen helfen ^1 schneller zu nutzen! Die Datenänderungen für ^2 sind nun für die Zertifizierung vorgemerkt. Wenn Werte angepasst werden, bitte erneut Zertifizieren." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9972" COMMENT="VehicleCertificationNotSuccessful">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Fehler" </TITLE>
+        <MESSAGE> "Die Datenübertragung war nicht erfolgreich. Bitte Internetverbindung überprüfen und später erneut versuchen. Danke!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9973" COMMENT="AskForVehicleCertification">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 2 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Gratulation, Du hast alle Details für ^1 erfasst. Bitte trage zum Aufbau einer Fahrzeug Datenbank für alle Nutzer von ^2 bei, indem Du das Fahrzeug zertifizierst." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Später" </TEXT>
+            <TEXT> "Nie" </TEXT>
+            <TEXT> "Gerne!" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

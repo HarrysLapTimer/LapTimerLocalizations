@@ -1,6 +1,15 @@
 /* Work around issue with empty .strings files */
 "X" = "X";
 
+/* Current speed, abbreviation without  speed */
+"kCurrentSpeedSegment" = "Actuel";
+
+/* Last top speed abbreviation without speed */
+"kLastTopSpeedSegment" = "Dernier";
+
+/* Highest speed ever, abbreviation without speed */
+"kTopSpeedSegment" = "Haut";
+
 "LapTimer" = "LapTimer";
 
 "Online Racing" = "Course Live";
@@ -62,15 +71,6 @@
 "Easy Mode" = "Mode Débutant";
 
 "Speed" = "Vitesse";
-
-/* Current speed, abbreviation without  speed */
-"kCurrentSpeedSegment" = "Actuel";
-
-/* Last top speed abbreviation without speed */
-"kLastTopSpeedSegment" = "Dernier";
-
-/* Highest speed ever, abbreviation without speed */
-"kTopSpeedSegment" = "Haut";
 
 "Skin" = "Skin";
 

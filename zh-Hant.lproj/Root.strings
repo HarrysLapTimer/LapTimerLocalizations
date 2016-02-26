@@ -1,6 +1,15 @@
 /* Work around issue with empty .strings files */
 "X" = "X";
 
+/* Current speed, abbreviation without  speed */
+"kCurrentSpeedSegment" = "當前時速";
+
+/* Last top speed abbreviation without speed */
+"kLastTopSpeedSegment" = "短時極速";
+
+/* Highest speed ever, abbreviation without speed */
+"kTopSpeedSegment" = "最高速";
+
 "LapTimer" = "LapTimer";
 
 "Online Racing" = "在線競賽";
@@ -62,15 +71,6 @@
 "Easy Mode" = "簡易模式";
 
 "Speed" = "速度顯示";
-
-/* Current speed, abbreviation without  speed */
-"kCurrentSpeedSegment" = "當前時速";
-
-/* Last top speed abbreviation without speed */
-"kLastTopSpeedSegment" = "短時極速";
-
-/* Highest speed ever, abbreviation without speed */
-"kTopSpeedSegment" = "最高速";
 
 "Skin" = "界面皮膚";
 
@@ -231,3 +231,4 @@
 "Font" = "字體";
 
 "Reference" = "對照";
+

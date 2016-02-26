@@ -1,6 +1,15 @@
 /* Work around issue with empty .strings files */
 "X" = "X";
 
+/* Current speed, abbreviation without  speed */
+"kCurrentSpeedSegment" = "現在";
+
+/* Last top speed abbreviation without speed */
+"kLastTopSpeedSegment" = "前回の最速";
+
+/* Highest speed ever, abbreviation without speed */
+"kTopSpeedSegment" = "最速";
+
 "LapTimer" = "ラップタイマ";
 
 "Online Racing" = "オンラインレーシング";
@@ -62,15 +71,6 @@
 "Easy Mode" = "簡易モード";
 
 "Speed" = "スピード";
-
-/* Current speed, abbreviation without  speed */
-"kCurrentSpeedSegment" = "現在";
-
-/* Last top speed abbreviation without speed */
-"kLastTopSpeedSegment" = "前回の最速";
-
-/* Highest speed ever, abbreviation without speed */
-"kTopSpeedSegment" = "最速";
 
 "Skin" = "スキン";
 
