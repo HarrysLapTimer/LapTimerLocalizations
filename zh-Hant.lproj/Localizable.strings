@@ -2021,14 +2021,6 @@
 
 "Challenge Submission" = "發出挑戰";
 
-"First Name:" = "名：";
-
-"Last Name:" = "姓：";
-
-"Last Name" = "姓";
-
-"First Name" = "名";
-
 "Visibility" = "可見度";
 
 "Public" = "公開";
@@ -2039,7 +2031,7 @@
 
 "Submit" = "提交";
 
-"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "如要提交此挑戰，請確認“%FIRST %LAST”是您的真實姓名，且提交的計時圈數據是您個人的真實駕駛記錄。並同意您的單圈數據將會被複制到Harry’s LapTimer服務器，傳輸給其他對這個挑戰感興趣的用戶。";
+"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "如要提交此挑戰，請確認“%FULLNAME”是您的真實姓名，且提交的計時圈數據是您個人的真實駕駛記錄。並同意您的單圈數據將會被複制到Harry’s LapTimer服務器，傳輸給其他對這個挑戰感興趣的用戶。";
 
 "Challenges Available" = "存在可挑戰項目";
 

@@ -1941,14 +1941,6 @@
 
 "Challenge Submission" = "Presentazione Sfida";
 
-"First Name:" = "Nome:";
-
-"Last Name:" = "Cognome:";
-
-"Last Name" = "Cognome";
-
-"First Name" = "Nome";
-
 "Visibility" = "Visibilità";
 
 "Public" = "Pubblico";
@@ -1959,7 +1951,7 @@
 
 "Submit" = "Inoltra";
 
-"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Per presentato questo challenge, conferma '%FIRST %LAST' è il tuo vero nome e il giro presentato è il tuo personale che hai fatto registrare. Accetti che i tuoi dati del giro verranno copiati sul servere di Harry's LapTimer e caricati da altri utenti LapTimer interessati a questo challenge.";
+"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Per presentato questo challenge, conferma '%FULLNAME' è il tuo vero nome e il giro presentato è il tuo personale che hai fatto registrare. Accetti che i tuoi dati del giro verranno copiati sul servere di Harry's LapTimer e caricati da altri utenti LapTimer interessati a questo challenge.";
 
 "Challenges Available" = "Sfide disponibili";
 

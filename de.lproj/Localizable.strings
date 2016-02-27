@@ -2024,14 +2024,6 @@
 
 "Challenge Submission" = "Herausforderung erstellen";
 
-"First Name:" = "Vorname:";
-
-"Last Name:" = "Nachname:";
-
-"Last Name" = "Nachname";
-
-"First Name" = "Vorname";
-
 "Visibility" = "Sichtbarkeit";
 
 "Public" = "Öffentlich";
@@ -2042,7 +2034,7 @@
 
 "Submit" = "Erstellen";
 
-"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Mit der Erstellung dieser Herausforderung bestätige ich, dass mein Name ‘%FIRST %LAST’ ist und die Runde von mir selbst aufgezeichnet wurde. Ich bin damit einverstanden, dass die Daten auf Harry’s LapTimer Server kopiert und anderen LapTimer Nutzern zur Verfügung gestellt werden.";
+"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Mit der Erstellung dieser Herausforderung bestätige ich, dass mein Name ‘%FULLNAME’ ist und die Runde von mir selbst aufgezeichnet wurde. Ich bin damit einverstanden, dass die Daten auf Harry’s LapTimer Server kopiert und anderen LapTimer Nutzern zur Verfügung gestellt werden.";
 
 "Challenges Available" = "Herausforderungen verfügbar";
 
@@ -3354,4 +3346,6 @@
 
 /* Android preference help */
 "Ask for vehicle certification once a vehicle has been completed" = "Frage nach Fahrzeug Zertifizierung wenn alle Details erfasst sind";
+
+"First and last name" = "Vor- und Nachname";
 
