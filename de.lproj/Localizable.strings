@@ -3349,3 +3349,8 @@
 
 "First and last name" = "Vor- und Nachname";
 
+/* Beats per minute - heartrate */
+"bpm" = "Puls";
+
+"Picture in picture videos are not available for real time overlays!" = "Bild im Bild Videos werden in der Videovorschau nicht unterstützt!";
+
