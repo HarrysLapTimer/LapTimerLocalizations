@@ -3229,7 +3229,7 @@
 "%hu months" = "%hu Monaten";
 
 /* Vehicle History */
-"%hu day(s)" = "%hu Tag(e)";
+"%hu days" = "%hu Tage";
 
 /* Vehicle History */
 "months" = "Monate";
@@ -3361,4 +3361,52 @@
 "Automatic" = "Automatisch";
 
 "Incomplete" = "Unvollständig";
+
+"Live" = "Live";
+
+"Using Android Location Service" = "Nutzt Android Standort Dienst";
+
+", using Android Location Service" = ", nutzt Android Standort Dienst";
+
+"Parallel requests enabled" = "Parallele Abfragen aktiv";
+
+", parallel requests enabled" = "parallele Abfragen aktiv";
+
+"MultiCam iCloud" = "MultiCam iCloud";
+
+/* MultiCam status */
+"Idle" = "Wartet";
+
+"Ethanol" = "Ethanol";
+
+"Natural Gas" = "Erdgas";
+
+"%@: recorded GPS fixes using NMEA0183 format (RMC and GGA)\n" = "%@: Aufgezeichnete GPS Positionen im NMEA0183 Format (RMC und GGA Sätze)\n";
+
+"%@: recorded GPS fixes using GPX, or GPS Exchange format\n" = "%@: Aufgezeichnete GPS Positionen im GPX Format (GPS Exchange Format)\n";
+
+/* e.g. LapTimer Export (...) */
+"%s Export (%s)" = "%s Export (%s)";
+
+/* Update rate */
+"%hu.%hu Hz" = "%hu.%hu Hz";
+
+/* Video Recording app */
+"%hu Recordings" = "%hu Aufzeichnungen";
+
+/* Message when searching for files in network */
+"Searching for %s (%hu)" = "Suche nach %s (%hu)";
+
+/* Message on MultiCam */
+"Connected to %@" = "Verbunden mit %@";
+
+/* Message on MultiCam */
+"%@ available..." = "%@ verfügbar...";
+
+"ID: %@" = "ID: %@";
+
+"Lap #%hu" = "Runde #%hu";
+
+/* Date and following days */
+"%@ ff" = "%@ ff";
 

@@ -2489,3 +2489,6 @@
 
 "Publish" = "Trasmettere";
 
+/* Video Recording app */
+"%hu Recordings" = "Registrazioni %hu";
+
