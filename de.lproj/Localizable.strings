@@ -3127,7 +3127,7 @@
 "The odometer value shown when the regular service has been performed." = "Der bei der Wartung aktuelle / angezeigte Kilometerstand.";
 
 /* Vehicle History */
-"Date the regular service has been performed." = "Datum an dem eine regelmässige Wartung durchgeführt wurde.";
+"Date the regular service has been performed." = "Datum an dem eine regelmäßige Wartung durchgeführt wurde.";
 
 /* Vehicle History */
 "Event Name" = "Ereignis Name";
@@ -3409,4 +3409,32 @@
 
 /* Date and following days */
 "%@ ff" = "%@ ff";
+
+/* Databases view */
+"All databases listed are stored in <hl>PRODUCTNAME</hl>'s sandbox. Deleting the app will delete the databases too. Please take care to run regular external backups (<ui>Backup</ui>)!" = "Alle unten aufgelisteten Datenbanken sind lokal in <hl>PRODUCTNAME</hl>s Datenbereich gespeichert. Wenn die App gelöscht wird, werden diese Datenbanken ebenfalls gelöscht. Deshalb bitte regelmäßig mittels  <ui>Backup</ui> externe Sicherungen erstellen!";
+
+/* Databases view */
+"Backup" = "Backup";
+
+/* Databases view */
+"Local Copy" = "Lokale Kopie";
+
+/* Databases view */
+"Local Backups" = "Lokale Backups";
+
+/* Databases view */
+"System Backup" = "System Backup";
+
+/* Databases view */
+"Inactivated Backup" = "Inaktiviertes Backup";
+
+"Databases" = "Datenbanken";
+
+/* Databases view */
+"Restore" = "Wiederherstellen";
+
+"Active Database" = "Aktive Datenbank";
+
+/* Databases view */
+"User Backup" = "Nutzer Backup";
 

@@ -263,6 +263,17 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="2701" COMMENT="SetEmailAddressRecommendation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Diese Funktion wird eine E-Mail mit einem Datenbank-Export als Anhang generieren. Hebe diese E-Mail bitte als Backup auf. Es wird empfohlen in ^1s 'Expert Settings' die E-Mail-Adresse zu setzen. Damit kann das Backup in Zukunft mit einem 'Tap' erstellt werden." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2418,6 +2429,20 @@
         <BUTTONS>
             <TEXT> "Nicht jetzt" </TEXT>
             <TEXT> "Alte Löschen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9337" COMMENT="ActivateDatabaseReplaced">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE>
+            "Dieses Wiederherstellen eines Backups wird die aktive Datenbank ersetzen. Für den Fall, dass die aktive Datenbank Aufzeichungen enthält, die der wiederhergestellten Datenbank hinzugefügt werden sollen: bitte zunächst die Aufzeichnungen in eine .hlptrl Datei exportieren und nach der Wiederherstellung importieren.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Abbrechen" </TEXT>
+            <TEXT> "Wiederherstellen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
