@@ -2493,6 +2493,7 @@
 
 "Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "录制已在进行中。当您完成驾驶，请转到计时器功能菜单，取消未完成的冷却圈。";
 
+/* Databases view */
 "Restore" = "恢复";
 
 /* HeavyDuty */

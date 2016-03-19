@@ -2496,6 +2496,7 @@
 
 "Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "Die Zeitnahme läuft aktuell. Zurück in der Box bitte die offene Aufzeichung der Cool Down Runde beenden. Dazu in einer der Timer Ansichten 'Abbrechen' wählen.";
 
+/* Databases view */
 "Restore" = "Wiederherstellen";
 
 /* HeavyDuty */
@@ -3430,11 +3431,17 @@
 
 "Databases" = "Datenbanken";
 
-/* Databases view */
-"Restore" = "Wiederherstellen";
-
 "Active Database" = "Aktive Datenbank";
 
 /* Databases view */
 "User Backup" = "Nutzer Backup";
+
+/* Picture in Picture name label */
+"PiP Name" = "Name";
+
+/* Help text for PiP Name */
+"Please enter a name to qualify the perspective shown. Name will be shown for Picture in Picture inserts. When set to '%@', the video is shown top centered in video overlays." = "Bitte Beschreibung für die Video Perspektive eingeben. Name wird bei Bild im Bild Videos angezeigt. Wenn auf '%@' gesetzt, wird das Video im Overlay oben zentriert angezeigt.";
+
+/* Picture in Picture name */
+"Rear View Mirror" = "Rückspiegel";
 

@@ -2372,6 +2372,7 @@
 
 "Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "La registrazione è ora attiva Se ha finito di guidare, ritorna al timer e annulla la registrazione del giro di raffreddamento ancora non finito.";
 
+/* Databases view */
 "Restore" = "Ripristina";
 
 "Align" = "Allinea";
