@@ -558,7 +558,7 @@
 
 "Creating Export Files..." = "Creazione dei File d'Esportazione ...";
 
-"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "Questo%@ contiene i seguenti file d'esportazione (i grossi file sono compressi con estensioni gzip %s e .gz):\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "Questo%@ contiene i seguenti file d'esportazione (i grossi file sono compressi con gzip):\n\n";
 
 "mail" = "e-mail";
 

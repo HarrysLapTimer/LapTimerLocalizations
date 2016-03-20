@@ -515,7 +515,7 @@
 
 "Creating Export Files..." = "外部出力ファイル作成中...";
 
-"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "%@ は次の出力ファイルを含みます, 大きいファイルをgzip圧縮しました (拡張子 %s と .gz):\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "%@ は次の出力ファイルを含みます, 大きいファイルをgzip圧縮しました:\n\n";
 
 "mail" = "メール";
 

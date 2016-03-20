@@ -641,7 +641,7 @@
 
 "Creating Export Files..." = "Erstelle Export Dateien...";
 
-"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "Diese%@ enthält die folgenden exportierten Dateien, große Dateien wurden mit GZIP komprimiert (Erweiterung %s und .gz):\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "Diese%@ enthält die folgenden exportierten Dateien, große Dateien wurden mit GZIP komprimiert:\n\n";
 
 "mail" = " Mail";
 
@@ -1459,7 +1459,7 @@
 
 "Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "Gehe zur Zielline und drücke 'Setze'. Bitte wieder auf guten GPS Empfang achten!";
 
-"Your autocross course is ready to use! Just mount your device and start driving." = "Dein Autocross Kurs ist nun bereit. Befestige Dein iPhone und fahre los.";
+"Your autocross course is ready to use! Just mount your device and start driving." = "Dein Autocross Kurs ist nun bereit. Befestige Dein Smartphone und fahre los.";
 
 "Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "Erfasse bitte eine aus drei Zeichen bestehende Abkürzung für Deinen Namen.";
 
@@ -1469,7 +1469,7 @@
 
 "To create your custom track, walk to the start/finish line and press the 'Set' button." = "Gehe zur Start- / Ziellinie und drücke 'Setze' um eine eigene Strecke zu erstellen.";
 
-"Your track is ready to use! Just mount your device and start driving." = "Deine neue Strecke ist nun bereit. Befestige Dein iPhone und fahre los.";
+"Your track is ready to use! Just mount your device and start driving." = "Deine neue Strecke ist nun bereit. Befestige Dein Smartphone und fahre los.";
 
 "Define Start" = "Definiere Start";
 
@@ -3444,4 +3444,10 @@
 
 /* Picture in Picture name */
 "Rear View Mirror" = "Rückspiegel";
+
+"Point the device to the direction you will pass the trigger at, and press <ui>Set</ui>. Limiting driving directions improves reliablity of trigger detection." = "Zeige mit der Oberkante des Geräts in Fahrtrichtung und drücke <ui>Setze</ui>. Die Begrenzung der Fahrtrichtung erhöht die Zuverlässigkeit.";
+
+"Skip" = "Überspringen";
+
+"Driving Direction" = "Fahrtrichtung";
 

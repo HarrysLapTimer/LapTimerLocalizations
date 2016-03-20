@@ -638,7 +638,7 @@
 
 "Creating Export Files..." = "制作导出文件中…";
 
-"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "此%@包含以下导出格式，比较大的文件会利用GZIP来压缩(扩展名%s和.gz)：\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "此%@包含以下导出格式，比较大的文件会利用GZIP来压缩：\n\n";
 
 "mail" = "邮件";
 
