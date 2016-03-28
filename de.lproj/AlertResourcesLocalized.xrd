@@ -2446,6 +2446,20 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE>
+            "Diese Funktion wird alle Mediendateien die für Erweiterungen geladen wurden löschen und ^1 Speicher frei geben. Wenn die Erweiterungen anschliessend angezeigt werden, wird ^2 ggf. geringfügig länger zum Öffnen benötigen, die Funktion löscht aber nur Dateien die wieder nachgeladen werden können.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Löschen" </TEXT>
+            <TEXT> "Abbrechen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>

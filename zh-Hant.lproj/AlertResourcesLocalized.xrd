@@ -2373,6 +2373,20 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "This housekeeping operation will purge any media loaded for Add-on descriptions and free up ^1. Next time you load Add-ons, ^2 will probably require some more time to load, but the operation is safe to run otherwise.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Purge" </TEXT>
+            <TEXT> "Cancel" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
