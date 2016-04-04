@@ -1357,7 +1357,7 @@
 
 "Play" = "Anzeigen";
 
-"Re-Link" = "Neu referenzieren";
+"Re-Link" = "Referenzieren";
 
 "Video Details" = "Video Details";
 
@@ -3470,7 +3470,7 @@
 "Video Operation" = "Video Funktion";
 
 /* Video CC Hover View */
-"Video operation is not active. <hl>PRODUCTNAME</hl> will record lap times and data without video and overlay options." = "Die Video Funktion ist abgeschaltet. <hl>PRODUCTNAME</hl> zeichnet Zeiten und Daten, aber kein Video auf.";
+"Please select internal, external, or all cam operation above. Currently, video operation is not active. <hl>PRODUCTNAME</hl> will record lap times and data without video and overlay options." = "Wähle oben interne, externe oder alle Kameras zur Nutzung aus. Aktuell ist die Video Funktion ist abgeschaltet. <hl>PRODUCTNAME</hl> zeichnet Zeiten und Daten, aber kein Video auf.";
 
 /* Video CC Hover View */
 "Video operation is active using the interal cam. The cam will be started jointly with data recordings." = "Die Video Funktion ist aktiv und nutzt die interne Kamera. Der Start erfolgt automatisch mit der Zeitnahme.";
