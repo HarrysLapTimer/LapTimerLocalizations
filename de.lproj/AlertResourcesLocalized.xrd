@@ -1120,7 +1120,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als einen Start Trigger. Bitte auf einen Trigger reduzieren."
         </MESSAGE>
@@ -1133,7 +1133,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als einen Stopp Trigger. Bitte auf einen Trigger reduzieren."
         </MESSAGE>
@@ -1146,7 +1146,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als einen Stopp / Start Trigger. Bitte auf einen Trigger reduzieren."
         </MESSAGE>
@@ -1159,7 +1159,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als die maximale Anzahl unterstützter Zwischenzeiten (^3). Bitte die Anzahl um ^2 reduzieren."
         </MESSAGE>
@@ -1777,7 +1777,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "FullHD generiert möglicherweise Videos die das aktuelle Overlay-Limit von 2 GB Grösse überschreiten. Das entspricht grob 11 Minuten für FullHD und 25 Minuten für HD. ^1 wird die Aufnahme nicht automatisch begrenzen."
         </MESSAGE>
@@ -2771,13 +2771,25 @@
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Warning" </TITLE>
+		<TITLE> "Warnung" </TITLE>
 		<MESSAGE> "Keine passende Video Datei auf externer Kamera gefunden. Bitte die Videoliste nutzen um das Video manuell zu laden. Anschliessend per Runden ‣ Runde ‣ Video ‣ 'Neu referenzieren' die Session der Runde mit dem geladenen Video zu verbinden." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-	
+
+    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Die Videoaufzeichung ist aktiv. Wenn diese Ansicht verlassen wird, wird die Aufzeichung unterbrochen!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Verlassen" </TEXT>
+            <TEXT> "Abbrechen" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3382,7 +3394,7 @@
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Warning" </TITLE>
+		<TITLE> "Warnung" </TITLE>
 		<MESSAGE>
 			"Für Abschnitte ohne Aufzeichnung konnten keine Positionen ermittelt werden. Bitte die Internet Verbindung prüfen oder später nochmal versuchen."
 		</MESSAGE>
@@ -3488,7 +3500,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE> "Time periods require the vehicle's initial registration date to be defined. Please enter this date now." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>

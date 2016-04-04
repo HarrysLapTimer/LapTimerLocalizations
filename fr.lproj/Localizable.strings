@@ -1365,21 +1365,21 @@
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "Fixez votre appareil en orientation verticale. Inclinaison et rotation sont autorisées.";
 
-"Stand still on even surface for Pitch Calibration using gravity." = "Restez à l'arrêt sur une surface horizontale pour une calibrage par la gravité.";
+"Stand still on even surface for <ui>Pitch Calibration</ui> using gravity." = "Restez à l'arrêt sur une surface horizontale pour une calibrage par la gravité.";
 
 "Drive a straight line with moderate speed, do not turn left or right." = "Conduisez en ligne droite à faible vitesse. Ne tournez ni à droite ni à gauche.";
 
-"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "Freinez ou accélérez en ligne pour calibrer la vitesse linéaire.";
+"Brake or accelerate in a straight line for <ui>Gear Calibration</ui>. This is on your own risk!" = "Freinez ou accélérez en ligne pour calibrer la vitesse linéaire.";
 
 "Device calibrated successfully. Please reset calibration when changing the mount." = "Calibration terminée. N'oubliez pas de re-calibrer en cas de changement du support.";
 
-"Select your track from LapTimer's database and start driving immediately!" = "Choisissez  votre circuit dans la base de données de LapTimer et commencez à conduire immédiatement !";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "Choisissez  votre circuit dans la base de données de <hl>PRODUCTNAME</hl> et commencez à conduire immédiatement !";
 
-"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "Le circuit est chargé et prêt. Le chronométrage démarrera automatiquement !";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "Le circuit est chargé et prêt. Le chronométrage démarrera automatiquement !";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "Pour créer votre circuit temporaire, allez sur la ligne de départ et appuyez sur le bouton 'Définir'";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "Pour créer votre circuit temporaire, allez sur la ligne de départ et appuyez sur le bouton <ui>Définir</ui>.";
 
-"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "Allez à la ligne d'arrivée et appuyez sur le bouton 'Définir' en veillant à avoir un bon signal GPS.";
+"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "Allez à la ligne d'arrivée et appuyez sur le bouton <ui>Définir</ui> en veillant à avoir un bon signal GPS.";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "Votre circuit temporaire est prêt à l'emploi. Fixez votre appareil en place et commencez à conduire.";
 
@@ -1389,7 +1389,7 @@
 
 "Basic user settings defined. Progress by loading your track or defining an autocross." = "Paramètres utilisateurs définis. Sélectionnez une piste ou créez un circuit temporaire et En Voiture ....";
 
-"To create your custom track, walk to the start/finish line and press the 'Set' button." = "Pour créer votre piste, allez à la ligne de départ/arrivée et appuyez sur le bouton 'Créer'";
+"To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "Pour créer votre piste, allez à la ligne de départ/arrivée et appuyez sur le bouton <ui>Créer</ui>.";
 
 "Your track is ready to use! Just mount your device and start driving." = "Votre piste est prête. Fixez votre appareil et commencez à conduire.";
 
@@ -1875,9 +1875,6 @@
 
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "Sélectionnez l'image correspondant à la fin du tour et appuyez sur 'Définir'. Pour zoomer, restez appuyé sur le curseur.";
 
-/* Video Controller */
-"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "L'enregistrement vidéo en arrière-plan est désactivé. L'enregistrement ne démarrera *pas* au passage de la ligne de départ / d'arrivée !";
-
 "Microphone" = "Microphone";
 
 "BT Mouse" = "Souris Bluetooth";
@@ -2345,7 +2342,7 @@
 
 "Position Set" = "Emplacement défini";
 
-"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "Pour mettre en mémoire l'endroit où vous avez garé votre véhicule et laisser l'application vous guider au retour, appuyez sur 'Déterminer l'emplacement'.";
+"To store your vehicle's parking position and let the app direct you back, please press the <ui>Set Position</ui> button." = "Pour mettre en mémoire l'endroit où vous avez garé votre véhicule et laisser l'application vous guider au retour, appuyez sur <ui>Déterminer l'emplacement</ui>.";
 
 "Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "Votre emplacement de stationnement a été mis en mémoire et vous êtes paré pour partir ! Retournez ici pour désactiver les directions.";
 

@@ -1440,21 +1440,21 @@
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "請把設備直立，傾斜和換檔操作都是容許的。";
 
-"Stand still on even surface for Pitch Calibration using gravity." = "在水平地面上靜止車身，利用重力進行傾斜校準。";
+"Stand still on even surface for <ui>Pitch Calibration</ui> using gravity." = "在水平地面上靜止車身，利用重力進行傾斜校準。";
 
 "Drive a straight line with moderate speed, do not turn left or right." = "以正常速度直線行駛，不要左轉或右轉...";
 
-"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "利用直線段加速或制動來進行檔位校準。請自行承擔可能存在的風險!";
+"Brake or accelerate in a straight line for <ui>Gear Calibration</ui>. This is on your own risk!" = "利用直線段加速或制動來進行檔位校準。請自行承擔可能存在的風險!";
 
 "Device calibrated successfully. Please reset calibration when changing the mount." = "設備校準已完成，如改變固定方式，請重新校準。";
 
-"Select your track from LapTimer's database and start driving immediately!" = "從LapTimer數據庫中選擇您所在的賽道後，便可立刻開始賽道競速！";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "從<hl>PRODUCTNAME</hl>數據庫中選擇您所在的賽道後，便可立刻開始賽道競速！";
 
-"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "賽道數據載入完成！點擊“開始駕駛！”按鈕即刻開始駕駛, 無需再控制LapTimer，它將自動計時!";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "賽道數據載入完成！點擊<ui>開始駕駛！</ui>按鈕即刻開始駕駛, 無需再控制<hl>PRODUCTNAME</hl>，它將自動計時!";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "走到起點線並按下“設定”按鈕來建立自定義繞樁賽賽道。";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "走到起點線並按下<ui>設定</ui>按鈕來建立自定義繞樁賽賽道。";
 
-"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "走到終點線並按下“設定”按鈕。請確保GPS信號良好！";
+"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "走到終點線並按下<ui>設定</ui>按鈕。請確保GPS信號良好！";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "您的繞樁賽賽道已可以使用！固定好設備後，即可開始駕駛。";
 
@@ -1464,7 +1464,7 @@
 
 "Basic user settings defined. Progress by loading your track or defining an autocross." = "用戶基礎設定已完成，請載入您所在的賽道或定義一個新的繞樁賽賽道。";
 
-"To create your custom track, walk to the start/finish line and press the 'Set' button." = "走到起點/終點線並按下“設定”按鈕建立自定義賽道。";
+"To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "走到起點/終點線並按下<ui>設定</ui>按鈕建立自定義賽道。";
 
 "Your track is ready to use! Just mount your device and start driving." = "您的賽道已可以使用！固定好設備後，即可開始駕駛。";
 
@@ -1949,9 +1949,6 @@
 "Video Sync Setting" = "視頻同步設定";
 
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "選擇與計時圈末尾符合的畫面幀，然後按下“設定”。長按滑軌可放大比例";
-
-/* Video Controller */
-"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "後臺視頻記錄已被禁用。經過起點/終點線時錄像【不會】啓動！";
 
 "Microphone" = "麥克風";
 
@@ -2455,7 +2452,7 @@
 
 "Position Set" = "位置設定";
 
-"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "請按下“設定位置”以儲存停車位置，並讓應用指引您找到車子。";
+"To store your vehicle's parking position and let the app direct you back, please press the <ui>Set Position</ui> button." = "請按下<ui>設定位置</ui>以儲存停車位置，並讓應用指引您找到車子。";
 
 "Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "您的停車位置已經儲存，可以離開！您可以在應用中找到當前位置與停車位置。";
 

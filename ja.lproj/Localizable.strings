@@ -1270,21 +1270,21 @@
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "デバイスを縦向きに固定して下さい.";
 
-"Stand still on even surface for Pitch Calibration using gravity." = "平らな面に固定して下さい.";
+"Stand still on even surface for <ui>Pitch Calibration</ui> using gravity." = "平らな面に固定して下さい.";
 
 "Drive a straight line with moderate speed, do not turn left or right." = "穏やかな速度でまっすぐ運転して下さい.";
 
-"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "直線を減速または加速して下さい.自己責任でね！！";
+"Brake or accelerate in a straight line for <ui>Gear Calibration</ui>. This is on your own risk!" = "直線を減速または加速して下さい.自己責任でね！！";
 
 "Device calibrated successfully. Please reset calibration when changing the mount." = "調整完了.固定を変えたら再調整して下さい.";
 
-"Select your track from LapTimer's database and start driving immediately!" = "トラックをデータベースから選択してドライブを開始して下さい！";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "トラックをデータベースから選択してドライブを開始して下さい！";
 
-"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "トラック選択完了!自動記録するのでデバイスに触れないでね！";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "トラック選択完了!自動記録するのでデバイスに触れないでね！";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "オートクロスを作るにはスタート地点まで歩いていき'セット'を押して下さい.";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "オートクロスを作るにはスタート地点まで歩いていき<ui>セット</ui>を押して下さい.";
 
-"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "ゴール地点へ行き'セット'を押して下さい.GPS感度を確認してね!";
+"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "ゴール地点へ行き<ui>セット</ui>を押して下さい.GPS感度を確認してね!";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "オートクロス準備完了！あとはデバイスを固定してドライブするだけ.";
 
@@ -1294,7 +1294,7 @@
 
 "Basic user settings defined. Progress by loading your track or defining an autocross." = "ユーザ設定完了.トラック選択またはオートクロスで先に進んで下さい.";
 
-"To create your custom track, walk to the start/finish line and press the 'Set' button." = "トラックを作るには計測地点まで歩いていき'セット'を押して下さい.";
+"To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "トラックを作るには計測地点まで歩いていき'セット'を押して下さい.";
 
 "Your track is ready to use! Just mount your device and start driving." = "トラック準備完了！あとはデバイスを固定してドライブするだけ.";
 

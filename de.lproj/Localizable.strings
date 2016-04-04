@@ -1443,21 +1443,21 @@
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "Gerät bitte aufrecht befestigen. Sowohl Neigung als auch Drehung ist zulässig.";
 
-"Stand still on even surface for Pitch Calibration using gravity." = "Fahrzeug auf ebener Fläche zum Stillstand bringen. Neigung wird kalibriert.";
+"Stand still on even surface for <ui>Pitch Calibration</ui> using gravity." = "Fahrzeug auf ebener Fläche zum Stillstand bringen. Neigung wird kalibriert.";
 
 "Drive a straight line with moderate speed, do not turn left or right." = "Fahre nun mit angemessener Geschwindigkeit gerade aus...";
 
-"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "Bremse (oder beschleunige) auf gerader Strecke. Drehung wird kalibriert.";
+"Brake or accelerate in a straight line for <ui>Gear Calibration</ui>. This is on your own risk!" = "Bremse (oder beschleunige) auf gerader Strecke. Drehung wird kalibriert.";
 
-"Device calibrated successfully. Please reset calibration when changing the mount." = "Gerät wurde erfolg- reich kalibriert. Bei Änderung der Halterung 'Reset' drücken.";
+"Device calibrated successfully. Please reset calibration when changing the mount." = "Gerät wurde erfolg- reich kalibriert. Bei Änderung der Halterung <ui>Reset</ui> drücken.";
 
-"Select your track from LapTimer's database and start driving immediately!" = "Wähle die befahrene Strecke aus LapTimer's Datenbank um sofort zu starten!";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "Wähle die befahrene Strecke aus <hl>PRODUCTNAMEs</hl> Datenbank um sofort zu starten!";
 
-"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "Die Strecke ist geladen und bereit. LapTimer startet die Zeitnahme automatisch!";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "Die Strecke ist geladen und bereit. <hl>PRODUCTNAME</hl> startet die Zeitnahme automatisch!";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "Gehe zur Startlinie oder stehendem Start und drücke 'Setze' um einen eigenen Autocross Kurs zu erstellen.";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "Gehe zur Startlinie oder stehendem Start und drücke <ui>Setze</ui> um einen eigenen Autocross Kurs zu erstellen.";
 
-"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "Gehe zur Zielline und drücke 'Setze'. Bitte wieder auf guten GPS Empfang achten!";
+"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "Gehe zur Zielline und drücke <ui>Setze</ui>. Bitte wieder auf guten GPS Empfang achten!";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "Dein Autocross Kurs ist nun bereit. Befestige Dein Smartphone und fahre los.";
 
@@ -1467,7 +1467,7 @@
 
 "Basic user settings defined. Progress by loading your track or defining an autocross." = "Benutzereinstellungen sind nun definiert. Lade nun eine Strecke und fahre los!";
 
-"To create your custom track, walk to the start/finish line and press the 'Set' button." = "Gehe zur Start- / Ziellinie und drücke 'Setze' um eine eigene Strecke zu erstellen.";
+"To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "Gehe zur Start- / Ziellinie und drücke <ui>Setze</ui> um eine eigene Strecke zu erstellen.";
 
 "Your track is ready to use! Just mount your device and start driving." = "Deine neue Strecke ist nun bereit. Befestige Dein Smartphone und fahre los.";
 
@@ -1952,9 +1952,6 @@
 "Video Sync Setting" = "Video Synchronisation";
 
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "Wähle das Bild das mit dem Ende der aufgezeichneten Runde übereinstimmt und drücke 'Setze'. Für mehr Details lange auf den Filmstreifen drücken.";
-
-/* Video Controller */
-"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "Die automatische Aufzeichnung von Videos im Hintergrund ist ausgeschaltet. Beim Überfahren von Start / Ziel wird in Folge kein Video aufgezeichnet.";
 
 "Microphone" = "Mikrofon";
 
@@ -2458,7 +2455,7 @@
 
 "Position Set" = "Position gesetzt";
 
-"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "Position des Fahrzeugs durch Drücken von 'Setze Position' spei- chern um später hier- her zurück zu kehren. ";
+"To store your vehicle's parking position and let the app direct you back, please press the <ui>Set Position</ui> button." = "Position des Fahrzeugs durch Drücken von <ui>Setze Position</ui> speichern um später hierher zurück zu kehren. ";
 
 "Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "Position gespeichert, Sie können nun weg gehen und sehen stets die aktuelle und die Parkposition.";
 
@@ -3468,4 +3465,34 @@
 
 /* Database View */
 "Cached Media" = "Gespeicherte Medien";
+
+/* Video CC Hover View */
+"Video Operation" = "Video Funktion";
+
+/* Video CC Hover View */
+"Video operation is not active. <hl>PRODUCTNAME</hl> will record lap times and data without video and overlay options." = "Die Video Funktion ist abgeschaltet. <hl>PRODUCTNAME</hl> zeichnet Zeiten und Daten, aber kein Video auf.";
+
+/* Video CC Hover View */
+"Video operation is active using the interal cam. The cam will be started jointly with data recordings." = "Die Video Funktion ist aktiv und nutzt die interne Kamera. Der Start erfolgt automatisch mit der Zeitnahme.";
+
+/* Video CC Hover View */
+"Video operation set to use both internal, and any compatible external cams connected." = "Die Video Funktion nutzt die interne und angeschlossene kompatible externe Kameras.";
+
+/* Video CC Hover View */
+"Video operation set to external cam only. The internal cam will not be used to record additional footage." = "Die Video Funktion ist nur für externe Kameras aktiv. Die interne Kamera wird nicht genutzt.";
+
+/* Video CC Hover View */
+"No external cam connected currently." = "Aktuell ist keine externe Kamera verbunden.";
+
+/* Video CC Hover View */
+"Cam(s) connected: <hl>%@</hl>." = "Verbundene Kameras: <hl>%@</hl>.";
+
+/* Video CC Hover View */
+"To verify field of view, or set cam properties, press <ui>Preview</ui>." = "Zur Überprüfung des Bildausschnitts oder Einstellungen bitte <ui>Vorschau</ui> auswählen.";
+
+/* Video CC Hover View */
+"<er>Turn PRODUCTNAME to landscape when recording.</er>" = "<er>PRODUCTNAME während Aufnahme in Querformat drehen.</er>";
+
+/* Splash message in Video View */
+"Video recording will be continued in background, please do not forget to finish it later." = "Videoaufzeichung wird im Hintergrund fortgesetzt, bitte nicht vergessen sie später zu beenden.";
 

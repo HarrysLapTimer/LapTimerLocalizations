@@ -2709,6 +2709,18 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Interupt" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
