@@ -3437,7 +3437,7 @@
 "PiP Name" = "Name";
 
 /* Help text for PiP Name */
-"Please enter a name to qualify the perspective shown. Name will be shown for Picture in Picture inserts. When set to '%@', the video is shown top centered in video overlays." = "Bitte Beschreibung für die Video Perspektive eingeben. Name wird bei Bild im Bild Videos angezeigt. Wenn auf '%@' gesetzt, wird das Video im Overlay oben zentriert angezeigt.";
+"Please enter a name to qualify the perspective shown. Name will be shown for Picture in Picture inserts. When set to <ui>%@</ui>, the video is shown top centered in video overlays." = "Bitte Beschreibung für die Video Perspektive eingeben. Name wird bei Bild im Bild Videos angezeigt. Wenn auf <ui>%@</ui> gesetzt, wird das Video im Overlay oben zentriert angezeigt.";
 
 /* Picture in Picture name */
 "Rear View Mirror" = "Rückspiegel";
@@ -3470,7 +3470,7 @@
 "Video Operation" = "Video Funktion";
 
 /* Video CC Hover View */
-"Please select internal, external, or all cam operation above. Currently, video operation is not active. <hl>PRODUCTNAME</hl> will record lap times and data without video and overlay options." = "Wähle oben interne, externe oder alle Kameras zur Nutzung aus. Aktuell ist die Video Funktion ist abgeschaltet. <hl>PRODUCTNAME</hl> zeichnet Zeiten und Daten, aber kein Video auf.";
+"<er>Select internal and external cams to use from above.</er> Currently, no cam is selected. This means <hl>PRODUCTNAME</hl> will record lap times and data without video and overlay options." = "<er>Wähle oben interne und externe Kameras zur Nutzung aus.</er> Aktuell ist keine Kamera ausgewählt. <hl>PRODUCTNAME</hl> zeichnet entsprechend Zeiten und Daten, aber kein Video auf.";
 
 /* Video CC Hover View */
 "Video operation is active using the interal cam. The cam will be started jointly with data recordings." = "Die Video Funktion ist aktiv und nutzt die interne Kamera. Der Start erfolgt automatisch mit der Zeitnahme.";
