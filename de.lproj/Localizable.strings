@@ -3496,3 +3496,6 @@
 /* Splash message in Video View */
 "Video recording will be continued in background, please do not forget to finish it later." = "Videoaufzeichung wird im Hintergrund fortgesetzt, bitte nicht vergessen sie später zu beenden.";
 
+/* HeavyDuty trip merging */
+"Merge With Next" = "Nächste Reise verbinden";
+
