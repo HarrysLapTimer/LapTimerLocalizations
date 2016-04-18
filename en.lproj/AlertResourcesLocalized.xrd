@@ -1693,7 +1693,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
-		<MESSAGE> "Cannot find video selected, it was probably moved to another place. Please link the video again using the Edit function." </MESSAGE>
+		<MESSAGE> "Cannot find video selected, it has probably been moved to another place, or it has been deleted. Offline videos need to be transferred and re-linked to the smartphone before accessing them." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>

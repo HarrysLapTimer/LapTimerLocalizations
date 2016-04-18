@@ -1738,7 +1738,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-            "Das zugeordnete Video konnte nicht gefunden werden, es wurde verschoben oder gelöscht. Bitte mit Hilfe der 'Bearbeiten' Funktion neu zuordnen."
+            "Das zugeordnete Video konnte nicht gefunden werden, es wurde ggf. verschoben oder gelöscht. Offline Videos müssen vor der Verarbeitung auf das Smartphone transferiert und zugeordnet werden."
         </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
