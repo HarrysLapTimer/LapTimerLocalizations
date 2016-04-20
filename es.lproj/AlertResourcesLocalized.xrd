@@ -2435,11 +2435,22 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
-		<MESSAGE> "Ha rechazado el acceso al micrófono para ^1. La grabación de vídeo no es posible actualmente. Por favor, active el acceso en iOS: Ajustes ‣ Privacidad ‣ Micrófono." </MESSAGE>
+		<MESSAGE> "Ha rechazado el acceso al micrófono para ^1. La grabación de vídeo no es posible actualmente. Por favor, active el acceso: Ajustes app ‣ Privacidad ‣ Micrófono." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9345" COMMENT="CameraAccessNotGranted">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Ha rechazado el acceso al cámara para ^1. La grabación de vídeo no es posible actualmente. Por favor, active el acceso: Ajustes app ‣ Privacidad ‣ Cámara." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
     
 	<ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>

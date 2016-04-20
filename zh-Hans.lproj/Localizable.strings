@@ -198,8 +198,6 @@
 
 "Groups" = "分组";
 
-"LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer目前未被允许访问手机内的视频/音频资源。请在设定 ‣ 隐私 ‣ 麦克风 ‣ LapTimer中启用授权。";
-
 /* Controller titles */
 "Classic" = "经典秒表";
 

@@ -2498,11 +2498,22 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
-		<MESSAGE> "Der Zugriff auf das Mikrofon wurde für ^1 unterbunden. Eine Video Aufzeichung ist damit aktuell nicht möglich. Bitte Zugriff in Einstellungen ‣ Datenschutz ‣ Mikrofon erlauben." </MESSAGE>
+		<MESSAGE> "Der Zugriff auf das Mikrofon wurde für ^1 abgelehnt. Eine Video Aufzeichung ist damit aktuell nicht möglich. Bitte Zugriff in Einstellungen App ‣ Datenschutz ‣ Mikrofon zustimmen." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
+    
+    <ALERT_RESOURCE RESOURCE_ID="9345" COMMENT="CameraAccessNotGranted">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Fehler" </TITLE>
+        <MESSAGE> "Der Zugriff auf die Kamera wurde für ^1 abgelehnt. Eine Video Aufzeichung ist damit aktuell nicht möglich. Bitte Zugriff in Einstellungen App ‣ Datenschutz ‣ Kamera zustimmen." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
     
 	<ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>

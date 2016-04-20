@@ -2430,7 +2430,18 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Errore" </TITLE>
-        <MESSAGE> "Hai rifiutato l'accesso al microfono per ^1. Attualmente, non è possibile la registrazione video. Abilita l'accesso in Impostazioni iOS ‣ Privacy ‣ Microfono." </MESSAGE>
+        <MESSAGE> "Hai rifiutato l'accesso al microfono per ^1. Attualmente, non è possibile la registrazione video. Abilita l'accesso in Impostazioni app ‣ Privacy ‣ Microfono." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9345" COMMENT="CameraAccessNotGranted">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Errore" </TITLE>
+        <MESSAGE> "Hai rifiutato l'accesso al camma per ^1. Attualmente, non è possibile la registrazione video. Abilita l'accesso in Impostazioni app ‣ Privacy ‣ Camma." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>

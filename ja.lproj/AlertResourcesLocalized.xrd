@@ -2429,13 +2429,24 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
-		<MESSAGE> "You have declined access to the microphone for ^1. Video recording is not possible currently. Please enable access in iOS Settings ‣ Privacy ‣ Microphone." </MESSAGE>
+		<MESSAGE> "You have declined access to the microphone for ^1. Video recording is not possible currently. Please enable access in Settings app ‣ Privacy ‣ Microphone." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
-	<ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
+    <ALERT_RESOURCE RESOURCE_ID="9345" COMMENT="CameraAccessNotGranted">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "You have declined access to the camera for ^1. Video recording is not possible currently. Please enable access in Settings app ‣ Privacy ‣ Camera." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9344" COMMENT="LocationServiceDisabledDisturbsPhoto">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>

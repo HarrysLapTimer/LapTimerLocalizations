@@ -198,7 +198,7 @@
 
 "Groups" = "Grupos";
 
-"LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer no tiene acceso a video / audio. Por favor active el acceso a través de Ajustes ‣ Privacidad ‣ Micrófono ‣ LapTimer.";
+"LapTimer is not granted access to audio currently. Please enable access in Settings app ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer no tiene acceso a audio. Por favor active el acceso a través de Ajustes app ‣ Privacidad ‣ Micrófono ‣ LapTimer.";
 
 /* Controller titles */
 "Classic" = "Clásico";
@@ -2871,4 +2871,6 @@
 
 /* Video Recording app */
 "%hu Recordings" = "%hu Grabaciones";
+
+"LapTimer is not granted access to video currently. Please enable access in Settings app ‣ Privacy ‣ Camera ‣ LapTimer." = "LapTimer no tiene acceso a video. Por favor active el acceso a través de Ajustes app ‣ Privacidad ‣ Leva ‣ LapTimer.";
 

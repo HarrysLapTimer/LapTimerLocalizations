@@ -201,7 +201,7 @@
 
 "Groups" = "Gruppen";
 
-"LapTimer is not granted access to video / audio currently. Please enable access in Settings ‣ Privacy ‣ Microphone ‣ LapTimer." = "Für LapTimer wurde der Zugriff auf Video / Audio unterbunden. Um Video Aufzeichungen zu ermöglichen, bitte den Zugriff gewähren: Einstellungen ‣ Datenschutz ‣ Mikrofon ‣ LapTimer.";
+"LapTimer is not granted access to audio currently. Please enable access in Settings app ‣ Privacy ‣ Microphone ‣ LapTimer." = "Für LapTimer wurde der Zugriff auf Audio unterbunden. Um Video Aufzeichungen zu ermöglichen, bitte den Zugriff gewähren: Einstellungen App ‣ Datenschutz ‣ Mikrofon ‣ LapTimer.";
 
 /* Controller titles */
 "Classic" = "Stoppuhr";
@@ -3498,4 +3498,6 @@
 
 /* HeavyDuty trip merging */
 "Merge With Next" = "Nächste Reise verbinden";
+
+"LapTimer is not granted access to video currently. Please enable access in Settings app ‣ Privacy ‣ Camera ‣ LapTimer." = "Für LapTimer wurde der Zugriff auf Video unterbunden. Um Video Aufzeichungen zu ermöglichen, bitte den Zugriff gewähren: Einstellungen App ‣ Datenschutz ‣ Kamera ‣ LapTimer.";
 
