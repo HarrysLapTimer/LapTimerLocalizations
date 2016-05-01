@@ -3501,3 +3501,7 @@
 
 "LapTimer is not granted access to video currently. Please enable access in Settings app ‣ Privacy ‣ Camera ‣ LapTimer." = "Für LapTimer wurde der Zugriff auf Video unterbunden. Um Video Aufzeichungen zu ermöglichen, bitte den Zugriff gewähren: Einstellungen App ‣ Datenschutz ‣ Kamera ‣ LapTimer.";
 
+"Start / Finish" = "Start / Ziel";
+
+"Finish" = "Ziel";
+
