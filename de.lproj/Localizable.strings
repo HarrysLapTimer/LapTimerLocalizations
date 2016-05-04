@@ -1457,7 +1457,7 @@
 
 "To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "Gehe zur Startlinie oder stehendem Start und drücke <ui>Setze</ui> um einen eigenen Autocross Kurs zu erstellen.";
 
-"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "Gehe zur Zielline und drücke <ui>Setze</ui>. Bitte wieder auf guten GPS Empfang achten!";
+"Walk <hl>directly</hl> to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "Gehe <hl>direkt</hl> zur Zielline und drücke <ui>Setze</ui>. Bitte wieder auf guten GPS Empfang achten!";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "Dein Autocross Kurs ist nun bereit. Befestige Dein Smartphone und fahre los.";
 

@@ -1452,7 +1452,7 @@
 
 "To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "走到起點線並按下<ui>設定</ui>按鈕來建立自定義繞樁賽賽道。";
 
-"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "走到終點線並按下<ui>設定</ui>按鈕。請確保GPS信號良好！";
+"Walk <hl>directly</hl> to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "走到終點線並按下<ui>設定</ui>按鈕。請確保GPS信號良好！";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "您的繞樁賽賽道已可以使用！固定好設備後，即可開始駕駛。";
 

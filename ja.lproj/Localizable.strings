@@ -1284,7 +1284,7 @@
 
 "To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "オートクロスを作るにはスタート地点まで歩いていき<ui>セット</ui>を押して下さい.";
 
-"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "ゴール地点へ行き<ui>セット</ui>を押して下さい.GPS感度を確認してね!";
+"Walk <hl>directly</hl> to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "ゴール地点へ行き<ui>セット</ui>を押して下さい.GPS感度を確認してね!";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "オートクロス準備完了！あとはデバイスを固定してドライブするだけ.";
 

@@ -1738,6 +1738,17 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9074" COMMENT="VideoInvalidOutputFormatAndroid">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "Video format ^2, used by the master video, is not supported by this device's video encoder. Please either convert the master video to a standard format like 1920x1080, 30fps, or force software encoded video overlays in ^1's Expert Settings."</MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>

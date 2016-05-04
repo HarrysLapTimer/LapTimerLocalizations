@@ -1725,7 +1725,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Warnung" </TITLE>
-        <MESSAGE> "Für diese ^1 Edition bzw. dieses Android Smartphone steht keine Hardwareunterstützung für die Videoerstellung zur Verfügung. Die stattdessen verwendete Erstellung in Software benötigt erhebliche Zeit. Bitte das Overlay deshalb ggf. über Nacht mit verbundener Stromzufuhr durchführen. </MESSAGE>
+        <MESSAGE> "Für diese ^1 Edition bzw. dieses Android Smartphone steht keine Hardwareunterstützung für die Videoerstellung zur Verfügung. Die stattdessen verwendete Erstellung in Software benötigt erhebliche Zeit. Bitte das Overlay deshalb ggf. über Nacht mit verbundener Stromzufuhr durchführen." </MESSAGE>
         <BUTTONS>
             <TEXT> "O.k., später" </TEXT>
             <TEXT> "Fortsetzen" </TEXT>
@@ -1781,6 +1781,17 @@
         <MESSAGE>
             "FullHD generiert möglicherweise Videos die das aktuelle Overlay-Limit von 2 GB Grösse überschreiten. Das entspricht grob 11 Minuten für FullHD und 25 Minuten für HD. ^1 wird die Aufnahme nicht automatisch begrenzen."
         </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9074" COMMENT="VideoInvalidOutputFormatAndroid">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Fehler" </TITLE>
+        <MESSAGE> "Das Video Format ^2 wird vom Video Encoder dieses Smartphones nicht unterstützt. Bitte entweder den Hauptfilm in ein Standardformat wie 1920x1080, 30fps konvertieren oder alternative das Software Verfahren in ^1s Expert Settings einschalten." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>
