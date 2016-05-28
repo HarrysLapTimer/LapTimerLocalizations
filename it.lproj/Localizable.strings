@@ -1173,7 +1173,7 @@
 
 "Engine [rpm/1000] @ Distance [%s]" = "Motore [rpm/1000] @ Distanza [%s]";
 
-"Throttle [%%] @ Distance [%s]" = "Acceleratore [%%] @ Distanza [%s]";
+"Throttle [%%] @ Distance [%s]" = "Pedale [%%] @ Distanza [%s]";
 
 "Coolant Temperature [%@] @ Distance [%s]" = "Temperatura dell'acqua [%@] @ Distanza [%s]";
 
@@ -1203,7 +1203,7 @@
 "Edit " = "Editare ";
 
 /* Video Controller */
-"Throttle" = "Accelerazione";
+"Throttle" = "Pedale";
 
 ", Lap #%hu/%hu" = ", Giro %hu/%hu";
 
