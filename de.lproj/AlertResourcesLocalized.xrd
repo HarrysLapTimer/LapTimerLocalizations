@@ -62,6 +62,18 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="1311" COMMENT="ConfirmTrackSelection">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Bitte bestätigen, dass für den Import die Strecke '^1' genutzt werden soll. Alternative 'Laden' wählen um andere Strecken in der Umgebung zu zeigen."</MESSAGE>
+        <BUTTONS>
+            <TEXT> "Import" </TEXT>
+            <TEXT> "Laden" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2288,7 +2300,18 @@
             <TEXT> "OK" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
-    
+
+    <ALERT_RESOURCE RESOURCE_ID="9314" COMMENT="OverlayingOutOfMemoryAndroid">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Fehler" </TITLE>
+        <MESSAGE> "Zu wenig Hauptspeicher für das Video Overlay. Der erstellte Video wird (zumindest) gekürzt sein. Bitte entweder die Auflösung des Videos reduzieren oder die Einstellung 'Overlay frame capacity' in Administration ‣ Einstellungen ‣ Expert Settings (Englisch) ‣ Video Tweaks reduzieren." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9315" COMMENT="MoveNotSuccessfulError">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>

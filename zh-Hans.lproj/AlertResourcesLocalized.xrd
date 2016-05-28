@@ -61,7 +61,19 @@
 			<TEXT> "否" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+    <ALERT_RESOURCE RESOURCE_ID="1311" COMMENT="ConfirmTrackSelection">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Please confirm track set '^1' is the one to use for the import. Select 'Load' to see other tracks nearby."</MESSAGE>
+        <BUTTONS>
+            <TEXT> "Import" </TEXT>
+            <TEXT> "Load" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2213,6 +2225,17 @@
         <MESSAGE> "成功关联^1计时圈至^2。" </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9314" COMMENT="OverlayingOutOfMemoryAndroid">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE> "^1 ran out of main memory while overlaying a video. The video produced will (at least) show an early cut at the end. To work around either reduce video resolution or decrease the 'Overlay frame capacity' in Administration ‣ Settings ‣ Expert Settings ‣ Video Tweaks." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
