@@ -91,11 +91,7 @@
 
 "Connect" = "Connectez-vous";
 
-"Background video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video' and select 'Record Auto'." = "L'enregistrement vidéo en arrière-plan est désactivé pour le moment. Cela signifie que LapTimer n'enregistrera que les temps et les données. Pour activer également l'enregistrement vidéo, sélectionner 'Vidéo' puis 'Enregistrement Auto'.";
-
 "kLapAbbreviation" = "T";
-
-"Video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video'." = "L'enregistrement vidéo est désactivé pour le moment. Cela signifie que LapTimer n'enregistrera que les temps et les données. Pour activer également l'enregistrement vidéo, sélectionner 'Vidéo'.";
 
 /* Vehicle History (and others) */
 "Event" = "Événement";
@@ -1832,8 +1828,6 @@
 "Please check your storage available. Both data and video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "Veuillez vérifier votre capacité totale de stockage. Vous ne pourrez enregistrer aucunes données ni aucunes vidéos si la capacité de stockage restante est insuffisante. Pour libérer de l'espace, pensez à supprimer d'anciennes vidéos et photos.";
 
 "Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "La résolution des enregistrements vidéo est inférieure à la résolution maximale prise en charge par votre appareil. Ne tenez pas compte de ce message si vous voulez économiser de l'espace ou si vous n'avez pas besoin de la résolution max. Si vous voulez utiliser HiRes, sélectionnez-le dans Paramètres.";
-
-"MultiCam operation is disabled currently. This means MultiCam or other supported external cams around will not be remote controlled by LapTimer. Please enable MultiCam in Settings to make this feature available." = "Le mode MultiCam est désactivé pour le moment. Cela signifie que le mode MultiCam ou d'autres caméras externes prises en charge ne seront pas contrôlés à distance par LapTimer. Veuillez activer le mode MultiCam dans Paramètres pour que cette fonction soit disponible.";
 
 "Correct Mounting (Upright)" = "Montage Correct (Vertical)";
 

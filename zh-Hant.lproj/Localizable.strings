@@ -94,15 +94,11 @@
 
 "Connect" = "登入";
 
-"Background video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video' and select 'Record Auto'." = "後臺視頻錄製已停用。LapTimer將只負責圈時計算與數據抓取。您可以點擊“視頻”並選擇“自動記錄”來開啓錄製功能。";
-
 "kPNNT" = "您的附近出現新賽道“%@”。點擊載入賽道！";
 
 "kPNNC" = "%@ 在“%@”賽道對你發出了%@挑戰。點擊接受邀請！";
 
 "kLapAbbreviation" = "L";
-
-"Video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video'." = "視頻錄製已停用。LapTimer將只負責圈時計算與數據抓取。您可以點擊“視頻”來開啓錄製功能。";
 
 /* HeavyDuty */
 "Reload Payload" = "重置負載";
@@ -1905,8 +1901,6 @@
 "Please check your storage available. Both data and video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "請檢查設備存儲空間是否足夠。存儲空間過小會造成數據和視頻錄製失敗。請刪除之前的視頻和照片來釋放一些空間。";
 
 "Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "視頻當前的分辨率低於系統最高可支持的分辨率。如果您不需要最高分辨率，可以忽略此訊息。如果您要使用高分辨率，可以在設置中選擇。";
-
-"MultiCam operation is disabled currently. This means MultiCam or other supported external cams around will not be remote controlled by LapTimer. Please enable MultiCam in Settings to make this feature available." = "MultiCam操作已禁用。這意味着MultiCam或其它外置攝影機不會被LapTimer控制。如需啓用，請在設置中的MultiCam項目中進行設置。";
 
 "Correct Mounting (Upright)" = "確認固定方式(直立設備)";
 

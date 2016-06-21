@@ -94,15 +94,11 @@
 
 "Connect" = "Loggen Sie sich ein";
 
-"Background video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video' and select 'Record Auto'." = "Die automatische Aufzeichnung von Videos im HIntergrund ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte 'Video' und 'Record Auto' wählen.";
-
 "kPNNT" = "In Deiner Region ist die neue Strecke '%@' verfügbar. Lade die Strecke jetzt!";
 
 "kPNNC" = "%@ hat eine %@ Herausforderung für die Strecke '%@' geschickt. Lade sie jetzt!";
 
 "kLapAbbreviation" = "R";
-
-"Video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video'." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte 'Video' wählen.";
 
 /* HeavyDuty */
 "Reload Payload" = "Umladen";
@@ -198,6 +194,8 @@
 
 /* e.g. moving 50 kg of luggage *to* vehicle */
 "kMoveToVehicle" = "auf";
+
+"Video recording is disabled currently. This means LapTimer will time laps and record data only. To enable video recording in addition, select the appropriate mode in Timer ‣ Video ‣ Video Operation." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte eine geeignete Auswahl in Timer ‣ Video ‣ Video Funktion wählen.";
 
 "Groups" = "Gruppen";
 
@@ -1911,7 +1909,7 @@
 
 "Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "Die Auflösung für Videoaufzeichungen ist aktuell gegenüber dem für das Smartphone maximal möglichen Wert reduziert. Für den Fall dass Speicherplatz gespart werden soll oder die maximale Auflösung nicht benötigt wird, kann die Warnung ignoriert werden. In 'Einstellungen' kann die Auflösung eingestellt werden.";
 
-"MultiCam operation is disabled currently. This means MultiCam or other supported external cams around will not be remote controlled by LapTimer. Please enable MultiCam in Settings to make this feature available." = "Die MultiCam Funktion ist aktuell abgeschaltet, LapTimer wird externe Kameras und MultiCam Smartphones also nicht fernsteuern. Bitte die Funktion in den Einstellungen einschalten wenn gewünscht.";
+"MultiCam operation is disabled currently. This means MultiCam or other supported external cams around will not be remote controlled by LapTimer. Please select an external cam mode in Timer ‣ Video ‣ Video Operation to make this feature available." = "Die MultiCam Funktion ist aktuell abgeschaltet, LapTimer wird externe Kameras und MultiCam Smartphones also nicht fernsteuern. Bitte eine der Optionen mit externer Kamera in Timer ‣ Video ‣ Video Funktion einschalten wenn gewünscht.";
 
 "Correct Mounting (Upright)" = "Aufrechte Befestigung";
 
@@ -3506,4 +3504,6 @@
 "Finish" = "Ziel";
 
 "Downloading PUSH Session..." = "Lade PUSH Aufzeichnung...";
+
+"Please stop video recording before closing this view!" = "Bitte die Videoaufzeichung vor Beenden dieser Ansicht stoppen!";
 

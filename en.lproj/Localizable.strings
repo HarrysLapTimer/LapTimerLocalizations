@@ -94,15 +94,11 @@
 
 "Connect" = "Log in";
 
-"Background video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video' and select 'Record Auto'." = "Background video recording is disabled by default. Only time and data will be recorded. To enable background video recording press the 'Video' Button in the Timer view and then press 'Record Auto' in the Video view.";
-
 "kPNNT" = "New track set '%@' available for your region. Download it now!";
 
 "kPNNC" = "%@ submitted a %@ challenge for track '%@'. Load it now!";
 
 "kLapAbbreviation" = "L";
-
-"Video recording is disabled currently. This means LapTimer will time and data record only. To enable video recording in addition, select 'Video'." = "Video recording is disabled by default. Only time and data will be recorded. To enable background video recording press the 'Video' Button in the Timer view.";
 
 /* HeavyDuty */
 "Reload Payload" = "Reload";
