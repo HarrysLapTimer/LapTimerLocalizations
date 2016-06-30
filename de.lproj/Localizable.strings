@@ -3458,7 +3458,7 @@
 /* 3D touch */
 "Tracing Off" = "Trace aus";
 
-/* Databases View */
+/* Databases view */
 "Add-on and Other Media" = "Erweiterungen und andere Medien";
 
 /* Database View */
@@ -3506,4 +3506,12 @@
 "Downloading PUSH Session..." = "Lade PUSH Aufzeichnung...";
 
 "Please stop video recording before closing this view!" = "Bitte die Videoaufzeichung vor Beenden dieser Ansicht stoppen!";
+
+"Reference Line" = "Referenzlinie";
+
+/* Databases view (iOS) */
+"Swipe any of the rows below to either try a <ui>Restore</ui> or <ui>Delete</ui> the local database backup." = "Um eines der lokalen Backups wiederherzustellen oder zu löschen, bitte über die Zeile streichen und <ui>Wiederherstellen</ui> bzw. <ui>Löschen</ui> drücken.";
+
+/* Databases View (Android) */
+"Long press any of the rows below to either try a <ui>Restore</ui> or <ui>Delete</ui> the local database backup." = "Um eines der lokalen Backups wiederherzustellen oder zu löschen, bitte die Zeile lange drücken und <ui>Wiederherstellen</ui> bzw. <ui>Löschen</ui> auswählen.";
 
