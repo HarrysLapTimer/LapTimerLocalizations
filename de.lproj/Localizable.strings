@@ -975,7 +975,7 @@
 "Bearing to Waypoint" = "Richtung";
 
 /* Sensors and Sensor List */
-", Battery %hu%%" = ", Batterie %hu%%";
+"Battery %hu%%" = ", Batterie %hu%%";
 
 "Connected @ %hu Hz" = "Verbunden %hu Hz";
 
@@ -2259,9 +2259,9 @@
 
 "Laps to Pit" = "Restrunden";
 
-", identifier '%s'" = ", Identifikator '%s'";
+", identifier: '%s'" = ", Identifikator: '%s'";
 
-"Identifier '%s'" = "Identifikator '%s'";
+"Identifier: '%s'" = "Identifikator: '%s'";
 
 "Transfer" = "Transfer";
 
@@ -3514,4 +3514,15 @@
 
 /* Databases View (Android) */
 "Long press any of the rows below to either try a <ui>Restore</ui> or <ui>Delete</ui> the local database backup." = "Um eines der lokalen Backups wiederherzustellen oder zu löschen, bitte die Zeile lange drücken und <ui>Wiederherstellen</ui> bzw. <ui>Löschen</ui> auswählen.";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = "Batterie %hu%%";
+
+"Firmware: %@" = "Firmware: %@";
+
+", firmware: %@" = ", Firmware: %@";
+
+", not discharging" = ", nicht entladend";
+
+"%@ %@, firmware: %@, hardware: %@" = "%@ %@, Firmware: %@, Hardware: %@";
 

@@ -895,7 +895,7 @@
 "Bearing to Waypoint" = "Cap pour le Waypoint";
 
 /* Sensors and Sensor List */
-", Battery %hu%%" = ", Batterie %hu%%";
+"Battery %hu%%" = ", Batterie %hu%%";
 
 "Connected @ %hu Hz" = "Connecté à %hu Hz";
 
@@ -2177,9 +2177,9 @@
 
 "Laps to Pit" = "Nombre de tours jusqu'au poste de ravitaillement en carburant";
 
-", identifier '%s'" = ", identificateur '%s'";
+", identifier: '%s'" = ", identificateur: '%s'";
 
-"Identifier '%s'" = "identificateur '%s'";
+"Identifier: '%s'" = "identificateur: '%s'";
 
 "Transfer" = "Transfert";
 
@@ -2543,4 +2543,7 @@
 "LapTimer is not granted access to video currently. Please enable access in Settings app ‣ Privacy ‣ Camera ‣ LapTimer." = "LapTimer ne donne pas accès au système vidéo pour le moment. Veuillez activer l'accès dans Paramètres application ‣ Confidentialité ‣ Came ‣ LapTimer.";
 
 "Finish" = "Arrivée";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = "Batterie %hu%%";
 

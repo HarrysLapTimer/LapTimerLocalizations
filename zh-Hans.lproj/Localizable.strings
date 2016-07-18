@@ -968,7 +968,7 @@
 "Bearing to Waypoint" = "指向路点方向";
 
 /* Sensors and Sensor List */
-", Battery %hu%%" = ", 电量 %hu%%";
+"Battery %hu%%" = ", 电量 %hu%%";
 
 "Connected @ %hu Hz" = "已连接 %hu Hz";
 
@@ -2250,9 +2250,9 @@
 
 "Laps to Pit" = "剩余圈数";
 
-", identifier '%s'" = "，识别器“%s”";
+", identifier: '%s'" = "，识别器: “%s”";
 
-"Identifier '%s'" = "识别器“%s”";
+"Identifier: '%s'" = "识别器: “%s”";
 
 "Transfer" = "传送";
 
@@ -3010,6 +3010,9 @@
 
 /* Video Recording app */
 "%hu Recordings" = "%hu 记录";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = "电量 %hu%%";
 
 "System" = "系统";
 

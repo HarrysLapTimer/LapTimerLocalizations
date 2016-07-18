@@ -970,7 +970,7 @@
 "Bearing to Waypoint" = "Rumbo al waypoint";
 
 /* Sensors and Sensor List */
-", Battery %hu%%" = ", Batería %hu%%";
+"Battery %hu%%" = ", Batería %hu%%";
 
 "Connected @ %hu Hz" = "Conectado %hu Hz";
 
@@ -2252,9 +2252,9 @@
 
 "Laps to Pit" = "Vueltas hasta la línea";
 
-", identifier '%s'" = ", identificador '%s'";
+", identifier: '%s'" = ", identificador: '%s'";
 
-"Identifier '%s'" = "Identificador '%s'";
+"Identifier: '%s'" = "Identificador: '%s'";
 
 "Transfer" = "Transferir";
 
@@ -2871,4 +2871,7 @@
 "Start / Finish" = "Salida / Meta";
 
 "Finish" = "Meta";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = "Batería %hu%%";
 
