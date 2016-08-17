@@ -2493,3 +2493,5 @@
 /* Sensors and Sensor List */
 ", battery %hu%%" = "Batteria %hu%%";
 
+"Any individual name you want to give to this vehicle." = "Qualsiasi nome dato a questo veicolo. ";
+

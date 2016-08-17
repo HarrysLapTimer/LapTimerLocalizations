@@ -116,7 +116,7 @@
 "kTileHelpPlanAndReviewTrips" = "計劃以及顯示<ui>航程</ui>。PRODUCTNAME包括以路標爲基礎的導航。<ui>航標</ui>將在<ui>地圖</ui>或者<ui>汽車監控電腦</ui>中設置。<ui>航程</ui>列出所有被標示的路線，並允許導出以及顯示。";
 
 /* Tile View Help */
-"kTileHelpMaintainFeatures" = "加載額外的PRODUCTNAME功能 (<ui>擴展</ui>),讀取所有<ui>車輛</ui>並更改<ui>設置</ui>。<ui>傳感器</ui>顯示所用內部和外部的傳感器（例如：兼容的 PRODUCTNAME OBD II 適配器）。";
+"kTileHelpMaintainFeatures" = "加載額外的<hl>PRODUCTNAME</hl>功能 (<ui>擴展</ui>),讀取所有<ui>車輛</ui>並更改<ui>設置</ui>。<ui>傳感器</ui>顯示所用內部和外部的傳感器（例如：兼容的 <hl>PRODUCTNAME</hl> OBD II 適配器）。";
 
 /* Tile View Help */
 "kTileHelpWelcome" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。\n請選擇功能組查看可使用的功能。如果您想設置快捷方式，請點擊功能界面的黃色星標。";
@@ -125,7 +125,7 @@
 "kTileHelpWelcomeBuddy" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。<ui>Bordcompurter</ui>將會車載電腦";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips2" = "PRODUCTNAME包括以路標爲基礎的導航(<ui>汽車監控電腦</ui>)。<ui>航點</ui>將在<ui>地圖</ui>或者<ui>GPS</ui>中設置。您還可以在<ui>功能插件</ui>中從服務器上讀取所需的路標數據。";
+"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl>包括以路標爲基礎的導航(<ui>汽車監控電腦</ui>)。<ui>航點</ui>將在<ui>地圖</ui>或者<ui>GPS</ui>中設置。您還可以在<ui>功能插件</ui>中從服務器上讀取所需的路標數據。";
 
 /* Tile View Help */
 "kTileHelpSetupRace" = "首先，請<ui>定義用戶</ui>，配置所需的車手以及車輛。在離開維修區前<ui>載入賽道</ui>。也可以使用<ui>繞樁賽</ui>和<ui>新建賽道</ui>來創建自有賽段。";
@@ -137,7 +137,7 @@
 "kTileHelpRace" = "在競速中可使用不同的功能菜單。新手建議使用<ui>計時器</ui>，在直立或橫置屏幕的狀態下均可使用。PRODUCTNAME的 <ui>視頻</ui> 界面只能橫置屏幕使用。";
 
 /* Tile View Help */
-"kTileHelpAnalytics" = "PRODUCTNAME中用於分析行駛數據的菜單。 <ui>即時信息</ui>中包括全部的實時數據信息。可在<ui>計時圈</ui>中查看所有圖表數據。您也可以在這裏給視頻壓印數據圖層。";
+"kTileHelpAnalytics" = "<hl>PRODUCTNAME</hl>中用於分析行駛數據的菜單。 <ui>即時信息</ui>中包括全部的實時數據信息。可在<ui>計時圈</ui>中查看所有圖表數據。您也可以在這裏給視頻壓印數據圖層。";
 
 /* Tile View Help */
 "kTileHelpRealtime" = "所有傳感器數據的功能菜單(<ui>GPS</ui>、<ui>衛星</ui>、<ui>加速度</ui>和<ui>發動機</ui>信息)即時。點擊<ui>在線實況</ui>，可查看世界各地活躍中的賽道(包括正在賽道上駕駛的車手及最佳成績車手)。";
@@ -163,6 +163,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "OBD Rate" = "刷新率";
 
+/* Tile View Help */
 "kTileHelpUsingRearCam" = "界面上顯示的<ui>後視畫面</ui>會有<hl>5秒左右的延遲</hl>\n\n故本功能不能替代後視鏡。";
 
 /* HeavyDuty */

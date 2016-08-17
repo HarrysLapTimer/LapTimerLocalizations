@@ -2547,3 +2547,7 @@
 /* Sensors and Sensor List */
 ", battery %hu%%" = "Batterie %hu%%";
 
+"Any individual name you want to give to this vehicle." = "Le nom que vous souhaitez attribuer à ce véhicule.";
+
+"App is not designed for emergency critical operation. The author is not responsible for any injuries or property damage that may occur during use of this software." = "Cette application n'est pas prévue pour des opérations de secours. L’auteur ne peut être tenu pour responsable en cas de dommage quelque soit sa nature lors de l’utilisation de ce programme.";
+

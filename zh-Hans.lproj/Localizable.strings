@@ -113,10 +113,10 @@
 "kTileHelpParking" = "<ui>停车</ui>将储存当前停车位置，并记录全部的停车位置。<ui>房车水准仪</ui>可用以保持货车或露营车的平衡";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips" = "计划以及显示<ui>航程</ui>。PRODUCTNAME包括以路标为基础的导航。<ui>航标</ui>将在<ui>地图</ui>或者<ui>汽车监控电脑</ui>中设置。<ui>航程</ui>列出所有被标示的路线，并允许导出以及显示。";
+"kTileHelpPlanAndReviewTrips" = "计划以及显示<ui>航程</ui>。<hl>PRODUCTNAME</hl>包括以路标为基础的导航。<ui>航标</ui>将在<ui>地图</ui>或者<ui>汽车监控电脑</ui>中设置。<ui>航程</ui>列出所有被标示的路线，并允许导出以及显示。";
 
 /* Tile View Help */
-"kTileHelpMaintainFeatures" = "加载额外的PRODUCTNAME功能 (<ui>扩展</ui>),读取所有<ui>车辆</ui>并更改<ui>设置</ui>。<ui>传感器</ui>显示所用内部和外部的传感器（例如：兼容的 PRODUCTNAME OBD II 适配器）。";
+"kTileHelpMaintainFeatures" = "加载额外的<hl>PRODUCTNAME</hl>功能 (<ui>扩展</ui>),读取所有<ui>车辆</ui>并更改<ui>设置</ui>。<ui>传感器</ui>显示所用内部和外部的传感器（例如：兼容的 <hl>PRODUCTNAME</hl> OBD II 适配器）。";
 
 /* Tile View Help */
 "kTileHelpWelcome" = "欢迎使用<hl>LONGPRODUCTNAME</hl>。\n请选择功能组查看可使用的功能。如果您想设置快捷方式，请点击功能界面的黄色星标。";
@@ -125,7 +125,7 @@
 "kTileHelpWelcomeBuddy" = "欢迎使用<hl>LONGPRODUCTNAME</hl>。<ui>Bordcompurter</ui>将会车载电脑";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips2" = "PRODUCTNAME包括以路标为基础的导航(<ui>汽车监控电脑</ui>)。<ui>航点</ui>将在<ui>地图</ui>或者<ui>GPS</ui>中设置。您还可以在<ui>功能插件</ui>中从服务器上读取所需的路标数据。";
+"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl>包括以路标为基础的导航(<ui>汽车监控电脑</ui>)。<ui>航点</ui>将在<ui>地图</ui>或者<ui>GPS</ui>中设置。您还可以在<ui>功能插件</ui>中从服务器上读取所需的路标数据。";
 
 /* Tile View Help */
 "kTileHelpSetupRace" = "首先，请<ui>定义用户</ui>，配置所需的车手以及车辆。在离开维修区前<ui>载入赛道</ui>。也可以使用<ui>绕桩赛</ui>和<ui>新建赛道</ui>来创建自有赛段。";
@@ -137,7 +137,7 @@
 "kTileHelpRace" = "在竞速中可使用不同的功能菜单。新手建议使用<ui>计时器</ui>，在直立或横置屏幕的状态下均可使用。PRODUCTNAME的 <ui>视频</ui> 界面只能横置屏幕使用。";
 
 /* Tile View Help */
-"kTileHelpAnalytics" = "PRODUCTNAME中用于分析行驶数据的菜单。 <ui>即时信息</ui>中包括全部的实时数据信息。可在<ui>计时圈</ui>中查看所有图表数据。您也可以在这里给视频压印数据图层。";
+"kTileHelpAnalytics" = "<hl>PRODUCTNAME</hl>中用于分析行驶数据的菜单。 <ui>即时信息</ui>中包括全部的实时数据信息。可在<ui>计时圈</ui>中查看所有图表数据。您也可以在这里给视频压印数据图层。";
 
 /* Tile View Help */
 "kTileHelpRealtime" = "所有传感器数据的功能菜单(<ui>GPS</ui>、<ui>卫星</ui>、<ui>加速度</ui>和<ui>发动机</ui>信息)即时。点击<ui>在线实况</ui>，可查看世界各地活跃中的赛道(包括正在赛道上驾驶的车手及最佳成绩车手)。";
@@ -163,6 +163,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "OBD Rate" = "刷新率";
 
+/* Tile View Help */
 "kTileHelpUsingRearCam" = "界面上显示的<ui>后视画面</ui>会有<hl>5秒左右的延迟</hl>\n\n故本功能不能替代后视镜。";
 
 /* HeavyDuty */

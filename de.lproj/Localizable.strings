@@ -113,10 +113,10 @@
 "kTileHelpParking" = "Mit <ui>Fahrzeug parken</ui> wird die aktuelle Position als Parkposition gespeichert. Hier wird anschliessend stets Parkposition und aktuelle Position angezeigt. <ui>In Waage bringen</ui> dient zum Austarieren von Caravan oder Wohnmobil.";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips" = "Planung und Anzeige von <ui>Reisen</ui>. PRODUCTNAME beinhaltet Wegepunkt-basierte Navigation. <ui>Wegepunkte</ui> werden in <ui>Karte</ui> oder <ui>Bordcomputer</ui> angelegt. <ui>Reisen</ui> listet alle aufgezeichneten Routen auf und erlaubt Export und Anzeige.";
+"kTileHelpPlanAndReviewTrips" = "Planung und Anzeige von <ui>Reisen</ui>. <hl>PRODUCTNAME</hl> beinhaltet Wegepunkt-basierte Navigation. <ui>Wegepunkte</ui> werden in <ui>Karte</ui> oder <ui>Bordcomputer</ui> angelegt. <ui>Reisen</ui> listet alle aufgezeichneten Routen auf und erlaubt Export und Anzeige.";
 
 /* Tile View Help */
-"kTileHelpMaintainFeatures" = "Laden von zusätzlichen PRODUCTNAME Funktionen (<ui>Erweiterungen</ui>), Zugriff auf alle <ui>Fahrzeuge</ui> und Ändern von <ui>Einstellungen</ui>. <ui>Sensoren</ui> zeigt alle internen und externen Sensoren (z.B. PRODUCTNAME-kompatible OBD II Adapter).";
+"kTileHelpMaintainFeatures" = "Laden von zusätzlichen <hl>PRODUCTNAME</hl> Funktionen (<ui>Erweiterungen</ui>), Zugriff auf alle <ui>Fahrzeuge</ui> und Ändern von <ui>Einstellungen</ui>. <ui>Sensoren</ui> zeigt alle internen und externen Sensoren (z.B. <hl>PRODUCTNAME</hl>-kompatible OBD II Adapter).";
 
 /* Tile View Help */
 "kTileHelpWelcome" = "Willkommen bei <hl>LONGPRODUCTNAME</hl>.\nWähle eine der Gruppen um verfügbare Funktionen zu erforschen. Wenn Einzelfunktionen hier angezeigt werden sollen, bitte in den Untergruppen den jeweiligen gelben Stern antippen.";
@@ -125,7 +125,7 @@
 "kTileHelpWelcomeBuddy" = "Willkommen bei <hl>LONGPRODUCTNAME</hl>. <ui>Bordcomputer</ui> stellt einen kompletten GPS basierten Bordcomputer bereit. <ui>GPS</ui> zeigt Details zur aktuellen Position. Wenn ein OBD II Adapter angeschlossen ist, zeigt <ui>Motor</ui> die Fahrzeugdaten.";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips2" = "PRODUCTNAME beinhaltet Wegepunkt-basierte Navigation (<ui>Bordcomputer</ui>). <ui>Wegepunkte</ui> werden in <ui>Karte</ui> oder <ui>GPS</ui> angelegt. Unter <ui>Erweiterungen</ui> können ausserdem Wegepunkt Dateien vom Server geladen werden.";
+"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl> beinhaltet Wegepunkt-basierte Navigation (<ui>Bordcomputer</ui>). <ui>Wegepunkte</ui> werden in <ui>Karte</ui> oder <ui>GPS</ui> angelegt. Unter <ui>Erweiterungen</ui> können ausserdem Wegepunkt Dateien vom Server geladen werden.";
 
 /* Tile View Help */
 "kTileHelpSetupRace" = "Beim Erststart mit <ui>Benutzer</ui> beginnen und Initialen des Fahrers sowie das Fahrzeug für das Rennen definieren. Vor dem Verlassen der Box die <ui>Strecke laden</ui>. <ui>Autocross</ui> und <ui>Neue Strecke</ui> dienen dem Erstellen eigener Strecken.";
@@ -134,10 +134,10 @@
 "kTileHelpWelcomeLapTimer" = "Willkommen bei <hl>LONGPRODUCTNAME</hl>. Funktionen sind in <ui>Vorbereitung</ui> des Rennen, das <ui>Rennen</ui> selbst und die <ui>Auswertung</ui> der Ergebnisse strukturiert. Bitte eine Funktionsgruppe wählen.";
 
 /* Tile View Help */
-"kTileHelpRace" = "Verschiedene Ansichten zur Nutzung während des Rennens. <ui>Timer</ui> ist die empfohlene Ansicht und im Hoch- und Querformat verfügbar. Smartphone ins Querformat drehen um von hier in PRODUCTNAMEs <ui>Video</ui> Ansicht zu gelangen.";
+"kTileHelpRace" = "Verschiedene Ansichten zur Nutzung während des Rennens. <ui>Timer</ui> ist die empfohlene Ansicht und im Hoch- und Querformat verfügbar. Smartphone ins Querformat drehen um von hier in <hl>PRODUCTNAME</hl>s <ui>Video</ui> Ansicht zu gelangen.";
 
 /* Tile View Help */
-"kTileHelpAnalytics" = "PRODUCTNAMEs Bereich zur Auswertung von Fahrdaten. <ui>Echtzeit</ui> enthält alle Ansichten zur Betrachtung von aktuellen Daten. Der Zugriff auf alle Aufzeichungen erfolgt in <ui>Runden</ui>. Von hier aus werden auch Video-Overlays erzeugt.";
+"kTileHelpAnalytics" = "<hl>PRODUCTNAME</hl>s Bereich zur Auswertung von Fahrdaten. <ui>Echtzeit</ui> enthält alle Ansichten zur Betrachtung von aktuellen Daten. Der Zugriff auf alle Aufzeichungen erfolgt in <ui>Runden</ui>. Von hier aus werden auch Video-Overlays erzeugt.";
 
 /* Tile View Help */
 "kTileHelpRealtime" = "Alle Ansichten von aktuellen Sensordaten (<ui>GPS</ui>, <ui>Satelliten</ui>, <ui>Beschleunigung</ui> und <ui>Motor</ui>). Zum Betrachten aktiver Rennstrecken weltweit (inklusive Fahrern auf der Strecke und Bestenliste) bitte <ui>Online</ui> wählen.";
@@ -163,6 +163,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "OBD Rate" = "Rate";
 
+/* Tile View Help */
 "kTileHelpUsingRearCam" = "Die oben angezeigte <ui>Rückfahrkamera</ui> zeigt Bilder <hl>bis zu 5 Sekunden verspätet</hl> an.\n\nDie Funktion darf deshalb nie als Ersatz für zugelassene Rückspiegel oder einem Einweiser genutzt werden. Nach dem Anhalten kann die aktuelle Position nach einer Verzögerung geprüft werden.\n\n<hl>Erinnerung: Nutzung auf eigene Gefahr.</hl>";
 
 /* HeavyDuty */
@@ -194,6 +195,12 @@
 
 /* e.g. moving 50 kg of luggage *to* vehicle */
 "kMoveToVehicle" = "auf";
+
+/* Tile View Help */
+"kTileHelpMaintainFeaturesWithoutOBD" = "Laden von zusätzlichen <hl>PRODUCTNAME</hl> Funktionen (<ui>Erweiterungen</ui>), Zugriff auf alle <ui>Fahrzeuge</ui> und Ändern von <ui>Einstellungen</ui>. <ui>Sensoren</ui> zeigt alle internen und externen Sensoren.";
+
+/* Tile View Help */
+"kTileHelpSailing" = "Alle Funktionen die man während des Segelns nutzen kann. Wähle <ui>Navigation</ui> um den Kurs zum Ziel und die Kursabweichung zu sehen. <ui>Lage</ui> zeigt die Bewegung des Schiffs und <ui>Referenz</ui> listet eine Reihe von nautischen Signalen auf.";
 
 "Video recording is disabled currently. This means LapTimer will time laps and record data only. To enable video recording in addition, select the appropriate mode in Timer ‣ Video ‣ Video Operation." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte eine geeignete Auswahl in Timer ‣ Video ‣ Video Funktion wählen.";
 
@@ -3525,4 +3532,24 @@
 ", not discharging" = ", nicht entladend";
 
 "%@ %@, firmware: %@, hardware: %@" = "%@ %@, Firmware: %@, Hardware: %@";
+
+"Structured Query Language (.sql) is the standard format for relational databases. Desktop software: any SQL database tool." = "Structured Query Language (.sql) ist das Standardformat für Relationale Datenbanken. Desktop Software: alle SQL Datenbank Werkzeuge.";
+
+"Vessel List" = "Schiffsliste";
+
+"%hu Vessel(s)" = "%hu Schiff(e)";
+
+"Vessel #%hu" = "Schiff #%hu";
+
+"Vessel" = "Schiff";
+
+"Vessel ('%@')" = "Schiff ('%@')";
+
+"Vessel Name" = "Schiffsname";
+
+"Any individual name you want to give to this vehicle." = "Ein individueller Name für das Fahrzeug. ";
+
+"Any individual name you want to give to this vessel." = "Ein individueller Name für das Schiff.";
+
+"App is not designed for emergency critical operation. The author is not responsible for any injuries or property damage that may occur during use of this software." = "Diese App ist nicht für den Einsatz in Notfällen geeignet. Der Autor ist nicht für Verletzungen und Beschädigungen während der Nutzung verantwortlich. Apples EULA bleibt wirksam.";
 

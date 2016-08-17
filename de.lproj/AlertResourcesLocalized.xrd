@@ -3656,4 +3656,16 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9974" COMMENT="NewAppVersionAvailable">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Wir haben ^1 ^2 für Dich auf dem AppStore bereit gestellt! Aktuell nutzt Du ^3. Bitte aktualisiere ^1 regelmässig um alle Vorteile zu geniesen, Updates sind frei!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Später" </TEXT>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 </PALMOS_RESOURCE_FILE>

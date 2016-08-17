@@ -125,7 +125,7 @@
 "kTileHelpWelcomeBuddy" = "Bienvenido a <hl>LONGPRODUCTNAME</hl>. Seleccione <ui>Ordenador de Viaje</ui> para un completo ordenador de viaje basado en GPS. <ui>GPS</ui> ofrece una vista a tiempo real de su posición. Si conecta un accesorio OBD II podrá ver también datos del estado de su <ui>Motor</ui>";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips2" = "PRODUCTNAME incluye un <ui>Ordenador de Viaje</ui> con funciones de navegación basadas en waypoints. Defina rumbos tanto en la vista de <ui>Mapa</ui> como en la de <ui>GPS</ui>, o descarguelas desde <ui>Add-ons</ui>.";
+"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl> incluye un <ui>Ordenador de Viaje</ui> con funciones de navegación basadas en waypoints. Defina rumbos tanto en la vista de <ui>Mapa</ui> como en la de <ui>GPS</ui>, o descarguelas desde <ui>Add-ons</ui>.";
 
 /* Tile View Help */
 "kTileHelpSetupRace" = "Si es su primer uso, debe <ui>Definir Usuario</ui> e introducir sus iniciales, y definir el vehículo que usa para correr. Después vaya a <ui>Cargar Circuito</ui> antes de salir a pista. Puede usar <ui>Autocross</ui> y <ui>Nuevo Circuito</ui> para crear su propio circuito.";
@@ -137,10 +137,10 @@
 "kTileHelpRace" = "Vistas para mostrar mientras conduce. <ui>Cronómetro</ui> es la más recomendable, en vertical u horizontal. Coloque su dispositivo horizontal en la vista <ui>Cronómetro</ui> para que PRODUCTNAME muestre la <ui>Vista de Video</ui>.";
 
 /* Tile View Help */
-"kTileHelpAnalytics" = "Sección de análisis de PRODUCTNAME. Aquí podrá ver datos y vistas en <ui>Tiempo Real</ui>, analizar las vueltas grabadas en <ui>Vueltas</ui>, y superponer los datos grabados en los vídeos de las vueltas que se muestran archivadas.";
+"kTileHelpAnalytics" = "Sección de análisis de <hl>PRODUCTNAME</hl>. Aquí podrá ver datos y vistas en <ui>Tiempo Real</ui>, analizar las vueltas grabadas en <ui>Vueltas</ui>, y superponer los datos grabados en los vídeos de las vueltas que se muestran archivadas.";
 
 /* Tile View Help */
-"kTileHelpRealtime" = "Vistas que muestran los sensores a tiempo real (<ui>GPS</ui>, <ui>Satélite</ui>, <ui>Aceleración</ui>, y <ui>Motor</ui>). En <ui>Vista Online</ui> de PRODUCTNAME verá circuitos activos de todo el mundo, y posición actual de pilotos en dichos circuitos.";
+"kTileHelpRealtime" = "Vistas que muestran los sensores a tiempo real (<ui>GPS</ui>, <ui>Satélite</ui>, <ui>Aceleración</ui>, y <ui>Motor</ui>). En <ui>Vista Online</ui> de <hl>PRODUCTNAME</hl> verá circuitos activos de todo el mundo, y posición actual de pilotos en dichos circuitos.";
 
 /* SportChrono Buttons */
 "kSportChronoButtonLabelResetCalibration" = "Reset";
@@ -163,6 +163,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "OBD Rate" = "Frecuencia OBD";
 
+/* Tile View Help */
 "kTileHelpUsingRearCam" = "La <ui>Cámara Trasera</ui> podría mostrar una <hl>imagen desfasada hasta 5 segundos</hl>.\n\n Por favor, nunca la utilice como un sustituto del retrovisor. Utilice siempre equipamiento homologado en la carretera. Cuando se detenga, verifique su posición después del pequeño desfase.\n\n<hl>Recuerde: Utilícelo bajo su propia responsabilidad.</hl>";
 
 /* HeavyDuty */
@@ -191,6 +192,9 @@
 
 /* e.g. moving 50 kg of luggage *to* vehicle */
 "kMoveToVehicle" = "hacia";
+
+/* Tile View Help */
+"kTileHelpMaintainFeaturesWithoutOBD" = "Con <ui>Add-Ons</ui>, podrá acceder a la lista de vehículos predefinidos, cambiar funciones de la App, o ver la <ui>Lista de Sensores</ui>, tanto internos como externos GPS.";
 
 "Groups" = "Grupos";
 
@@ -2874,4 +2878,8 @@
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = "Batería %hu%%";
+
+"Any individual name you want to give to this vehicle." = "Cualquier nombre que se desee dar a este vehículo.";
+
+"App is not designed for emergency critical operation. The author is not responsible for any injuries or property damage that may occur during use of this software." = "La aplicación no esta diseñada para operaciones críticas o de emergencia. El autor no se hace res-ponsable de su mala utilización o de los desper-fectos que puedan ocurrir durante de utilización.";
 

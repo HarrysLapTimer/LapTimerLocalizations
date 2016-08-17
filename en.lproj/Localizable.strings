@@ -113,10 +113,10 @@
 "kTileHelpParking" = "Use the <ui>Park Vehicle</ui> assistant to set the current position as your vehicle's parking position. Return to see both your current position and the parking position. <ui>Leveling</ui> helps to level a caravan or motorhome horizontally.";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips" = "All functions to plan and review trips. PRODUCTNAME comes with way point based navigation capabilities. Define way points in either the <ui>Map</ui> or <ui>GPS</ui> view. <ui>Trips</ui> shows a list of all trips recorded so far - including export and display options.";
+"kTileHelpPlanAndReviewTrips" = "All functions to plan and review trips. <hl>PRODUCTNAME</hl> comes with way point based navigation capabilities. Define way points in either the <ui>Map</ui> or <ui>GPS</ui> view. <ui>Trips</ui> shows a list of all trips recorded so far - including export and display options.";
 
 /* Tile View Help */
-"kTileHelpMaintainFeatures" = "Maintain features available in PRODUCTNAME (<ui>Add-Ons</ui>), access the full list of vehicles defined, and change various app settings. <ui>Sensor List</ui> shows all sensors. Besides built-in sensors, PRODUCTNAME supports external OBD and GPS sensors.";
+"kTileHelpMaintainFeatures" = "Maintain features available in <hl>PRODUCTNAME</hl> (<ui>Add-Ons</ui>), access the full list of vehicles defined, and change various app settings. <ui>Sensor List</ui> shows all sensors. Besides built-in sensors, <hl>PRODUCTNAME</hl> supports external OBD and GPS sensors.";
 
 /* Tile View Help */
 "kTileHelpWelcome" = "Welcome to <hl>LONGPRODUCTNAME</hl>.\nSelect any of the groups above to drill into the rich functionality provided. In case you want to add tiles from this sub groups for fast access, press the yellow stars to create a <ui>Favorite</ui> here.";
@@ -125,7 +125,7 @@
 "kTileHelpWelcomeBuddy" = "Welcome to <hl>LONGPRODUCTNAME</hl>. Select <ui>Trip Computer</ui> to get a complete GPS based trip computer. <ui>GPS</ui> offers a life view on your current location. With an OBD II accessory attached, <ui>Engine</ui> adds a detailed car status.";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips2" = "PRODUCTNAME comes with way point based navigation capabilities (<ui>Trip Computer</ui>). Define way points in one of the <ui>Map</ui> or <ui>GPS</ui> views, or download them from <ui>Add-ons</ui>.";
+"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl> comes with way point based navigation capabilities (<ui>Trip Computer</ui>). Define way points in one of the <ui>Map</ui> or <ui>GPS</ui> views, or download them from <ui>Add-ons</ui>.";
 
 /* Tile View Help */
 "kTileHelpSetupRace" = "First time users start with <ui>Define User</ui> to enter driver initials and define the vehicle used for racing. Next, <ui>Load Track</ui> before you leave the pits. <ui>Autocross</ui> and <ui>New Track</ui> can be used to add your own track.";
@@ -134,10 +134,10 @@
 "kTileHelpWelcomeLapTimer" = "Welcome to <hl>LONGPRODUCTNAME</hl>. Select any of the groups above to drill into the rich functionality provided. The groups are structured in <ui>Prepare Race</ui>, the <ui>Race</ui> itself, and any <ui>Analysis</ui> after race.";
 
 /* Tile View Help */
-"kTileHelpRace" = "Various views to be used while driving. <ui>Timer</ui> is the recommended view available both in portrait and landscape. Turn the device to landscape in <ui>Timer View</ui> to make PRODUCTNAME's <ui>Video View</ui> available.";
+"kTileHelpRace" = "Various views to be used while driving. <ui>Timer</ui> is the recommended view available both in portrait and landscape. Turn the device to landscape in <ui>Timer View</ui> to make <hl>PRODUCTNAME</hl>'s <ui>Video View</ui> available.";
 
 /* Tile View Help */
-"kTileHelpAnalytics" = "This is PRODUCTNAME's analytics area. To analyze data in realtime, check the views available in <ui>Realtime</ui>. Most analytics for laps recorded is available from <ui>Lap List</ui>. It shows a list of all laps recorded and includes the video overlaying capability.";
+"kTileHelpAnalytics" = "This is <hl>PRODUCTNAME</hl>'s analytics area. To analyze data in realtime, check the views available in <ui>Realtime</ui>. Most analytics for laps recorded is available from <ui>Lap List</ui>. It shows a list of all laps recorded and includes the video overlaying capability.";
 
 /* Tile View Help */
 "kTileHelpRealtime" = "All views showing sensor data in real time (<ui>GPS</ui>, <ui>Satellites</ui>, <ui>Acceleration</ui>, and <ui>Engine</ui>). Browse through PRODUCTNAME's <ui>Online View</ui> to see active tracks world wide - including driver positions on track.";
@@ -163,6 +163,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "OBD Rate" = "Rate";
 
+/* Tile View Help */
 "kTileHelpUsingRearCam" = "The <ui>Rear View</ui> above may show a <hl>picture up to 5 seconds in the past</hl>.\n\nPlease take care to never use it as a replacement for your mirrors and guides directing you. Instead, drive using road legal equipment. Once you stop, verify your position after a short delay.\n\n<hl>Reminder: Use is at your own risk.</hl>";
 
 /* HeavyDuty */
@@ -194,4 +195,10 @@
 
 /* e.g. moving 50 kg of luggage *to* vehicle */
 "kMoveToVehicle" = "to";
+
+/* Tile View Help */
+"kTileHelpMaintainFeaturesWithoutOBD" = "Maintain features available in <hl>PRODUCTNAME</hl> (<ui>Add-Ons</ui>), access the full list of vehicles defined, and change various app settings. <ui>Sensor List</ui> shows all sensors. Besides built-in sensors, <hl>PRODUCTNAME</hl> supports external GPS sensors.";
+
+/* Tile View Help */
+"kTileHelpSailing" = "All functions you may want to use while sailing. Use <ui>Navigation</ui> to see bearing to your target as well as the deviation from the course planned. <ui>Dynamics</ui> shows your vessels dynamics and <ui>Reference</ui> lists a number of nautic signals.";
 
