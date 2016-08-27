@@ -982,7 +982,7 @@
 "Bearing to Waypoint" = "Richtung";
 
 /* Sensors and Sensor List */
-"Battery %hu%%" = ", Batterie %hu%%";
+", battery %hu%%" = ", Batterie %hu%%";
 
 "Connected @ %hu Hz" = "Verbunden %hu Hz";
 
@@ -3523,7 +3523,7 @@
 "Long press any of the rows below to either try a <ui>Restore</ui> or <ui>Delete</ui> the local database backup." = "Um eines der lokalen Backups wiederherzustellen oder zu löschen, bitte die Zeile lange drücken und <ui>Wiederherstellen</ui> bzw. <ui>Löschen</ui> auswählen.";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = "Batterie %hu%%";
+"Battery %hu%%" = "Batterie %hu%%";
 
 "Firmware: %@" = "Firmware: %@";
 
@@ -3552,4 +3552,18 @@
 "Any individual name you want to give to this vessel." = "Ein individueller Name für das Schiff.";
 
 "App is not designed for emergency critical operation. The author is not responsible for any injuries or property damage that may occur during use of this software." = "Diese App ist nicht für den Einsatz in Notfällen geeignet. Der Autor ist nicht für Verletzungen und Beschädigungen während der Nutzung verantwortlich. Apples EULA bleibt wirksam.";
+
+"Performance" = "Leistung";
+
+"Last Max Speed" = "Letzte Höchstgeschwindigkeit";
+
+"Current Speed" = "Aktuelle Geschwindigkeit";
+
+"Start Speed" = "Start";
+
+"Stop Speed" = "Stopp";
+
+"Distance from Start" = "Strecke seit Start";
+
+"kLastMaxSpeedShort" = "Letzte";
 

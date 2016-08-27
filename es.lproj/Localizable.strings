@@ -974,7 +974,7 @@
 "Bearing to Waypoint" = "Rumbo al waypoint";
 
 /* Sensors and Sensor List */
-"Battery %hu%%" = ", Batería %hu%%";
+", battery %hu%%" = ", Batería %hu%%";
 
 "Connected @ %hu Hz" = "Conectado %hu Hz";
 
@@ -2865,6 +2865,8 @@
 /* About Dialog Duplicates */
 "The author is not responsible for any injuries or property damage that may occur during use of this software." = "El autor no se hace responsable de su mala utilización o de los daños que se puedan producir durante su uso.";
 
+"Battery" = "Batería";
+
 "Publish" = "Publicar";
 
 /* Video Recording app */
@@ -2877,7 +2879,7 @@
 "Finish" = "Meta";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = "Batería %hu%%";
+"Battery %hu%%" = "Batería %hu%%";
 
 "Any individual name you want to give to this vehicle." = "Cualquier nombre que se desee dar a este vehículo.";
 

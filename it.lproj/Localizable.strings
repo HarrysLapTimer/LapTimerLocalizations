@@ -890,7 +890,7 @@
 "Bearing to Waypoint" = "Direzione per il Waypoint";
 
 /* Sensors and Sensor List */
-"Battery %hu%%" = ", Batteria %hu%%";
+", battery %hu%%" = ", Batteria %hu%%";
 
 "Connected @ %hu Hz" = "Collegato a %hu Hz";
 
@@ -2491,7 +2491,7 @@
 "Finish" = "Arrivo";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = "Batteria %hu%%";
+"Battery %hu%%" = "Batteria %hu%%";
 
 "Any individual name you want to give to this vehicle." = "Qualsiasi nome dato a questo veicolo. ";
 

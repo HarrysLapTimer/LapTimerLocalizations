@@ -893,7 +893,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-			"Error closing / writting one of LapTimer's databases. Please enlarge available memory."
+			"Error closing / writing one of LapTimer's databases. Please enlarge available memory."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Exit LapTimer" </TEXT>

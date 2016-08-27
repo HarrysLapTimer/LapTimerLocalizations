@@ -843,7 +843,7 @@
 "Bearing to Waypoint" = "道標の向き";
 
 /* Sensors and Sensor List */
-"Battery %hu%%" = ", バッテリ %hu%%";
+", battery %hu%%" = ", バッテリ %hu%%";
 
 "Connected @ %hu Hz" = "接続 @ %hu HZ";
 
@@ -1619,11 +1619,13 @@
 /* About Dialog Duplicates */
 "The author is not responsible for any injuries or property damage that may occur during use of this software." = "本ソフトウエアを利用したことで起因するいかなる怪我、事故、破損について作者は一切の責任を負いません．";
 
+"Battery" = "バッテリ";
+
 "Publish" = "公開";
 
 /* Video Recording app */
 "%hu Recordings" = "%hu 録音";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = "バッテリ %hu%%";
+"Battery %hu%%" = "バッテリ %hu%%";
 

@@ -895,7 +895,7 @@
 "Bearing to Waypoint" = "Cap pour le Waypoint";
 
 /* Sensors and Sensor List */
-"Battery %hu%%" = ", Batterie %hu%%";
+", battery %hu%%" = ", Batterie %hu%%";
 
 "Connected @ %hu Hz" = "Connecté à %hu Hz";
 
@@ -2535,6 +2535,8 @@
 /* About Dialog Duplicates */
 "The author is not responsible for any injuries or property damage that may occur during use of this software." = "L’auteur ne peut être tenu pour responsable en cas de dommage quelque soit sa nature lors de l’utilisation de ce programme.";
 
+"Battery" = "Batterie";
+
 "Publish" = "Transmettre";
 
 /* Video Recording app */
@@ -2545,7 +2547,7 @@
 "Finish" = "Arrivée";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = "Batterie %hu%%";
+"Battery %hu%%" = "Batterie %hu%%";
 
 "Any individual name you want to give to this vehicle." = "Le nom que vous souhaitez attribuer à ce véhicule.";
 

@@ -202,3 +202,5 @@
 /* Tile View Help */
 "kTileHelpSailing" = "All functions you may want to use while sailing. Use <ui>Navigation</ui> to see bearing to your target as well as the deviation from the course planned. <ui>Dynamics</ui> shows your vessels dynamics and <ui>Reference</ui> lists a number of nautic signals.";
 
+"kLastMaxSpeedShort" = "Last Max";
+

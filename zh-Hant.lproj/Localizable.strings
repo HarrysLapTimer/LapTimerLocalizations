@@ -969,7 +969,7 @@
 "Bearing to Waypoint" = "指向路點方向";
 
 /* Sensors and Sensor List */
-"Battery %hu%%" = ", 電量 %hu%%";
+", battery %hu%%" = ", 電量 %hu%%";
 
 "Connected @ %hu Hz" = "已連接 %hu Hz";
 
@@ -3013,7 +3013,7 @@
 "%hu Recordings" = "%hu 記錄";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = "電量 %hu%%";
+"Battery %hu%%" = "電量 %hu%%";
 
 "System" = "系統";
 
