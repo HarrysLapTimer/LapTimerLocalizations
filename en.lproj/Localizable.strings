@@ -204,3 +204,6 @@
 
 "kLastMaxSpeedShort" = "Last Max";
 
+/* Tile View Help */
+"kTileHelpWelcomeDyno" = "Welcome to <hl>LONGPRODUCTNAME</hl>. Select <ui>Performance</ui> to measure acceleration or deceleration, and <ui>Results</ui> to analyze your runs. Pressing <ui>Administration</ui> will allow you to customize the app to your personal requirements.";
+

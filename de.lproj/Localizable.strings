@@ -202,6 +202,11 @@
 /* Tile View Help */
 "kTileHelpSailing" = "Alle Funktionen die man während des Segelns nutzen kann. Wähle <ui>Navigation</ui> um den Kurs zum Ziel und die Kursabweichung zu sehen. <ui>Lage</ui> zeigt die Bewegung des Schiffs und <ui>Referenz</ui> listet eine Reihe von nautischen Signalen auf.";
 
+"kLastMaxSpeedShort" = "Letzte";
+
+/* Tile View Help */
+"kTileHelpWelcomeDyno" = "Willkommen bei <hl>LONGPRODUCTNAME</hl>. Wähle <ui>Leistung</ui> um Beschleunigung oder Verzögerung zu messen und wähle <ui>Resultate</ui> um die Läufe zu analysieren. In <ui>Administration</ui> kann die App an Deine Anforderungen angepasst werden.";
+
 "Video recording is disabled currently. This means LapTimer will time laps and record data only. To enable video recording in addition, select the appropriate mode in Timer ‣ Video ‣ Video Operation." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte eine geeignete Auswahl in Timer ‣ Video ‣ Video Funktion wählen.";
 
 "Groups" = "Gruppen";
@@ -2840,7 +2845,7 @@
 "Attach your phone according to one of 4 valid mounting presets or let <hl>PRODUCTNAME</hl> calibrate orientation individually." = "Eine der 4 vordefinierten Halterpositionen auswählen. Option: individuelle Kalibrierung durch <hl>PRODUCTNAME</hl>.";
 
 /* Quick Reference - keep length */
-"Be sure <hl>PRODUCTNAME's</hl> <ui>System Status</ui> shows an overall rating <ui>All Set</ui>. A red alert should not be ignored—press it to get help." = "Prüfen ob <ui>Bereit</ui> für <hl>PRODUCTNAMEs</hl> <ui>Gesamt-status</ui> gezeigt wird. Ein rotes Warndreieck nicht ignorieren — für Hilfe berühren.";
+"Be sure <hl>PRODUCTNAME's</hl> <ui>System Status</ui> shows an overall rating <ui>All Set</ui>. A red alert should not be ignored—press it to get help." = "Prüfen ob <ui>Bereit</ui> für <hl>PRODUCTNAMEs</hl> <ui>Gesamt-\nstatus</ui> gezeigt wird. Ein rotes Warndreieck nicht ignorieren — für Hilfe berühren.";
 
 /* Quick Reference - keep length */
 "Select a timer view (e.g. <ui>Timer</ui> or <ui>Speedo</ui>) before leaving the pits. For video, press the <ui>Video</ui> button." = "Vor dem Verlassen der Box eine Zeitnahme Ansicht (z.B. <ui>Timer</ui> oder <ui>Tacho</ui>) wählen. Option: <ui>Video</ui> Aufzeichnung aktivieren.";
@@ -3565,5 +3570,9 @@
 
 "Distance from Start" = "Strecke seit Start";
 
-"kLastMaxSpeedShort" = "Letzte";
+/* Quick Reference - keep length */
+"Select <ui>Performance</ui> view and adjust <ui>Start</ui> and <ui>Stop</ui> speeds as required. Start driving, recording is automatic." = "Wähle die Ansicht <ui>Leistung</ui> und passe <ui>Start-</ui> und <ui>Stopp</ui>geschwindigkeiten an. Fahre los - die Aufzeichung erfolgt automatisch!";
+
+/* Quick Reference - keep length */
+"Select any lap from <ui>Results</ui> and follow <ui>Data Recordings</ui> to analyse your drive using the many built-in charts and graphs." = "Runde aus <ui>Resultate</ui> wählen und <ui>Daten Aufzeichung</ui> / <ui>Vorschau</ui> folgen um verschiede <ui>Diagramme</ui> auszuwerten.";
 
