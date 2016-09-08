@@ -3576,3 +3576,6 @@
 /* Quick Reference - keep length */
 "Select any lap from <ui>Results</ui> and follow <ui>Data Recordings</ui> to analyse your drive using the many built-in charts and graphs." = "Runde aus <ui>Resultate</ui> wählen und <ui>Daten Aufzeichung</ui> / <ui>Vorschau</ui> folgen um verschiede <ui>Diagramme</ui> auszuwerten.";
 
+/* Help text used for video distribution on Android. %s is replaces by the app name */
+"Video created by %s. Please visit www.gps-laptimer.de for more information on the world's #1 lap timer." = "Video wurde mit %s erstellt. Für mehr Information zur weltweit meist genutzen Lap Timer gibt es unter www.gps-laptimer.de!";
+
