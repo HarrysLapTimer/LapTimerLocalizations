@@ -550,7 +550,7 @@
 
 "%s Trace Log" = "%s Cronistoria(e)";
 
-"Tracefile from former run found, preparing..." = "Cronistoria transazione precedente trovata. Preparazione in corso ...";
+"Trace file from former run found, preparing..." = "Cronistoria transazione precedente trovata. Preparazione in corso ...";
 
 "Creating Export Files..." = "Creazione dei File d'Esportazione ...";
 

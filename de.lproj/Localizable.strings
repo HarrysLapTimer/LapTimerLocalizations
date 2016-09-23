@@ -647,7 +647,7 @@
 
 "%s Trace Log" = "%s Protokoll";
 
-"Tracefile from former run found, preparing..." = "Protokoll von einem vorherigen Lauf gefunden, bereite vor...";
+"Trace file from former run found, preparing..." = "Protokoll von einem vorherigen Lauf gefunden, bereite vor...";
 
 "Creating Export Files..." = "Erstelle Export Dateien...";
 

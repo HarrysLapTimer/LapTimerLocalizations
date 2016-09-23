@@ -166,7 +166,7 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="2100" COMMENT="Message (for Logging)">
+	<ALERT_RESOURCE RESOURCE_ID="2100" COMMENT="Message (for Tracing)">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
@@ -961,7 +961,20 @@
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+    <ALERT_RESOURCE RESOURCE_ID="6911" COMMENT="TracefileDoesNotExistOrCantBeSent">
+        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Error" </TITLE>
+        <MESSAGE>
+            "Trace file could not be sent. Please verify trace file generation is turned on and permissions requested are granted."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="7000" COMMENT="NoValidGPSPositionForNavigation">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>

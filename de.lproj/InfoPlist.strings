@@ -1,0 +1,19 @@
+/* InfoPlist.strings
+  LapTimerLocalizations
+
+  Created by Harald on 22/09/2016. */
+
+"NSBluetoothPeripheralUsageDescription" = "Optionale, aber empfohlene Berechtigung um Bluetooth Low Energy Sensoren nutzen zu können.";
+
+"NSLocationAlwaysUsageDescription" = "Notwendige Berechtigung um Reisen aufzuzeichnen. Die App ist ohne diese Berechtigung nicht voll funktionsfähig.";
+
+"NSLocationWhenInUseUsageDescription" = "Notwendige Berechtigung um Positions- und andere Daten anzuzeigen und aufzuzeichnen. Die App ist ohne diese Berechtigung nicht funktionsfähig.";
+
+"NSPhotoLibraryUsageDescription" = "Optionale, aber empfohlene Berechtigung um vorhandene Videos zu nutzen, Videos mit Overlay zu erstellen und vorhande Bilder eines Fahrzeugs anzuzeigen.";
+
+"NSCameraUsageDescription" = "Optionale, aber empfohlene Berechtigung um Videos aufzeichnen zu können.";
+
+"NSHealthShareUsageDescription" = "Optionale, aber empfohlene Berechtigung zur Anzeige des Pulses.";
+
+"NSMicrophoneUsageDescription" = "Optionale, aber empfohlene Berechtigung um Videos aufzeichnen zu können.";
+

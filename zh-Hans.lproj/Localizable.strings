@@ -629,7 +629,7 @@
 
 "%s Trace Log" = "%s 定位日志";
 
-"Tracefile from former run found, preparing..." = "发现上一次驾驶的定位文件，正在进行准备…";
+"Trace file from former run found, preparing..." = "发现上一次驾驶的定位文件，正在进行准备…";
 
 "Creating Export Files..." = "制作导出文件中…";
 

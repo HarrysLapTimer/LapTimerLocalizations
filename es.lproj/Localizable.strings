@@ -634,7 +634,7 @@
 
 "%s Trace Log" = "%s Registro";
 
-"Tracefile from former run found, preparing..." = "Archivo de rastreo encontrado, preparando...";
+"Trace file from former run found, preparing..." = "Archivo de rastreo encontrado, preparando...";
 
 "Creating Export Files..." = "Creando Archivos de Exportación...";
 

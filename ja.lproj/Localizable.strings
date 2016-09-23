@@ -511,7 +511,7 @@
 
 "%s Trace Log" = "%s トレースログ";
 
-"Tracefile from former run found, preparing..." = "トレースファイルが見つかりました, 準備中...";
+"Trace file from former run found, preparing..." = "トレースファイルが見つかりました, 準備中...";
 
 "Creating Export Files..." = "外部出力ファイル作成中...";
 

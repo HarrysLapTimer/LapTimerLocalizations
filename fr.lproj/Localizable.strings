@@ -555,7 +555,7 @@
 
 "%s Trace Log" = "%s Historique(s)";
 
-"Tracefile from former run found, preparing..." = "Historique transaction précédente trouvé. Préparation en cours ...";
+"Trace file from former run found, preparing..." = "Historique transaction précédente trouvé. Préparation en cours ...";
 
 "Creating Export Files..." = "Création des Fichiers d'Exportation ...";
 
