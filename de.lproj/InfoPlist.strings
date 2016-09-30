@@ -11,9 +11,11 @@
 
 "NSPhotoLibraryUsageDescription" = "Optionale, aber empfohlene Berechtigung um vorhandene Videos zu nutzen, Videos mit Overlay zu erstellen und vorhande Bilder eines Fahrzeugs anzuzeigen.";
 
-"NSCameraUsageDescription" = "Optionale, aber empfohlene Berechtigung um Videos aufzeichnen zu können.";
+"NSCameraUsageDescription" = "Optionale, aber empfohlene Berechtigung um Videos aufzeichnen oder Live anzeigen zu können.";
 
 "NSHealthShareUsageDescription" = "Optionale, aber empfohlene Berechtigung zur Anzeige des Pulses.";
 
-"NSMicrophoneUsageDescription" = "Optionale, aber empfohlene Berechtigung um Videos aufzeichnen zu können.";
+"NSMicrophoneUsageDescription" = "Optionale, aber empfohlene Berechtigung um Videos aufzeichnen oder Live anzeigen zu können.";
+
+"NSHealthUpdateUsageDescription" = "Optionale, aber empfohlene Berechtigung zur Anzeige des Pulses.";
 

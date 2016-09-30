@@ -11,9 +11,11 @@
 
 "NSPhotoLibraryUsageDescription" = "Optional, but recommended permission to allow use of existing videos, to store overlaid videos, and to use existing vehicle pictures.";
 
-"NSCameraUsageDescription" = "Optional, but recommended permission to allow recording of videos.";
+"NSCameraUsageDescription" = "Optional, but recommended permission to allow recording or live display of videos.";
 
 "NSHealthShareUsageDescription" = "Optional, but recommended permission to allow display of heart rates.";
 
-"NSMicrophoneUsageDescription" = "Optional, but recommended permission to allow recording of videos.";
+"NSMicrophoneUsageDescription" = "Optional, but recommended permission to allow recording or live display of videos.";
+
+"NSHealthUpdateUsageDescription" = "Optional, but recommended permission to allow display of heart rates.";
 
