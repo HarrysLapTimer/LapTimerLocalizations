@@ -122,7 +122,7 @@
 "kTileHelpWelcome" = "Welcome to <hl>LONGPRODUCTNAME</hl>.\nSelect any of the groups above to drill into the rich functionality provided. In case you want to add tiles from this sub groups for fast access, press the yellow stars to create a <ui>Favorite</ui> here.";
 
 /* Tile View Help */
-"kTileHelpWelcomeBuddy" = "Welcome to <hl>LONGPRODUCTNAME</hl>. Select <ui>Trip Computer</ui> to get a complete GPS based trip computer. <ui>GPS</ui> offers a life view on your current location. With an OBD II accessory attached, <ui>Engine</ui> adds a detailed car status.";
+"kTileHelpWelcomeBuddy" = "Welcome to <hl>LONGPRODUCTNAME</hl>. Select <ui>Trip Computer</ui> to get a complete GPS based trip computer. <ui>GPS</ui> offers a live view on your current location. With an OBD II accessory attached, <ui>Engine</ui> adds a detailed car status.";
 
 /* Tile View Help */
 "kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl> comes with way point based navigation capabilities (<ui>Trip Computer</ui>). Define way points in one of the <ui>Map</ui> or <ui>GPS</ui> views, or download them from <ui>Add-ons</ui>.";

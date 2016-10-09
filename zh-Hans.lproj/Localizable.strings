@@ -2784,7 +2784,7 @@
 
 "(Lateral acceleration dotted)" = "(虚线标出侧向加速度)";
 
-"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLife View Streaming: %@\nNumber of Videos: %hu\n" = "%@\n电池状态：%hu%%\n剩余录制时间：%s\n录制中：%@\n视频流：%@\n视频数量：%hu\n";
+"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLive View Streaming: %@\nNumber of Videos: %hu\n" = "%@\n电池状态：%hu%%\n剩余录制时间：%s\n录制中：%@\n视频流：%@\n视频数量：%hu\n";
 
 "Auto Preset" = "自动选择配置";
 

@@ -2789,7 +2789,7 @@
 
 "(Lateral acceleration dotted)" = "(Aceleración Lateral por puntos)";
 
-"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLife View Streaming: %@\nNumber of Videos: %hu\n" = "%@\nNivel Batería: %hu%%\nTiempo de Vídeo restante: %s\nGrabación: %@\nLife View Streaming: %@\nNumero de Videos: %hu\n";
+"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLive View Streaming: %@\nNumber of Videos: %hu\n" = "%@\nNivel Batería: %hu%%\nTiempo de Vídeo restante: %s\nGrabación: %@\nLive View Streaming: %@\nNumero de Videos: %hu\n";
 
 "Auto Preset" = "Auto Preset";
 

@@ -2804,7 +2804,7 @@
 
 "(Lateral acceleration dotted)" = "(Querbeschleunigung gestrichelt)";
 
-"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLife View Streaming: %@\nNumber of Videos: %hu\n" = "%@\nBatteriestand: %hu%%\Verbleibende Aufnahmezeit: %s\nAufzeichung: %@\nLife Streaming: %@\Anzahl an Videos: %hu\n";
+"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLive View Streaming: %@\nNumber of Videos: %hu\n" = "%@\nBatteriestand: %hu%%\Verbleibende Aufnahmezeit: %s\nAufzeichung: %@\nLive Streaming: %@\Anzahl an Videos: %hu\n";
 
 "Auto Preset" = "Voreinstellung";
 
@@ -3578,4 +3578,18 @@
 
 /* Help text used for video distribution on Android. %s is replaces by the app name */
 "Video created by %s. Please visit www.gps-laptimer.de for more information on the world's #1 lap timer." = "Video wurde mit %s erstellt. Für mehr Information zur weltweit meist genutzen Lap Timer gibt es unter www.gps-laptimer.de!";
+
+"No Latitude" = "Kein Breitengrad";
+
+"No Longitude" = "Kein Längengrad";
+
+"No Waypoint" = "Kein Wegepunkt";
+
+"Start Navigation" = "Navigation starten";
+
+"Stop Navigation" = "Navigation beenden";
+
+"No Course" = "Kein Kurs";
+
+"Course" = "Kurs";
 
