@@ -46,7 +46,7 @@
 
 "Last Lap" = "前回ラップ";
 
-"POI Detection" = "POI検出";
+"POI Detection (undirected only)" = "POI検出";
 
 "Narrow" = "狭め";
 
@@ -98,7 +98,7 @@
 
 "Energy Saving" = "省エネ";
 
-"Reset standard settings when LapTimer is started the next time" = "次回LapTimer起動時に標準設定にリセット";
+"Reset standard settings when the app is started the next time" = "Reset standard settings when the app is started the next time";
 
 "Reset Settings" = "設定リセット";
 

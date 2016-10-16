@@ -46,7 +46,7 @@
 
 "Last Lap" = "Ultimo Giro";
 
-"POI Detection" = "Rilevazione di POI";
+"POI Detection (undirected only)" = "Rilevazione di POI";
 
 "Narrow" = "Vicino";
 
@@ -100,7 +100,7 @@
 
 "System" = "Sistema";
 
-"Reset standard settings when LapTimer is started the next time" = "Inizializzare di nuovo al prossimo avvio di LapTimer";
+"Reset standard settings when the app is started the next time" = "Reset standard settings when the app is started the next time";
 
 "Reset Settings" = "Inizializzare di nuovo";
 

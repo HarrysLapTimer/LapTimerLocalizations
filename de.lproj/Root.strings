@@ -46,7 +46,7 @@
 
 "Last Lap" = "Letzte Runde";
 
-"POI Detection" = "POI Erkennung";
+"POI Detection (undirected only)" = "POI Erkennung (ohne Richtung)";
 
 "Narrow" = "Eng";
 
@@ -100,7 +100,7 @@
 
 "System" = "System";
 
-"Reset standard settings when LapTimer is started the next time" = "Standard Einstellungen beim nächsten Start wieder herstellen";
+"Reset standard settings when the app is started the next time" = "Standard Einstellungen beim nächsten Start wieder herstellen";
 
 "Reset Settings" = "Zurücksetzen";
 
@@ -237,4 +237,18 @@
 "GoPro HERO4 SE/BE" = "GoPro HERO4 SE/BE";
 
 "GoPro HERO4 Session" = "GoPro HERO4 Session";
+
+"Define publishing for Online Racing. 'Never' turns online activities off. Driver ID is a short identifier used for the Hall of Fame." = "Definiert die Veröffentlichung von Online Rennergebnissen. 'Nie' schaltet alle online Aktivitäten ab. Die Fahrerkennung ist eine in der Bestenliste gezeigte Abkürzung.";
+
+"Various display options. Setting Skin to 'Day / Night' will switch between dark and strong contrast coloring schemes during sun raise and sun set." = "Verschiedene Anzeigeoptionen. Der Skin 'Tag / Nacht' schaltet bei Sonnenaufgang und -untergang das Farbschema zwischen Dunkel und hohem Kontrast um.";
+
+"Various sound options. Ticks sound is used for Classic View. Beep is a short audio signal issued when passing start / finish and split positions." = "Verschiedene Audiooptionen. Der Ticks Ton wird in der Stoppuhr Ansicht verwendet. Hinweis ist ein kurzes Audiosignal das bei Überfahren von Start / Ziel und Zwischenzeiten ertönt.";
+
+"Please use 'Automatic Preset' for acceleration handling whenever possible. Quick Reference illustration #2 shows device orientations detected automatically." = "Bitte die 'Automatische Voreinstellung' wann immer möglich verwenden. Die Abbildung #2 im Schnelleinsteig zeigt die Geräte-Orientierungen, die automatisch erkannt werden.";
+
+"MultiCam Preset defines resolution and 'Master' / 'Picture in Picture' assignments of footage recorded by external cams. WiFi password is necessary for GoPro HERO 3/3+ series only." = "Der MultiCam Standard legt die Auflösung der Videoaufzeichnung und die Zuordnung als Hauptfilm oder Bild im Bild von externen Videos aus. Das WiFi Passwort wird nur für die GoPro HERO3/3+ Serie benötigt.";
+
+"The app is operated automatically most of the time. In case you want to start and stop recordings manually, turn on Manual Timing. It will add additional buttons to timer views." = "Die App wird zumeist im automatischen Modus betrieben. Für den Fall, dass Aufzeichungen manuell erfolgen sollen, bitte Manuelle Zeitnahme auswählen. Damit werden zusätzliche Buttons in der Timer Ansicht verfügbar.";
+
+"Please use 'Automatic Preset' for acceleration handling whenever possible. Quick Reference illustration #4 shows device orientations detected automatically." = "Bitte die 'Automatische Voreinstellung' wann immer möglich verwenden. Die Abbildung #4 im Schnelleinsteig zeigt die Geräte-Orientierungen, die automatisch erkannt werden.";
 

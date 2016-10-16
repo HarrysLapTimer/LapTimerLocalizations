@@ -1747,7 +1747,7 @@
 "Short driver ID used for Online Racing: CURRENTVALUE" = "Kurze Fahrerkennung für Online Racing: CURRENTVALUE";
 
 /* Android preferences help texts */
-"Define the publishing level for Online Racing; None turns activities off: CURRENTVALUE" = "Veröffentlichung von eigenen Rundendaten, 'Nie' schaltet die Funktion aus: CURRENTVALUE";
+"Define the publishing level for Online Racing; Never turns activities off: CURRENTVALUE" = "Veröffentlichung von eigenen Rundendaten, 'Keine' schaltet die Funktion aus: CURRENTVALUE";
 
 /* Android preferences help texts */
 "Turn (loud) startup sound on and off" = "Startup Sound (ziemlich laut) ein- und ausschalten";

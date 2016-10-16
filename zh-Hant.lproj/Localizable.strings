@@ -1729,7 +1729,7 @@
 "Short driver ID used for Online Racing: CURRENTVALUE" = "車手在線排行中使用的短字母代號: CURRENTVALUE";
 
 /* Android preferences help texts */
-"Define the publishing level for Online Racing; None turns activities off: CURRENTVALUE" = "圈時上傳服務器設置；可選擇停用: CURRENTVALUE";
+"Define the publishing level for Online Racing; Never turns activities off: CURRENTVALUE" = "圈時上傳服務器設置；可選擇停用: CURRENTVALUE";
 
 /* Android preferences help texts */
 "Turn (loud) startup sound on and off" = "啓動聲效開關";

@@ -1776,13 +1776,27 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Warnung" </TITLE>
 		<MESSAGE>
-            "Sicher, dass der Overlay Typ überschrieben werden soll? Die Funktion dient ausschliesslich der Wartung. Um ein Video mit einem Overlay zu versehen, bitte zunächst die entsprechende Runde aus der Runden Liste auswählen. Hier befindet sich der 'Overlay' Button direkt unter der Video-Vorschau."
+            "Sicher, dass der Overlay Typ überschrieben werden soll? Die Funktion dient ausschliesslich der Wartung. Um ein Video mit einem Overlay zu versehen, bitte entweder den 'Anzeigen' oder den 'Export' Button direkt unter der Video-Vorschau drücken."
         </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
             <TEXT> "Überschreiben" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9075" COMMENT="VideoTypeChangeConfirmation">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Zum Fortfahren wird eine weitere Bestätigung benötigt. Das Überschreiben des Overlay Typ is fast immer falsch. Bitte Bestätigen wenn wirklich klar ist was das bedeutet."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Abbrechen" </TEXT>
+            <TEXT> "Bestätigen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>

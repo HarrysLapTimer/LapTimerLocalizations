@@ -46,7 +46,7 @@
 
 "Last Lap" = "Última Vuelta";
 
-"POI Detection" = "Detección de PDI";
+"POI Detection (undirected only)" = "Detección de PDI";
 
 "Narrow" = "Estrecho";
 
@@ -100,7 +100,7 @@
 
 "System" = "Sistema";
 
-"Reset standard settings when LapTimer is started the next time" = "Resetear ajustes predeterminados de LapTimer. Es necesario reiniciar.";
+"Reset standard settings when the app is started the next time" = "Reset standard settings when the app is started the next time";
 
 "Reset Settings" = "Resetear Ajustes";
 

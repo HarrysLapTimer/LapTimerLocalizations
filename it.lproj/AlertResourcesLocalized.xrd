@@ -1728,13 +1728,27 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Avvertenza" </TITLE>
+        <TITLE> "Warning" </TITLE>
         <MESSAGE>
-            "Sostituire il tipo di questo video? Quest'operazione è solo per la manutenzione. Per sostituire un video, seleziona un giro nell'elenco di giri e premi il pulsante 'Overlay' sotto l'anteprima video."
+            "Are you sure you want to override the overlay type of this video? This operation is for maintenance only. To overlay a video, please press the 'Play' or 'Export' button you find below the video preview."
         </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Sovrapponi" </TEXT>
+            <TEXT> "Override" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9075" COMMENT="VideoTypeChangeConfirmation">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Sorry to bother you again. Overriding the overlay type is almost always wrong. Please confirm only in case you are sure you known what is going on."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Confirm" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

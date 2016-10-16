@@ -46,7 +46,7 @@
 
 "Last Lap" = "上一圈";
 
-"POI Detection" = "地标触发";
+"POI Detection (undirected only)" = "地标触发";
 
 "Narrow" = "窄";
 
@@ -100,7 +100,7 @@
 
 "System" = "系统";
 
-"Reset standard settings when LapTimer is started the next time" = "在下次启动App时恢复为默认设置";
+"Reset standard settings when the app is started the next time" = "Reset standard settings when the app is started the next time";
 
 "Reset Settings" = "重置设定";
 

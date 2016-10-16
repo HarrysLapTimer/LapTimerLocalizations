@@ -1655,7 +1655,7 @@
 "Short driver ID used for Online Racing: CURRENTVALUE" = "ID de petit circuit utilisé pour une course en ligne : CURRENTVALUE";
 
 /* Android preferences help texts */
-"Define the publishing level for Online Racing; None turns activities off: CURRENTVALUE" = "Définir le niveau de publication d'une course en ligne; Aucun met fin aux activités : CURRENTVALUE";
+"Define the publishing level for Online Racing; Never turns activities off: CURRENTVALUE" = "Définir le niveau de publication d'une course en ligne; Aucun met fin aux activités : CURRENTVALUE";
 
 /* Android preferences help texts */
 "Turn (loud) startup sound on and off" = "Activer et désactiver le son (fort) de démarrage";

@@ -1740,11 +1740,25 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Warning" </TITLE>
         <MESSAGE>
-            "¿Está seguro de que desea eliminar la sobreimpresión de este vídeo? Se trata de una operación de mantenimiento. Para superponer los datos en un vídeo, seleccione una vuelta de la lista y marque la opción 'Superponer' que se encuentra junto a la previsualización del vídeo."
+            "Are you sure you want to override the overlay type of this video? This operation is for maintenance only. To overlay a video, please press the 'Play' or 'Export' button you find below the video preview."
         </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Suprimir" </TEXT>
+            <TEXT> "Override" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9075" COMMENT="VideoTypeChangeConfirmation">
+        <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Warning" </TITLE>
+        <MESSAGE>
+            "Sorry to bother you again. Overriding the overlay type is almost always wrong. Please confirm only in case you are sure you known what is going on."
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Confirm" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
