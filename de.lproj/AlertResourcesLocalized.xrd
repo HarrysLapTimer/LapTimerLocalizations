@@ -2884,6 +2884,17 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+<ALERT_RESOURCE RESOURCE_ID="9642" COMMENT="HERO3WrongPassword">
+    <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+    <HELP_ID> 0 </HELP_ID>
+    <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+    <TITLE> "Fehler" </TITLE>
+    <MESSAGE> "Deine GoPro HERO3/3+ Kamera meldet, dass sie ein Kommando mit falschem Passwort erhalten hat. Bitte das HERO3/3+ WiFi Passwort in ^1s Einstellungen neu eingeben." </MESSAGE>
+    <BUTTONS>
+        <TEXT> "OK" </TEXT>
+    </BUTTONS>
+</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9650" COMMENT="FeatureNotAvailableInAppEdition">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
