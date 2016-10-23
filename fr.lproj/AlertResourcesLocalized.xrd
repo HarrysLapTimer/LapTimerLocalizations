@@ -3644,7 +3644,7 @@
         <MESSAGE> "We have ^1 ^2 available on the AppStore for you! Currently, you are using ^3. Please update ^1 regularly to get all the benefits, it is free!" </MESSAGE>
         <BUTTONS>
             <TEXT> "Later" </TEXT>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "Update" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

@@ -3702,7 +3702,7 @@
         <MESSAGE> "Wir haben ^1 ^2 für Dich auf dem AppStore bereit gestellt! Aktuell nutzt Du ^3. Bitte aktualisiere ^1 regelmässig um alle Vorteile zu geniesen, Updates sind frei!" </MESSAGE>
         <BUTTONS>
             <TEXT> "Später" </TEXT>
-            <TEXT> "OK" </TEXT>
+            <TEXT> "AppStore" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
