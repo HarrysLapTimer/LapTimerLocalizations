@@ -3593,3 +3593,10 @@
 
 "Course" = "Kurs";
 
+/* Android preferences help */
+"Select level of details shown througout the app. Select 'Plain' in case the standard user interface is looking too busy to you: CURRENTVALUE" = "Auswahl der Menge an Details die angezeigt werden. Wenn die Ansicht zu voll erscheint, bitte 'Einfach' auswählen: CURRENTVALUE";
+
+"Expert" = "Experte";
+
+"Plain" = "Einfach";
+
