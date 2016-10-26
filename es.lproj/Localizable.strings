@@ -974,7 +974,7 @@
 "Bearing to Waypoint" = "Rumbo al waypoint";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = ", Batería %hu%%";
+", Battery %hu%%" = ", Batería %hu%%";
 
 "Connected @ %hu Hz" = "Conectado %hu Hz";
 
@@ -2884,4 +2884,7 @@
 "Any individual name you want to give to this vehicle." = "Cualquier nombre que se desee dar a este vehículo.";
 
 "App is not designed for emergency critical operation. The author is not responsible for any injuries or property damage that may occur during use of this software." = "La aplicación no esta diseñada para operaciones críticas o de emergencia. El autor no se hace res-ponsable de su mala utilización o de los desper-fectos que puedan ocurrir durante de utilización.";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = ", Batería %hu%%";
 

@@ -987,7 +987,7 @@
 "Bearing to Waypoint" = "Richtung";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = ", Batterie %hu%%";
+", Battery %hu%%" = ", Batterie %hu%%";
 
 "Connected @ %hu Hz" = "Verbunden %hu Hz";
 
@@ -3534,7 +3534,7 @@
 
 ", firmware: %@" = ", Firmware: %@";
 
-", not discharging" = ", nicht entladend";
+", Not Discharging" = ", nicht Entladend";
 
 "%@ %@, firmware: %@, hardware: %@" = "%@ %@, Firmware: %@, Hardware: %@";
 
@@ -3599,4 +3599,9 @@
 "Expert" = "Experte";
 
 "Plain" = "Einfach";
+
+", Firmware: %@" = ", Firmware: %@";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = ", Batterie %hu%%";
 

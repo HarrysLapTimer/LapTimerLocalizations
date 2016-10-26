@@ -843,7 +843,7 @@
 "Bearing to Waypoint" = "道標の向き";
 
 /* Sensors and Sensor List */
-", battery %hu%%" = ", バッテリ %hu%%";
+", Battery %hu%%" = ", バッテリ %hu%%";
 
 "Connected @ %hu Hz" = "接続 @ %hu HZ";
 
@@ -1628,4 +1628,7 @@
 
 /* Sensors and Sensor List */
 "Battery %hu%%" = "バッテリ %hu%%";
+
+/* Sensors and Sensor List */
+", battery %hu%%" = ", バッテリ %hu%%";
 
