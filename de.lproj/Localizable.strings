@@ -207,6 +207,15 @@
 /* Tile View Help */
 "kTileHelpWelcomeDyno" = "Willkommen bei <hl>LONGPRODUCTNAME</hl>. Wähle <ui>Leistung</ui> um Beschleunigung oder Verzögerung zu messen und wähle <ui>Resultate</ui> um die Läufe zu analysieren. In <ui>Administration</ui> kann die App an Deine Anforderungen angepasst werden.";
 
+/* SportChrono Buttons */
+"kSportChronoButtonLabelStopVideo" = "Stopp";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelLoopVideo" = "Loop";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelSaveVideo" = "Sichern";
+
 "Video recording is disabled currently. This means LapTimer will time laps and record data only. To enable video recording in addition, select the appropriate mode in Timer ‣ Video ‣ Video Operation." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte eine geeignete Auswahl in Timer ‣ Video ‣ Video Funktion wählen.";
 
 "Groups" = "Gruppen";
@@ -3604,4 +3613,17 @@
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", Batterie %hu%%";
+
+"No recordings matching filter criteria" = "Keine Aufzeichnungen die Filter entsprechen";
+
+/* Export und Export Vehicle View */
+"Recording and Type Selection" = "Auswahl von Aufzeichnung und Type";
+
+"Recording finished!" = "Aufzeichnung beendet!";
+
+"Raw Data" = "Rohdaten";
+
+"Exporting Raw Databases..." = "Exportiere Rohdaten...";
+
+"%s Database" = "%s Datenbank";
 

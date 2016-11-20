@@ -3015,8 +3015,8 @@
 /* Sensors and Sensor List */
 "Battery %hu%%" = "电量 %hu%%";
 
-"System" = "系统";
-
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", 电量 %hu%%";
+
+"System" = "系统";
 
