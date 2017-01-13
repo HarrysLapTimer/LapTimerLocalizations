@@ -142,6 +142,9 @@
 /* Tile View Help */
 "kTileHelpRealtime" = "All views showing sensor data in real time (<ui>GPS</ui>, <ui>Satellites</ui>, <ui>Acceleration</ui>, and <ui>Engine</ui>). Browse through PRODUCTNAME's <ui>Online View</ui> to see active tracks world wide - including driver positions on track.";
 
+/* Tile View Help */
+"kTileHelpFriends" = "Join <ui>Groups</ui> and get in contact with <hl>PRODUCTNAME</hl> users sharing your interests. <ui>Forum</ui> is our primary support channel, find FAQs and post your experience. <ui>Facebook</ui> is our fastest news channel, no registration required!";
+
 /* SportChrono Buttons */
 "kSportChronoButtonLabelResetCalibration" = "Reset";
 

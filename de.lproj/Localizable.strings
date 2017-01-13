@@ -3629,3 +3629,78 @@
 
 "Garmin Cam" = "Garmin Kamera";
 
+/* Group management */
+"Nickname" = "Spitzname";
+
+"Friends" = "Feunde";
+
+"1 Membership" = "1e Mitgliedschaft";
+
+"%hu Memberships" = "%hu Mitgliedschaften";
+
+"Your Membership" = "Deine Mitgliedschaft";
+
+"Shares Name" = "Teilt Namen";
+
+"Allows Contact" = "Erlaubt Kontakt";
+
+"More" = "Mehr";
+
+"Disconnected" = "Getrennt";
+
+"Group #%hu" = "Gruppe #%hu";
+
+"Letters" = "Buchstaben";
+
+"Digits" = "Ziffern";
+
+"Real Name" = "Realname";
+
+"No Data" = "Keine Daten";
+
+"Characters" = "Zeichen";
+
+", max. %hu %@" = ", max. %hu %@";
+
+" (%@ only)" = " (nur %@)";
+
+"<ui>Active</ui> allows you to see other members, and to be visible to the group. To hide temporarily, select <ui>Disconnected</ui>."
+	= "Mit <ui>Aktiv</ui> werden Mitglieder untereinander sichtbar. Mit <ui>Getrennt</ui> kann man sich zeitweise unsichtbar machen.";
+
+"Please enter your <ui>Real Name</ui> and press <ui>Active</ui> to join the group. In case you do not want to enter your real name, please <ui>Leave</ui>."
+	= "Um der Gruppe beizutreten, <ui>Realname</ui> eingeben und <ui>Aktiv</ui> drücken. Wenn das nicht erwünscht ist, <ui>Verlassen</ui> drücken.";
+
+"This group requires additional information to join. Please enter <ui>E-Mail</ui> and/or <ui>Real Name</ui>. When back, please press <ui>Active</ui> to join."
+	= "Weitere Informationen zum Beitritt benötigt. Bitte <ui>E-Mail</ui> und/oder <ui>Realname</ui> eingeben. Anschliessend bitte wieder <ui>Aktiv</ui> drücken.";
+
+"Please enter a valid <ui>Nickname</ui> and press <ui>Active</ui> to join the group."
+	= "Bitte Deinen <ui>Spitznamen</ui> eingeben und anschliessend <ui>Aktiv</ui> zum Beitritt drücken";
+
+"Credentials" = "Zugangsdaten";
+
+//"User" = "Benutzer";
+
+"Join Group" = "Gruppe beitreten";
+
+"Join" = "Beitreten";
+
+"Join <hl>PRODUCTNAME</hl>'s special interest groups! Group members get the opportunity to see friends in <ui>Map View</ui> and meet on site. Depending on the group definition, a real name policy may apply. Or <ui>Request</ui> a group for you and your friends!"
+	= "Trete <hl>PRODUCTNAME</hl>s Gruppen zu speziellen Themen bei! Mitglieder können Freunde in der <ui>Karte</ui> sehen und sich dann leicht treffen. Abhängig von der Gruppe kann ein Realname verlangt werden. Oder erstelle mit <ui>Anfordern</ui> eine Gruppe für Dich und Deine Freunde!";
+
+"%d Likes" = "%d Gefällt mir";
+
+"%d Posts" = "%d Beiträge";
+
+"LapTimer Community" = "LapTimer Gemeinschaft";
+
+"This is the <hl>PRODUCTNAME</hl> community group. While <ui>Active</ui>, you will be visible for other <hl>PRODUCTNAME</hl> users. Meet other drivers on site!"
+	= "Die Gruppe für alle <hl>PRODUCTNAME</hl> Nutzer. Wenn <ui>Aktiv</ui>, bist Du für andere Nutzer sichtbar und kannst sie sehen. Treffe andere Fahrer an der Rennstrecke!";
+
+"Local Track Community" = "Rennstrecken Gemeinschaft";
+
+"The group to get famous! While <ui>Active</ui>, any lap time recorded will be submitted to <hl>PRODUCTNAME</hl>'s <ui>Hall of Fame</ui> automatically."
+	= "Die Gruppe um berühmt zu werden! Solange <ui>Aktiv</ui>, werden alle neuen Rundenzeiten in <hl>PRODUCTNAME</hl>s <ui>Bestenliste</ui> aufgenommen.";
+
+"Request" = "Anfordern";
+
+
