@@ -2337,7 +2337,7 @@
 
 "Criteria" = "标准";
 
-"Lookup" = "查找";
+"Lookup Edmunds" = "查找";
 
 "Make" = "品牌";
 
@@ -2376,6 +2376,7 @@
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "请设置品牌/型号/年份或输入个性化的车辆别名。";
 
+/* Title for vehicle description */
 "Vehicle Description" = "车辆描述";
 
 "Make of vehicle, e.g. 'Porsche' or 'Ford'." = "制造商名称，例如：“保时捷”、“福特”。";

@@ -1969,7 +1969,7 @@
 		<TITLE> "エラー" </TITLE>
 		<MESSAGE> "GPS位置情報が利用不可能.デバイス設定を確認して空がよく見える場所に移動して下さい." </MESSAGE>
 		<BUTTONS>
-			<TEXT> "Settings" </TEXT>"
+			<TEXT> "Settings" </TEXT>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
@@ -2526,7 +2526,7 @@
 		<MESSAGE> "The device's location service is disabled for ^1 currently. This may create issues when transferring overlaid videos to Photo app. Please cancel overlay and allow access to location service in iOS Settings ‣ Privacy ‣ Location Services." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Cancel" </TEXT>
-			<TEXT> "Ignore" </TEXT>"
+			<TEXT> "Ignore" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -2560,7 +2560,7 @@
         <MESSAGE> "Delete the ^1 lap driven by ^2 permanently from Hall of Fame?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Delete" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -2766,7 +2766,7 @@
 		<MESSAGE> "^1 is configured to move files from iCloud to local recordings automatically. To allow moving videos the other way, this feature needs to be turned off." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
-            <TEXT> "Turn Off" </TEXT>"
+            <TEXT> "Turn Off" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -2800,7 +2800,7 @@
         <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
         <BUTTONS>
             <TEXT> "Interupt" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2885,8 +2885,8 @@
 		<MESSAGE> "Connect '^1' as GPS or OBD sensor?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "GPS" </TEXT>
-            <TEXT> "OBD" </TEXT>"
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "OBD" </TEXT>
+            <TEXT> "Cancel" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -2911,8 +2911,8 @@
         <MESSAGE> "Do you want to apply this change to this lap, all laps in the same session, or to all laps recorded this trackday?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Lap" </TEXT>
-            <TEXT> "Session" </TEXT>"
-            <TEXT> "Trackday" </TEXT>"
+            <TEXT> "Session" </TEXT>
+            <TEXT> "Trackday" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2924,7 +2924,7 @@
         <MESSAGE> "Do you want to apply this change to this lap, or to all laps recorded this trackday?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Lap" </TEXT>
-            <TEXT> "Trackday" </TEXT>"
+            <TEXT> "Trackday" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2936,7 +2936,7 @@
         <MESSAGE> "Do you want to apply this change to this lap, or to all laps in the same session?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Lap" </TEXT>
-            <TEXT> "Session" </TEXT>"
+            <TEXT> "Session" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2959,7 +2959,7 @@
         <MESSAGE> "Please confirm you have read and agree to the submission statement. Your challenge will be visible for all users of track '^1'." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2971,7 +2971,7 @@
         <MESSAGE> "Please confirm you have read and agree to the submission statement. Your challenge will be visible for users of track '^1' after entering your secret code '^2'." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2980,9 +2980,10 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Scheduled your challenge for transmission. Please check track '^1' to verify the challenge is online." </MESSAGE>
+        <MESSAGE> "Scheduled your challenge for transmission. Please check track '^1' to verify the challenge is online. You can also invite friends!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
+			<TEXT> "Invite" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3026,9 +3027,10 @@
          <HELP_ID> 0 </HELP_ID>
          <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
          <TITLE> "Information" </TITLE>
-         <MESSAGE> "Your challenge is available for all LapTimer users. So far, it has been downloaded ^1 times." </MESSAGE>
+         <MESSAGE> "Your challenge is available for all LapTimer users. So far, it has been downloaded ^1 times. You can also invite friends!" </MESSAGE>
          <BUTTONS>
              <TEXT> "OK" </TEXT>
+			 <TEXT> "Invite" </TEXT>
          </BUTTONS>
      </ALERT_RESOURCE>
      
@@ -3037,9 +3039,10 @@
          <HELP_ID> 0 </HELP_ID>
          <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
          <TITLE> "Information" </TITLE>
-         <MESSAGE> "Your challenge is available for all LapTimer users entering the List Code ^2. So far, it has been downloaded ^1 times." </MESSAGE>
+         <MESSAGE> "Your challenge is available for all LapTimer users entering the List Code ^2. So far, it has been downloaded ^1 times. You can also invite friends!" </MESSAGE>
          <BUTTONS>
              <TEXT> "OK" </TEXT>
+			 <TEXT> "Invite" </TEXT>
          </BUTTONS>
      </ALERT_RESOURCE>
 
@@ -3225,7 +3228,7 @@
         <MESSAGE> "Reloading payload will adjust both the ^1's and the ^2's vehicle definitions by ^3. Please confirm you want to reload." </MESSAGE>
         <BUTTONS>
             <TEXT> "Reload" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3281,7 +3284,7 @@
         <MESSAGE> "Deleting '^1' will delete any actions included too. Are you sure you want to delete checklist group '^1'?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Delete" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3293,7 +3296,7 @@
         <MESSAGE> "This will add some default gear ratios for a 6-speed gearbox. Values are probably good enough to let ^1 display gears from other OBD data, but may fail in other situation. Please adjust defaults by your vehicle's actual values later." </MESSAGE>
         <BUTTONS>
             <TEXT> "Set Default" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 	
@@ -3327,7 +3330,7 @@
 		<MESSAGE> "Do you want to continue the trip '^1' or start a new one?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "New Trip" </TEXT>
-			<TEXT> "Continue" </TEXT>"
+			<TEXT> "Continue" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3352,7 +3355,7 @@
 		<MESSAGE> "^1, which is required for display, is not installed. Ignore or download ^1 from AppStore?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "AppStore" </TEXT>
-			<TEXT> "Ignore" </TEXT>"
+			<TEXT> "Ignore" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3364,7 +3367,7 @@
 		<MESSAGE> "'Snap to Road' (using Google Roads) found ^1 positions to be snapped to a road, ^2 positions to be added for a nicer display, and ^3 positions to be removed. Do you want to apply this changes?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Cancel" </TEXT>
-			<TEXT> "Apply" </TEXT>"
+			<TEXT> "Apply" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3400,7 +3403,7 @@
 		<MESSAGE> "Found ^1 sections to augment with ^2 positions using Google Directions. Do you want to add this positions?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Cancel" </TEXT>
-			<TEXT> "Add" </TEXT>"
+			<TEXT> "Add" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3458,7 +3461,7 @@
 		<MESSAGE> "Are you sure you want to merge this trip with trip '^1'? Once merged, trip '^1' will be removed from the list permanently." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Cancel" </TEXT>
-			<TEXT> "Merge" </TEXT>"
+			<TEXT> "Merge" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3481,7 +3484,7 @@
 		<MESSAGE> "Station selected has been removed, recordings have been adjusted to directly connect previous and next stations. Do you want to run 'Augment Trip' to complete sections probably missing?'" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "No, Thanks" </TEXT>
-			<TEXT> "Augment Trip" </TEXT>"
+			<TEXT> "Augment Trip" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -3493,7 +3496,7 @@
         <MESSAGE> "This will delete the regular service '^1' and ^2 service(s) performed already. Are you sure you want to delete the complete sequence?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Delete" </TEXT>"
+            <TEXT> "Yes, Delete" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3505,7 +3508,7 @@
         <MESSAGE> "Do you want to delete this vehicle history entry?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Delete" </TEXT>"
+            <TEXT> "Delete" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3517,7 +3520,7 @@
         <MESSAGE> "This introduces a non trivial dependency between regular services (chain or cycle). Are you sure you want to proceed with this change?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Change" </TEXT>"
+            <TEXT> "Yes, Change" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3540,7 +3543,7 @@
         <MESSAGE> "To access this laps for analysis or overlays, they need to be unlocked using a day pass. Do you want to use one of your ^1 day passes to unlock all laps recorded on ^2?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Use Day Pass" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

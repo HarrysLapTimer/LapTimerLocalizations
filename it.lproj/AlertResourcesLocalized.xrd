@@ -2527,7 +2527,7 @@
         <MESSAGE> "Il servizio di localizzazione del dispositivo è attualmente disabilitato ^1. Ciò potrebe creare problemi al trasferimento in Photo app dei video sovrapposti. Per favore cancella la sovrapposizione e permetti l'accesso ai servizi di localizzazione nelle impostazioni di iOS ‣ Privacy ‣ Servizi di Localizzazione." </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Ignore" </TEXT>"
+            <TEXT> "Ignore" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2561,7 +2561,7 @@
         <MESSAGE> "Eliminare il ^1 giro guidato da ^2 in modo permanente dallo Hall of Fame?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Elimina" </TEXT>
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2777,7 +2777,7 @@
         <MESSAGE> "^1 è configurato per spostare file da iCloud automaticamente per registrazioni locali. Per permettere il trasferimento di video dall'altra parte, questa funzione deve essere spenta." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Spegni" </TEXT>"
+            <TEXT> "Spegni" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2811,7 +2811,7 @@
         <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
         <BUTTONS>
             <TEXT> "Interupt" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2896,8 +2896,8 @@
         <MESSAGE> "Collegare '^1' come GPS oppure come sensore OBD ?" </MESSAGE>
         <BUTTONS>
             <TEXT> "GPS" </TEXT>
-            <TEXT> "OBD" </TEXT>"
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "OBD" </TEXT>
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2922,8 +2922,8 @@
         <MESSAGE> "Vuoi applicare questa modifica a questo giro, a tutti i giri della stessa sessione, oppure a tutti i giri registrati in questo giorno di percorsi?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Giro" </TEXT>
-            <TEXT> "Sessione" </TEXT>"
-            <TEXT> "Giorno di percorsi" </TEXT>"
+            <TEXT> "Sessione" </TEXT>
+            <TEXT> "Giorno di percorsi" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2935,7 +2935,7 @@
         <MESSAGE> "Vuoi applicare questa motifica a questo giro, oppure a tutti i giri registrati nel presente giorno di percorsi?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Giro" </TEXT>
-            <TEXT> "Giorno di percorsi" </TEXT>"
+            <TEXT> "Giorno di percorsi" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2947,7 +2947,7 @@
         <MESSAGE> "Vuoi applicare questa motifica a questo giro, oppure a tutti i giri registrati nella stessa sessione?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Giro" </TEXT>
-            <TEXT> "Sessione" </TEXT>"
+            <TEXT> "Sessione" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2970,7 +2970,7 @@
         <MESSAGE> "Conferma di avere letto ed accettato la dichiarazione di presentazione. La tua sfida sarà visibile per tutti gli utenti della pista '^1'." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2982,7 +2982,7 @@
         <MESSAGE> "Conferma di avere letto ed accettato la dichiarazione di presentazione. La tua sfida sarà visibile per tutti gli utenti della pista '^1' dopo avere digitato il tuo codice segreto '^2'." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2991,9 +2991,10 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Informazione" </TITLE>
-        <MESSAGE> "Programma la tua sfida per trasmissione. Controlla la pista '^1' per verificare che la sfida sia online." </MESSAGE>
+        <MESSAGE> "Programma la tua sfida per trasmissione. Controlla la pista '^1' per verificare che la sfida sia online. È inoltre possibile invitare amici!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
+			<TEXT> "Invitare" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3037,9 +3038,10 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Informazione" </TITLE>
-        <MESSAGE> "La tua sfida è disponibile per tutti gli utilizzatori di LapTimer. Fino ad oggi, è stata scaricata ^1 volte." </MESSAGE>
+        <MESSAGE> "La tua sfida è disponibile per tutti gli utilizzatori di LapTimer. Fino ad oggi, è stata scaricata ^1 volte. È inoltre possibile invitare amici!" </MESSAGE>
         <BUTTONS>
-            <TEXT> "OK" </TEXT>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Invitare" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3048,9 +3050,10 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Informazione" </TITLE>
-        <MESSAGE> "La tua sfida è disponibile per tutti gli utilizzatori di LapTimer, che digitino il Codice corretto ^2. Fino ad oggi, è stata scaricata ^1 volte." </MESSAGE>
+        <MESSAGE> "La tua sfida è disponibile per tutti gli utilizzatori di LapTimer, che digitino il Codice corretto ^2. Fino ad oggi, è stata scaricata ^1 volte. È inoltre possibile invitare amici!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
+			<TEXT> "Invitare" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3130,7 +3133,7 @@
         <MESSAGE> "Il sistema configurato per utilizzare una calibrazione standard predefinita in paesi con guida a destra. Fino a quando il dispositivo è montato in posizione verticale sopra la consola centrale e puntando a te, questa è forse l'impostazione migliore. Usare invece la calibrazione specifica dell'accelerazione?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Preimpostazione standard" </TEXT>
-            <TEXT> "Specifica" </TEXT>"
+            <TEXT> "Specifica" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3142,7 +3145,7 @@
         <MESSAGE> "Il sistema configurato per utilizzare una calibrazione standard predefinita in paesi con guida a sinistra. Fino a quando il dispositivo è montato in posizione verticale sopra la consola centrale e puntando a te, questa è forse l'impostazione migliore. Usare invece la calibrazione specifica dell'accelerazione?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Preimpostazione standard" </TEXT>
-            <TEXT> "Specifica" </TEXT>"
+            <TEXT> "Specifica" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3236,7 +3239,7 @@
         <MESSAGE> "Ricaricare il carico utile per regolare le definizioni di ^1 e di ^2 del veicolo a ^3. Conferma la ricarica." </MESSAGE>
         <BUTTONS>
             <TEXT> "Ricarica" </TEXT>
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3292,7 +3295,7 @@
         <MESSAGE> "Eliminando '^1' saranno eliminate anche le azioni incluse. Sei sicuro di voler eliminare la checklist group '^1'?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Elimina" </TEXT>
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3304,7 +3307,7 @@
         <MESSAGE> "Ciò aggiungerà alcuni rapporti di marcia predefiniti per una scatola di 6-marce. I valori sono probabilmente abbastanza buoni per ^1 marce da altri dati OBD, ma possono fallire in altra situazione. Regola in seguito i valori predefiniti secondo i valori reali del veicolo." </MESSAGE>
         <BUTTONS>
             <TEXT> "Imposta valori predefiniti" </TEXT>
-            <TEXT> "Cancella" </TEXT>"
+            <TEXT> "Cancella" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3338,7 +3341,7 @@
         <MESSAGE> "Vuoi continuare il Viaggio '^1' o cominciarne uno nuovo?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Nuovo Viaggio" </TEXT>
-            <TEXT> "Continua" </TEXT>"
+            <TEXT> "Continua" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3363,7 +3366,7 @@
         <MESSAGE> "^1, richiesto per visualizzare, non è installato. Ignora o scarica ^1 dall'AppStore?" </MESSAGE>
         <BUTTONS>
             <TEXT> "AppStore" </TEXT>
-            <TEXT> "Ignora" </TEXT>"
+            <TEXT> "Ignora" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3375,7 +3378,7 @@
         <MESSAGE> "'Snap to Road' (using Google Roads) found ^1 positions to be snapped to a road, ^2 positions to be added for a nicer display, and ^3 positions to be removed. Do you want to apply this changes?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Apply" </TEXT>"
+            <TEXT> "Apply" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3411,7 +3414,7 @@
         <MESSAGE> "Found ^1 sections to augment with ^2 positions using Google Directions. Do you want to add this positions?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancella" </TEXT>
-            <TEXT> "Aggiungi" </TEXT>"
+            <TEXT> "Aggiungi" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3469,7 +3472,7 @@
         <MESSAGE> "Are you sure you want to merge this trip with trip '^1'? Once merged, trip '^1' will be removed from the list permanently." </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Merge" </TEXT>"
+            <TEXT> "Merge" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3492,7 +3495,7 @@
         <MESSAGE> "Station selected has been removed, recordings have been adjusted to directly connect previous and next stations. Do you want to run 'Augment Trip' to complete sections probably missing?'" </MESSAGE>
         <BUTTONS>
             <TEXT> "No, Thanks" </TEXT>
-            <TEXT> "Augment Trip" </TEXT>"
+            <TEXT> "Augment Trip" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3504,7 +3507,7 @@
         <MESSAGE> "This will delete the regular service '^1' and ^2 service(s) performed already. Are you sure you want to delete the complete sequence?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Delete" </TEXT>"
+            <TEXT> "Yes, Delete" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3516,7 +3519,7 @@
         <MESSAGE> "Do you want to delete this vehicle history entry?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Delete" </TEXT>"
+            <TEXT> "Delete" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3528,7 +3531,7 @@
         <MESSAGE> "This introduces a non trivial dependency between regular services (chain or cycle). Are you sure you want to proceed with this change?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Change" </TEXT>"
+            <TEXT> "Yes, Change" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3551,7 +3554,7 @@
         <MESSAGE> "To access this laps for analysis or overlays, they need to be unlocked using a day pass. Do you want to use one of your ^1 day passes to unlock all laps recorded on ^2?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Use Day Pass" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

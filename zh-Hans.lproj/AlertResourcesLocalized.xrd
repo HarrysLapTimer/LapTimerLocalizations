@@ -2522,7 +2522,7 @@
 		<MESSAGE> "当前^1的位置服务已被禁用。这将导致压印有信息图层的视频传输出现问题。请取消图层压印并在iOS中开启位置服务：设置 ‣ 隐私 ‣ 位置服务。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "取消" </TEXT>
-			<TEXT> "忽略并继续" </TEXT>"
+			<TEXT> "忽略并继续" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -2556,7 +2556,7 @@
         <MESSAGE> "从名人堂中删除车手^2的^1计时圈？ " </MESSAGE>
         <BUTTONS>
             <TEXT> "删除" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -2762,7 +2762,7 @@
 		<MESSAGE> "^1已设定为自动将iCloud云端文件下载到本地储存。如要以别的方式传输视频，请关闭此功能。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "确定" </TEXT>
-            <TEXT> "关闭" </TEXT>"
+            <TEXT> "关闭" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -2796,7 +2796,7 @@
         <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
         <BUTTONS>
             <TEXT> "Interupt" </TEXT>
-            <TEXT> "Cancel" </TEXT>"
+            <TEXT> "Cancel" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2881,8 +2881,8 @@
 		<MESSAGE> "将'^1'配置为GPS设备还是OBD设备？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "GPS" </TEXT>
-            <TEXT> "OBD" </TEXT>"
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "OBD" </TEXT>
+            <TEXT> "取消" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -2907,8 +2907,8 @@
         <MESSAGE> "将此操作应用到本计时圈，还是在本节中的全部计时圈，还是在此赛道日记录的全部计时圈？" </MESSAGE>
         <BUTTONS>
             <TEXT> "本计时圈" </TEXT>
-            <TEXT> "本小节" </TEXT>"
-            <TEXT> "本赛道日" </TEXT>"
+            <TEXT> "本小节" </TEXT>
+            <TEXT> "本赛道日" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -2920,7 +2920,7 @@
         <MESSAGE> "将此操作应用到本计时圈，还是在此赛道日记录的全部计时圈？" </MESSAGE>
         <BUTTONS>
             <TEXT> "本计时圈" </TEXT>
-            <TEXT> "本赛道日" </TEXT>"
+            <TEXT> "本赛道日" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2932,7 +2932,7 @@
         <MESSAGE> "将此操作应用到本计时圈，还是在本节中的全部计时圈？" </MESSAGE>
         <BUTTONS>
             <TEXT> "本计时圈" </TEXT>
-            <TEXT> "本小节" </TEXT>"
+            <TEXT> "本小节" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2955,7 +2955,7 @@
         <MESSAGE> "请确认您已阅读声明并同意提交。您的挑战将对所有下载'^1'赛道信息的用户可见。" </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2967,7 +2967,7 @@
         <MESSAGE> "请确认您已阅读声明并同意提交。您的挑战将对所有下载'^1'赛道信息，并准确输入挑战码'^2'的用户可见。" </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2979,6 +2979,7 @@
         <MESSAGE> "已发布您的挑战。请查看赛道'^1'，确认此挑战已上线。" </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
+			<TEXT> "Invite" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3025,6 +3026,7 @@
         <MESSAGE> "所有LapTimer用户都可以查看您的挑战。截止目前，它已被下载^1次。" </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
+			<TEXT> "Invite" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3036,6 +3038,7 @@
         <MESSAGE> "所有输入挑战码'^2'的LapTimer用户都可以查看您的挑战。截止目前，它已被下载^1次。" </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
+			<TEXT> "Invite" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3221,7 +3224,7 @@
         <MESSAGE> "重置负载将调整^1和^2的车辆设定^3。请确认重置。" </MESSAGE>
         <BUTTONS>
             <TEXT> "重置" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3277,7 +3280,7 @@
         <MESSAGE> "删除'^1'将会删除其中包含的所有项目。是否删除分组'^1'？" </MESSAGE>
         <BUTTONS>
             <TEXT> "删除" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3289,7 +3292,7 @@
         <MESSAGE> "默认数据为六速手动变速箱的齿比设定，通常能较好的支持^1连接OBD设备时的档位显示功能，但可能在某些情况下失效。请根据您的车辆设定修改具体数值。" </MESSAGE>
         <BUTTONS>
             <TEXT> "设为默认值" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 	
@@ -3323,7 +3326,7 @@
 		<MESSAGE> "继续行程'^1'，还是开始一个新的行程？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "新建行程" </TEXT>
-			<TEXT> "继续" </TEXT>"
+			<TEXT> "继续" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3348,7 +3351,7 @@
 		<MESSAGE> "用以显示^1的程序尚未安装。可从AppStore下载^1，或暂时忽略" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "转到AppStore" </TEXT>
-			<TEXT> "忽略" </TEXT>"
+			<TEXT> "忽略" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3360,7 +3363,7 @@
 		<MESSAGE> "'街景视图'（使用Google Roads），发现^1 位置显示道路，添加^2位置以获得更好的显示，移除^3位置。接受变更？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "取消" </TEXT>
-			<TEXT> "确认" </TEXT>"
+			<TEXT> "确认" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3396,7 +3399,7 @@
 		<MESSAGE> "根据Google地图，发现^2位置^1区域以完整显示航程。您想增加这些位置吗？" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "取消" </TEXT>
-			<TEXT> "增加" </TEXT>"
+			<TEXT> "增加" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3454,7 +3457,7 @@
 		<MESSAGE> "确认把本次航程与航程'^1'合并？ 一旦合并，航程'^1' 将被永久的删除。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "取消" </TEXT>
-			<TEXT> "合并" </TEXT>"
+			<TEXT> "合并" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3477,7 +3480,7 @@
 		<MESSAGE> "选定的营地已被移除，记录将直接连续到之前或之后的营地。确认‘显示完整航程’以完成可能遗失的区域？'" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "不，谢谢" </TEXT>
-			<TEXT> "显示完整航程" </TEXT>"
+			<TEXT> "显示完整航程" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -3489,7 +3492,7 @@
         <MESSAGE> "此操作将删除常规保养'^1'以及^2次历史养护数据。确定要删除整个养护序列么？" </MESSAGE>
         <BUTTONS>
             <TEXT> "取消" </TEXT>
-            <TEXT> "是的，请删除" </TEXT>"
+            <TEXT> "是的，请删除" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3501,7 +3504,7 @@
         <MESSAGE> "是否要删除本条车辆历史记录？" </MESSAGE>
         <BUTTONS>
             <TEXT> "取消" </TEXT>
-            <TEXT> "删除" </TEXT>"
+            <TEXT> "删除" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3513,7 +3516,7 @@
         <MESSAGE> "此操作将带来养护之前无法忽视的依赖关系（如序列性养护或周期性养护）。是否继续执行此变更？" </MESSAGE>
         <BUTTONS>
             <TEXT> "取消" </TEXT>
-            <TEXT> "是的，执行变更" </TEXT>"
+            <TEXT> "是的，执行变更" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3536,7 +3539,7 @@
         <MESSAGE> "数据分析与信息图层压印功能需使用日票进行解锁。您共有^1张日票，是否使用一张解锁所有记录于^2的计时圈？" </MESSAGE>
         <BUTTONS>
             <TEXT> "使用日票" </TEXT>
-            <TEXT> "取消" </TEXT>"
+            <TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

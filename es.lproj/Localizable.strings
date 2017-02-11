@@ -2342,7 +2342,7 @@
 
 "Criteria" = "Criterios";
 
-"Lookup" = "Buscar";
+"Lookup Edmunds" = "Buscar";
 
 "Make" = "Marca";
 
@@ -2379,8 +2379,9 @@
 
 "For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "Para las funciones OBD, completar las secciones Motor y Transmisión de potencia para obtener un engranaje razonable, un indicador de cambio y otras visualizaciones. Si no se utiliza ningún sensor OBD, completar sólo la sección General.";
 
-"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Ya sea definir marca/modelo/año o introducir un nombre de vehículo individual a través de la aplicación.";
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Ya sea definir <ui>Marca</ui>/<ui>Modelo</ui>/<ui>Año</ui> o introducir un <ui>Nombre</ui> de vehículo individual a través de la aplicación.";
 
+/* Title for vehicle description */
 "Vehicle Description" = "Descripción del vehículo";
 
 "Make of vehicle, e.g. 'Porsche' or 'Ford'." = "Marca del vehículo, por ejemplo: 'Porsche' o 'Ford'.";

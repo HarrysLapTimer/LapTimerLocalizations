@@ -2235,7 +2235,7 @@
 
 "Criteria" = "Criteri";
 
-"Lookup" = "Cerca";
+"Lookup Edmunds" = "Cerca";
 
 "Make" = "Marchio";
 
@@ -2253,7 +2253,7 @@
 
 "Wheelbase" = "Interasse";
 
-"Loading Makes..." = "Caricamento Marchi...";
+"Loading Makes..." = "Caricamento Marchi..";
 
 "Loading Models..." = "Caricamento Modelli...";
 
@@ -2269,8 +2269,9 @@
 
 "For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "Per le funzioni OBD, compila le sezioni Motore e Trasmissione potenza al fine di ottenere una indicazione della marcia e altre visualizzazioni ragionevoli. Se nessun sensore OBD è utilizzato, compila soltanto la sezione Generale.";
 
-"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Imposta marchio/modello/anno oppure inserisci un singolo nome di veicolo visualizzato dall'applicazione.";
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Imposta <ui>Marchio</ui>/<ui>Modello</ui>/<ui>Anno</ui> oppure inserisci un singolo <ui>Nome</ui> di veicolo visualizzato dall'applicazione.";
 
+/* Title for vehicle description */
 "Vehicle Description" = "Descrizione del veicolo";
 
 "Make of vehicle, e.g. 'Porsche' or 'Ford'." = "Marca del veicolo. Per esempio: 'Porsche' o 'Ford'.";

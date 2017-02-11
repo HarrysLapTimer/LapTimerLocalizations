@@ -2595,7 +2595,7 @@
 		<MESSAGE> "Der Ortungsdienst ist für ^1 aktuell abgeschaltet. Das kann beim Transfer des Videos mit Overlay in die Foto App zu Problemen führen. Bitte Overlay Abbrechen und Zugriff in Einstellungen App ‣ Datenschutz ‣ Ortungsdienst erlauben." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Abbrechen" </TEXT>
-			<TEXT> "Ignorieren" </TEXT>"
+			<TEXT> "Ignorieren" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -2629,7 +2629,7 @@
         <MESSAGE> "Soll die von ^2 gefahrene ^1 Runde dauerhaft aus der Bestenliste entfernt werden?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Entfernen" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -2835,7 +2835,7 @@
 		<MESSAGE> "^1 ist aktuell konfiguriert Videos automatisch aus iCloud lokal zu verschieben. Um ein Video in der anderen Richtung zu schieben, muss diese Einstellung abgeschaltet werden." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
-            <TEXT> "Abschalten" </TEXT>"
+            <TEXT> "Abschalten" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -2869,7 +2869,7 @@
         <MESSAGE> "Die Videoaufzeichung ist aktiv. Wenn diese Ansicht verlassen wird, wird die Aufzeichung unterbrochen!" </MESSAGE>
         <BUTTONS>
             <TEXT> "Verlassen" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -2954,8 +2954,8 @@
 		<MESSAGE> "Soll '^1' als GPS oder OBD Sensor verbunden werden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "GPS" </TEXT>
-            <TEXT> "OBD" </TEXT>"
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "OBD" </TEXT>
+            <TEXT> "Abbrechen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -2980,8 +2980,8 @@
 		<MESSAGE> "Soll die Änderung nur für die aktuelle Runde, alle Runden in der Session oder den ganzen Tag ausgeführt werden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Runde" </TEXT>
-            <TEXT> "Session" </TEXT>"
-            <TEXT> "Tag" </TEXT>"
+            <TEXT> "Session" </TEXT>
+            <TEXT> "Tag" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -2993,7 +2993,7 @@
 		<MESSAGE> "Soll die Änderung nur für die aktuelle Runde oder den ganzen Tag ausgeführt werden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Runde" </TEXT>
-            <TEXT> "Tag" </TEXT>"
+            <TEXT> "Tag" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -3005,7 +3005,7 @@
 		<MESSAGE> "Soll die Änderung nur für die aktuelle Runde oder alle Runden in der Session ausgeführt werden?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Runde" </TEXT>
-            <TEXT> "Session" </TEXT>"
+            <TEXT> "Session" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3028,7 +3028,7 @@
 		<MESSAGE> "Bitte Kennnisnahme und Einverständnis mit den Bedingungen bestätigen. Die Herausforderung wird für alle Nutzer der Strecke '^1' sichtbar." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -3040,7 +3040,7 @@
 		<MESSAGE> "Bitte Kennnisnahme und Einverständnis mit den Bedingungen bestätigen. Die Herausforderung wird für alle Nutzer der Strecke '^1' sichtbar sobald sie den Geheimcode '^2' 'eingegeben haben." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -3049,9 +3049,10 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
-		<MESSAGE> "Herausforderung wird nun übertragen. Bitte Strecke '^1' prüfen um zu sehen ob die Herausforderung Online ist." </MESSAGE>
+		<MESSAGE> "Herausforderung wird nun übertragen. Bitte Strecke '^1' prüfen um zu sehen ob die Herausforderung Online ist. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+			<TEXT> "Einladen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -3095,9 +3096,10 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Deine Herausforderung ist für alle LapTimer Nutzer sichtbar. Bisher wurde sie ^1 mal angenommen." </MESSAGE>
+        <MESSAGE> "Deine Herausforderung ist für alle LapTimer Nutzer sichtbar. Bisher wurde sie ^1 mal angenommen. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
+			<TEXT> "Einladen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3106,9 +3108,10 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Deine Herausforderung ist für alle LapTimer Nutzer sichtbar, die den Code ^2 kennen und eingegeben haben. Bisher wurde sie ^1 mal angenommen." </MESSAGE>
+        <MESSAGE> "Deine Herausforderung ist für alle LapTimer Nutzer sichtbar, die den Code ^2 kennen und eingegeben haben. Bisher wurde sie ^1 mal angenommen. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
+			<TEXT> "Einladen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3188,7 +3191,7 @@
         <MESSAGE> "System nutzt aktuell eine Voreinstellung für Länder mit Rechtsverkehr. Soweit das Gerät leicht zum Fahrer gedreht und aufrecht über der Mittelkonsole befestigt ist, ist das ggf. die beste Einstellung. Soll die Kalibrierung indiviudell eingestellt werden?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Voreinstellung" </TEXT>
-            <TEXT> "Individuell" </TEXT>"
+            <TEXT> "Individuell" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3200,7 +3203,7 @@
         <MESSAGE> "System nutzt aktuell eine Voreinstellung für Länder mit Linksverkehr. Soweit das Gerät leicht zum Fahrer gedreht und aufrecht über der Mittelkonsole befestigt ist, ist das ggf. die beste Einstellung. Soll die Kalibrierung indiviudell eingestellt werden?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Voreinstellung" </TEXT>
-            <TEXT> "Individuell" </TEXT>"
+            <TEXT> "Individuell" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3224,7 +3227,7 @@
 		<MESSAGE> "System nutzt aktuell eine Voreinstellung für Motorräder. Soweit das Gerät annähernd flach in Fahrtrichtung ausgerichtet ist, ist das ggf. die beste Einstellung. Soll die Kalibrierung indiviudell eingestellt werden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Voreinstellung" </TEXT>
-			<TEXT> "Individuell" </TEXT>"
+			<TEXT> "Individuell" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -3294,7 +3297,7 @@
         <MESSAGE> "Das Umladen wird die Definition der aktuellen Zuladung von ^1 und ^2 um ^3 reduzieren bzw. erhöhen. Bitte bestätigen, dass umgeladen werden soll." </MESSAGE>
         <BUTTONS>
             <TEXT> "Umladen" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3350,7 +3353,7 @@
         <MESSAGE> "Mit dem Löschen der Gruppe '^1' werden auch alle enthaltenen Aufgaben entfernt. Sicher, dass die Prüflisten-Gruppe '^1' gelöscht werden soll?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Löschen" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
     
@@ -3362,7 +3365,7 @@
         <MESSAGE> "Hiermit werden Standardwerte für ein 6-Gang-Getriebe gesetzt. Die Werte sind zumeist gut genug um ^1 die Berechnung der Ganganzeige zu ermöglichen, sie können aber auch zu falschen Anzeigen führen. Insoweit bitte später durch die korrekten Werte des Fahrzeuges ersetzen." </MESSAGE>
         <BUTTONS>
             <TEXT> "Standard Setzen" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3396,7 +3399,7 @@
 		<MESSAGE> "Soll die Reise '^1' fortgesetzt werden oder soll eine Neue gestartet werden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Neue Reise" </TEXT>
-			<TEXT> "Fortsetzen" </TEXT>"
+			<TEXT> "Fortsetzen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -3421,7 +3424,7 @@
 		<MESSAGE> "^1, die App die zur Anzeige benötigt wird, ist nicht installiert. Ignorieren oder ^1 vom AppStore laden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "AppStore" </TEXT>
-			<TEXT> "Ignorieren" </TEXT>"
+			<TEXT> "Ignorieren" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3433,7 +3436,7 @@
 		<MESSAGE> "'Snap to Road' (Google Roads) hat ^1 Position(en) gefunden, die an der Strasse ausgerichtet, ^2 Position(en) die zur Verbessrung der Darstellung hinzugefügt und ^3 Position(en) die entfernt werden können. Sollen die Änderungen durchgeführt werden?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Abbrechen" </TEXT>
-			<TEXT> "Durchführen" </TEXT>"
+			<TEXT> "Durchführen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3469,7 +3472,7 @@
 		<MESSAGE> "^1 Abschnitte ohne Aufzeichnung gefunden die mit ^2 Positionen von 'Google Directions' gefüllt werden können. Diese Positionen hinzufügen?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Abbrechen" </TEXT>
-			<TEXT> "Hinzufügen" </TEXT>"
+			<TEXT> "Hinzufügen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3527,7 +3530,7 @@
 		<MESSAGE> "Sicher, dass die Reise mit der Reise '^1' zusammen geführt werden soll? Sobald die Reisen zusammen geführt sind, wird die Reise '^1' dauerhaft aus der Liste entfernt." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Abbrechen" </TEXT>
-			<TEXT> "Zusammen führen" </TEXT>"
+			<TEXT> "Zusammen führen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
@@ -3550,7 +3553,7 @@
 		<MESSAGE> "Ausgewählte Station wurde entfernt. Die Aufzeichung ist so angepasst worden, dass die vorhergehende und nachfolgende Station direkt verbunden sind. Soll 'Reise Vervollständigen' ausgeführt werden um fehlende Abschnitte zu ergänzen?" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Nein" </TEXT>
-			<TEXT> "Reise Vervollständigen" </TEXT>"
+			<TEXT> "Reise Vervollständigen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -3562,7 +3565,7 @@
         <MESSAGE> "Hierdurch wird der Service '^1' und ^2 bereits durchgeführte Services gelöscht. Sicher, dass die Operation durchgeführt werden soll?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Abbrechen" </TEXT>
-            <TEXT> "Ja, Löschen" </TEXT>"
+            <TEXT> "Ja, Löschen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3574,7 +3577,7 @@
         <MESSAGE> "Soll dieser Eintrag in der Fahrzeughistorie gelöscht werden?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Abbrechen" </TEXT>
-            <TEXT> "Löschen" </TEXT>"
+            <TEXT> "Löschen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3586,7 +3589,7 @@
         <MESSAGE> "This introduces a non trivial dependency between regular services (chain or cycle). Are you sure you want to proceed with this change?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Cancel" </TEXT>
-            <TEXT> "Yes, Change" </TEXT>"
+            <TEXT> "Yes, Change" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
@@ -3609,7 +3612,7 @@
         <MESSAGE> "Um auf diese Runden zuzugreifen, sie zu analysieren oder ein Video Overlay zu erstellen, müssen sie mit einem Tagespass frei geschaltet werden. Soll einer der ^1 verfügbaren Tagespässe verwendet werden um alle Runden am ^2 frei zu schalten?" </MESSAGE>
         <BUTTONS>
             <TEXT> "Tagespass nutzen" </TEXT>
-            <TEXT> "Abbrechen" </TEXT>"
+            <TEXT> "Abbrechen" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
