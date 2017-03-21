@@ -219,6 +219,8 @@
 /* SportChrono Buttons */
 "kSportChronoButtonLabelSaveVideo" = "Sichern";
 
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Entweder <ui>Hersteller</ui> / <ui>Modell</ui> / <ui>Modelljahr</ui> auswählen oder einen individuellen Namen für das Fahrzeug eintragen. Der <ui>Name</ui> wird in der App zur Identifikation des Fahrzeugs genutzt.";
+
 "Video recording is disabled currently. This means LapTimer will time laps and record data only. To enable video recording in addition, select the appropriate mode in Timer ‣ Video ‣ Video Operation." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte eine geeignete Auswahl in Timer ‣ Video ‣ Video Funktion wählen.";
 
 "Groups" = "Gruppen";
@@ -2406,8 +2408,6 @@
 
 "For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "Um OBD Funktionen zu nutzen, bitte Werte zu Motor und Kraftübertragung komplettieren um sinnvolle Anzeigen für Gang, Schaltblitz etc. zu erhalten. Wenn kein OBD Sensor verwendet wird, bitte den Abschnitt 'Allgemein' ausfüllen.";
 
-"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Entweder <ui>Hersteller</ui> / <ui>Modell</ui> / <ui>Modelljahr</ui> auswählen oder einen individuellen Namen für das Fahrzeug eintragen. Der <ui>Name</ui> wird in der App zur Identifikation des Fahrzeugs genutzt.";
-
 /* Title for vehicle description */
 "Vehicle Description" = "Beschreibung";
 
@@ -3723,4 +3723,12 @@
 "Press <ui>Save</ui> to store it as your vehicle. In case you refine the definition, please don't forget to <ui>Certify</ui> it so others can benefit from this service too!" = "Drücke <ui>Sichern</ui> um die Fahrzeugdaten für Dich zu speichern. Wenn die Definition später verfeinert wird, bitte <ui>Zertifizieren</ui> um anderen Nutzern die Auswahl ebenfalls zu erleichtern.";
 
 "Loading Vehicle..." = "Lade Fahrzeug...";
+
+"Offline Mode" = "Offline Modus";
+
+"Inactive" = "Inaktiv";
+
+"Directions" = "Routenplaner";
+
+"Request Group" = "Gruppe anfordern";
 

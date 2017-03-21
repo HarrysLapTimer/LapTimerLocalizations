@@ -193,6 +193,8 @@
 /* e.g. moving 50 kg of luggage *to* vehicle */
 "kMoveToVehicle" = "到";
 
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "請設置品牌/型號/年份或輸入個性化的車輛別名。";
+
 "Groups" = "分組";
 
 /* Controller titles */
@@ -2374,8 +2376,6 @@
 
 "For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "請填寫發動機與傳動系統部分內容以獲得合適的檔位和OBD功能適配。如果沒有可用的OBD傳感器，只需完成“常規”部分的內容。";
 
-"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "請設置品牌/型號/年份或輸入個性化的車輛別名。";
-
 /* Title for vehicle description */
 "Vehicle Description" = "車輛描述";
 
@@ -3018,6 +3018,8 @@
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", 電量 %hu%%";
+
+"Inactive" = "未開啓";
 
 "System" = "系統";
 

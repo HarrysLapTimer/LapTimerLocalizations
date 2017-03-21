@@ -117,6 +117,8 @@
 /* e.g. moving 50 kg of luggage *to* vehicle */
 "kMoveToVehicle" = "Vers";
 
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Vous pouvez soit sélectionner un <ui>Modèle</ui>/<ui>Marque</ui>/<ui>Année</ui> ou entrer le <ui>Nom</ui> d'un véhicule affiché via l'application.";
+
 "Groups" = "Groupes";
 
 "LapTimer is not granted access to audio currently. Please enable access in Settings app ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer ne donne pas accès au système audio pour le moment. Veuillez activer l'accès dans Paramètres application ‣ Confidentialité ‣ Microphone ‣ LapTimer.";
@@ -2280,8 +2282,6 @@
 
 "For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "Pour les fonctions OBD, renseignez les sections Moteur et Transmission de puissance pour obtenir une vitesse, shift flash et autres écrans raisonnables. Si aucun senseur OBD n'est utilisé, veuillez renseigner la section générale uniquement.";
 
-"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Vous pouvez soit sélectionner un <ui>Modèle</ui>/<ui>Marque</ui>/<ui>Année</ui> ou entrer le <ui>Nom</ui> d'un véhicule affiché via l'application.";
-
 /* Title for vehicle description */
 "Vehicle Description" = "Description du véhicule";
 
@@ -2556,4 +2556,6 @@
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", Batterie %hu%%";
+
+"Inactive" = "Inactif";
 

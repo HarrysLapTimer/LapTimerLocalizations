@@ -196,6 +196,8 @@
 /* Tile View Help */
 "kTileHelpMaintainFeaturesWithoutOBD" = "Con <ui>Add-Ons</ui>, podrá acceder a la lista de vehículos predefinidos, cambiar funciones de la App, o ver la <ui>Lista de Sensores</ui>, tanto internos como externos GPS.";
 
+"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Ya sea definir <ui>Marca</ui>/<ui>Modelo</ui>/<ui>Año</ui> o introducir un <ui>Nombre</ui> de vehículo individual a través de la aplicación.";
+
 "Groups" = "Grupos";
 
 "LapTimer is not granted access to audio currently. Please enable access in Settings app ‣ Privacy ‣ Microphone ‣ LapTimer." = "LapTimer no tiene acceso a audio. Por favor active el acceso a través de Ajustes app ‣ Privacidad ‣ Micrófono ‣ LapTimer.";
@@ -2379,8 +2381,6 @@
 
 "For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "Para las funciones OBD, completar las secciones Motor y Transmisión de potencia para obtener un engranaje razonable, un indicador de cambio y otras visualizaciones. Si no se utiliza ningún sensor OBD, completar sólo la sección General.";
 
-"Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Ya sea definir <ui>Marca</ui>/<ui>Modelo</ui>/<ui>Año</ui> o introducir un <ui>Nombre</ui> de vehículo individual a través de la aplicación.";
-
 /* Title for vehicle description */
 "Vehicle Description" = "Descripción del vehículo";
 
@@ -2888,4 +2888,6 @@
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", Batería %hu%%";
+
+"Inactive" = "Inactivo";
 
