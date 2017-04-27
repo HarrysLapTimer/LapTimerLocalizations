@@ -278,3 +278,7 @@
 
 "GoPro HERO5 BE" = "GoPro HERO5 BE";
 
+"Take care with video resolution and frame rate selected. 90 MB/min and 190 MB/min are typical storage requirements for HD and Full HD. Selecting 60 instead of 30 frames per second (fps) will require 50% on top." = "Bei der Auswahl von Auflösung und Bildrate bitte aufpassen. 90 MB/min und 190 MB/min sind die für HD und Full HD Videos typischerweise benötigten Speichermengen. Wenn man statt 30 Bildern pro Sekunde 60 wählt, kommen nochmal 50% dazu.";
+
+"Try 60 fps" = "60 Hz wenn möglich";
+

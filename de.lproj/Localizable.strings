@@ -3732,3 +3732,8 @@
 
 "Request Group" = "Gruppe anfordern";
 
+/* Android preference help */
+"Selecting 60 (instead of 30) frames per second (fps) will require 50% storage on top of the standard size." = "Wenn man statt 30 Bildern pro Sekunde 60 wählt, kommen zum Speicherbedarf 50% dazu.";
+
+"Dynamic Map" = "Dynamische Karte";
+

@@ -2030,7 +2030,18 @@
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="9202" COMMENT="AutocrossStandardCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Autocross course '^1' created including start and stop triggers. The selected start trigger needs to be passed at speed." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9201" COMMENT="NewTrackCreated">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2265,6 +2276,17 @@
             <TEXT> "確定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="9319" COMMENT="RelinkToRemoteVideo">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "The video selected for Re-Link is stored on a remote device. Re-Linking is supported for local videos only. Please transfer the remote video to your smartphone before re-linking it again." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9314" COMMENT="OverlayingOutOfMemoryAndroid">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
@@ -3646,6 +3668,17 @@
             <TEXT> "Update" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9975" COMMENT="OperationNotCompletedOutOfMemory">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "Operation could not be completed. The reason is probably a shortage of main memory. In case everything else fails, try a device reboot." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
 
 </PALMOS_RESOURCE_FILE>
 

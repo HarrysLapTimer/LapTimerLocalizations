@@ -2093,7 +2093,20 @@
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
-	</ALERT_RESOURCE>   
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9202" COMMENT="AutocrossStandardCreated">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Autocross Strecke '^1' inklusive Start und Stopp Trigger erstellt. Die Start Position mit überfahren werden um auszulösen."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9201" COMMENT="NewTrackCreated">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
@@ -2338,6 +2351,17 @@
             <TEXT> "OK" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9319" COMMENT="RelinkToRemoteVideo">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Fehler" </TITLE>
+		<MESSAGE> "Das als Referenz ausgewählte Video befindet sich auf einem entfernten Gerät. Neureferenzierung wird nur für lokale Videos unterstützt. Bitte das Video erst auf das Smartphone kopieren und dann erneut referenzieren." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9314" COMMENT="OverlayingOutOfMemoryAndroid">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
@@ -3719,5 +3743,16 @@
             <TEXT> "AppStore" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9975" COMMENT="OperationNotCompletedOutOfMemory">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Fehler" </TITLE>
+		<MESSAGE> "Die Operation konnte nicht ausgeführt werden. Ein möglicher Grund ist zu wenig verfügbarer Hauptspeicher. Wenn alles andere nicht funktioniert, bitte einen Neustart des Geräts versuchen." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
 
 </PALMOS_RESOURCE_FILE>
