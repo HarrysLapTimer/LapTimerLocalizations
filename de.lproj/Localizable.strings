@@ -541,7 +541,7 @@
 
 "Picture in Picture #%hu" = "Bild im Bild #%hu";
 
-"Joined End" = "Enden synchron";
+"Joint End" = "Enden synchron";
 
 "Ends at %s" = "Ende bei %s";
 
@@ -3736,4 +3736,12 @@
 "Selecting 60 (instead of 30) frames per second (fps) will require 50% storage on top of the standard size." = "Wenn man statt 30 Bildern pro Sekunde 60 wählt, kommen zum Speicherbedarf 50% dazu.";
 
 "Dynamic Map" = "Dynamische Karte";
+
+/* Health Check */
+"4 GB File Limit" = "4 GB Datei-Limit";
+
+"The storage media used for videos is limited to a file size of 4 GB or less. Any recording bigger than the limit will lead to corrupted videos! In case you are using an external SD card, please format it using the exFAT file system." = "Das für Videos genutzte Speichermedium hat ein Dateigrössen-Limit von 4 GB oder weniger. Jede Aufzeichung größer als dieses Limit wird zu korrumpierten Videos führen! Wenn eine externe SD Karte verwendet wird, diese bitte mit dem exFAT Dateisystem neu formatieren.";
+
+/* Health Check */
+"Unknown File Limit" = "Unbekanntes Datei-Limit";
 

@@ -3151,11 +3151,11 @@
     </ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9691" COMMENT="SensorInitializationFailed">
-        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Fehler" </TITLE>
-        <MESSAGE> "Die Änderung der Sensoreinstellungen ist fehlgeschlagen. Bitte die Verbindung zum Sensor unterbrechen / den Sensor neu starten und neu verbinden um die Einstellungen zu aktivieren." </MESSAGE>
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warnung" </TITLE>
+        <MESSAGE> "Die Änderung der Sensoreinstellungen für ^1 ist fehlgeschlagen. Die in der Sensor Liste gezeigten Einstellungen sind nicht aktiv. Schalte den Sensor und das Bluetooth Deines Smartphones aus und wieder ein um ^1 zu benutzen." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>

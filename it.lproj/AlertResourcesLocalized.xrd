@@ -3091,11 +3091,11 @@
     </ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9691" COMMENT="SensorInitializationFailed">
-        <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Errore" </TITLE>
-        <MESSAGE> "La modifica della configurazione non è riuscita. Scollega / riavvia il sensore e ricollegalo per ottenere i nuovi set di configurazione." </MESSAGE>
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Attenzione" </TITLE>
+		<MESSAGE> "Gave up on changing sensor configuration. Settings shown for ^1 in Sensor List are not effective. Power cycle the accessory and switch your smartphone's Bluetooth off and on to use ^1 again." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>
