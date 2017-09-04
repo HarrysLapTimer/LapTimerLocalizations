@@ -3745,3 +3745,5 @@
 /* Health Check */
 "Unknown File Limit" = "Unbekanntes Datei-Limit";
 
+"Power [%s] @ Distance [%s]" = "Leistung [%s] @ Strecke [%s]";
+
