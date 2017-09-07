@@ -1892,7 +1892,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"您需要设定好车辆'^1'的发动机和传动系统参数才能得到有效的转速/档位显示。"
+			"您需要设定好车辆'^1'的发动机和传动系统参数才能得到有效的转速/档位显示。缺少值为^2。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "确定" </TEXT>
@@ -3255,7 +3255,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "信息" </TITLE>
-        <MESSAGE> "极速信息由引擎功率、传动系统损耗、空气阻力、防倾设置以及车体重量共同计算而出，请在车辆信息页确定以上相关信息的准确性，以取得最可靠的计算结果。" </MESSAGE>
+		<MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. To run this calculation, some missing values need to be defined: ^1." </MESSAGE>
         <BUTTONS>
             <TEXT> "确定" </TEXT>
         </BUTTONS>

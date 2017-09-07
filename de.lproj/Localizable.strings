@@ -3747,3 +3747,5 @@
 
 "Power [%s] @ Distance [%s]" = "Leistung [%s] @ Strecke [%s]";
 
+"Undefined Vehicle" = "Undefiniertes Fahrzeug";
+

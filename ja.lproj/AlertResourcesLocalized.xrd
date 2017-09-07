@@ -1896,7 +1896,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE>
-			"適切な rpm/ギア表示を得るために、車両 '^1' のエンジン情報と駆動情報を設定する必要があります!"
+			"適切な rpm/ギア表示を得るために、車両 '^1' のエンジン情報と駆動情報を設定する必要があります! 欠損値は^2です。"
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -3259,7 +3259,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. Make sure to have power, power loss, Cp, front surface, and masses defined to get reasonable results." </MESSAGE>
+		<MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. To run this calculation, some missing values need to be defined: ^1." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>

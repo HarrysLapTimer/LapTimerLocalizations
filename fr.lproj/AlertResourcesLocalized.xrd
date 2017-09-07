@@ -1892,7 +1892,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Attention" </TITLE>
 		<MESSAGE>
-			"Pour obtenir un affichage correct du régime moteur et du rapport engagé, vous devez configurer à la fois le moteur, la boite et le trains roulants pour le véhicule '^1'!"
+			"Pour obtenir un affichage correct du régime moteur et du rapport engagé, vous devez configurer à la fois le moteur, la boite et le trains roulants pour le véhicule '^1'! Les valeurs manquantes sont ^2."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -3270,7 +3270,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. Make sure to have power, power loss, Cp, front surface, and masses defined to get reasonable results." </MESSAGE>
+		<MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. To run this calculation, some missing values need to be defined: ^1." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>

@@ -1902,7 +1902,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Advertencia" </TITLE>
 		<MESSAGE>
-			"Para obtener una medición aceptable de rpm / marcha, es necesario configurar previamente el motor y la transmisión del vehículo '^1'."
+			"Para obtener una medición aceptable de rpm / marcha, es necesario configurar previamente el motor y la transmisión del vehículo '^1'. Los valores faltantes son ^2."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -3265,7 +3265,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. Make sure to have power, power loss, Cp, front surface, and masses defined to get reasonable results." </MESSAGE>
+		<MESSAGE> "Top speed is calculated from engine power, power loss in the drive train, air drag, roll resistance, and work by gravity. To run this calculation, some missing values need to be defined: ^1." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>
