@@ -1436,7 +1436,20 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="9055" COMMENT="RecalculatedDirectionSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Driving directions recalculated based on GPS positions."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="9042" COMMENT="RecalculatedSplitsSuccessfully">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3677,6 +3690,18 @@
 		<MESSAGE> "Operation could not be completed. The reason is probably a shortage of main memory. In case everything else fails, try a device reboot." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9976" COMMENT="AutomationError">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Automation Error" </TITLE>
+		<MESSAGE> "An error occured in ^1, please contact ^2 for support:\n^3" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Ignore" </TEXT>
+			<TEXT> "Exit" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 

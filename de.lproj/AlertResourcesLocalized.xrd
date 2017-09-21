@@ -1480,7 +1480,20 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="9055" COMMENT="RecalculatedDirectionSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Fahrtrichtung auf Basis der GPS Positionen erfolgreich neu berechnet."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="9042" COMMENT="RecalculatedSplitsSuccessfully">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3752,6 +3765,18 @@
 		<MESSAGE> "Die Operation konnte nicht ausgeführt werden. Ein möglicher Grund ist zu wenig verfügbarer Hauptspeicher. Wenn alles andere nicht funktioniert, bitte einen Neustart des Geräts versuchen." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9976" COMMENT="AutomationError">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Automations-Fehler" </TITLE>
+		<MESSAGE> "In ^1 ist ein Fehler aufgetreten, kontaktiere bitte den Autor ^2:\n^3" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Ignorieren" </TEXT>
+			<TEXT> "Beenden" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
