@@ -934,7 +934,7 @@
 
 "NMEA sentences received: %s" = "Phrases NMEA reçues : %s";
 
-", PIDs received: %@" = ", PIDs reçus : %@";
+".\nPIDs received: %@" = ".\nPIDs reçus : %@";
 
 "PIDs received: %@" = "PIDs reçus : %@";
 

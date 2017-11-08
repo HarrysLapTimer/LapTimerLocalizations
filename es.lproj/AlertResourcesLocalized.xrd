@@ -3715,4 +3715,15 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+	<ALERT_RESOURCE RESOURCE_ID="9977" COMMENT="SensorScriptLoaded">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "The scripted sensor ^1 has been loaded successfully. It has either been added, or supersedes a predefined sensor. To remove the sensor again, goto Sensor List and delete it." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 </PALMOS_RESOURCE_FILE>

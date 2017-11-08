@@ -1038,7 +1038,7 @@
 
 "NMEA sentences received: %s" = "Empfangene NMEA Sätze: %s";
 
-", PIDs received: %@" = ", PIDs empfangen: %@";
+".\nPIDs received: %@" = ".\nPIDs empfangen: %@";
 
 "PIDs received: %@" = "PIDs empfangen: %@";
 
@@ -3391,7 +3391,7 @@
 
 "Parallel requests enabled" = "Parallele Abfragen aktiv";
 
-", parallel requests enabled" = "parallele Abfragen aktiv";
+", parallel requests enabled" = ", parallele Abfragen aktiv";
 
 "MultiCam iCloud" = "MultiCam iCloud";
 
@@ -3748,4 +3748,10 @@
 "Power [%s] @ Distance [%s]" = "Leistung [%s] @ Strecke [%s]";
 
 "Undefined Vehicle" = "Undefiniertes Fahrzeug";
+
+".\nAutomation by %@" = ".\nAutomation von %@";
+
+", version %@" = ", Version %@";
+
+".\nAutomation version %@" = ".\nAutomation Version %@";
 

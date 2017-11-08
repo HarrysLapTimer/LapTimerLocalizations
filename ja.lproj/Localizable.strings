@@ -880,7 +880,7 @@
 
 "NMEA sentences received: %s" = "NMEA検知: %s";
 
-", PIDs received: %@" = ", PIDs検知: %@";
+".\nPIDs received: %@" = ".\nPIDs検知: %@";
 
 "PIDs received: %@" = "PIDs検知: %@";
 

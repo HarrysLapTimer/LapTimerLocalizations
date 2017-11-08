@@ -1008,7 +1008,7 @@
 
 "NMEA sentences received: %s" = "接收到NMEA信息: %s";
 
-", PIDs received: %@" = "，接收到PIDs: %@";
+".\nPIDs received: %@" = ".\n接收到PIDs: %@";
 
 "PIDs received: %@" = "接收到PIDs: %@";
 

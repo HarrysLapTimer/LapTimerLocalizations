@@ -929,7 +929,7 @@
 
 "NMEA sentences received: %s" = "Frasi NMEA ricevute : %s";
 
-", PIDs received: %@" = ", PID ricevuti : %@";
+".\nPIDs received: %@" = ".\nPID ricevuti : %@";
 
 "PIDs received: %@" = "PID ricevuti : %@";
 
