@@ -1034,21 +1034,16 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "Erweiterung ist in dieser App Version nicht enthalten. Bitte verfügbare Upgrades unter 'Erweiterungen' prüfen.";
 
 /* Sensors */
-", NMEA sentences received: %s" = ", empfangene NMEA Sätze: %s";
-
-"NMEA sentences received: %s" = "Empfangene NMEA Sätze: %s";
-
-".\nPIDs received: %@" = ".\nPIDs empfangen: %@";
+"NMEA sentences received: %s" = "empfangene NMEA Sätze: %s";
 
 "PIDs received: %@" = "PIDs empfangen: %@";
 
-"Connected and listening to %@:%@" = "Verbunden und empfängt von %@:%@";
+/* Sensor information WiFi */
+"connected and listening to %@:%@" = "verbunden und empfängt von %@:%@";
 
-"Connected and listening to %@" = "Verbunden und empfängt von %@";
+"registered for multicast from %@, listening to port %@" = "registriert für Multicast von %@, empfange auf Port %@";
 
-"Registered for multicast from %@, listening to port %@" = "Registriert für Multicast von %@, empfange auf Port %@";
-
-"Listening on port %@" = "Empfang auf Port %@";
+"listening to port %@" = "Empfang auf Port %@";
 
 "NMEA Sentences" = "NMEA Sätze";
 
@@ -2285,9 +2280,7 @@
 
 "Laps to Pit" = "Restrunden";
 
-", identifier: '%s'" = ", Identifikator: '%s'";
-
-"Identifier: '%s'" = "Identifikator: '%s'";
+"identifier: %@" = "Identifikator: %@";
 
 "Transfer" = "Transfer";
 
@@ -3000,7 +2993,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "PID Rate" = "PID Rate";
 
-", update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = ", Update Raten (technisch/brutto/netto/Abfragen): %hu/%hu/%hu/%hu Hz";
+"update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = "Update Raten (technisch/brutto/netto/Abfragen): %hu/%hu/%hu/%hu Hz";
 
 "Based on Harry's LapTimer, © H. Schlangmann" = "Basiert auf Harry's LapTimer, © H. Schlangmann";
 
@@ -3385,13 +3378,9 @@
 
 "Live" = "Live";
 
-"Using Android Location Service" = "Nutzt Android Standort Dienst";
+"using Android Location Service" = "nutzt Android Standort Dienst";
 
-", using Android Location Service" = ", nutzt Android Standort Dienst";
-
-"Parallel requests enabled" = "Parallele Abfragen aktiv";
-
-", parallel requests enabled" = ", parallele Abfragen aktiv";
+"parallel requests enabled" = "parallele Abfragen aktiv";
 
 "MultiCam iCloud" = "MultiCam iCloud";
 
@@ -3543,13 +3532,9 @@
 /* Sensors and Sensor List */
 "Battery %hu%%" = "Batterie %hu%%";
 
-"Firmware: %@" = "Firmware: %@";
-
-", firmware: %@" = ", Firmware: %@";
+"firmware: %@" = "Firmware: %@";
 
 ", Not Discharging" = ", nicht Entladend";
-
-"%@ %@, firmware: %@, hardware: %@" = "%@ %@, Firmware: %@, Hardware: %@";
 
 "Structured Query Language (.sql) is the standard format for relational databases. Desktop software: any SQL database tool." = "Structured Query Language (.sql) ist das Standardformat für Relationale Datenbanken. Desktop Software: alle SQL Datenbank Werkzeuge.";
 
@@ -3612,8 +3597,6 @@
 "Expert" = "Experte";
 
 "Plain" = "Einfach";
-
-", Firmware: %@" = ", Firmware: %@";
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", Batterie %hu%%";
@@ -3749,9 +3732,33 @@
 
 "Undefined Vehicle" = "Undefiniertes Fahrzeug";
 
-".\nAutomation by %@" = ".\nAutomation von %@";
+"automation by %@" = "automation von %@";
 
-", version %@" = ", Version %@";
+"version %@" = "Version %@";
 
-".\nAutomation version %@" = ".\nAutomation Version %@";
+"automation version %@" = "Automations Version %@";
+
+"firmware: %@, hardware: %@" = "Firmware: %@, Hardware: %@";
+
+/* Type of vehicle bus */
+"Bus Type" = "Fahrzeugbus";
+
+"battery: %hu%%" = "Batterie: %hu%%";
+
+"parallel requests not available" = "parallele Abfragen nicht verfügbar";
+
+/* Sensor information */
+"OBD standard: %s" = "OBD Standard: %s";
+
+"bus type: %s" = "Fahrzeugbus: %s";
+
+"ECU(s) addressed: %s" = "adressierte Motorsteuergerät(e): %s";
+
+/* Sensor information Android BT */
+"connected and listening to %@" = "verbunden und empfängt von %@";
+
+/* Sensor statistics */
+"%hu connects" = "%hu Verbindungen";
+
+"connection time: %@" = "Verbindungsdauer: %@";
 

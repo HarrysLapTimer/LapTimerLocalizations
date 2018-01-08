@@ -1004,21 +1004,16 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "此功能在这个版本无法使用，请在'功能插件'查看升级选项。";
 
 /* Sensors */
-", NMEA sentences received: %s" = "，接收到NMEA信息: %s";
-
 "NMEA sentences received: %s" = "接收到NMEA信息: %s";
-
-".\nPIDs received: %@" = ".\n接收到PIDs: %@";
 
 "PIDs received: %@" = "接收到PIDs: %@";
 
-"Connected and listening to %@:%@" = "连接并接收%@:%@";
+/* Sensor information WiFi */
+"connected and listening to %@:%@" = "连接并接收%@:%@";
 
-"Connected and listening to %@" = "连接并接收%@";
+"registered for multicast from %@, listening to port %@" = "已登记为多机位设备%@，接收端口：%@";
 
-"Registered for multicast from %@, listening to port %@" = "已登记为多机位设备%@，接收端口：%@";
-
-"Listening on port %@" = "接收端口：%@";
+"listening to port %@" = "接收端口：%@";
 
 "NMEA Sentences" = "NMEA 指令";
 
@@ -2253,9 +2248,7 @@
 
 "Laps to Pit" = "剩余圈数";
 
-", identifier: '%s'" = "，识别器: “%s”";
-
-"Identifier: '%s'" = "识别器: “%s”";
+"identifier: %@" = "识别器: %@";
 
 "Transfer" = "传送";
 
@@ -2966,7 +2959,7 @@
 /* Update rate gadget for OBD - needs to be short */
 "PID Rate" = "刷新率";
 
-", update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = ", 更新率 (原始/总计/净值/请求)：%hu/%hu/%hu/%hu Hz";
+"update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = "更新率 (原始/总计/净值/请求)：%hu/%hu/%hu/%hu Hz";
 
 "Based on Harry's LapTimer, © H. Schlangmann" = "基于Harry's LapTimer, © H. Schlangmann";
 
@@ -3022,4 +3015,7 @@
 "Inactive" = "未开启";
 
 "System" = "系统";
+
+/* Sensor information Android BT */
+"connected and listening to %@" = "连接并接收%@";
 

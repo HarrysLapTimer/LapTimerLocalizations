@@ -876,21 +876,14 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "本アプリのエディションで本機能は利用できません. 'アドオン'でアップグレード可能かご確認下さい.";
 
 /* Sensors */
-", NMEA sentences received: %s" = ", NMEA検知: %s";
-
 "NMEA sentences received: %s" = "NMEA検知: %s";
-
-".\nPIDs received: %@" = ".\nPIDs検知: %@";
 
 "PIDs received: %@" = "PIDs検知: %@";
 
-"Connected and listening to %@:%@" = "接続完了　処理中 %@:%@";
+/* Sensor information WiFi */
+"connected and listening to %@:%@" = "接続完了　処理中 %@:%@";
 
-"Connected and listening to %@" = "接続完了　処理中 %@";
-
-"Registered for multicast from %@, listening to port %@" = "マルチキャスト登録　from:%@ Listening-Port:%@";
-
-"Listening on port %@" = "Listening-Port:%@";
+"registered for multicast from %@, listening to port %@" = "マルチキャスト登録　from:%@ Listening-Port:%@";
 
 "NMEA Sentences" = "NMEAコマンド";
 
@@ -1631,4 +1624,7 @@
 
 /* Sensors and Sensor List */
 ", battery %hu%%" = ", バッテリ %hu%%";
+
+/* Sensor information Android BT */
+"connected and listening to %@" = "接続完了　処理中 %@";
 

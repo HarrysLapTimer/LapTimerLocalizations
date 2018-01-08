@@ -925,21 +925,16 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "Questa opzione non è disponibile in questa versione dell'applicazione. Verificare in 'Estensioni' i complementi disponibili.";
 
 /* Sensors */
-", NMEA sentences received: %s" = ", frasi NMEA ricevute : %s";
-
-"NMEA sentences received: %s" = "Frasi NMEA ricevute : %s";
-
-".\nPIDs received: %@" = ".\nPID ricevuti : %@";
+"NMEA sentences received: %s" = "frasi NMEA ricevute : %s";
 
 "PIDs received: %@" = "PID ricevuti : %@";
 
-"Connected and listening to %@:%@" = "Collegato ed in ascolto di %@:%@";
+/* Sensor information WiFi */
+"connected and listening to %@:%@" = "collegato ed in ascolto di %@:%@";
 
-"Connected and listening to %@" = "Collegato ed in ascolto di %@";
+"registered for multicast from %@, listening to port %@" = "dichiarato per il Multicast di %@, ascolto della Porta %@";
 
-"Registered for multicast from %@, listening to port %@" = "Dichiarato per il Multicast di %@, ascolto della Porta %@";
-
-"Listening on port %@" = "Ascolto della Porta %@";
+"listening to port %@" = "ascolto della Porta %@";
 
 "NMEA Sentences" = "Comandi NMEA";
 
@@ -2171,9 +2166,7 @@
 
 "Laps to Pit" = "Giri fino al Pit";
 
-", identifier: '%s'" = ", identificativo: '%s'";
-
-"Identifier: '%s'" = "Identificativo: '%s'";
+"identifier: %@" = "identificativo: %@";
 
 "Transfer" = "Trasferisce";
 
@@ -2502,4 +2495,7 @@
 "Inactive" = "Inattivo";
 
 "Undefined Vehicle" = "Veicolo non definito";
+
+/* Sensor information Android BT */
+"connected and listening to %@" = "collegato ed in ascolto di %@";
 

@@ -2742,17 +2742,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9510" COMMENT="SavingToAMISDCardFailed">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Fehler" </TITLE>
-		<MESSAGE> "Das Speichern der Dateien auf SD Karte ist fehlgeschlagen. Bitte sicherstellen, dass das iPhone mit dem Fahrzeug verbunden ist und erneut versuchen." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
