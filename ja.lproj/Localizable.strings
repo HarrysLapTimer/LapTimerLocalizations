@@ -435,8 +435,6 @@
 
 "Edit Note" = "ノートの編集";
 
-"'Export Lap Data' will export your database of laps using an e-mail." = "'ラップ外部出力'はEメールでラップを外部出力します.";
-
 "'Receive Lap' will search for other devices willing to send lap data to you." = "'ラップ受信'は送信デバイスを探し受信します.";
 
 "'Send Trackday' sends latest trackday's lap data." = "'ラップ送信'は前回トラックのラップを送信します.";
@@ -444,8 +442,6 @@
 "Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "ラップを選択してラップ単位の送受信が可能です.";
 
 "Cancel" = "キャンセル";
-
-"Export Lap Data" = "ラップ外部出力";
 
 "Receive Lap from Friend" = "ラップ受信";
 
@@ -535,8 +531,6 @@
 
 "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n";
 
-"... and dropping into Dropbox" = "... ドロップボックスに入れる";
-
 "This %@ contains the following export files:\n\n" = "%@ は次の外部出力ファイルを含みます:\n\n";
 
 "%@: vehicle database in XML format\n" = "%@: 車両データベース XMLフォーマット\n";
@@ -616,16 +610,15 @@
 
 "Reloading Add On List from Server..." = "アドオンリストをリロード中...";
 
-/* History Hover Views */
-"Speed [%s] @ Time [s]" = "速度[%s] @ 時間[s]";
+"Speed [%s] @ %@" = "速度[%s] @ %@";
 
-"Height [%s] @ Time [s]" = "高さ[%s] @ 時間[s]";
+"Height [%s] @ %@" = "高さ[%s] @ %@";
 
-"Acceleration [g] @ Time [s]" = "加速度[G] @ 時間[s]";
+"Acceleration [g] @ %@" = "加速度[G] @ %@";
 
-"Satellites [#] @ Time [s]" = "サテライト[#] @ 時間[s]";
+"Satellites [#] @ %@" = "サテライト[#] @ %@";
 
-"Accuracy [%s] @ Time [s]" = "精度[%s] @ 時間[s]";
+"Accuracy [%s] @ %@" = "精度[%s] @ %@";
 
 "Speed (%s) of vehicle measured using GPS and Doppler effect." = "スピード(%s)はGPSとドップラ効果で測定.";
 
@@ -818,7 +811,7 @@
 
 "The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "駆動比はギアボックスとアクスルの回転比.";
 
-"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "ギア比はエンジンとギアボックスの回転比.";
+"Gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "ギア比はエンジンとギアボックスの回転比.";
 
 "%.2f (limit %hu %s)" = "%.2f (リミット %hu %s)";
 
@@ -1099,23 +1092,19 @@
 
 "Sector #x" = "セクタ #x";
 
-"Speed [%s] @ Distance [%s]" = "速度[%s] @ 距離 [%s]";
+"Lateral Acceleration [g] @ %@" = "横G [G] @ %@";
 
-"Lateral Acceleration [g] @ Distance [%s]" = "横G [G] @ 距離[%s]";
-
-"Lineal Acceleration [g] @ Distance [%s]" = "縦G [G] @ 距離[%s]";
+"Lineal Acceleration [g] @ %@" = "縦G [G] @ %@";
 
 "Overall Acceleration [g-g]" = "全体の加速度 [g-g]";
 
-"Yaw Rate [°/s] @ Distance [%s]" = "ヨーレート [°/s] @ 距離 [%s]";
+"Yaw Rate [°/s] @ %@" = "ヨーレート [°/s] @ %@";
 
-"Height [%s] @ Distance [%s]" = "高さ[%s] @ 距離[%s]";
+"Engine [rpm/1000] @ %@" = "回転数[rpm/1000] @ %@";
 
-"Engine [rpm/1000] @ Distance [%s]" = "回転数[rpm/1000] @ 距離[%s]";
+"Throttle [%%] @ %@" = "スロットル [%%] @ %@";
 
-"Throttle [%%] @ Distance [%s]" = "スロットル [%%] @ 距離 [%s]";
-
-"Coolant Temperature [%@] @ Distance [%s]" = "水温 [%@] @ 距離 [%s]";
+"Coolant Temperature [%@] @ %@" = "水温 [%@] @ %@";
 
 "Lateral Acceleration" = "横G";
 
@@ -1250,9 +1239,9 @@
 
 "Video recording started!" = "ビデオ録画開始！";
 
-"Lap timing finished! Make sure you stop video recording later..." = "ラップ計測終了！あとでビデオ録画の停止を確認してね...";
+"Lap finished! Make sure you stop video recording later..." = "ラップ計測終了！あとでビデオ録画の停止を確認してね...";
 
-"Lap timing finished!" = "ラップ計測終了！";
+"Lap finished!" = "ラップ計測終了！";
 
 "Stopped recording..." = "記録停止中...";
 
@@ -1469,8 +1458,6 @@
 
 "Mail" = "Mail";
 
-"Dropbox" = "Dropbox";
-
 "Vehicle Selection" = "車両選択";
 
 "Export Type" = "外部出力タイプ";
@@ -1627,4 +1614,16 @@
 
 /* Sensor information Android BT */
 "connected and listening to %@" = "接続完了　処理中 %@";
+
+"Distance [%s]" = "距離 [%s]";
+
+"Time [s]" = "時間[s]";
+
+"Pedals" = "ペダル";
+
+"Brake" = "ブレーキ";
+
+"lap" = "ラップ";
+
+"laps" = "ラップ";
 

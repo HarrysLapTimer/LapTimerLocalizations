@@ -49,7 +49,19 @@
 			<TEXT> "Non" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="1301" COMMENT="SetLapIncomplete">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Do you want to mark this recording incomplete? Marking a lap incomplete makes it unique in that it cannot be compared to other laps. As an example, it can never be a reference lap. This change cannot be undone!" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Incomplete" </TEXT>
+			<TEXT> "Cancel" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="1310" COMMENT="DeleteTrackWithExistingPOIsOrLaps">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1189,7 +1201,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
 		<MESSAGE>
-			"Importation avec succès de ^1 tour(s), ^2 points GPS et ^3 vehicule(s)."
+			"Importation avec succès: ^1."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -1443,7 +1455,20 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
 		<MESSAGE>
-			"Driving directions recalculated based on GPS positions."
+			"Driving directions recalculated based on GPS positions. NB: ^1 applies filters here, so derived absolute values may be off significanty."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9056" COMMENT="RecalculatedSpeedSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Speeds recalculated based on GPS positions. NB: ^1 applies filters here, so derived absolute values may be off significanty."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -1607,7 +1632,34 @@
             <TEXT> "OK" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9057" COMMENT="NoLapsRecognizedInInputAllowAsIs">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"^1 read import successfully but could not recognize any laps. Please check if the matching track set is loaded or press 'As Is' to import to 'Unspecified'."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "As Is" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
     
+	<ALERT_RESOURCE RESOURCE_ID="9058" COMMENT="AsIsImportFailed">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE>
+			"Importing lap 'As Is' failed, import file may be empty."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9043" COMMENT="ConfirmationCorridor">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1853,7 +1905,21 @@
 			<TEXT> "Lier" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="9092" COMMENT="LinkVehicleWithCSCS">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"Sensor '^1' (^2) detected. Do you want to link it to existing vehicle?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "No" </TEXT>
+			<TEXT> "Link" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="9100" COMMENT="SystemInfo">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1877,17 +1943,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
-	<ALERT_RESOURCE RESOURCE_ID="9120" COMMENT="ErrorDroppingFileAlert">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Erreur" </TITLE>
-		<MESSAGE> "le Fichier '^1' ne peut pas être déposé dans votre Dropbox." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="9130" COMMENT="CurrentVehicleSet">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1940,7 +1995,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "This sensor is disabled currently. The usual reason for this is ^2 stops scanning for sensors after ^1 minutes to reduce power consumption. To restart scanning for sensors, press the Home button and start ^2 again." </MESSAGE>
+		<MESSAGE> "This sensor is disabled currently. One possible reason is ^2 stopped scanning for sensors after ^1 minutes to reduce power consumption. To restart scanning for sensors, select Refresh." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>
@@ -3717,6 +3772,18 @@
 		<MESSAGE> "The scripted sensor ^1 has been loaded successfully. It has either been added, or supersedes a predefined sensor. To remove the sensor again, goto Sensor List and delete it." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9978" COMMENT="DataToServerSubmission">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Using your current Group settings, ^1 will submit positions and/or Hall of Fame entries to our server. In compliance with EU General Data Protection Regulation (EU-GDPR), please accept or opt-out from this feature. For more information, see Privacy Policy on www.gps-laptimer.de." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Accept" </TEXT>
+			<TEXT> "Opt-out" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 

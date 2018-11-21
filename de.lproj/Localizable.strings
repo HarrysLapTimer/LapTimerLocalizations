@@ -573,7 +573,7 @@
 
 "Edit Note" = "Notiz bearbeiten";
 
-"'Export Lap Data' will export your database of laps using an e-mail." = "'Daten exportieren' versendet Daten aus der Datenbank per E-Mail.";
+"'Share Data' will share your database of laps with other apps." = "'Daten teilen' erlaubt die Nutzung der Datenbank durch andere Apps.";
 
 "'Receive Lap' will search for other devices willing to send lap data to you." = "'Empfange Daten von Freund' wird nach anderen Geräten suchen, die Daten senden wollen.";
 
@@ -583,7 +583,7 @@
 
 "Cancel" = "Abbruch";
 
-"Export Lap Data" = "Daten exportieren";
+"Share Data" = "Daten teilen";
 
 "Purging Data Recordings..." = "GPS Aufzeichnungen entfernen...";
 
@@ -685,8 +685,6 @@
 
 "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@: GPS Daten in einem für das Racelogic Circuit Tool definierte Format\n";
 
-"... and dropping into Dropbox" = "... und lege sie in Dropbox ab";
-
 "This %@ contains the following export files:\n\n" = "Diese%@ enthält die folgenden exportierten Dateien:\n\n";
 
 "%@: vehicle database in XML format\n" = "%@: Fahrzeug Datenbank im LapTimer XML Format\n";
@@ -766,16 +764,15 @@
 
 "Reloading Add On List from Server..." = "Liste wird neu vom Server geladen...";
 
-/* History Hover Views */
-"Speed [%s] @ Time [s]" = "Geschwindigkeit [%s] @ Zeit [s]";
+"Speed [%s] @ %@" = "Geschwindigkeit [%s] @ %@";
 
-"Height [%s] @ Time [s]" = "Höhe [%s] @ Zeit [s]";
+"Height [%s] @ %@" = "Höhe [%s] @ %@";
 
-"Acceleration [g] @ Time [s]" = "Beschleunigung [g] @ Zeit [s]";
+"Acceleration [g] @ %@" = "Beschleunigung [g] @ %@";
 
-"Satellites [#] @ Time [s]" = "Satellites [#] @ Zeit [s]";
+"Satellites [#] @ %@" = "Satellites [#] @ %@";
 
-"Accuracy [%s] @ Time [s]" = "Genauigkeit [%s] @ Zeit [s]";
+"Accuracy [%s] @ %@" = "Genauigkeit [%s] @ %@";
 
 "Speed (%s) of vehicle measured using GPS and Doppler effect." = "Fahrzeuggeschwindigkeit (%s) per GPS und Dopplereffekt gemessen.";
 
@@ -970,7 +967,7 @@
 
 "The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "Die Achsuntersetzung ist das Verhältnis von Drehzahl am Getriebe und an der Achse.";
 
-"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "Die Ganguntersetzung ist das Verhältnis von Drehzahl des Motors und des Getriebes.";
+"Gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "Die Ganguntersetzung ist das Verhältnis von Drehzahl des Motors und des Getriebes.";
 
 "%.2f (limit %hu %s)" = "%.2f (Limit %hu %s)";
 
@@ -1261,23 +1258,19 @@
 
 "Sector #x" = "Sektor #x";
 
-"Speed [%s] @ Distance [%s]" = "Geschwindigkeit [%s] @ Strecke [%s]";
+"Lateral Acceleration [g] @ %@" = "Querbeschleunigung [g] @ %@";
 
-"Lateral Acceleration [g] @ Distance [%s]" = "Querbeschleunigung [g] @ Strecke [%s]";
-
-"Lineal Acceleration [g] @ Distance [%s]" = "Längsbeschleunigung [g] @ Strecke [%s]";
+"Lineal Acceleration [g] @ %@" = "Längsbeschleunigung [g] @ %@";
 
 "Overall Acceleration [g-g]" = "Gesamtbeschleunigung [g-g]";
 
-"Yaw Rate [°/s] @ Distance [%s]" = "Einlenkrate [°/s] @ Strecke [%s]";
+"Yaw Rate [°/s] @ %@" = "Einlenkrate [°/s] @ %@";
 
-"Height [%s] @ Distance [%s]" = "Höhe [%s] @ Strecke [%s]";
+"Engine [rpm/1000] @ %@" = "Motor [U/min] @ %@";
 
-"Engine [rpm/1000] @ Distance [%s]" = "Motor [U/min] @ Strecke [%s]";
+"Throttle [%%] @ %@" = "Gaspedal [%%] @ %@";
 
-"Throttle [%%] @ Distance [%s]" = "Gaspedal [%%] @ Strecke [%s]";
-
-"Coolant Temperature [%@] @ Distance [%s]" = "Kühlflüssigkeit [%@] @ Strecke [%s]";
+"Coolant Temperature [%@] @ %@" = "Kühlflüssigkeit [%@] @ %@";
 
 "Lateral Acceleration" = "Querbeschleunigung";
 
@@ -1449,9 +1442,9 @@
 
 "Video recording started!" = "Aufzeichung gestartet!";
 
-"Lap timing finished! Make sure you stop video recording later..." = "Runde aufgezeichnet! Bitte Video-Aufzeichung manuell beenden...";
+"Lap finished! Make sure you stop video recording later..." = "Runde aufgezeichnet! Bitte Video-Aufzeichung manuell beenden...";
 
-"Lap timing finished!" = "Runde aufgezeichnet!";
+"Lap finished!" = "Runde aufgezeichnet!";
 
 "Stopped recording..." = "Aufzeichung beendet...";
 
@@ -1669,8 +1662,6 @@
 "Circuit Tools® (.vbo)" = "Circuit Tools® (.vbo)";
 
 "Mail" = "Mail";
-
-"Dropbox" = "Dropbox";
 
 "Send Mail..." = "Sende Nachricht...";
 
@@ -2180,6 +2171,7 @@
 
 "GPS Speed" = "GPS Geschwindigkeit";
 
+/* Overlay configuration */
 "OBD II Gadget" = "OBD II Anzeige";
 
 "Please wait..." = "Bitte warten...";
@@ -2467,7 +2459,7 @@
 
 "Wheelbase is the distance between the centers of the front and rear wheels." = "Der Radstand ist der Abstand zwischen den Achsen eines Fahrzeuges.";
 
-"Distance" = "Abstand";
+"Distance" = "Strecke";
 
 "Position Set" = "Position gesetzt";
 
@@ -2505,7 +2497,7 @@
 
 "Unlock Calibration" = "Kalibr. entriegeln";
 
-"Recording" = "Zeitnahme";
+"Recording" = "Aufzeichnung";
 
 "Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "Die Zeitnahme läuft aktuell. Zurück in der Box bitte die offene Aufzeichung der Cool Down Runde beenden. Dazu in einer der Timer Ansichten 'Abbrechen' wählen.";
 
@@ -2782,7 +2774,7 @@
 
 "Standard Speed" = "Standard";
 
-"Disturbances [K-index] @ Time [h]" = "Störungen [K-Index] @ Zeit [h]";
+"Disturbances [K-index] @ %@" = "Störungen [K-Index] @ %@";
 
 "Environment" = "Umgebung";
 
@@ -2869,11 +2861,11 @@
 
 "Lean Angle" = "Schräglage";
 
-"Lean Angle [°] @ Distance [%s]" = "Schräglage [°] @ Strecke [%s]";
+"Lean Angle [°] @ %@" = "Schräglage [°] @ %@";
 
 "Videos stored on %@. Access is not available for this app edition or cam type-or MultiCam is disabled currently." = "Auf '%@' gespeichte Videos. Für die aktuelle App Edition bzw. den Kamera Typ ist der Zugriff nicht möglich - oder MultiCam ist aktuell abgeschaltet.";
 
-"Heart Rate [bpm] @ Distance [%s]" = "Puls [1/min] @ Strecke [%s]";
+"Heart Rate [bpm] @ %@" = "Puls [1/min] @ %@";
 
 /* Overlay Quality */
 "Medium Size, Medium Quality" = "Mittel, mittlere Qualität";
@@ -3728,7 +3720,7 @@
 /* Health Check */
 "Unknown File Limit" = "Unbekanntes Datei-Limit";
 
-"Power [%s] @ Distance [%s]" = "Leistung [%s] @ Strecke [%s]";
+"Power [%s] @ %@" = "Leistung [%s] @ %@";
 
 "Undefined Vehicle" = "Undefiniertes Fahrzeug";
 
@@ -3761,4 +3753,116 @@
 "%hu connects" = "%hu Verbindungen";
 
 "connection time: %@" = "Verbindungsdauer: %@";
+
+/* Recording type like "Interpolated @ 10.0Hz */
+"Interpolated" = "Interpoliert";
+
+"Distance [%s]" = "Strecke [%s]";
+
+"Time [s]" = "Zeit [s]";
+
+"Pedals" = "Pedale";
+
+"Brake" = "Bremse";
+
+", 1 tire" = ", 1 Reifen";
+
+", %hu tires" = ", %hu Reifen";
+
+/* Tire position */
+"FL" = "VL";
+
+/* Tire position */
+"FR" = "VR";
+
+/* Tire position */
+"RL" = "HL";
+
+/* Tire position */
+"RR" = "HR";
+
+"TPMS" = "RDKS";
+
+"Kart Wheel" = "Kart Reifen";
+
+"Bicycle Wheel" = "Fahrrad Reifen";
+
+"Please specify the bicycle tire size and width in inches. As an example, a 27.5 x 2.8 MTB tire has a diameter of 27.5 inches, and a 2.8 inches width." = "Bitte Größe und Breite des Fahrradreifens in Zoll eingeben. Ein MTB Reifen mit Spezifikation 27.5 x 2.8 hat zum Beispiel eine Größe von 27.5 und eine Breite von 2.8 Zoll.";
+
+"Please specify the kart or quad tire diameter and width as well as the rim diameter in inches. As an example, a 11 x 7.10 - 5 kart tire has a diameter of 11, and width of 7.1 inches. The rim diameter is 5 inches." = "Bitte für den Kart- oder Quadreifen Durchmesser und Breite, sowie für die Felge den Durchmesser in Zoll auswählen. Ein Kartreifen mit Spezifikation 11 x 7.10 - 5 hat zum Beispiel einen Durchmesser von 11 und eine Breite von 7.1 Zoll. Die Felge hat einen Durchmesser von 5 Zoll.";
+
+"Please specify vehicle tire dimensions. As an example, a 265 / 35 Z 19 car tire has a width of 265 mm, a 35% ratio between width and sidewall, and a 19 inches rim." = "Bitte die Größenangaben für den Fahrzeugreifen auswählen. Ein Autoreifen mit Spezifikation 265 / 35 Z 19 hat zum Beispiel eine Breite von 265 mm und ein Seitenverhältnis von 35% zwischen Breite und Flanke. Die Felge hat einen Durchmesser von 19 Zoll.";
+
+"Unladen Weight" = "Leergewicht";
+
+"Speed [%s] @ Cadence [rpm]" = "Geschwindigkeit [%s] @ Trittfrequenz [U/min]";
+
+"Circumference is derived from tire size usually. Set a specific value here to fine tune this parameter. Circumference is used for gear calculation and Cycle Speed (CSC) sensors." = "Der Reifenumfang wird standardmässig aus der Reifengröße abgeleitet. Das Setzen eines speziellen Wertes erlaubt die genaue Anpassung. Der Reifenumfang wird bei der Berechnung des Gangs und für Cycle Speed and Cadence (CSC) Sensoren verwendet.";
+
+"Gear ratio is the relationship between cadence and wheel rotations per minute. If e.g. your bicycle chainring has 32 tooths, and the first gear's sprocket in the rear cassette has 42 tooths, the ratio is 42/32 = 1.31." = "Die Ganguntersetzung ist das Verhältnis zwischen Trittfrequenz und Raddrehungen pro Minute. Gear ratio is the relationship between cadence and wheel rotations per minute. Wenn zum Beispiel der Kettenring eines Fahrrads 32 und das Ritzel des ersten Gangs in der hinteren Kassette 42 Zähne hat, dann ist die Untersetzung 42/32 = 1.31.";
+
+"Vehicle (VIN linked)" = "Fahrzeug (per VIN zugeordnet)";
+
+"Vehicle (CSC linked)" = "Fahrzeug (per CSC zugeordnet)";
+
+"Smart Bike" = "Smart Bike";
+
+/* Abbreviation for circumference */
+"C" = "Umf.";
+
+/* Unit for rpm and cadence */
+"1/min" = "1/min";
+
+/* Unit for rpm and cadence */
+"1/min x 1000" = "1/min x 1000";
+
+"Cadence" = "Trittfrequenz";
+
+/* Overlay configuration */
+"CSC Gadget" = "CSC Anzeige";
+
+"Climb" = "Aufstieg";
+
+"Calories" = "Kalorien";
+
+/* height meters abbreviation */
+"hm" = "Hm";
+
+"Heart Rate" = "Herzschlag";
+
+"Recordings" = "Aufzeichnungen";
+
+"Cycling" = "Fahrradfahren";
+
+"Trip Map" = "Routenkarte";
+
+/* Weather forecast */
+"Forecast" = "Vorhersage";
+
+/* Sensor information MQTT */
+"connected and listening to %@:%@ using websockets" = "verbunden und empfängt von %@:%@ per Websockets";
+
+"Sector Gap" = "Sektor Abweichung";
+
+"lap" = "Runde";
+
+"laps" = "Runden";
+
+"Sensor types disabled in <ui>Expert Settings</ui>:" = "In <ui>Expert Settings</ui> deaktivierte Sensor Typen:";
+
+"<er>External accessories are restricted to '%s'!</er>" = "<er>Externe Sensoren aktuell auf '%s' beschränkt!</er>";
+
+/* Help text used for data distribution on Android. %s is replaces by the app name */
+"Data created by %s. Please visit www.gps-laptimer.de for more information on the world's #1 lap timer." = "Daten wurden mit %s erstellt. Für mehr Information zur weltweit meist genutzen Lap Timer gibt es unter www.gps-laptimer.de!";
+
+/* Help text when sharing / exporting data */
+"Select App to Share Data" = "Wähle die App mit der die Daten geteilt werden sollen";
+
+"2D Indoor" = "2D Indoor";
+
+/* not used any more */
+"Dropbox" = "Dropbox";
+
+/* not used any more */
+"... and dropping into Dropbox" = "... und in Dropbox ablegen";
 

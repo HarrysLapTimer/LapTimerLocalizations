@@ -469,8 +469,6 @@
 
 "Edit Note" = "Editer Note";
 
-"'Export Lap Data' will export your database of laps using an e-mail." = "'Exportation des Données' va exporter vos temps au tour par envoi d'un email.";
-
 "'Receive Lap' will search for other devices willing to send lap data to you." = "'Réception des données d'un Ami' recherchera les autres appareils pouvant vous envoyer des données.";
 
 "'Send Trackday' sends latest trackday's lap data." = "'Envoi Session à un Ami' envoi les données des derniers tours.";
@@ -478,8 +476,6 @@
 "Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "Voir les détails d'un seul tour pour envoyer ou exporter les données.";
 
 "Cancel" = "Annuler";
-
-"Export Lap Data" = "Exportation des Données";
 
 "Purging Data Recordings..." = "Purge des enregistrements de données en cours...";
 
@@ -581,8 +577,6 @@
 
 "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n";
 
-"... and dropping into Dropbox" = "... et envoi dans votre Dropbox";
-
 "This %@ contains the following export files:\n\n" = "Ce%@ contient les fichiers d'exportation :\n\n";
 
 "%@: vehicle database in XML format\n" = "%@: Base de Données des Véhicules au format XML\n";
@@ -662,16 +656,15 @@
 
 "Reloading Add On List from Server..." = "Chargement de la liste à partir du serveur...";
 
-/* History Hover Views */
-"Speed [%s] @ Time [s]" = "Vitesse [%s] @ Temps [s]";
+"Speed [%s] @ %@" = "Vitesse [%s] @ %@";
 
-"Height [%s] @ Time [s]" = "Altitude [%s] @ Temps [s]";
+"Height [%s] @ %@" = "Altitude [%s] @ %@";
 
-"Acceleration [g] @ Time [s]" = "Accélération [g] @ Temps [s]";
+"Acceleration [g] @ %@" = "Accélération [g] @ %@";
 
-"Satellites [#] @ Time [s]" = "Satellites [#] @ Temps [s]";
+"Satellites [#] @ %@" = "Satellites [#] @ %@";
 
-"Accuracy [%s] @ Time [s]" = "Précision [%s] @ Temps [s]";
+"Accuracy [%s] @ %@" = "Précision [%s] @ %@";
 
 "Speed (%s) of vehicle measured using GPS and Doppler effect." = "Vitesse (%s) mésurée par GPS et effet Doppler.";
 
@@ -866,7 +859,7 @@
 
 "The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "Le rapport de pont donne la démultiplication de la vitesse de rotation entre la boite et les roues.";
 
-"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "Il s'agit De la démultiplication de la vitesse de rotation de la boite par rapport à celle du moteur.";
+"Gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "Il s'agit De la démultiplication de la vitesse de rotation de la boite par rapport à celle du moteur.";
 
 "%.2f (limit %hu %s)" = "%.2f (limite %hu %s)";
 
@@ -1157,23 +1150,19 @@
 
 "Sector #x" = "Secteur #x";
 
-"Speed [%s] @ Distance [%s]" = "Vitesse [%s] @ Distance [%s]";
+"Lateral Acceleration [g] @ %@" = "Accélération Latérale [g] @ %@";
 
-"Lateral Acceleration [g] @ Distance [%s]" = "Accélération Latérale [g] @ Distance [%s]";
-
-"Lineal Acceleration [g] @ Distance [%s]" = "Accélération Longitudinale [g] @ Distance [%s]";
+"Lineal Acceleration [g] @ %@" = "Accélération Longitudinale [g] @ %@";
 
 "Overall Acceleration [g-g]" = "Accélération globale [g-g]";
 
-"Yaw Rate [°/s] @ Distance [%s]" = "Taux de Lacet [°/s] @ Distance [%s]";
+"Yaw Rate [°/s] @ %@" = "Taux de Lacet [°/s] @ %@";
 
-"Height [%s] @ Distance [%s]" = "Hauteur [%s] @ Distance [%s]";
+"Engine [rpm/1000] @ %@" = "Moteur [rpm/1000] @ %@";
 
-"Engine [rpm/1000] @ Distance [%s]" = "Moteur [rpm/1000] @ Distance [%s]";
+"Throttle [%%] @ %@" = "Pédale [%%] @ %@";
 
-"Throttle [%%] @ Distance [%s]" = "Pédale [%%] @ Distance [%s]";
-
-"Coolant Temperature [%@] @ Distance [%s]" = "Température d'eau [%@] @ Distance [%s]";
+"Coolant Temperature [%@] @ %@" = "Température d'eau [%@] @ %@";
 
 "Lateral Acceleration" = "Accélération Latérale";
 
@@ -1345,9 +1334,9 @@
 
 "Video recording started!" = "Enregistrement vidéo démarré";
 
-"Lap timing finished! Make sure you stop video recording later..." = "Chronométrage terminé. N'oubliez pas d'arrêter l'enregistrement vidéo plus tard";
+"Lap finished! Make sure you stop video recording later..." = "Chronométrage terminé. N'oubliez pas d'arrêter l'enregistrement vidéo plus tard";
 
-"Lap timing finished!" = "Chronométrage terminé";
+"Lap finished!" = "Chronométrage terminé";
 
 "Stopped recording..." = "Arrêt enregistrement ...";
 
@@ -1565,8 +1554,6 @@
 "Circuit Tools® (.vbo)" = "Circuit Tools® (.vbo)";
 
 "Mail" = "Mail";
-
-"Dropbox" = "Dropbox";
 
 "Send Mail..." = "Send Mail...";
 
@@ -2074,6 +2061,7 @@
 
 "GPS Speed" = "Vitesse GPS";
 
+/* Overlay configuration */
 "OBD II Gadget" = "Gadget OBD II";
 
 "Please wait..." = "Veuillez patienter…";
@@ -2509,7 +2497,7 @@
 
 "Lean Angle" = "L'angle d'inclinaison";
 
-"Lean Angle [°] @ Distance [%s]" = "Carrossage [°] @ Distance [%s]";
+"Lean Angle [°] @ %@" = "Carrossage [°] @ %@";
 
 /* Overlay Quality */
 "Medium Size, Medium Quality" = "Taille moyenne, Qualité moyenne";
@@ -2556,4 +2544,21 @@
 
 /* Sensor information Android BT */
 "connected and listening to %@" = "connecté et à l'écoute de %@";
+
+"Distance [%s]" = "Distance [%s]";
+
+"Time [s]" = "Temps [s]";
+
+"Pedals" = "Pédales";
+
+"Brake" = "Frein";
+
+"Unladen Weight" = "A vide";
+
+/* Overlay configuration */
+"CSC Gadget" = "Gadget CSC";
+
+"lap" = "Tour";
+
+"laps" = "Tours";
 

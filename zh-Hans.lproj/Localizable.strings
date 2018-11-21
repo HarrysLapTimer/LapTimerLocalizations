@@ -543,8 +543,6 @@
 
 "Edit Note" = "编辑笔记";
 
-"'Export Lap Data' will export your database of laps using an e-mail." = "“导出计时圈数据”将使用电子邮件来导出您的圈时数据。";
-
 "'Receive Lap' will search for other devices willing to send lap data to you." = "“接收计时圈”将会搜寻是否有其他设备尝试着要传送数据给您。";
 
 "'Send Trackday' sends latest trackday's lap data." = "“发送赛道日”可把最近一次赛道日的全部计时圈打包发送。";
@@ -552,8 +550,6 @@
 "Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "检视计时圈的详细信息，而后决定是否发送或导出计时圈数据。";
 
 "Cancel" = "取消";
-
-"Export Lap Data" = "导出计时圈数据";
 
 "Purging Data Recordings..." = "正在删除储存数据…";
 
@@ -655,8 +651,6 @@
 
 "%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@：为Circuit Tools分析工具优化的GPS采样点数据\n";
 
-"... and dropping into Dropbox" = "…并同步至Dropbox中";
-
 "This %@ contains the following export files:\n\n" = "此%@包含以下导出格式：\n\n";
 
 "%@: vehicle database in XML format\n" = "%@：XML格式车辆数据库\n";
@@ -736,16 +730,15 @@
 
 "Reloading Add On List from Server..." = "从服务器上重新读取添加名单...";
 
-/* History Hover Views */
-"Speed [%s] @ Time [s]" = "时速[%s] @ 时间[s]";
+"Speed [%s] @ %@" = "速度[%s] @ %@";
 
-"Height [%s] @ Time [s]" = "高度[%s] @ 时间[s]";
+"Height [%s] @ %@" = "高度[%s] @ %@";
 
-"Acceleration [g] @ Time [s]" = "加速度[g] @ 时间[s]";
+"Acceleration [g] @ %@" = "加速度[g] @ %@";
 
-"Satellites [#] @ Time [s]" = "卫星[#] @ 时间[s]";
+"Satellites [#] @ %@" = "卫星[#] @ %@";
 
-"Accuracy [%s] @ Time [s]" = "精度[%s] @ 时间[s]";
+"Accuracy [%s] @ %@" = "精度[%s] @ %@";
 
 "Speed (%s) of vehicle measured using GPS and Doppler effect." = "以GPS和多普勒效应推算出的车速(%s)。";
 
@@ -940,7 +933,7 @@
 
 "The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "终传比是变速箱输出轴与驱动轴之间的转速比例。";
 
-"The gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "齿比是特定档位上发动机转速与变速箱输出轴转速的比值。";
+"Gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "齿比是特定档位上发动机转速与变速箱输出轴转速的比值。";
 
 "%.2f (limit %hu %s)" = "%.2f (极速 %hu %s)";
 
@@ -1231,23 +1224,19 @@
 
 "Sector #x" = "计时段 #x";
 
-"Speed [%s] @ Distance [%s]" = "速度[%s] @ 里程[%s]";
+"Lateral Acceleration [g] @ %@" = "横向加速度[g] @ %@";
 
-"Lateral Acceleration [g] @ Distance [%s]" = "横向加速度[g] @ 里程[%s]";
-
-"Lineal Acceleration [g] @ Distance [%s]" = "纵向加速度[g] @ 里程[%s]";
+"Lineal Acceleration [g] @ %@" = "纵向加速度[g] @ %@";
 
 "Overall Acceleration [g-g]" = "合成加速度[g-g]";
 
-"Yaw Rate [°/s] @ Distance [%s]" = "偏转速率[°/s] @ 里程[%s]";
+"Yaw Rate [°/s] @ %@" = "偏转速率[°/s] @ %@";
 
-"Height [%s] @ Distance [%s]" = "高度[%s] @ 里程[%s]";
+"Engine [rpm/1000] @ %@" = "转速[千转/分] @ %@";
 
-"Engine [rpm/1000] @ Distance [%s]" = "转速[千转/分] @ 里程[%s]";
+"Throttle [%%] @ %@" = "油门[%%] @ %@";
 
-"Throttle [%%] @ Distance [%s]" = "油门[%%] @ 里程[%s]";
-
-"Coolant Temperature [%@] @ Distance [%s]" = "冷却液温度[%@] @ 里程[%s]";
+"Coolant Temperature [%@] @ %@" = "冷却液温度[%@] @ %@";
 
 "Lateral Acceleration" = "横向加速度";
 
@@ -1419,9 +1408,9 @@
 
 "Video recording started!" = "视频录制已开始！";
 
-"Lap timing finished! Make sure you stop video recording later..." = "圈时记录已完成！稍后请结束视频录制…";
+"Lap finished! Make sure you stop video recording later..." = "圈时记录已完成！稍后请结束视频录制…";
 
-"Lap timing finished!" = "圈时记录已完成！";
+"Lap finished!" = "圈时记录已完成！";
 
 "Stopped recording..." = "录制已停止…";
 
@@ -1639,8 +1628,6 @@
 "Circuit Tools® (.vbo)" = "Circuit Tools® (.vbo)";
 
 "Mail" = "邮件";
-
-"Dropbox" = "Dropbox";
 
 "Send Mail..." = "发送邮件…";
 
@@ -2148,6 +2135,7 @@
 
 "GPS Speed" = "GPS时速";
 
+/* Overlay configuration */
 "OBD II Gadget" = "OBD II设备";
 
 "Please wait..." = "请等待…";
@@ -2750,7 +2738,7 @@
 
 "Standard Speed" = "标准速度";
 
-"Disturbances [K-index] @ Time [h]" = "干扰度 [K指数] @ 时间 [小时]";
+"Disturbances [K-index] @ %@" = "干扰度 [K指数] @ %@";
 
 "Environment" = "环境";
 
@@ -2837,11 +2825,11 @@
 
 "Lean Angle" = "倾角";
 
-"Lean Angle [°] @ Distance [%s]" = "倾角[°] @ 里程[%s]";
+"Lean Angle [°] @ %@" = "倾角[°] @ %@";
 
 "Videos stored on %@. Access is not available for this app edition or cam type-or MultiCam is disabled currently." = "视频存储于%@。视频不能用于当前的应用版本/相机型号。";
 
-"Heart Rate [bpm] @ Distance [%s]" = "心率[bpm] @ 里程[%s]";
+"Heart Rate [bpm] @ %@" = "心率[bpm] @ %@";
 
 /* Overlay Quality */
 "Medium Size, Medium Quality" = "中等尺寸，中等画质";
@@ -3014,8 +3002,25 @@
 
 "Inactive" = "未开启";
 
-"System" = "系统";
-
 /* Sensor information Android BT */
 "connected and listening to %@" = "连接并接收%@";
+
+"Distance [%s]" = "里程[%s]";
+
+"Time [s]" = "时间[s]";
+
+"Pedals" = "踏板";
+
+"Brake" = "制动";
+
+"Unladen Weight" = "空载重量";
+
+/* Overlay configuration */
+"CSC Gadget" = "CSC设备";
+
+"lap" = "计时圈";
+
+"laps" = "计时圈";
+
+"System" = "系统";
 
