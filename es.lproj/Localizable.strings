@@ -161,7 +161,7 @@
 "Accelerometer Rate" = "Frecuencia";
 
 /* Update rate gadget for OBD - needs to be short */
-"OBD Rate" = "Frecuencia OBD";
+"OBD Rate" = "Frecuencia";
 
 /* Tile View Help */
 "kTileHelpUsingRearCam" = "La <ui>Cámara Trasera</ui> podría mostrar una <hl>imagen desfasada hasta 5 segundos</hl>.\n\n Por favor, nunca la utilice como un sustituto del retrovisor. Utilice siempre equipamiento homologado en la carretera. Cuando se detenga, verifique su posición después del pequeño desfase.\n\n<hl>Recuerde: Utilícelo bajo su propia responsabilidad.</hl>";
@@ -197,6 +197,9 @@
 "kTileHelpMaintainFeaturesWithoutOBD" = "Con <ui>Add-Ons</ui>, podrá acceder a la lista de vehículos predefinidos, cambiar funciones de la App, o ver la <ui>Lista de Sensores</ui>, tanto internos como externos GPS.";
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Ya sea definir <ui>Marca</ui>/<ui>Modelo</ui>/<ui>Año</ui> o introducir un <ui>Nombre</ui> de vehículo individual a través de la aplicación.";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetPosition" = "Reset";
 
 "Groups" = "Grupos";
 
@@ -1241,8 +1244,6 @@
 
 "Throttle [%%] @ %@" = "Pedal [%%] @ %@";
 
-"Coolant Temperature [%@] @ %@" = "Temperatura del refrigerante [%@] @ %@";
-
 "Lateral Acceleration" = "Aceleración Lateral";
 
 "Lineal Acceleration" = "Aceleración Lineal";
@@ -1259,7 +1260,7 @@
 
 "(OBD speed dotted)" = "(Velocidad OBD punteada)";
 
-"(Oil temperature dotted)" = "(Temperatura del aceite punteada)";
+"Oil temperature" = "Temperatura del aceite";
 
 "Reference not available" = "Referencia no disponible";
 
@@ -1840,7 +1841,7 @@
 
 "GPS Update Rate" = "Frecuencia GPS";
 
-"OBD Update Rate" = "Frecuencia OBD";
+"OBD Update Rate" = "Frecuencia";
 
 "Track Nearby" = "Circuito Cercano";
 
@@ -1924,7 +1925,7 @@
 
 "Countdown" = "Cuenta Atrás";
 
-"OBD II Data" = "Datos OBD II";
+"Engine Data" = "Datos del motor";
 
 "Date and Timing" = "Fecha y Hora";
 
@@ -2141,7 +2142,7 @@
 "GPS Speed" = "Velocidad GPS";
 
 /* Overlay configuration */
-"OBD II Gadget" = "Dispositivo OBD II";
+"Engine Gadget" = "Pantalla del motor";
 
 "Please wait..." = "Por favor espere...";
 
@@ -2893,4 +2894,18 @@
 "lap" = "Vuelta";
 
 "laps" = "Vueltas";
+
+"vehicle" = "Vehículo";
+
+"vehicles" = "Vehículos";
+
+"fix" = "Posicion";
+
+"fixes" = "Posiciones";
+
+"Fix" = "Posicion";
+
+"GPS Fixes: %lu" = "Posiciones GPS: %lu";
+
+"TPMS Rate" = "Frecuencia";
 

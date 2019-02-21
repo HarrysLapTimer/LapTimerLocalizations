@@ -221,3 +221,19 @@
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Either set <ui>Make</ui>/<ui>Model</ui>/<ui>Year</ui> or enter an individual vehicle <ui>Name</ui> displayed throughout the app.";
 
+/* TiresGadget sensor configuration */
+"Drag or\nConfirm Sensor" = "Drag or\nConfirm";
+
+/* TiresGadget sensor configuration */
+"Drag Sensor" = "Drag";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelCalibrate" = "Calibrate";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetPosition" = "Reset";
+
+"Problem with tires detected. This may be battery, pressure, or temperatures. Please check Analysis ‣ Realtime ‣ Tires for details." = "Es wurde ein Problem mit den Reifen erkannt. Dabei kann es sich um ein Problem mit der Stromversorgung, dem Reifendruck oder erreichten Temperaturen handeln. Bitte unter Analyse ‣ Echtzeit ‣ Reifen Details ansehen.";
+
+"Set <hl>pressure expected</hl> for tires of this axle. PRODUCTNAME will use this value to monitor <hl>actual values</hl> and issue a warning in case it is off." = "Bitte den <hl>erwarteten Reifendruck</hl> für diese Achse setzen.  PRODUCTNAME wird diesen Wert nutzen um unerwünschte Abweichungen des <hl>gemessenen Reifendrucks</hl> zu erkennen und eine Warnung anzuzeigen.";
+

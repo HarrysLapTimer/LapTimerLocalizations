@@ -195,6 +195,9 @@
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "請設置品牌/型號/年份或輸入個性化的車輛別名。";
 
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetPosition" = "重置";
+
 "Groups" = "分組";
 
 /* Controller titles */
@@ -1236,8 +1239,6 @@
 
 "Throttle [%%] @ %@" = "油門[%%] @ %@";
 
-"Coolant Temperature [%@] @ %@" = "冷卻液溫度[%@] @ %@";
-
 "Lateral Acceleration" = "橫向加速度";
 
 "Lineal Acceleration" = "縱向加速度";
@@ -1254,7 +1255,7 @@
 
 "(OBD speed dotted)" = "(虛線：OBD 時速)";
 
-"(Oil temperature dotted)" = "(虛線：油溫)";
+"Oil temperature" = "油溫";
 
 "Reference not available" = "無對照圈數據";
 
@@ -1919,7 +1920,7 @@
 
 "Countdown" = "倒數計時";
 
-"OBD II Data" = "OBD II數據";
+"Engine Data" = "發動機數據";
 
 "Date and Timing" = "日期與時間";
 
@@ -2136,7 +2137,7 @@
 "GPS Speed" = "GPS時速";
 
 /* Overlay configuration */
-"OBD II Gadget" = "OBD II設備";
+"Engine Gadget" = "發動機顯示";
 
 "Please wait..." = "請等待…";
 
@@ -3021,6 +3022,18 @@
 "lap" = "計時圈";
 
 "laps" = "計時圈";
+
+"vehicle" = "車輛";
+
+"vehicles" = "車輛";
+
+"fix" = "採樣點";
+
+"fixes" = "採樣點";
+
+"Fix" = "採樣點";
+
+"GPS Fixes: %lu" = "GPS採樣點：%lu";
 
 "System" = "系統";
 

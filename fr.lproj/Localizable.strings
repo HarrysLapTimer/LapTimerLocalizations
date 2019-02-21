@@ -93,6 +93,9 @@
 
 "kLapAbbreviation" = "T";
 
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetCalibration" = "RàZ";
+
 /* Vehicle History (and others) */
 "Event" = "Événement";
 
@@ -103,7 +106,7 @@
 "Accelerometer Rate" = "Taux";
 
 /* Update rate gadget for OBD - needs to be short */
-"OBD Rate" = "Taux OBD";
+"OBD Rate" = "Taux";
 
 /* Social Networks */
 "kSocialNetworkRate" = "Evaluer";
@@ -118,6 +121,9 @@
 "kMoveToVehicle" = "Vers";
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Vous pouvez soit sélectionner un <ui>Modèle</ui>/<ui>Marque</ui>/<ui>Année</ui> ou entrer le <ui>Nom</ui> d'un véhicule affiché via l'application.";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetPosition" = "RàZ";
 
 "Groups" = "Groupes";
 
@@ -1162,8 +1168,6 @@
 
 "Throttle [%%] @ %@" = "Pédale [%%] @ %@";
 
-"Coolant Temperature [%@] @ %@" = "Température d'eau [%@] @ %@";
-
 "Lateral Acceleration" = "Accélération Latérale";
 
 "Lineal Acceleration" = "Accélération Longitudinale";
@@ -1180,7 +1184,7 @@
 
 "(OBD speed dotted)" = "(Vitesse ODB en pointillé)";
 
-"(Oil temperature dotted)" = "(Température huile en pointillé)";
+"Oil temperature" = "Température huile";
 
 "Reference not available" = "Référence non disponible";
 
@@ -1845,7 +1849,7 @@
 
 "Countdown" = "Chrono";
 
-"OBD II Data" = "Données OBD II";
+"Engine Data" = "Données du moteur";
 
 "Date and Timing" = "Date et heure";
 
@@ -2062,7 +2066,7 @@
 "GPS Speed" = "Vitesse GPS";
 
 /* Overlay configuration */
-"OBD II Gadget" = "Gadget OBD II";
+"Engine Gadget" = "Affichage du moteur";
 
 "Please wait..." = "Veuillez patienter…";
 
@@ -2561,4 +2565,18 @@
 "lap" = "Tour";
 
 "laps" = "Tours";
+
+"vehicle" = "Véhicule";
+
+"vehicles" = "Véhicules";
+
+"fix" = "Point";
+
+"fixes" = "Points";
+
+"Fix" = "Point";
+
+"GPS Fixes: %lu" = "Position GPS : %lu";
+
+"TPMS Rate" = "Taux";
 

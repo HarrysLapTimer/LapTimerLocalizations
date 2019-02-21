@@ -550,7 +550,35 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
+	<ALERT_RESOURCE RESOURCE_ID="4312" COMMENT="JoinListedLaps">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"Sure you want to join laps #^1 to #^2 into one lap?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Cancel" </TEXT>
+			<TEXT> "Yes, join listed" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="4313" COMMENT="JoinWithPrevious">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"Do you want to join this lap (^1) with the preceeding lap (^2) and form a new combined ^3 lap?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Cancel" </TEXT>
+			<TEXT> "Join" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
@@ -1469,6 +1497,33 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+	<ALERT_RESOURCE RESOURCE_ID="9035" COMMENT="EditingPositionsConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"Editing fixes will change this lap's recording type from 'Automatic' to 'Incomplete'. This is done to distinguish certified from modified recordings."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Proceed" </TEXT>
+			<TEXT> "Cancel" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9036" COMMENT="EditedPositionsSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Fixes have been updated successfully. The overall distance is ^1 now."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
         <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -1518,6 +1573,45 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9110" COMMENT="RecalculatedTiresSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Tire temperatures calculated based on acceleration values for ^2 lap(s). NB: ^1 applies several assumptions, so derived absolute values may be off significanty."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9111" COMMENT="TiresCalculation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Tire temperatures are calculated from acceleration, speed, and various vehicle properties. To run this calculation, some missing values need to be defined: ^1." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Ignore" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9112" COMMENT="ConfirmRecalculateTires">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"Recalculating tire temperatures will overwrite existing values for ^1 lap(s). Are you sure you want to continue this recalculation?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "No" </TEXT>
+			<TEXT> "Recalculate" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -2586,7 +2680,32 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
+	<ALERT_RESOURCE RESOURCE_ID="9338" COMMENT="DatabaseInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Information" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9339" COMMENT="ActivateDatabaseReplaced">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Information" </TITLE>
+		<MESSAGE>
+			"^1\n\nSelect Reorganize to run a low level reorganization of Fixes."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Reorganize" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>

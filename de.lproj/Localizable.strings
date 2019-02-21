@@ -221,6 +221,18 @@
 
 "Either set make/model/year or enter an individual vehicle name displayed throughout the app." = "Entweder <ui>Hersteller</ui> / <ui>Modell</ui> / <ui>Modelljahr</ui> auswählen oder einen individuellen Namen für das Fahrzeug eintragen. Der <ui>Name</ui> wird in der App zur Identifikation des Fahrzeugs genutzt.";
 
+/* TiresGadget sensor configuration */
+"Drag or\nConfirm Sensor" = "Ziehen oder\nBestätigen";
+
+/* TiresGadget sensor configuration */
+"Drag Sensor" = "Ziehen";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelCalibrate" = "Kalibrieren";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetPosition" = "Reset";
+
 "Video recording is disabled currently. This means LapTimer will time laps and record data only. To enable video recording in addition, select the appropriate mode in Timer ‣ Video ‣ Video Operation." = "Die automatische Aufzeichnung von Videos ist aktuell abgeschaltet. LapTimer wird damit lediglich Zeiten und Daten aufzeichnen. Um die Videoaufzeichung zusätzlich einzuschalten, bitte eine geeignete Auswahl in Timer ‣ Video ‣ Video Funktion wählen.";
 
 "Groups" = "Gruppen";
@@ -1270,7 +1282,7 @@
 
 "Throttle [%%] @ %@" = "Gaspedal [%%] @ %@";
 
-"Coolant Temperature [%@] @ %@" = "Kühlflüssigkeit [%@] @ %@";
+"Engine Temperatures [%@] @ %@" = "Motor Temperaturen [%@] @ %@";
 
 "Lateral Acceleration" = "Querbeschleunigung";
 
@@ -1288,7 +1300,7 @@
 
 "(OBD speed dotted)" = "(OBD Geschwindigkeit gestrichelt)";
 
-"(Oil temperature dotted)" = "(Öltemperatur gestrichelt)";
+"Oil temperature" = "Öltemperatur";
 
 "Reference not available" = "Referenz nicht verfügbar";
 
@@ -1367,7 +1379,7 @@
 
 "Housekeeping" = "Aufräumen";
 
-"Play" = "Anzeigen";
+"Play" = "Abspielen";
 
 "Re-Link" = "Referenzieren";
 
@@ -1955,7 +1967,7 @@
 
 "Countdown" = "Countdown";
 
-"OBD II Data" = "OBD II Daten";
+"Engine Data" = "Motordaten";
 
 "Date and Timing" = "Datum und Zeiten";
 
@@ -2172,7 +2184,7 @@
 "GPS Speed" = "GPS Geschwindigkeit";
 
 /* Overlay configuration */
-"OBD II Gadget" = "OBD II Anzeige";
+"Engine Gadget" = "Motoranzeige";
 
 "Please wait..." = "Bitte warten...";
 
@@ -3781,6 +3793,7 @@
 /* Tire position */
 "RR" = "HR";
 
+/* Tire Pressure Management System */
 "TPMS" = "RDKS";
 
 "Kart Wheel" = "Kart Reifen";
@@ -3865,4 +3878,151 @@
 
 /* not used any more */
 "... and dropping into Dropbox" = "... und in Dropbox ablegen";
+
+"vehicle" = "Fahrzeug";
+
+"vehicles" = "Fahrzeuge";
+
+"fix" = "Position";
+
+"fixes" = "Positionen";
+
+"Fix" = "Position";
+
+"GPS Fixes: %lu" = "GPS Positionen: %lu";
+
+"Low Accuracy" = "Ungenaue";
+
+"Paused" = "Pausiert";
+
+"Kart Identification" = "Kart Identifikation";
+
+"Welcome to '%s'! This site features <hl>Indoor Positioning System</hl>.\n\nEach kart at this site is identified by a tag identifier. To record laps for this kart, please select your <ui>Tag ID</ui>! For any questions, please contact your organizer.\n\nTo change the <ui>Tag ID</ui> later, re-load the track set." = "Willkommen bei '%s'! Diese Lokation ist mit einem <hl>Indoor Positionierungs System</hl> ausgestattet.\n\nJedes der verfügbaren Karts wird mit einem Tag identifiziert. Um Runden für ein Kart aufzuzeichnen, bitte die passende <ui>Tag ID</ui> auswählen! Bei Fragen dazu bitte den Organisator ansprechen.\n\nUm die <ui>Tag ID</ui> später zu ändern, bitte das Track Set erneut laden.";
+
+"Tag ID" = "Tag ID";
+
+"Corridor" = "Korridor";
+
+"Narrow" = "Eng";
+
+"Normal" = "Normal";
+
+"Wide" = "Weit";
+
+"Corridor Type" = "Korridor Typ";
+
+"Select the type of the corridor detection for this trigger. Should be <ui>Default</ui> for almost all configurations." = "Bitte die Art des Korridors für die Erkennung dieses Triggers auswählen. <ui>Standard</ui> sollte für die allermeisten Konfigurationen richtig sein.";
+
+"Default" = "Standard";
+
+"Join List" = "Zusammenführen";
+
+"Reorganized Backup" = "Reorganisiertes Backup";
+
+"Tire Sensors" = "Reifen Sensoren";
+
+/* Tire position not assigned */
+"NA" = "NZ";
+
+/* Tire position motorbike */
+"F" = "V";
+
+/* Tire position motorbike */
+"R" = "H";
+
+"Data for 1 tire" = "Daten für 1en Reifen";
+
+"Data for %hu tires" = "Daten für %hu Reifen";
+
+", %hu without position." = ", %hu ohne Position.";
+
+"No tire data" = "Keine Reifendaten";
+
+"TPMS Rate" = "Rate";
+
+"Dry Super Soft" = "Trocken Super Soft";
+
+"Dry Soft" = "Trocken Soft";
+
+"Dry Medium" = "Trocken Mittel";
+
+"Dry Hard" = "Trocken Hart";
+
+"Wet Soft" = "Regen Soft";
+
+"Wet Hard" = "Regen Hart";
+
+"Super Soft" = "Super Soft";
+
+"Soft" = "Soft";
+
+"Hard" = "Hart";
+
+"Wet S." = "Regen S.";
+
+"Wet H." = "Regen H.";
+
+"Front/Rear" = "Vorne/Hinten";
+
+"Tire Hardness" = "Reifenhärte";
+
+"Data received for %hu tires" = "Daten für %hu Reifen";
+
+"Working Temperature" = "Arbeitstemperatur";
+
+"Tread" = "Lauffläche";
+
+/* Tire Temperature Management System */
+"TTMS" = "RTKS";
+
+/* Tire Management System */
+"TMS" = "RKS";
+
+/* Title for tire max temperature gadget */
+"Hot Spot" = "Hot Spot";
+
+"Raw Rate" = "Technische Rate";
+
+"Drive Tire" = "Antriebsrad";
+
+"Front" = "Vorne";
+
+"Rear" = "Hinten";
+
+"Min Battery" = "Min. Batterie";
+
+"Front Axle Pressure" = "Druck Vorderachse";
+
+"Rear Axle Pressure" = "Druck Hinterachse";
+
+"Pressure" = "Druck";
+
+"Ambient" = "Umgebung";
+
+"Tire Temperatures [%@] @ %@" = "Reifen Temperaturen [%@] @ %@";
+
+/* Used in diagrams like "FR tire temperature" */
+"tire temperature" = "Reifentemperatur";
+
+"Intake temperature" = "Einlasstemperatur";
+
+"Coolant temperature" = "Kühlflüssigkeit";
+
+"Battery temperature" = "Batterietemperatur";
+
+"Ambient Temperature" = "Umgebungtemperatur";
+
+"Temperature" = "Temperatur";
+
+"Please select the ambient temperature for the day the session has been recorded. Use a rough estimate in case you are curious." = "Bitte die am Tag der Aufzeichnung herrschende Umgebungstemperatur auswählen. Wenn die Temperatur unbekannt ist, bitte ein grobe Schätzung  verwenden.";
+
+"No Engine" = "Ohne Motor";
+
+"No Tires" = "Ohne Reifen";
+
+"Measured" = "Gemessene";
+
+"Always" = "Immer";
+
+"Tires Gadget" = "Reifenanzeige";
 

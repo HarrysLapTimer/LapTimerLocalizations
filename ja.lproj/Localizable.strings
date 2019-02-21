@@ -75,6 +75,9 @@
 
 "kLapAbbreviation" = "L";
 
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetCalibration" = "リセット";
+
 /* Vehicle History (and others) */
 "Event" = "イベント";
 
@@ -92,6 +95,9 @@
 
 /* Update rate gadget for Accelerometer - needs to be short */
 "Raw Accelerometer Rate" = "更新レート";
+
+/* SportChrono Buttons */
+"kSportChronoButtonLabelResetPosition" = "リセット";
 
 /* Controller titles */
 "Classic" = "ストップウォッチ";
@@ -1104,8 +1110,6 @@
 
 "Throttle [%%] @ %@" = "スロットル [%%] @ %@";
 
-"Coolant Temperature [%@] @ %@" = "水温 [%@] @ %@";
-
 "Lateral Acceleration" = "横G";
 
 "Lineal Acceleration" = "縦G";
@@ -1121,8 +1125,6 @@
 "Selected " = "選択された ";
 
 "(OBD speed dotted)" = "(OBDスピード)";
-
-"(Oil temperature dotted)" = "(油温)";
 
 "Reference not available" = "リファレンスが使用不能";
 
@@ -1544,7 +1546,7 @@
 
 "Countdown" = "カウントダウン";
 
-"OBD II Data" = "OBD II データ";
+"Engine Data" = "エンジンデータ";
 
 "Date and Timing" = "日付とタイミング";
 
@@ -1567,6 +1569,9 @@
 "Select the frame matching the end of the timed lap, and press 'Set'." = "ラップ終了時のフレームを選択してください.";
 
 "GPS Speed" = "GPS速度";
+
+/* Overlay configuration */
+"Engine Gadget" = "エンジン表示";
 
 "warning: " = "警告";
 
@@ -1626,4 +1631,16 @@
 "lap" = "ラップ";
 
 "laps" = "ラップ";
+
+"vehicle" = "車両";
+
+"vehicles" = "車両";
+
+"fix" = "測位点";
+
+"fixes" = "測位点";
+
+"Fix" = "測位点";
+
+"GPS Fixes: %lu" = "GPS測位点: %lu";
 

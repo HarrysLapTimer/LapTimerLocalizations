@@ -560,6 +560,34 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
+	<ALERT_RESOURCE RESOURCE_ID="4312" COMMENT="JoinListedLaps">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Bestätigung" </TITLE>
+		<MESSAGE>
+			"Sicher, dass die Runden #^1 bis #^2 in einer Runde zusammengeführt werden soll?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Abbrechen" </TEXT>
+			<TEXT> "Ja, sicher" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="4313" COMMENT="JoinWithPrevious">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Bestätigung" </TITLE>
+		<MESSAGE>
+			"Soll die Runde (^1) mit der Vorhergehenden (^2) zu einer Runde von ^3 kombiniert werden?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Abbrechen" </TEXT>
+			<TEXT> "Kombinieren" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1511,6 +1539,33 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+	<ALERT_RESOURCE RESOURCE_ID="9035" COMMENT="EditingPositionsConfirmation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Bestätigung" </TITLE>
+		<MESSAGE>
+			"Beim Editieren von Positionen wird die Art der Aufzeichnung für die Runde von 'Automatisch' in 'Unvollständig' geändert. Damit können zertifizierte von geänderten Aufzeichungen unterschieden werden."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Fortfahren" </TEXT>
+			<TEXT> "Abbrechen" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9036" COMMENT="EditedPositionsSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Positionen wurden erfolgreich aktualisiert. Die Gesamtlänge der Aufzeichung ist nun ^1."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1560,6 +1615,45 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9110" COMMENT="RecalculatedTiresSuccessfully">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"Reifentemperaturen wurden auf Basis der Beschleunigungswerte für ^2 Runde(n) berechnet. Achtung: ^1 nutzt eine Reihe von Annahmen, entsprechend können abgeleitete Werte erheblich von realen Werten abweichen."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9111" COMMENT="TiresCalculation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "Reifentemperaturen werden auf Basis von Beschleunigungswerten, Geschwindigkeit und verschiedenen Eigenschaften des Fahrzeugs errechnet. Um korrekte Werte zu erhalten, müssen noch die folgende Werte definiert werden: ^1." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Ignorieren" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9112" COMMENT="ConfirmRecalculateTires">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"Reifentemperaturen werden für ^1 Runde(n) neu berechnet und vorhandene Werte ersetzen. Sicher, dass neu berechnet und überschrieben werden soll?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Nein" </TEXT>
+			<TEXT> "Berechnen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -2652,7 +2746,32 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
+	<ALERT_RESOURCE RESOURCE_ID="9338" COMMENT="DatabaseInformation">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Information" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9339" COMMENT="ActivateDatabaseReplaced">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Information" </TITLE>
+		<MESSAGE>
+			"^1\n\nSelect Reorganize to run a low level reorganization of Fixes."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Reorganize" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
@@ -3429,7 +3548,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-		<MESSAGE> "Die Höchstgeschwindigkeit wird aus Motorleistung, Leistungsverlusten, Luftwiderstand, Rollwiderstand und Hubarbeit errechnet. Um korrekte Werte zu erhalten, müssen noch die folgende Werte definiert werden: ^1" </MESSAGE>
+		<MESSAGE> "Die Höchstgeschwindigkeit wird aus Motorleistung, Leistungsverlusten, Luftwiderstand, Rollwiderstand und Hubarbeit errechnet. Um korrekte Werte zu erhalten, müssen noch die folgende Werte definiert werden: ^1." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
         </BUTTONS>
