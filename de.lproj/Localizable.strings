@@ -2824,7 +2824,7 @@
 
 "Cam Preset" = "Kamera";
 
-"Measured" = "Gemessen";
+"Measured" = "Gemessene";
 
 "Motorbike Preset" = "Voreinstellung Motorrad";
 
@@ -3521,8 +3521,6 @@
 
 "Finish" = "Ziel";
 
-"Downloading PUSH Session..." = "Lade PUSH Aufzeichnung...";
-
 "Please stop video recording before closing this view!" = "Bitte die Videoaufzeichung vor Beenden dieser Ansicht stoppen!";
 
 "Reference Line" = "Referenzlinie";
@@ -4020,9 +4018,15 @@
 
 "No Tires" = "Ohne Reifen";
 
-"Measured" = "Gemessene";
-
 "Always" = "Immer";
 
 "Tires Gadget" = "Reifenanzeige";
+
+"Basic user settings defined. You can start driving now!" = "Benutzereinstellungen sind nun definiert. Du kannst jetzt losfahren!";
+
+"Select the Tag ID communicated by your organizer." = "Bitte die vom Organisator genannte Tag ID auswählen! ";
+
+"Select Tag ID" = "Tag ID auswählen";
+
+"Setup" = "Setup";
 

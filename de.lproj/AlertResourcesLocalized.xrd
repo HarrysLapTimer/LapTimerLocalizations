@@ -2851,6 +2851,17 @@
 			<TEXT> "Ignorieren" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9346" COMMENT="BluetoothManagerDeadAndroid">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "Scheinbar funktioniert der Bluetooth Service des Smartphones nicht korrekt. Versuche es bitte zunächst mit einem Neustart von ^1. Wenn das nicht hilft, bitte das Smartphone komplett neu starten." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
 	
     <ALERT_RESOURCE RESOURCE_ID="9350" COMMENT="InvalidLapForAfterTheFactSubmission">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
@@ -3990,7 +4001,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
-		<MESSAGE> "Das Skript für Sensor ^1 wurde erfolgreich geladen. Er wurde entweder hinzugefügt oder ersetzt eine vordefinierten Sensot. Um den Sensor wieder zu entfernen, bitte Sensor Liste aufrufen und den Sensor löschen." </MESSAGE>
+		<MESSAGE> "Das Skript für Sensor ^1 wurde erfolgreich geladen. Er wurde entweder hinzugefügt oder ersetzt eine vordefinierten Sensor. Um den Sensor wieder zu entfernen, bitte Sensor Liste aufrufen und den Sensor löschen." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>

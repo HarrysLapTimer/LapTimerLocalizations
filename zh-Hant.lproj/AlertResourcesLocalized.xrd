@@ -2781,6 +2781,17 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 	
+	<ALERT_RESOURCE RESOURCE_ID="9346" COMMENT="BluetoothManagerDeadAndroid">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Error" </TITLE>
+		<MESSAGE> "It looks like your device's Bluetooth service is not working properly. Please try to restart ^1 first. In case this doesn't help, reboot the system." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9350" COMMENT="InvalidLapForAfterTheFactSubmission">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
