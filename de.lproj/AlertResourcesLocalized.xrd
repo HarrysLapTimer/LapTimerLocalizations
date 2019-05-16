@@ -2012,6 +2012,20 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+	<ALERT_RESOURCE RESOURCE_ID="9076" COMMENT="UseSoftwareOrHardware">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Bestätigung" </TITLE>
+		<MESSAGE>
+			"^1 unterstützt für dieses Smartphone zwei Verfahren um Overlays zu erstellen: in Software oder Hardware-beschleunigt. Während Zweiteres schneller ist, kann es für spezifische Hardware Konfigurationen zu Fehlern und Abbrüchen kommen. Das Verfahren kann hier ausgewählt, oder später in ^1s Expert Settings gesetzt werden."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Software" </TEXT>
+			<TEXT> "Hardware" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>

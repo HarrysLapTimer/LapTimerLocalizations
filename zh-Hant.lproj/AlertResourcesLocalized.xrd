@@ -1968,6 +1968,20 @@
         </BUTTONS>
     </ALERT_RESOURCE>
     
+	<ALERT_RESOURCE RESOURCE_ID="9076" COMMENT="UseSoftwareOrHardware">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"^1 supports two methods to overlay videos for your device: in software or hardware accelerated. While the later is faster, it may fail or even crash for certain hardware configurations. You can select the method now, or change your selection in ^1's Expert Settings later."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Software" </TEXT>
+			<TEXT> "Hardware" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9072" COMMENT="VideoTooBigToProcess">
         <ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
