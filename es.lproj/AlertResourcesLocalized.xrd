@@ -74,55 +74,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="1311" COMMENT="ConfirmTrackSelection">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Please confirm track set '^1' is the one to use for the import. Select 'Load' to see other tracks nearby."</MESSAGE>
-        <BUTTONS>
-            <TEXT> "Import" </TEXT>
-            <TEXT> "Load" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"El registro fue realizado con éxito, LapTimer está totalmente habilitado. Gracias por apoyarnos."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1500" COMMENT="BadCharacterInKey">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "Carácter inválido '^1' en la clave '^2'. No se ha podido registrar." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1600" COMMENT="InvalidKey">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE>
-			"La clave '^1' no es válida para esta versión de LapTimer. Por favor, póngase en contacto con el autor para conseguir una actualización de su clave."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
 	<ALERT_RESOURCE RESOURCE_ID="1700" COMMENT="UnregisteredVersion">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -133,48 +84,6 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1800" COMMENT="WarningLargeExport">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE>
-			"Con el número de registros existentes en su base de datos, la exportación tardará mucho tiempo en completarse. ¿Desea continuar con la configuración actual?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Sí" </TEXT>
-			<TEXT> "No" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1900" COMMENT="ConfimationPowerDown">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmación" </TITLE>
-		<MESSAGE>
-			"El cronómetro está corriendo. Se restablecerá si se apaga el dispositivo, las vueltas no se guardarán."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Apagar" </TEXT>
-			<TEXT> "Continuar" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2000" COMMENT="ConfimationAppStop">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmación" </TITLE>
-		<MESSAGE>
-			"El cronómetro está corriendo. Las vueltas no se guardarán en caso de cerrar LapTimer ahora."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Finalizar" </TEXT>
-			<TEXT> "Continuar" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -212,74 +121,12 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="2200" COMMENT="GPSLoggingStarted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Registro del GPS" </TITLE>
-		<MESSAGE>
-			"El registro de los datos del GPS a 'LapTimerGPSLogDB.pdb' ha sido iniciado. Puede utilizar este registro para la reproducción / simulación la próxima vez que inicie LapTimer."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2300" COMMENT="InformationNoDataRecording">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "No hay registro de datos disponible para la vuelta." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2400" COMMENT="ConfirmationGPSOperation">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Seleccione el modo de GPS" </TITLE>
-		<MESSAGE> "Seleccione el modo de funcionamiento del GPS que desee." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "BT" </TEXT>
-			<TEXT> "Serial" </TEXT>
-			<TEXT> "Sim" </TEXT>
-			<TEXT> "Ninguno" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2500" COMMENT="UnregisteredVersionPurgeRecordings">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE>
-			"Al tratarse de una versión sin registrar, los datos tomados por el GPS se borrarán al salir. Gracias por usar LapTimer."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
 	<ALERT_RESOURCE RESOURCE_ID="2600" COMMENT="ExportError">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
 		<MESSAGE> "Error al escribir el archivo '^1'. Por favor, compruebe la tarjeta de memoria." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2700" COMMENT="ExportSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "'^1' exportado con éxito a la tarjeta de memoria." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
@@ -295,78 +142,6 @@
             <TEXT> "OK" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2702" COMMENT="NicknameRequiredForGroup">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Invalid Nickname" </TITLE>
-		<MESSAGE> "This special interest group requires a nickname for members joining. Please enter a valid nickname and try again." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "Importación desde tarjeta de memoria realizada con éxito." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2900" COMMENT="ImportError">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE>
-			"Error al abrir el archivo de importación ^1. Por favor verifique la tarjeta de memoria."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="3000" COMMENT="Timelimit info">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"Esta es una versión limitada de la LapTimer. LapTimer dejará de funcionar el ^1. Por favor, instale una versión completa antes de esta fecha."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="3100" COMMENT="NoValidGPSPosition">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Accionador manual" </TITLE>
-		<MESSAGE>
-			"La posición / precisión del GPS disponible no es válida, el sector no ha sido establecido."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="3200" COMMENT="LibraryMissing">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "La biblioteca '^1' requerida no se encuentra, por favor, instálela." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
 
 	<ALERT_RESOURCE RESOURCE_ID="3300" COMMENT="NoPOIDatabaseFound">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
@@ -404,31 +179,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="3500" COMMENT="JPEGCorrupted">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE> "Problema con la biblioteca JPEG, la imagen podría estar dañada." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="3600" COMMENT="GPSNotAvailable">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmación" </TITLE>
-		<MESSAGE>
-			"El último GPS conectado no ha sido encontrado. ¿Desea mantener la información para la próxima vez?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Sí" </TEXT>
-			<TEXT> "No, seleccionaré el modo de GPS la próxima vez" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
 	<ALERT_RESOURCE RESOURCE_ID="3700" COMMENT="ConfirmGPSPurge">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -443,85 +193,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="3800" COMMENT="ConfirmIntermediatesPurge">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmar borrado" </TITLE>
-		<MESSAGE>
-			"Se borrarán los tiempos intermedios de esta vuelta. ¿Desea continuar?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Sí" </TEXT>
-			<TEXT> "No" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="3900" COMMENT="WarningNoSimulation">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Simulación" </TITLE>
-		<MESSAGE>
-			"'Error al abrir LapTimerGPSLogDB.pdb'. La simulación no se ha iniciado."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4000" COMMENT="GPSLoggingPurgeAppend">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS Logging" </TITLE>
-		<MESSAGE>
-			"Se ha encontrado 'LapTimerGPSLogDB.pdb'. ¿Desea empezar desde el principio (borrar los registros existentes) o añadir los registros al final de la base de datos?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Borrar y empezar" </TEXT>
-			<TEXT> "Añadir" </TEXT>
-			<TEXT> "Cancelar" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4100" COMMENT="GPSLoggingSuccess">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Registro del GPS" </TITLE>
-		<MESSAGE>
-			"La toma de datos ^1 se detuvo. Registro escrito en 'LapTimerGPSLogDB.pdb'."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4200" COMMENT="SelectReferenceLap">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"Para seleccionar una vuelta de referencia distinta de 'Mejor vuelta' o 'Última vuelta', abra 'Detalles de los tiempos de vuelta' y seleccione 'Referencia'."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4300" COMMENT="ErrorOpenMergeDB">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "La base de datos '^1' no se pudo abrir." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="4310" COMMENT="DeleteAllLaps">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -575,78 +246,6 @@
 		<BUTTONS>
 			<TEXT> "Cancel" </TEXT>
 			<TEXT> "Join" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE>
-			"La base de datos '^1' tiene una versión DB incorrecta. Por favor, cambie el nombre de la base de datos a '^2' y reinicie LapTimer para actualizarla."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4500" COMMENT="ErrorWritingData">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "Error al escribir los datos de la vuelta en la base de datos." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4600" COMMENT="WarningTooManyTracks">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE>
-            "El circuito '^1' no se pudo ser creado. La vuelta fusionada se establecerá como pista 'Sin Especificar'"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4700" COMMENT="ErrorWritingGPSData">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "Error al escribir datos del GPS en la base de datos." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4800" COMMENT="GPSTimeAdjusted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "Hora del sistema del GPS establecida para ^1." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="4900" COMMENT="UnknownNMEASentence">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE> 
-            "Sentencia NMEA $^1,^2*xx desconocida recibida ..."
-        </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -778,17 +377,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>    
     
-	<ALERT_RESOURCE RESOURCE_ID="5200" COMMENT="ProfileSerialToTrigger">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Prestaciones" </TITLE>
-		<MESSAGE> "Historial: ^1, min / max: ^2, y el promedio de ^3" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
 	<ALERT_RESOURCE RESOURCE_ID="5300" COMMENT="InvalidInsertion">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -815,135 +403,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="5500" COMMENT="ManualStopTriggeredLap">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> 
-            "La vuelta activa no puede ser detenida manualmente." 
-        </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="5600" COMMENT="NMEACommandsInfo">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "Los comandos NMEA recibidos hasta el momento son: ^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="5700" COMMENT="WarningProfessionalView">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE>
-			"Esta vista solo está disponible en la gama de productos LapTimer Professional. Por favor, actualice a una versión Professional para poder habilitarla."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="5800" COMMENT="ConfirmGPSLoggingPurge">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmar borrado" </TITLE>
-		<MESSAGE> "¿Desea borrar los datos grabados?" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "Sí" </TEXT>
-			<TEXT> "No" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="5900" COMMENT="ResetOldVersion">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE>
-			"Existe una versión más reciente de la base de LapTimer utilizada. Restaure la base de datos copiada o use una versión más reciente LapTimer. El sistema se va a reiniciar."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Reiniciar" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6000" COMMENT="WarningGPSTimeSetting">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE>
-			"La hora del sistema no se puede establecer desde el GPS ya que el incremento es de más de 30 minutos. Por favor, consulte el ajuste de horario de verano o desactive esta función."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-			<TEXT> "Desactivar Hora GPS" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6100" COMMENT="GPSTimeSettingInPrefs">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"Función deshabilitada. Puede activar el ajuste de la hora del GPS en cualquier momento en la configuración de LapTimer"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6200" COMMENT="RegistrationReminder">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Por favor, regístrese" </TITLE>
-		<MESSAGE>
-			"Estimado cliente, ha adquirido una clave de un distribuidor. Por favor, registrese para recibir su clave personal. Después de registrarse podrá recibir actualizaciones. Sus datos no serán compartidos.\n-Harry"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Registrar" </TEXT>
-			<TEXT> "Ahora no" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6300" COMMENT="MinimalRequirements">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "LapTimer" </TITLE>
-		<MESSAGE>
-			"Lo sentimos, su Palm no cumple con los requisitos mínimos de sistema para que LapTimer pueda funcionar:\nGarnet OS (Palm OS>=5.0), Soporte de alta densidad (320 o 240 pixels de ancho), Soporte de Color (>=256 colores)."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Salir" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6400" COMMENT="ResetPreferences">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"Nueva versión de LapTimer encontrada, todos los ajustes se restablecen a los valores predeterminados."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
 	<ALERT_RESOURCE RESOURCE_ID="6500" COMMENT="ErrorClosingDB">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -954,55 +413,6 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Salir de LapTimer" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6600" COMMENT="MigrationWarning">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE>
-			"Esta versión de LapTimer ejecuta una base de datos migrada 'No segura'. Esto significa que las bases de datos se migrarán por partes. El fallo durante la migración da lugar a una base de datos dañada. No proceda sin una copia de seguridad de la base de datos actual."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "No, salir" </TEXT>
-			<TEXT> "Sí, estoy seguro" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6700" COMMENT="InformationMessageSent">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "^1 enviado correctamente a ^2." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6800" COMMENT="ErrorSendingMessage">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "^1 no pudo ser enviado: ^2" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="6900" COMMENT="ErrorValidEMail">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE>
-			"^1 no parece ser una dirección válida de correo electrónico. Mensaje no enviado."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -1111,19 +521,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="7700" COMMENT="SailTrimFeatureAdded">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"Gracias por la compra de la 'Función ajuste de las velas'. Seleccione la pestaña 'Recortar' para su uso."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="8000" COMMENT="ConfirmCertifiedTrackProbablyChange">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1310,19 +707,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE> 
-            "El volumen de datos para las grabaciones de GPS ha alcanzado un nivel crítico. Por favor borre los datos del GPS (ver detalles en el botón de borrado de vuelta) para liberar espacio."
-        </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
 	<ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1464,20 +848,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmación" </TITLE>
-        <MESSAGE>
-            "El recálculo de las fuerzas-G basado en registros GPS produce los mejores resultados con datos suavizados. Desea suavizar los datos antes del recálculo? Este paso no es reversible."
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "Suavizar" </TEXT>
-            <TEXT> "Omitir" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -1532,19 +902,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE>
-			"Las aceleraciones laterales y lineales se calcularon con éxito basándose en los datos del GPS."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2028,20 +1385,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmación" </TITLE>
-		<MESSAGE>
-			"Grabación de vídeo activa. ¿Seguro de que desea terminar?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "No, continuar" </TEXT>
-			<TEXT> "Finalizar" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
     <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2213,17 +1556,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Error" </TITLE>
-		<MESSAGE> "El máximo de circuitos que LapTimer puede gestionar ha sido superado. Para añadir un nuevo circuito elimine uno ya existente." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2328,20 +1660,6 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>   
-    
-	<ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResetsAlert">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmación" </TITLE>
-		<MESSAGE>
-			"Cambiar el tipo de vehículo a '^1' restablecerá todos los campos a los valores por defecto para este tipo de vehículo. OK para continuar."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-			<TEXT> "Cancelar" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
     
     <ALERT_RESOURCE RESOURCE_ID="9252" COMMENT="WarnPutInCloth">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
@@ -2553,17 +1871,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Información" </TITLE>
-        <MESSAGE> "Enhorabuena, video superpuesto generado con éxito! Acceda el vídeo superpuesto desde los detalles de la vuelta o directamente desde la tarjeta SD." </MESSAGE>
-        <BUTTONS>
-            <TEXT> "OK" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
     <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -2577,17 +1884,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-        <MESSAGE> "La aplicación no se ha cerrado correctamente. Volviendo a la base de datos anterior..." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE> 
-    
     <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2922,17 +2218,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Información" </TITLE>
-		<MESSAGE> "Enhorabuena, ha recibido una actualizacion a ^1 ^2!"  </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3067,29 +2352,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "Interupt" </TEXT>
-            <TEXT> "Cancel" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Advertencia" </TITLE>
-		<MESSAGE> "El Bluetooth necesita estar activado para el modo MultiCam. Por favor, active el Bluetooth desde Ajustes de su dispositivo. Búsqueda de MultiCams cancelada." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>

@@ -912,7 +912,7 @@
 
 "Available, Resolution %hu x %hu" = "Disponible, Précision %hu x %hu";
 
-"Not Available (%@:%@)" = "Indisponible (%@:%@)";
+"Not Available (%@)" = "Indisponible (%@)";
 
 "Searching for %@:%@" = "Recherche pour %@:%@";
 
@@ -1324,9 +1324,6 @@
 "No supported NMEA device connected." = "Aucun capteur NMEA externe détecté.";
 
 "Acquiring Satellites..." = "Acquisition Satellites...";
-
-/* Video Controller */
-"Video recording will start automatically when Start / Finish is passed!" = "L'enregistrement vidéo sera automatiquement démarré au passage de la ligne de départ ...";
 
 "Continuous autofocus set" = "Autofocus permanent sélectionné";
 

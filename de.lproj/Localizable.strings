@@ -1026,7 +1026,7 @@
 
 "Available, Resolution %hu x %hu" = "Verfügbar, Auflösung %hu x %hu";
 
-"Not Available (%@:%@)" = "Nicht verfügbar (%@:%@)";
+"Not Available (%@)" = "Nicht verfügbar (%@)";
 
 "Searching for %@:%@" = "Suche nach %@:%@";
 
@@ -1440,9 +1440,6 @@
 "No supported NMEA device connected." = "Kein unterstützter externer NMEA Sensor erkannt.";
 
 "Acquiring Satellites..." = "Erfasse Satelliten...";
-
-/* Video Controller */
-"Video recording will start automatically when Start / Finish is passed!" = "Die Videoaufzeichung wird gemeinsam mit der Zeitnahme automatisch an der Start / Ziellinie gestartet...";
 
 "Continuous autofocus set" = "Kontinuierlichen Autofokus gesetzt";
 
@@ -4029,4 +4026,8 @@
 "Select Tag ID" = "Tag ID auswählen";
 
 "Setup" = "Setup";
+
+"This Preview is provided to check the internal cam's field of view. We recommend to return to Timer View before you start driving!" = "Diese Vorschau dient der Ausrichtung der internen Kamera. Es wird empfohlen zum Fahren in die Timer Ansicht zurück zu wechseln!";
+
+"To get positions on track, you need to configure the app for your indoor location service. This is usually done using the Prepare Race / Setup assistant. LapTimer requires this service to work correctly." = "Um die Position auf der Strecke zu ermitteln, muss die App für das Positionierungs System konfiguriert werden. Normalerweise erfolgt die Konfiguration in Vorbereitung oder dem Setup Assistenten. LapTimer ist ohne diesen Dienst nicht funktionsfähig!";
 

@@ -74,55 +74,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="1311" COMMENT="ConfirmTrackSelection">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Please confirm track set '^1' is the one to use for the import. Select 'Load' to see other tracks nearby."</MESSAGE>
-        <BUTTONS>
-            <TEXT> "Import" </TEXT>
-            <TEXT> "Load" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"登録成功、LapTimerが利用可能になりました.ご支持いただき有り難うございます."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1500" COMMENT="BadCharacterInKey">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "キー '^2' に不正文字 '^1'　があります.登録できません." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1600" COMMENT="InvalidKey">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE>
-			"キー '^1' は無効です.キー更新のため作者までご連絡お願いします."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="1700" COMMENT="UnregisteredVersion">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -133,48 +84,6 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1800" COMMENT="WarningLargeExport">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"データベースの記録数により外部出力に時間がかかります.今の設定で続けますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "はい" </TEXT>
-			<TEXT> "いいえ" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1900" COMMENT="ConfimationPowerDown">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"計測中.電源OFFでタイマーはリセットされラップは記録されません."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "電源オフ" </TEXT>
-			<TEXT> "続ける" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2000" COMMENT="ConfimationAppStop">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"計測中.終了する場合、ラップは記録されます."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "終了" </TEXT>
-			<TEXT> "続ける" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -211,78 +120,13 @@
 			<TEXT> "続ける" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2200" COMMENT="GPSLoggingStarted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS記録" </TITLE>
-		<MESSAGE>
-			"Logging of GPS data to 'LapTimerGPSLogDB .pdb' started. You may use this log for replay / simulation at the next start of LapTimer."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    
-    
-    
-    <ALERT_RESOURCE RESOURCE_ID="2300" COMMENT="InformationNoDataRecording">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "ラップ可能な記録データがありません." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2400" COMMENT="ConfirmationGPSOperation">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPSモード選択" </TITLE>
-		<MESSAGE> "お好みのGPS操作モードを選択して下さい." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "BT" </TEXT>
-			<TEXT> "Serial" </TEXT>
-			<TEXT> "Sim" </TEXT>
-			<TEXT> "None" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2500" COMMENT="UnregisteredVersionPurgeRecordings">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"未登録バージョンは終了時にGPSデータを削除します.ご利用して頂き有り難うございます."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
 	<ALERT_RESOURCE RESOURCE_ID="2600" COMMENT="ExportError">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "エラー" </TITLE>
 		<MESSAGE> "ファイル書き出しエラー '^1'.メモリーカードをご確認下さい." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2700" COMMENT="ExportSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "'^1' メモリ書き出し成功." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
@@ -299,78 +143,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="2702" COMMENT="NicknameRequiredForGroup">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Invalid Nickname" </TITLE>
-		<MESSAGE> "This special interest group requires a nickname for members joining. Please enter a valid nickname and try again." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "メモリ読み込み成功!" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2900" COMMENT="ImportError">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE>
-			"入力ファイル ^1 オープンエラー.メモリカードをご確認下さい."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3000" COMMENT="Timelimit info">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"これは時間制限バージョンです.LapTimer ^1 は止まります.フル機能版をインストールして下さい."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="3100" COMMENT="NoValidGPSPosition">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "マニュアルトリガ" </TITLE>
-		<MESSAGE>
-			"GPS位置情報が無効です.トリガをセットできません!"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3200" COMMENT="LibraryMissing">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "ライブラリ '^1' がありません.インストールして下さい." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="3300" COMMENT="NoPOIDatabaseFound">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -406,32 +178,7 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3500" COMMENT="jpegcorrupted">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "jpegライブラリに問題発生、イメージに破損の可能性があります." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3600" COMMENT="gpsnotavailable">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"前回接続したGPSマウスが見つかりません.次回起動時のために情報を保持しますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "はい" </TEXT>
-			<TEXT> "いいえ、次回モード設定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
 	<ALERT_RESOURCE RESOURCE_ID="3700" COMMENT="ConfirmGPSPurge">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -443,85 +190,6 @@
 		<BUTTONS>
 			<TEXT> "はい、GPSデータ削除" </TEXT>
 			<TEXT> "いいえ" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3800" COMMENT="ConfirmIntermediatesPurge">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "削除確認" </TITLE>
-		<MESSAGE>
-			"ラップの中間時間を削除します.続けますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "はい、中間時間削除" </TEXT>
-			<TEXT> "いいえ" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3900" COMMENT="WarningNoSimulation">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "シミュレーション" </TITLE>
-		<MESSAGE>
-			"エラー操作'LapTimerGPSLogDB.pdb'.シミュレーションは開始されません!"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4000" COMMENT="GPSLoggingPurgeAppend">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS記録" </TITLE>
-		<MESSAGE>
-			"'LapTimerGPSLogDB.pdb' があります.削除して新たにレコード書き込みしますか?既存レコードに追記しますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "削除書込み" </TEXT>
-			<TEXT> "追記" </TEXT>
-			<TEXT> "キャンセル" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4100" COMMENT="GPSLoggingSuccess">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS記録" </TITLE>
-		<MESSAGE>
-			"ロギング停止. ^1 レコード書き込み済み'LapTimerGPSLogDB.pdb'."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4200" COMMENT="SelectReferenceLap">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"ベストラップ、ラストラップ以外のラップをリファレンスとして選択するには、'ラップタイム詳細'を開き'リファレンス'をチェックして下さい."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4300" COMMENT="ErrorOpenMergeDB">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "データベースをマージ '^1' をオープンできません." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -581,77 +249,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE>
-			"データベースをマージ '^1' はバージョンが異なります.アップグレードするためにデータベース名を '^2' に変更して再起動して下さい."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-    
-	<ALERT_RESOURCE RESOURCE_ID="4500" COMMENT="ErrorWritingData">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "データベース書き出しエラー!" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4600" COMMENT="WarningTooManyTracks">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"トラック '^1' を作成できませんでした.ラップは'指定なし'トラックに関連つけます."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4700" COMMENT="ErrorWritingGPSData">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "GPSデータのデータベース書き込みエラー!" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4800" COMMENT="GPSTimeAdjusted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "GPS情報からシステム時間設定 ^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4900" COMMENT="UnknownNMEASentence">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "不明NMEAセンテンス $^1,^2*xx 受信..." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="5000" COMMENT="OutOfFileMemory">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -778,17 +375,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="5200" COMMENT="ProfileSerialToTrigger">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "プロファイリング" </TITLE>
-		<MESSAGE> "履歴: ^1 最小/最大: ^2 平均: ^3" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="5300" COMMENT="InvalidInsertion">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -815,133 +401,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="5500" COMMENT="ManualStopTriggeredLap">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "トリガラップは手動で停止すべきでありません." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5600" COMMENT="NMEACommandsInfo">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "NMEAコマンドを受信: ^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5700" COMMENT="WarningProfessionalView">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"LapTimer Professionalのみ可能です.利用にするにはアップグレードしてください."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5800" COMMENT="ConfirmGPSLoggingPurge">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "削除確認" </TITLE>
-		<MESSAGE> "O. k. to purge recorded log records?" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "はい" </TEXT>
-			<TEXT> "いいえ" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5900" COMMENT="ResetOldVersion">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE>
-			"データベースのバージョンが一致しません.バックアップ済のデータベースにするか最新のLapTimerにして下さい.システムをリセットします."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "リセット" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6000" COMMENT="WarningGPSTimeSetting">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"システム時間とGPS時間の差が３０分以上あります.サマータイム設定を変更して下さい."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-			<TEXT> "GPS時間設定を無効" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6100" COMMENT="GPSTimeSettingInPrefs">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"フィーチャーは無効になりました.LapTimerの設定からいつでもGPS時間を調整できます."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6200" COMMENT="RegistrationReminder">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "登録のお願い" </TITLE>
-		<MESSAGE>
-			"大切なお客様へ.\nあなたはリセラーからキーをご購入されました.お客様のパーソナルキーのご登録をお願い致します.登録後アップデートの資格を得ることが出来ます.お客様のデータを共有したり悪用はいたしません.\n- Harry"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "登録" </TEXT>
-			<TEXT> "いいえ、今回は登録しません" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6300" COMMENT="MinimalRequirements">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "LapTimer" </TITLE>
-		<MESSAGE>
-			"Sorry, your Palm does not meet LapTimer's minimal system re-quirements:\nGarnet OS (PalmOS >= 5.0), High Density support (320 or 240 screen width), Color Support (>= 256 Colors)"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "終了" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6400" COMMENT="ResetPreferences">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"新しいLapTimerを検知しました.全ての設定はデフォルトにリセットされます."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="6500" COMMENT="ErrorClosingDB">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -952,55 +411,6 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "終了" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6600" COMMENT="MigrationWarning">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"バックアップしていない状況のデータベース移行です.失敗したら元に戻せません.バックアップなしで進めますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "いいえ" </TEXT>
-			<TEXT> "進める" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6700" COMMENT="InformationMessageSent">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "^1 は ^2 に送信されました." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6800" COMMENT="ErrorSendingMessage">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "^1 は ^2 に送信出来ませんでした." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6900" COMMENT="ErrorValidEMail">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE>
-			"^1 は有効なメールアドレスではないようです.メッセージ送信されませんでした."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -1104,19 +514,6 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "エラー" </TITLE>
 		<MESSAGE> "支払い処理が失敗: ^1." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="7700" COMMENT="SailTrimFeatureAdded">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"'Sail Trim Feature'のご購入有り難うございます.タブバーから'Trim' を選択して利用して下さい."
-		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
@@ -1308,17 +705,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "GPS記録データ量が危険レベルに達しました.GPS記録データを削除して下さい.(Lap詳細の削除ボタン)." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1460,20 +846,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE>
-            "Calculation of acceleration values from GPS positions yields best results for smooth lap recordings. Should a smoothing be applied ahead of calculation of acceleration forces? This step cannot be reverted."
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "Smooth" </TEXT>
-            <TEXT> "Skip" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -1528,19 +900,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE>
-			"GPSデータから横Gと縦Gの計算しました."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2008,20 +1367,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"ビデオ録画中.終了しますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "続けない" </TEXT>
-			<TEXT> "フィニッシュ" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2193,17 +1538,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "エラー" </TITLE>
-		<MESSAGE> "LapTimerの管理可能最大数に達しました.トラックを追加するには、まず既存トラックを削除して下さい." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2308,21 +1642,7 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResets">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"車両タイプ '^1' の変更は全てのフィルドを本タイプのデフォルト値に戻します.続けますか?"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "続ける" </TEXT>
-			<TEXT> "キャンセル" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
     <ALERT_RESOURCE RESOURCE_ID="9252" COMMENT="WarnPutInCloth">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -2533,17 +1853,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Information" </TITLE>
-        <MESSAGE> "Congratulations, overlaid video generated successfully! The overlaid video can be accessed from Lap Details and directly on the SD card." </MESSAGE>
-        <BUTTONS>
-            <TEXT> "OK" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
     <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -2557,17 +1866,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-        <MESSAGE> "アプリが異常終了.古いデータベースに移行 ステータス..." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2916,17 +2214,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "情報" </TITLE>
-		<MESSAGE> "おめ, アップグレードを受信しました ^1 ^2!" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3061,29 +2348,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "Interupt" </TEXT>
-            <TEXT> "Cancel" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Warning" </TITLE>
-		<MESSAGE> "For MultiCam operation, Bluetooth needs to be turned on. Please turn on Bluetooth in iOS Settings ‣ Bluetooth. MultiCam Discovery disabled." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>

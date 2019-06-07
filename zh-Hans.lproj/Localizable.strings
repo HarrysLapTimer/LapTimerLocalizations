@@ -979,11 +979,11 @@
 
 "All" = "全部";
 
-"Not Available" = "未连接";
+"Not Available" = "不可用";
 
 "Available, Resolution %hu x %hu" = "可用，分辨率 %hu x %hu";
 
-"Not Available (%@:%@)" = "不可用(%@:%@)";
+"Not Available (%@)" = "不可用(%@)";
 
 "Searching for %@:%@" = "正在搜寻 %@:%@";
 
@@ -1395,9 +1395,6 @@
 "No supported NMEA device connected." = "未连接支持的NMEA设备。";
 
 "Acquiring Satellites..." = "正在接收卫星信号…";
-
-/* Video Controller */
-"Video recording will start automatically when Start / Finish is passed!" = "视频将会在经过起点 / 终点的时候开始录制...";
 
 "Continuous autofocus set" = "连续自动对焦";
 

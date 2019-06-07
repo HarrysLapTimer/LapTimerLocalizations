@@ -858,7 +858,7 @@
 
 "Available, Resolution %hu x %hu" = "可能解像度 %hu x %hu";
 
-"Not Available (%@:%@)" = "利用不可(%@:%@)";
+"Not Available (%@)" = "利用不可(%@)";
 
 "Searching for %@:%@" = "検索 %@:%@";
 
@@ -1227,9 +1227,6 @@
 "No supported NMEA device connected." = "NMEAデバイスが接続されていません.";
 
 "Acquiring Satellites..." = "衛星確認中...";
-
-/* Video Controller */
-"Video recording will start automatically when Start / Finish is passed!" = "計測地点の通過時にビデオ録画を開始します！";
 
 "Continuous autofocus set" = "連続オートフォーカスセット";
 

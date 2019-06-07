@@ -74,55 +74,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="1311" COMMENT="ConfirmTrackSelection">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Please confirm track set '^1' is the one to use for the import. Select 'Load' to see other tracks nearby."</MESSAGE>
-        <BUTTONS>
-            <TEXT> "Import" </TEXT>
-            <TEXT> "Load" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="1400" COMMENT="RegistrationSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"註冊成功! LapTimer功能已全部激活，感謝您的支持!
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1500" COMMENT="BadCharacterInKey">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "註冊碼“^2”中存在無法辨識的字符“^1”，無法完成註冊。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1600" COMMENT="InvalidKey">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE>
-			"註冊碼“^1”不適用此LapTimer版本，請與開發者聯絡。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="1700" COMMENT="UnregisteredVersion">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -133,48 +84,6 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1800" COMMENT="WarningLargeExport">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"由於數據庫內視頻量巨大，需要很長時間才能完成輸出，是否繼續？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "是" </TEXT>
-			<TEXT> "否" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="1900" COMMENT="ConfimationPowerDown">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"記時進行中，關機會造成計時程序重置，圈時數據將丟失。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "關機" </TEXT>
-			<TEXT> "取消" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2000" COMMENT="ConfimationAppStop">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"記時進行中，如果您退出LapTimer應用程序，圈時數據將丟失。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "退出程序" </TEXT>
-			<TEXT> "繼續" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -211,75 +120,13 @@
 			<TEXT> "取消" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2200" COMMENT="GPSLoggingStarted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS記錄" </TITLE>
-		<MESSAGE>
-			"正在將GPS數據寫入“LapTimerGPSLogDB.pdb”文件，您下次啓動Laptimer 時可在此進行回放或模擬。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2300" COMMENT="InformationNoDataRecording">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "無可用的計時圈數據。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2400" COMMENT="ConfirmationGPSOperation">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "選擇GPS模式" </TITLE>
-		<MESSAGE> "請選擇您要使用的GPS模式。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "藍牙" </TEXT>
-			<TEXT> "串口" </TEXT>
-			<TEXT> "模擬" </TEXT>
-			<TEXT> "無" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2500" COMMENT="UnregisteredVersionPurgeRecordings">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"由於這是未註冊的版本，GPS數據記錄將會在退出程序時自動刪除，感謝使用LapTimer。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
 	<ALERT_RESOURCE RESOURCE_ID="2600" COMMENT="ExportError">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE> "寫入“^1”錯誤，請檢查您的存儲卡。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2700" COMMENT="ExportSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "“^1”成功導出至存儲卡。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -296,78 +143,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="2702" COMMENT="NicknameRequiredForGroup">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Invalid Nickname" </TITLE>
-		<MESSAGE> "This special interest group requires a nickname for members joining. Please enter a valid nickname and try again." </MESSAGE>
-		<BUTTONS>
-			<TEXT> "OK" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-
-	<ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "從存儲卡導入成功！" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="2900" COMMENT="ImportError">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE>
-			"開啓^1導入文件錯誤。請檢查您的存儲卡。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3000" COMMENT="Timelimit info">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"這是個有時間限制的版本，LapTimer將於^1停止運作，請在此日期前安裝完整版。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3100" COMMENT="NoValidGPSPosition">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "手動開啓" </TITLE>
-		<MESSAGE>
-			"沒有可用的GPS位置，設置失敗!"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3200" COMMENT="LibraryMissing">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "找不到需要的“^1”，請安裝。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="3300" COMMENT="NoPOIDatabaseFound">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -404,31 +179,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="3500" COMMENT="JPEGCorrupted">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "JPEG數據庫異常，圖像無法處理。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3600" COMMENT="GPSNotAvailable">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"未發現上次連接的GPS設備，下次開啓時是否保留此提示？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "是" </TEXT>
-			<TEXT> "否， 下次啓動時變更模式。" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="3700" COMMENT="ConfirmGPSPurge">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -442,86 +192,7 @@
 			<TEXT> "否" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3800" COMMENT="ConfirmIntermediatesPurge">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "刪除確認" </TITLE>
-		<MESSAGE>
-			"會刪除這圈的分段時間記錄，是否繼續？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "是，刪除分段時間" </TEXT>
-			<TEXT> "否" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="3900" COMMENT="WarningNoSimulation">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "模擬" </TITLE>
-		<MESSAGE>
-			"啓動“LapTimerGPSLogDB.pdb”錯誤，模擬功能未啓動。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4000" COMMENT="GPSLoggingPurgeAppend">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS 記錄" </TITLE>
-		<MESSAGE>
-			"“LapTimerGPSLogDB.pdb”已存在，您是否要重新創建(刪除現有的記錄)或是追加記錄到數據庫的最後？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "刪除/開始" </TEXT>
-			<TEXT> "追加" </TEXT>
-			<TEXT> "取消" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4100" COMMENT="GPSLoggingSuccess">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "GPS 記錄" </TITLE>
-		<MESSAGE>
-			"記錄停止，^1記錄將儲存於'LapTimerGPSLogDB.pdb'。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4200" COMMENT="SelectReferenceLap">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"如要選取最快圈或前一圈以外的計時圈作爲對照，請開啓“計時圈詳情”並點擊“對照圈”。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4300" COMMENT="ErrorOpenMergeDB">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "合併數據庫'^1'無法開啓。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
 	<ALERT_RESOURCE RESOURCE_ID="4310" COMMENT="DeleteAllLaps">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -578,76 +249,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="4400" COMMENT="WrongMergeDBVersion">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE>
-			"合併數據庫'^1'有着錯誤的數據庫版本，請重新命名此合併數據庫至'^2'並且重新啓動LapTimer來更新。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4500" COMMENT="ErrorWritingData">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "計時圈數據寫入數據庫時發生錯誤!" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4600" COMMENT="WarningTooManyTracks">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"賽道'^1'無法建立。計時圈數據將被儲存到'未定義'賽道。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4700" COMMENT="ErrorWritingGPSData">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "寫入GPS數據到數據庫時發生錯誤！" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4800" COMMENT="GPSTimeAdjusted">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "系統時間將被GPS時間^1所替代。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="4900" COMMENT="UnknownNMEASentence">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "未知的NMEA指令$^1，^2*xx" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="5000" COMMENT="OutOfFileMemory">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -774,17 +375,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="5200" COMMENT="ProfileSerialToTrigger">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "分析" </TITLE>
-		<MESSAGE> "歷史: ^1， 最小/最大: ^2，和平均 ^3。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="5300" COMMENT="InvalidInsertion">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -811,133 +401,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="5500" COMMENT="ManualStopTriggeredLap">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "自動觸發的計時圈無法採用手動方式停止。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5600" COMMENT="NMEACommandsInfo">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "接受到NMEA指令爲: ^1" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5700" COMMENT="WarningProfessionalView">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"此視圖只能在專業版LapTimer上使用，請升級。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5800" COMMENT="ConfirmGPSLoggingPurge">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認刪除" </TITLE>
-		<MESSAGE> "是否要刪除數據記錄？" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "是" </TEXT>
-			<TEXT> "否" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5900" COMMENT="ResetOldVersion">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE>
-			"目前開啓的數據庫版本比當前LapTimer更新，請恢復至之前已備份的數據庫或使用新版LapTimer。系統將重啓。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "重啓程序" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6000" COMMENT="WarningGPSTimeSetting">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"系統時間偏差大於30分鐘，系統無法從GPS校對時間設定。請檢查夏令時設置或關閉此功能。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-			<TEXT> "關閉GPS時間校對" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6100" COMMENT="GPSTimeSettingInPrefs">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"功能已關閉，您可以隨時在LapTimer設定中重新啓動GPS時間校對。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6200" COMMENT="RegistrationReminder">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "請註冊" </TITLE>
-		<MESSAGE>
-			"親愛的用戶，\n您已經從經銷商處購買註冊碼，請儘快註冊來收取您的個人密鑰。在註冊完成後，您可獲得更新。您的支付並不可被共享或是他人誤用，請留意！\n- Harry"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "註冊" </TEXT>
-			<TEXT> "不，暫時不需要" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6300" COMMENT="MinimalRequirements">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "LapTimer" </TITLE>
-		<MESSAGE>
-			"抱歉，您的Palm並未達到LapTimer的最低系統需求。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "關閉" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6400" COMMENT="ResetPreferences">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"檢測到新的LapTimer版本，全部的設定會恢復爲初始設定。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="6500" COMMENT="ErrorClosingDB">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -948,55 +411,6 @@
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "關閉LapTimer" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6600" COMMENT="MigrationWarning">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE>
-			"此版本的LapTimer使用了'有風險'的方式轉移數據庫。數據庫會以段落方式轉移。轉移器期間發生的錯誤會引起數據庫損毀，請先備份後繼續。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否，取消" </TEXT>
-			<TEXT> "是，確定轉移" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6700" COMMENT="InformationMessageSent">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "^1已成功發送至^2。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6800" COMMENT="ErrorSendingMessage">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "^1無法發送至^2。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="6900" COMMENT="ErrorValidEMail">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE>
-			"^1不是正確的E-Mail地址，信息無法送出。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -1100,19 +514,6 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "錯誤" </TITLE>
 		<MESSAGE> "支付失敗：^1。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="7700" COMMENT="SailTrimFeatureAdded">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"多謝購買'SailTrim功能'。"
-		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
@@ -1304,17 +705,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-	<ALERT_RESOURCE RESOURCE_ID="8700" COMMENT="WarningGPSDataCriticalLevel">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "可供GPS記錄數據的存儲空間已經不足。請清除GPS數據以騰出空間。(點擊計時圈詳情頁的清理按鈕可瞭解更多細節)" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="8800" COMMENT="ConflictingTrackSets">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1456,20 +846,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9032" COMMENT="LapSmoothingAheadOfConfirmationAlert">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "確認" </TITLE>
-        <MESSAGE>
-            "利用GPS採樣點校準加速度數值，是否要啓用數據平滑選項進行計算？此操作無法撤銷。"
-        </MESSAGE>
-        <BUTTONS>
-            <TEXT> "平滑數據" </TEXT>
-            <TEXT> "跳過" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9033" COMMENT="LapSmoothingConfirmationAlert">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -1524,19 +900,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-	<ALERT_RESOURCE RESOURCE_ID="9040" COMMENT="RecalculatedSuccessfully">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE>
-			"橫向與直線加速率已從GPS數據中記算出。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
 	<ALERT_RESOURCE RESOURCE_ID="9041" COMMENT="RecalculatedAccuracySuccessfully">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2018,20 +1381,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9080" COMMENT="ConfirmationStopRecording">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"視頻持續錄製中，確定結束錄製？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否，繼續錄製" </TEXT>
-			<TEXT> "結束" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9090" COMMENT="LinkVehicleWithVIN">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2202,18 +1551,7 @@
 			<TEXT> "確定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9180" COMMENT="MaximumNumberTracksReached">
-		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "錯誤" </TITLE>
-		<MESSAGE> "已到達LapTimer最大管理數量，如果要增加賽道，請先移除一條現有賽道。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
 	<ALERT_RESOURCE RESOURCE_ID="9190" COMMENT="TrackExistsAlreadyPurgePOIs">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2316,20 +1654,6 @@
 		<MESSAGE> "已使用現有的車輛設定創建新的車輛'^1'。請編輯並重新命名此車輛。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="9251" COMMENT="VehicleTypeResets">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "確認" </TITLE>
-		<MESSAGE>
-			"更改車輛類型爲'^1'後，需要重新設定車輛數據，是否確定繼續？"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-			<TEXT> "取消" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -2543,17 +1867,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9317" COMMENT="OverlaySuccessfulSDCard">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE> "視頻已成功壓印信息圖層！可在計時圈詳情及SD卡中獲取。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "確定" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
     <ALERT_RESOURCE RESOURCE_ID="9318" COMMENT="LeanAngleNeedsAdjustment">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -2567,17 +1880,6 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9320" COMMENT="RolledBackDatabase">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-        <MESSAGE> "沒有正確關閉程序，數據庫將回滾至之前的狀態……" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9321" COMMENT="RunsWithoutRollbackAbility">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2912,17 +2214,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9520" COMMENT="UpgradeReceived">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "恭喜! 您已完成^1 ^2的升級！" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9600" COMMENT="LinkedVideoNotFound">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3057,29 +2348,6 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
-    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
-        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
-        <TITLE> "Confirmation" </TITLE>
-        <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "Interupt" </TEXT>
-            <TEXT> "Cancel" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "警告" </TITLE>
-		<MESSAGE> "使用MultiCam功能必須開啓藍牙。請在MultiCam開關關閉的狀態下開啓 iOS設定 ‣ 藍牙，啓用MultiCam搜尋功能。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "確定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9641" COMMENT="MultiCamSatelliteRequiresBluetooth">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
