@@ -929,7 +929,7 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "Cette option n'est pas disponible dans cette version de l'application. Verifier dans 'Extensions' les compléments disponibles.";
 
 /* Sensors */
-"NMEA sentences received: %s" = "phrases NMEA reçues : %s";
+"NMEA sentences received:" = "phrases NMEA reçues:";
 
 "PIDs received: %@" = "PIDs reçus : %@";
 
@@ -2576,4 +2576,8 @@
 "GPS Fixes: %lu" = "Position GPS : %lu";
 
 "TPMS Rate" = "Taux";
+
+"%hu Satellites, %@ GPS" = "%hu Satellites, %@ GPS";
+
+"%@ GPS" = "%@ GPS";
 

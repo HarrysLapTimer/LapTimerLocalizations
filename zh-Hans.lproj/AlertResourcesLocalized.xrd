@@ -272,7 +272,31 @@
 			<TEXT> "确定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="5101" COMMENT="AutomaticTracksInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "After loading a certified, or setting a custom track set, ^1 switches between tracks automatically. This is done once you cross a trigger like the start/finish line. Automatic track sets available currently are: ^2." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="5102" COMMENT="AutomaticTracksEmpty">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warning" </TITLE>
+		<MESSAGE>
+			"There are no track sets prepared currently. This means ^1 will not start recording automatically. To load a track set, follow Prepare Race ‣ Load Track or use the New Track assistant."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="5130" COMMENT="POISetNotDeletedAsLapsExist">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1302,18 +1326,30 @@
 			<TEXT> "确定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
 	<ALERT_RESOURCE RESOURCE_ID="9070" COMMENT="AssetIsMissing">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "错误" </TITLE>
-		<MESSAGE> "无法找到所选视频，它可能已被移动到另一位置。请使用'编辑'按钮功能重新关联视频文件。" </MESSAGE>
+		<MESSAGE> "无法找到所选视频，它可能已被移动到另一位置。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "确定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+	<ALERT_RESOURCE RESOURCE_ID="9077" COMMENT="AssetIsMissingRelink">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE> "The video selected is not available. In case it has been recorded using MultiCam, you need to copy it to your smartphone first. Once this has been done, Re-Link it here." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Re-Link" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9071" COMMENT="VideoTypeChange">
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -1888,6 +1924,20 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
+	<ALERT_RESOURCE RESOURCE_ID="9229" COMMENT="BackupRecommendation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Confirmation" </TITLE>
+		<MESSAGE>
+			"You have not created an external backup lately. We recommend to create one after every track day. Only external backups allow a full recovery of your data recordings in case of a failure."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Ignore" </TEXT>
+			<TEXT> "Backup Now" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2587,17 +2637,6 @@
         <BUTTONS>
             <TEXT> "确定" </TEXT>
 			<TEXT> "Invite" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9690" COMMENT="ReconnectingSensor">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "信息" </TITLE>
-        <MESSAGE> "传感器设定已变更。如果目前传感器尚在连接，它将断线并重新连接来启用新设定。" </MESSAGE>
-        <BUTTONS>
-            <TEXT> "确定" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

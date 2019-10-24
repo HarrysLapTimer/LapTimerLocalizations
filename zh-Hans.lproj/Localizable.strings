@@ -1000,7 +1000,7 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "此功能在这个版本无法使用，请在'功能插件'查看升级选项。";
 
 /* Sensors */
-"NMEA sentences received: %s" = "接收到NMEA信息: %s";
+"NMEA sentences received:" = "接收到NMEA信息:";
 
 "PIDs received: %@" = "接收到PIDs: %@";
 
@@ -3031,6 +3031,10 @@
 "Fix" = "采样点";
 
 "GPS Fixes: %lu" = "GPS采样点：%lu";
+
+"%hu Satellites, %@ GPS" = "%hu颗卫星，%@GPS";
+
+"%@ GPS" = "%@GPS";
 
 "System" = "系统";
 

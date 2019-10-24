@@ -281,6 +281,30 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+	<ALERT_RESOURCE RESOURCE_ID="5101" COMMENT="AutomaticTracksInfo">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE> "Nach dem Laden eines zertifizierten, oder dem Anlegen einer eigenen Rennstrecke, wird ^1 automatisch zwischen Strecken umschalten. Das erfolgt, wenn ein Trigger wie die Start/Ziellinie überfahren wird. Die folgenden Rennstrecken sind aktuell verfügbar: ^2." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="5102" COMMENT="AutomaticTracksEmpty">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Warnung" </TITLE>
+		<MESSAGE>
+			"Aktuell sind keine Rennstrecken verfügbar. Entsprechend wird ^1 Aufzeichnungen nicht automatisch starten. Um eine Rennstrecke zu laden, bitte Vorbereiten ‣ Lade Strecke auswählen, oder den Neue Strecke Assistant nutzen."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="5130" COMMENT="POISetNotDeletedAsLapsExist">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1316,10 +1340,22 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-            "Das zugeordnete Video konnte nicht gefunden werden, es wurde ggf. verschoben oder gelöscht. Offline Videos müssen vor der Verarbeitung auf das Smartphone transferiert und zugeordnet werden."
-        </MESSAGE>
+			"Das zugeordnete Video konnte nicht gefunden werden, es wurde ggf. verschoben oder gelöscht."
+		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9077" COMMENT="AssetIsMissingRelink">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Bestätigung" </TITLE>
+		<MESSAGE> "Das ausgewählte Video ist nicht verfügbar. Wenn es mit MultiCam aufgenommen wurde, muss es zunächst auf das Smartphone kopiert werden. Sobald das erfolgt ist, bitte hier Zuordnen." </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Zuordnen" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -1341,7 +1377,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Zum Fortfahren wird eine weitere Bestätigung benötigt. Das Überschreiben des Overlay Typ is fast immer falsch. Bitte Bestätigen wenn wirklich klar ist was das bedeutet."
         </MESSAGE>
@@ -1936,7 +1972,21 @@
 		</BUTTONS>
 	</ALERT_RESOURCE> 
 
-    <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
+	<ALERT_RESOURCE RESOURCE_ID="9229" COMMENT="BackupRecommendation">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Bestätigung" </TITLE>
+		<MESSAGE>
+			"Es wurde zuletzt kein externes Backup erstellt. Wir empfehlen nach jedem Tag an der Rennstrecke ein Backup zu erstellen. Nur externe Backups erlauben eine vollständige Wiederherstellung von verloren gegangenen Datenaufzeichnungen."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Überspringen" </TEXT>
+			<TEXT> "Jetzt erstellen" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+   <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
@@ -2621,17 +2671,6 @@
         <BUTTONS>
             <TEXT> "OK" </TEXT>
 			<TEXT> "Einladen" </TEXT>
-        </BUTTONS>
-    </ALERT_RESOURCE>
-
-    <ALERT_RESOURCE RESOURCE_ID="9690" COMMENT="ReconnectingSensor">
-        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-        <HELP_ID> 0 </HELP_ID>
-        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Information" </TITLE>
-        <MESSAGE> "Sensoreinstellungen wurde gespeichert. Für den Fall, dass der Sensor aktuell verbunden ist, wird er nun zurück gesetzt und neu verbunden um die Änderungen wirksam zu machen." </MESSAGE>
-        <BUTTONS>
-            <TEXT> "OK" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

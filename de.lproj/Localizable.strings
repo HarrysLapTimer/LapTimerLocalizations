@@ -1043,7 +1043,7 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "Erweiterung ist in dieser App Version nicht enthalten. Bitte verfügbare Upgrades unter 'Erweiterungen' prüfen.";
 
 /* Sensors */
-"NMEA sentences received: %s" = "empfangene NMEA Sätze: %s";
+"NMEA sentences received:" = "empfangene NMEA Sätze:";
 
 "PIDs received: %@" = "PIDs empfangen: %@";
 
@@ -3892,9 +3892,7 @@
 
 "Kart Identification" = "Kart Identifikation";
 
-"Welcome to '%s'! This site features <hl>Indoor Positioning System</hl>.\n\nEach kart at this site is identified by a tag identifier. To record laps for this kart, please select your <ui>Tag ID</ui>! For any questions, please contact your organizer.\n\nTo change the <ui>Tag ID</ui> later, re-load the track set." = "Willkommen bei '%s'! Diese Lokation ist mit einem <hl>Indoor Positionierungs System</hl> ausgestattet.\n\nJedes der verfügbaren Karts wird mit einem Tag identifiziert. Um Runden für ein Kart aufzuzeichnen, bitte die passende <ui>Tag ID</ui> auswählen! Bei Fragen dazu bitte den Organisator ansprechen.\n\nUm die <ui>Tag ID</ui> später zu ändern, bitte das Track Set erneut laden.";
-
-"Tag ID" = "Tag ID";
+"Welcome to '%s'! This site features <hl>Indoor Positioning System</hl>.\n\nEach kart at this site is identified by a tag identifier. To record laps for this kart, please select your <ui>kart number</ui>! For any questions, please contact your organizer.\n\nTo change the <ui>kart number</ui> later, re-load the track set." = "Willkommen bei '%s'! Diese Lokation ist mit einem <hl>Indoor Positionierungs System</hl> ausgestattet.\n\nJedes der verfügbaren Karts wird mit einem Tag identifiziert. Um Runden für ein Kart aufzuzeichnen, bitte die passende <ui>Kart Nummer</ui> auswählen! Bei Fragen dazu bitte den Organisator ansprechen.\n\nUm die <ui>Kart Nummer</ui> später zu ändern, bitte das Track Set erneut laden.";
 
 "Corridor" = "Korridor";
 
@@ -4021,13 +4019,34 @@
 
 "Basic user settings defined. You can start driving now!" = "Benutzereinstellungen sind nun definiert. Du kannst jetzt losfahren!";
 
-"Select the Tag ID communicated by your organizer." = "Bitte die vom Organisator genannte Tag ID auswählen! ";
-
-"Select Tag ID" = "Tag ID auswählen";
+"Select the kart number communicated by your organizer." = "Bitte die vom Organisator genannte Kart Nummer auswählen! ";
 
 "Setup" = "Setup";
 
 "This Preview is provided to check the internal cam's field of view. We recommend to return to Timer View before you start driving!" = "Diese Vorschau dient der Ausrichtung der internen Kamera. Es wird empfohlen zum Fahren in die Timer Ansicht zurück zu wechseln!";
 
 "To get positions on track, you need to configure the app for your indoor location service. This is usually done using the Prepare Race / Setup assistant. LapTimer requires this service to work correctly." = "Um die Position auf der Strecke zu ermitteln, muss die App für das Positionierungs System konfiguriert werden. Normalerweise erfolgt die Konfiguration in Vorbereitung oder dem Setup Assistenten. LapTimer ist ohne diesen Dienst nicht funktionsfähig!";
+
+"Last backup:" = "Letztes Backup:";
+
+"No external backup created so far!" = "Bisher kein externes Backup erstellt!";
+
+"Kart Number" = "Kart Nummer";
+
+"Intake Air" = "Einlasstemperatur";
+
+/* Short for automatic */
+"Auto" = "Auto";
+
+"3D+ GPS" = "3D+ GPS";
+
+"%hu Satellites, %@ GPS" = "%hu Satelliten, %@ GPS";
+
+"%@ GPS" = "%@ GPS";
+
+", using hardware encoding" = ",  Hardware Encoder verwendet";
+
+", using software encoding" = ", Software Encoder verwendet";
+
+"Bluetooth is disabled in Settings app." = "Bluetooth ist in der Einstellungen App abgeschaltet.";
 
