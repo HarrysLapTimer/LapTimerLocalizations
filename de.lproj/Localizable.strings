@@ -4050,3 +4050,6 @@
 
 "Bluetooth is disabled in Settings app." = "Bluetooth ist in der Einstellungen App abgeschaltet.";
 
+/* Reference to Photos app */
+"Photos" = "Fotos";
+
