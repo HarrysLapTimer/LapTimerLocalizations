@@ -117,7 +117,6 @@
 		<MESSAGE> "Condition: ^1\n^2\n^3" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Exit" </TEXT>
-			<TEXT> "Continue" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
@@ -1987,16 +1986,28 @@
 	</ALERT_RESOURCE>
 
    <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Warnung" </TITLE>
 		<MESSAGE> "Die Analyse hat ^1 Problem(e) in der Datenbank erkannt und diese behoben." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+			<TEXT> "Details" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE> 
-    
+
+   <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetails">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Problems" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2018,43 +2029,28 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Bestätigung" </TITLE>
-		<MESSAGE>
-			"Für die Datenbank sind Fehler aufgetreten die nicht automatisch behoben werden konnten (^1). Soll eine ältere Version wiederhergestellt werden? Ggf. gehen dabei die letzten Änderungen verloren."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Nein" </TEXT>
-			<TEXT> "Wiederherstellen" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+
     <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
-		<MESSAGE> "Datenbank wurde erfolgreich aus einer früheren Version (^1) wiederhergestellt werden." </MESSAGE>
+		<MESSAGE> "In der Datenbank ist ein Fehler aufgetreten. Sie wurde erfolgreich aus einer früheren Version (^1) wiederhergestellt. Letzte Aufnahme sind ggf. verloren gegangen. Für Optionen bitte Administration / Datenbanken folgen." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
     <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Bestätigung" </TITLE>
+		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-            "Wiederherstellung war nicht erfolgreich. Soll beendet werden oder soll mit einer leeren Datenbank neu gestartet werden?"
+            "In der Datenbank ist ein Fehler aufgetreten. Eine Wiederherstellung war nicht erfolgreich (^1). LapTimer wird mit einer leeren Datenbank gestartet. Zur Reparatur bitte Administration / Datenbanken folgen."
 		</MESSAGE>
 		<BUTTONS>
-			<TEXT> "Beenden" </TEXT>
-			<TEXT> "Leere Datenbank" </TEXT>
+			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>    
 
@@ -2671,6 +2667,19 @@
         <BUTTONS>
             <TEXT> "OK" </TEXT>
 			<TEXT> "Einladen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9689" COMMENT="RefreshChallengeOptionalListCode">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Um ‘Nicht gelistete Herausforderungen' anzuzeigen, bitte den Code eingeben der vom Herausforderer bereit gestellt wurde und ‘Aktualisieren’ drücken." </MESSAGE>
+		<FIELD> "Code" </FIELD>
+		<BUTTONS>
+			<TEXT> "Aktualisieren" </TEXT>
+			<TEXT> "Abbruch" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

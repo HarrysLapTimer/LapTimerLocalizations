@@ -1943,6 +1943,7 @@
 
 "Confirmation" = "Conferma";
 
+/* can be deleted once v23.0 is not in maintenance any more */
 "To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "Per visualizzare 'Sfide non in lista', per favore inserisci il codice lista che hai ricevuto dal concorrente prima di premere 'Aggiorna'.";
 
 "List Code" = "Lista codici";

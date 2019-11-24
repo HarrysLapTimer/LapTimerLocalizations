@@ -117,7 +117,6 @@
 		<MESSAGE> "Condition: ^1\n^2\n^3" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Exit" </TEXT>
-			<TEXT> "Continue" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -1946,17 +1945,29 @@
 	</ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> Attention </TITLE>
         <MESSAGE> "^1 problème(s) détecté(s) et corrigé(s) dans la base de données." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
+			<TEXT> "Details" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE> 
     
-    <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
+    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetails">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Problems" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
@@ -1978,46 +1989,32 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmation" </TITLE>
-		<MESSAGE>
-            "La base de données contient des erreurs irrécupérables (^1). Voulez-vous revenir à une version précédente ? (les dernières modifications seront perdues)."
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "Non" </TEXT>
-			<TEXT> "Corriger" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
-        <MESSAGE> "Base de données récupérées de la version précédente (^1)." </MESSAGE>
+		<MESSAGE>
+			"The database showed some corruption. It has been restored from an older version (^1) successfully. Recent changes may have been lost. For repair options, please follow Administration / Databases."
+		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
     <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Confirmation" </TITLE>
+		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-            "Impossible de corriger les problèmes de la base de données. Quitter ou démarrer avec une base de données vide ?"
-            "Problems found in database could not be recovered. Quit or start with empty database?"
+            "The database is corrupted. Restoring it has not been successful (^1). LapTimer will start up with an empty database. For repair options, please follow Administration / Databases."
 		</MESSAGE>
 		<BUTTONS>
-			<TEXT> "Quitter" </TEXT>
-			<TEXT> "Vide" </TEXT>
+			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
     <ALERT_RESOURCE RESOURCE_ID="9336" COMMENT="DatabaseRecoveryPurging">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2641,6 +2638,19 @@
         <BUTTONS>
             <TEXT> "OK" </TEXT>
 			<TEXT> "Inviter" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9689" COMMENT="RefreshChallengeOptionalListCode">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Pour afficher les 'Défis non répertoriés', veuillez saisir le Code qui vous a été envoyé par le challenger avant de cliquer sur 'Actualiser'." </MESSAGE>
+		<FIELD> "Code de la liste" </FIELD>
+		<BUTTONS>
+			<TEXT> "Actualiser" </TEXT>
+			<TEXT> "Annuler" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 

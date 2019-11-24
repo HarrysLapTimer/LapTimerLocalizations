@@ -1948,6 +1948,7 @@
 
 "Confirmation" = "Confirmation";
 
+/* can be deleted once v23.0 is not in maintenance any more */
 "To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "Pour afficher les 'Défis non répertoriés', veuillez saisir le Code qui vous a été envoyé par le challenger avant de cliquer sur 'Actualiser'.";
 
 "List Code" = "Code de la liste ";

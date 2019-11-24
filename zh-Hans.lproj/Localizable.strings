@@ -2019,6 +2019,7 @@
 
 "Confirmation" = "确认";
 
+/* can be deleted once v23.0 is not in maintenance any more */
 "To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "请先输入从挑战发起者处得到的挑战代码，点击“刷新”后便可显示“非公开挑战”";
 
 "List Code" = "挑战代码";

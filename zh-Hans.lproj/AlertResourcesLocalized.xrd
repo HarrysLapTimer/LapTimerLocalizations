@@ -117,7 +117,6 @@
 		<MESSAGE> "状态：^1\n^2\n^3" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "退出程序" </TEXT>
-			<TEXT> "取消" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
         
@@ -398,18 +397,7 @@
 			<TEXT> "确定" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
-	<ALERT_RESOURCE RESOURCE_ID="5200" COMMENT="ProfileSerialToTrigger">
-		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "分析" </TITLE>
-		<MESSAGE> "历史: ^1， 最小/最大: ^2，和平均 ^3。" </MESSAGE>
-		<BUTTONS>
-			<TEXT> "确定" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
+        
 	<ALERT_RESOURCE RESOURCE_ID="5300" COMMENT="InvalidInsertion">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1939,16 +1927,28 @@
 	</ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9330" COMMENT="DatabaseProblemsDetectedAndRepaired">
-		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "警告" </TITLE>
 		<MESSAGE> "侦测到^1项数据库问题，已修复。" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "确定" </TEXT>
+			<TEXT> "详情" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
+    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetails">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Database Problems" </TITLE>
+		<MESSAGE> "^1" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9331" COMMENT="DatabaseProblemsDetected">
 		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1971,45 +1971,32 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
-    <ALERT_RESOURCE RESOURCE_ID="9333" COMMENT="DatabaseProblemsDetectedRecoverConfirm">
-		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
-		<HELP_ID> 0 </HELP_ID>
-		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "确认" </TITLE>
-		<MESSAGE>
-			"数据库发现无法解决的问题(^1)。您是否要尝试恢复到先前版本？最近的改变将不会储存。"
-		</MESSAGE>
-		<BUTTONS>
-			<TEXT> "否" </TEXT>
-			<TEXT> "尝试恢复" </TEXT>
-		</BUTTONS>
-	</ALERT_RESOURCE>
-    
     <ALERT_RESOURCE RESOURCE_ID="9334" COMMENT="DatabaseRecoverySuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "信息" </TITLE>
-		<MESSAGE> "数据库成功恢复到先前版本(^1)。" </MESSAGE>
+		<TITLE> "Information" </TITLE>
+		<MESSAGE>
+			"The database showed some corruption. It has been restored from an older version (^1) successfully. Recent changes may have been lost. For repair options, please follow Administration / Databases."
+		</MESSAGE>
 		<BUTTONS>
-			<TEXT> "确定" </TEXT>
+			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
     <ALERT_RESOURCE RESOURCE_ID="9335" COMMENT="DatabaseRecoveryNotSuccessful">
 		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "确认" </TITLE>
+		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-            "恢复初始设置失败。退出程序，还是以空数据库重置？"
+            "The database is corrupted. Restoring it has not been successful (^1). LapTimer will start up with an empty database. For repair options, please follow Administration / Databases."
 		</MESSAGE>
 		<BUTTONS>
-			<TEXT> "退出程序" </TEXT>
-			<TEXT> "重置数据库" </TEXT>
+			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-    
+
     <ALERT_RESOURCE RESOURCE_ID="9336" COMMENT="DatabaseRecoveryPurging">
         <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
@@ -2637,6 +2624,19 @@
         <BUTTONS>
             <TEXT> "确定" </TEXT>
 			<TEXT> "Invite" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9689" COMMENT="RefreshChallengeOptionalListCode">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "确认" </TITLE>
+        <MESSAGE> "请先输入从挑战发起者处得到的挑战代码，点击“刷新”后便可显示“非公开挑战。" </MESSAGE>
+		<FIELD> "挑战代码" </FIELD>
+		<BUTTONS>
+			<TEXT> "刷新" </TEXT>
+			<TEXT> "取消" </TEXT>
         </BUTTONS>
     </ALERT_RESOURCE>
 
