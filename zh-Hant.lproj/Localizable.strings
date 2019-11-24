@@ -2019,9 +2019,6 @@
 
 "Confirmation" = "確認";
 
-/* can be deleted once v23.0 is not in maintenance any more */
-"To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "請先輸入從挑戰發起者處得到的挑戰代碼，點擊“刷新”後便可顯示“非公開挑戰”";
-
 "List Code" = "挑戰代碼";
 
 "Retrieving Active Tracks from Server..." = "正從服務器獲取存在活動的賽道列表…";

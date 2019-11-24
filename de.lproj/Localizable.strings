@@ -2066,9 +2066,6 @@
 
 "Confirmation" = "Bestätigung";
 
-/* can be deleted once v23.0 is not in maintenance any more */
-"To display 'Unlisted Challenges', please enter the List Code you received from the challenger before pressing 'Refresh'." = "Um ‘Nicht gelistete Herausforderungen' anzuzeigen, bitte den Code eingeben der vom Herausforderer bereit gestellt wurde und ‘Aktualisieren’ drücken.";
-
 "List Code" = "Code";
 
 "Retrieving Active Tracks from Server..." = "Empfange aktive Strecken vom Server...";
