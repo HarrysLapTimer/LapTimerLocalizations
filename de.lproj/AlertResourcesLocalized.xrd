@@ -80,7 +80,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Warnung" </TITLE>
 		<MESSAGE>
-            "Das ist eine nicht freigeschaltete Version in der lediglich 3 Runden aufgezeichnet werden können. Danke für das Erproben von LapTimer."
+            "Das ist eine nicht freigeschaltete Version in der lediglich 3 Runden aufgezeichnet werden können. Danke für das Erproben von ^1."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -163,7 +163,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Bestätigung" </TITLE>
 		<MESSAGE>
-            "LapTimer hat einen POI nahe der aktuellen Position gefunden. Es wurde kein neuer Wegepunkt angelegt!"
+            "^2 hat einen POI '^1' nahe der aktuellen Position gefunden. Es wurde kein neuer Wegepunkt angelegt!"
         </MESSAGE>
 		<BUTTONS>
 			<TEXT> "Zeigen" </TEXT>
@@ -177,7 +177,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-			"Kein Speicher verfügbar! LapTimer wird nun beendet."
+			"Kein Speicher verfügbar! ^1 wird nun beendet."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -263,7 +263,7 @@
             "Speicher voll! Bitte zusätzlichen Speicher verfügbar machen." 
         </MESSAGE>
 		<BUTTONS>
-			<TEXT> "Beende LapTimer" </TEXT>
+			<TEXT> "Beende ^1" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -427,7 +427,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-            "Diese Version von LapTimer is abgelaufen. Installiere bitte eine aktuelle Version."
+            "Diese Version von ^1 ist abgelaufen. Installiere bitte eine aktuelle Version."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Exit" </TEXT>
@@ -440,7 +440,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-            "Fehler beim Speichern von LapTimers Datenbanken! Bitte verfügbaren Speicher vergrößern."
+            "Fehler beim Speichern von ^1s Datenbanken! Bitte verfügbaren Speicher vergrößern."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Beenden" </TEXT>
@@ -586,7 +586,7 @@
         <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
         <TITLE> "Bestätigung" </TITLE>
         <MESSAGE>
-            "Dies Funktion fügt LapTimers Datenbank Trigger oder POIs hinzu. Fehlerhafte Trigger Definitionen sind der häufigste Grund für LapTimer Fehlfunktionen! Einführung und Tutorial sind auf LapTimers Homepage verfügbar. Fahre bitte nur fort wenn Du mit dem Konzept der Trigger vertraut bist."
+            "Dies Funktion fügt ^1s Datenbank Trigger oder POIs hinzu. Fehlerhafte Trigger Definitionen sind der häufigste Grund für ^1 Fehlfunktionen! Einführung und Tutorial sind auf ^1s Homepage verfügbar. Fahre bitte nur fort wenn Du mit dem Konzept der Trigger vertraut bist."
         </MESSAGE>
         <BUTTONS>
             <TEXT> "Bin vertraut" </TEXT>
@@ -2047,7 +2047,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Fehler" </TITLE>
 		<MESSAGE>
-            "In der Datenbank ist ein Fehler aufgetreten. Eine Wiederherstellung war nicht erfolgreich (^1). LapTimer wird mit einer leeren Datenbank gestartet. Zur Reparatur bitte Administration / Datenbanken folgen."
+            "In der Datenbank ist ein Fehler aufgetreten. Eine Wiederherstellung war nicht erfolgreich (^1). ^2 wird mit einer leeren Datenbank gestartet. Zur Reparatur bitte Administration / Datenbanken folgen."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -2617,7 +2617,7 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
         <MESSAGE>
-            "Gratulation! Eine ^1 Herausforderung von ^2 für ^3 wurde geladen. LapTimer hat diese Runde als Referenz Runde gesetzt. Die Zeitabweichung wird in Echtzeit angezeigt. Die Daten können auch komplett analysiert werden!"
+            "Gratulation! Eine ^1 Herausforderung von ^2 für ^3 wurde geladen. ^4 hat diese Runde als Referenz Runde gesetzt. Die Zeitabweichung wird in Echtzeit angezeigt. Die Daten können auch komplett analysiert werden!"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
@@ -2651,7 +2651,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Deine Herausforderung ist für alle LapTimer Nutzer sichtbar. Bisher wurde sie ^1 mal angenommen. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
+        <MESSAGE> "Deine Herausforderung ist für alle ^2 Nutzer sichtbar. Bisher wurde sie ^1 mal angenommen. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
 			<TEXT> "Einladen" </TEXT>
@@ -2663,7 +2663,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Deine Herausforderung ist für alle LapTimer Nutzer sichtbar, die den Code ^2 kennen und eingegeben haben. Bisher wurde sie ^1 mal angenommen. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
+        <MESSAGE> "Deine Herausforderung ist für alle ^3 Nutzer sichtbar, die den Code ^2 kennen und eingegeben haben. Bisher wurde sie ^1 mal angenommen. Du kannst Freunde auch per Mail einladen!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
 			<TEXT> "Einladen" </TEXT>

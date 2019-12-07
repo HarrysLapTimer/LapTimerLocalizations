@@ -80,7 +80,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Warning" </TITLE>
 		<MESSAGE>
-			"This is an unregisted version with only 3 laps allowed per session. Thanks for using LapTimer."
+			"This is an unregisted version with only 3 laps allowed per session. Thanks for using ^1."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -158,7 +158,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "POI Selection" </TITLE>
-		<MESSAGE> "No new Point of Interest created! LapTimer detected a POI named '^1' nearby."</MESSAGE>
+		<MESSAGE> "No new Point of Interest created! ^2 detected a POI named '^1' nearby."</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Open" </TEXT>
 			<TEXT> "Cancel" </TEXT>
@@ -171,7 +171,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-			"Out of heap memory! If not able to recover, LapTimer will exit now."
+			"Out of heap memory! If not able to recover, ^1 will exit now."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -255,7 +255,7 @@
 		<TITLE> "Error" </TITLE>
 		<MESSAGE> "Out of file memory! Please enlarge available memory." </MESSAGE>
 		<BUTTONS>
-			<TEXT> "Exit LapTimer" </TEXT>
+			<TEXT> "Exit" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -417,7 +417,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-			"This version of LapTimer has expired. Please install a fully enabled version."
+			"This version of ^1 has expired. Please install a fully enabled version."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "Exit" </TEXT>
@@ -430,10 +430,10 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-			"Error closing / writing one of LapTimer's databases. Please enlarge available memory."
+			"Error closing / writing one of ^1's databases. Please enlarge available memory."
 		</MESSAGE>
 		<BUTTONS>
-			<TEXT> "Exit LapTimer" </TEXT>
+			<TEXT> "Exit" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
@@ -576,7 +576,7 @@
         <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
         <TITLE> "Confirmation" </TITLE>
         <MESSAGE>
-            "This operation will add new triggers or POIs to LapTimer's database. Triggers added accidentially are the most frequent reasons for LapTimer malfunction! Introduction and tutorial are available on LapTimer's homepage. Please proceed only in case you are familar with LapTimer's concept of triggers."
+            "This operation will add new triggers or POIs to ^1's database. Triggers added accidentially are the most frequent reasons for ^1^1 malfunction! Introduction and tutorial are available on ^1's homepage. Please proceed only in case you are familar with ^1's concept of triggers."
         </MESSAGE>
         <BUTTONS>
             <TEXT> "I'm familar" </TEXT>
@@ -733,7 +733,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Warning" </TITLE>
-		<MESSAGE> "Some Track Sets overlap. They are marked with a red exclamation sign. Overlaps may confuse LapTimer during trigger detection. For tracks with several configurations, only one must be active." </MESSAGE>
+		<MESSAGE> "Some Track Sets overlap. They are marked with a red exclamation sign. Overlaps may confuse ^1 during trigger detection. For tracks with several configurations, only one must be active." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
@@ -2004,7 +2004,7 @@
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Error" </TITLE>
 		<MESSAGE>
-            "The database is corrupted. Restoring it has not been successful (^1). LapTimer will start up with an empty database. For repair options, please follow Administration / Databases."
+            "The database is corrupted. Restoring it has not been successful (^1). ^2 will start up with an empty database. For repair options, please follow Administration / Databases."
 		</MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
@@ -2574,7 +2574,7 @@
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
         <MESSAGE>
-            "Congratulations! You loaded a ^1 challenge for ^3 issued by ^2. LapTimer has set this challenge to be your reference lap. This allows you to see time gaps and analyze your driving style in data recordings!"
+            "Congratulations! You loaded a ^1 challenge for ^3 issued by ^2. ^4 has set this challenge to be your reference lap. This allows you to see time gaps and analyze your driving style in data recordings!"
         </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
@@ -2608,7 +2608,7 @@
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
 		<TITLE> "Information" </TITLE>
-		<MESSAGE> "Your challenge is available for all LapTimer users. So far, it has been downloaded ^1 times. You can also invite friends!" </MESSAGE>
+		<MESSAGE> "Your challenge is available for all ^2 users. So far, it has been downloaded ^1 times. You can also invite friends!" </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 			<TEXT> "Invite" </TEXT>
@@ -2620,7 +2620,7 @@
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
         <TITLE> "Information" </TITLE>
-        <MESSAGE> "Your challenge is available for all LapTimer users entering the List Code ^2. So far, it has been downloaded ^1 times. You can also invite friends!" </MESSAGE>
+        <MESSAGE> "Your challenge is available for all ^3 users entering the List Code ^2. So far, it has been downloaded ^1 times. You can also invite friends!" </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>
 			<TEXT> "Invite" </TEXT>
