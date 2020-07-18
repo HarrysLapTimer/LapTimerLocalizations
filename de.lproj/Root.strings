@@ -290,3 +290,8 @@
 
 "Backup Reminder" = "Backup Erinnerung";
 
+/* Help text when setting start and stop speeds for performance tests */
+"Set speed to any value the performance test should be started / stopped for. Both acceleration and deceleration ranges are allowed." = "Wähle eine Geschwindigkeit an der Performance-Tests gestartet bzw. beendet werden sollen. Es können Bereiche für Beschleunigung und für Verzögerung definiert werden. ";
+
+"GoPro HERO8 SE/BE" = "GoPro HERO8 SE/BE";
+
