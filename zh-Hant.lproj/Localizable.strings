@@ -10,7 +10,7 @@
 "Lap Details #%hu" = "計時圈詳情 #%hu";
 
 /* SportChrono Buttons */
-"kSportChronoButtonLabelStaged" = "準備發車";
+"kSportChronoButtonLabelStaged" = "準備";
 
 /* SportChrono Buttons */
 "kSportChronoButtonLabelNew" = "新建";
@@ -43,44 +43,44 @@
 "kSportChronoButtonLabelSetRef" = "對照圈";
 
 /* SportChrono Buttons */
-"kSportChronoButtonLabelVideo" = "視頻";
+"kSportChronoButtonLabelVideo" = "影像";
 
 /* SportChrono Buttons */
-"kSportChronoButtonLabelHome" = "主菜單";
+"kSportChronoButtonLabelHome" = "主選單";
 
 /* Small Buttons */
 "kGapAbbreviated" = "分段差";
 
-"kLapTimeShort" = "圈時";
+"kLapTimeShort" = "單圈時間";
 
 /* Speed labels in GPS View */
-"kCurrentSpeedLabel" = "當前時速";
+"kCurrentSpeedLabel" = "即時時速";
 
-"kTopSpeedLabel" = "最高速";
+"kTopSpeedLabel" = "最快速度";
 
-"kLastTopSpeedLabel" = "短時極速";
+"kLastTopSpeedLabel" = "前一筆";
 
-"kCurrentSpeedSegment" = "當前時速";
+"kCurrentSpeedSegment" = "即時時速";
 
-"kVehicleCurrent" = "當前";
+"kVehicleCurrent" = "目前";
 
-"kLastTopSpeedSegment" = "短時極速";
+"kLastTopSpeedSegment" = "前一筆";
 
-"kTopSpeedSegment" = "最高速";
+"kTopSpeedSegment" = "最快速度";
 
 /* System configurations */
 "kAbbreviation" = ".";
 
-" (no data)" = "(無數據)";
+" (no data)" = "(無資料)";
 
 /* Item cannot be played description */
 "Item cannot be played" = "無法播放";
 
 /* Item cannot be played failure reason */
-"The assets tracks were loaded, but could not be made playable." = "視頻流加載完成，但無法播放";
+"The assets tracks were loaded, but could not be made playable." = "影像下載完成，但無法播放";
 
 /* XIB ressources */
-"Descriptions positioned" = "起點與計時標點定位完成";
+"Descriptions positioned" = "起點與計時點定位完成";
 
 "The official application LF of MICHELIN Pilot Sport Challenge" = "米其林競速挑戰賽\nder官方應用";
 
@@ -94,53 +94,53 @@
 
 "Connect" = "登入";
 
-"kPNNT" = "您的附近出現新賽道“%@”。點擊載入賽道！";
+"kPNNT" = "您的附近出現新賽道“%@”。點擊以下載賽道！";
 
-"kPNNC" = "%@ 在“%@”賽道對你發出了%@挑戰。點擊接受邀請！";
+"kPNNC" = "%@ 在“%@”賽道對你發出了%@挑戰。點擊以接受！";
 
 "kLapAbbreviation" = "L";
 
 /* HeavyDuty */
-"Reload Payload" = "重置負載";
+"Reload Payload" = "重新載入";
 
 /* Tile View Help */
-"kTileHelpSetupOperation" = "安裝應用後，請先使用<ui>車輛設定</ui>功能。在車輛列表中點擊<ui>編輯</ui>並<ui>添加車輛</ui>，而後配置車輛相關數據。";
+"kTileHelpSetupOperation" = "安裝應用後，請先使用<ui>設定車輛</ui>功能。在車輛列表中點擊<ui>編輯</ui>並<ui>新增車輛</ui>，然後配定車輛相關資訊。";
 
 /* Tile View Help */
-"kTileHelpDetailsSensorStatus" = "<ui>傳感器列表</ui>將顯示當前傳感器的狀態及可用性。如需採集<ui>發動機</ui>數據，需使用兼容的OBD II傳感器。<ui>後視拍攝</ui>也要使用兼容的相機。";
+"kTileHelpDetailsSensorStatus" = "<ui>傳感器列表</ui>將顯示當前傳感器的狀態及可用性。如需採集<ui>引擎</ui>數據，需使用相容的OBD II傳感器。<ui>後視拍攝</ui>也要使用相容的相機。";
 
 /* Tile View Help */
-"kTileHelpParking" = "<ui>停車</ui>將儲存當前停車位置，並記錄全部的停車位置。<ui>房車水準儀</ui>可用以保持貨車或露營車的平衡";
+"kTileHelpParking" = "<ui>停車</ui>將儲存目前停車位置，並記錄全部的停車位置。<ui>房車水平儀</ui>可用於保持貨車或露營車的水平平衡";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips" = "計劃以及顯示<ui>航程</ui>。PRODUCTNAME包括以路標爲基礎的導航。<ui>航標</ui>將在<ui>地圖</ui>或者<ui>汽車監控電腦</ui>中設置。<ui>航程</ui>列出所有被標示的路線，並允許導出以及顯示。";
+"kTileHelpPlanAndReviewTrips" = "計劃以及顯示<ui>旅程</ui>。PRODUCTNAME包括以路標爲基礎的導航。<ui>航標</ui>將在<ui>地圖</ui>或者<ui>行車監控電腦</ui>中設置。<ui>旅程</ui>列出所有被標示的路線，並支援顯示及匯出。";
 
 /* Tile View Help */
-"kTileHelpMaintainFeatures" = "加載額外的<hl>PRODUCTNAME</hl>功能 (<ui>擴展</ui>),讀取所有<ui>車輛</ui>並更改<ui>設置</ui>。<ui>傳感器</ui>顯示所用內部和外部的傳感器（例如：兼容的 <hl>PRODUCTNAME</hl> OBD II 適配器）。";
+"kTileHelpMaintainFeatures" = "加載額外的<hl>PRODUCTNAME</hl>功能 (<ui>擴展</ui>),讀取所有<ui>車輛</ui>並更改<ui>設置</ui>。<ui>傳感器</ui>顯示所用內部和外部的傳感器（例如：相容的 <hl>PRODUCTNAME</hl> OBD II 產品）。";
 
 /* Tile View Help */
-"kTileHelpWelcome" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。\n請選擇功能組查看可使用的功能。如果您想設置快捷方式，請點擊功能界面的黃色星標。";
+"kTileHelpWelcome" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。\n請選擇功能組查看可使用的功能。如果您想設置捷徑，請點選功能介面上黃色星標。";
 
 /* Tile View Help */
-"kTileHelpWelcomeBuddy" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。<ui>Bordcompurter</ui>將會車載電腦";
+"kTileHelpWelcomeBuddy" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。<ui>Bordcompurter</ui>行車電腦功能可提供完整行車資訊";
 
 /* Tile View Help */
-"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl>包括以路標爲基礎的導航(<ui>汽車監控電腦</ui>)。<ui>航點</ui>將在<ui>地圖</ui>或者<ui>GPS</ui>中設置。您還可以在<ui>功能插件</ui>中從服務器上讀取所需的路標數據。";
+"kTileHelpPlanAndReviewTrips2" = "<hl>PRODUCTNAME</hl>包括以路標爲基礎的導航(<ui>汽車監控電腦</ui>)。<ui>航點</ui>將在<ui>地圖</ui>或者<ui>GPS</ui>中設置。您還可以在<ui>功能插件</ui>中從伺服器上讀取所需的路標數據。";
 
 /* Tile View Help */
-"kTileHelpSetupRace" = "首先，請<ui>定義用戶</ui>，配置所需的車手以及車輛。在離開維修區前<ui>載入賽道</ui>。也可以使用<ui>繞樁賽</ui>和<ui>新建賽道</ui>來創建自有賽段。";
+"kTileHelpSetupRace" = "首先，請<ui>定義用戶</ui>，配置所需的車手以及車輛。在離開維修區前<ui>載入賽道</ui>。也可以使用<ui>繞錐賽</ui>和<ui>新建賽道</ui>來創建自有賽道。";
 
 /* Tile View Help */
-"kTileHelpWelcomeLapTimer" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。本應用的功能包括<ui>賽前整備</ui>，<ui>賽道計時</ui>和行駛過程的<ui>數據分析</ui>。請從中選擇一個功能。";
+"kTileHelpWelcomeLapTimer" = "歡迎使用<hl>LONGPRODUCTNAME</hl>。本應用的功能包括<ui>賽前整備</ui>，<ui>賽道計時</ui>和行駛過程的<ui>數據分析</ui>。請選擇其中一個功能。";
 
 /* Tile View Help */
-"kTileHelpRace" = "在競速中可使用不同的功能菜單。新手建議使用<ui>計時器</ui>，在直立或橫置屏幕的狀態下均可使用。PRODUCTNAME的 <ui>視頻</ui> 界面只能橫置屏幕使用。";
+"kTileHelpRace" = "在競速中可使用不同的功能選單。新手建議使用<ui>計時器</ui>，在直立或橫置螢幕狀態下皆可使用。PRODUCTNAME的 <ui>影像</ui> 功能僅支援使用於橫置螢幕。";
 
 /* Tile View Help */
-"kTileHelpAnalytics" = "<hl>PRODUCTNAME</hl>中用於分析行駛數據的菜單。 <ui>即時信息</ui>中包括全部的實時數據信息。可在<ui>計時圈</ui>中查看所有圖表數據。您也可以在這裏給視頻壓印數據圖層。";
+"kTileHelpAnalytics" = "<hl>PRODUCTNAME</hl>中用於分析行駛數據的選單。 <ui>即時資訊</ui>中包括全部的實時數據資訊。可在<ui>計時圈</ui>中查看所有圖表數據。您也可以在這裏結合影像與數據圖層。";
 
 /* Tile View Help */
-"kTileHelpRealtime" = "所有傳感器數據的功能菜單(<ui>GPS</ui>、<ui>衛星</ui>、<ui>加速度</ui>和<ui>發動機</ui>信息)即時。點擊<ui>在線實況</ui>，可查看世界各地活躍中的賽道(包括正在賽道上駕駛的車手及最佳成績車手)。";
+"kTileHelpRealtime" = "所有傳感器數據的功能選單(<ui>GPS</ui>、<ui>衛星</ui>、<ui>加速度</ui>和<ui>引擎</ui>資訊)即時。點擊<ui>連線實況</ui>，可查看世界各地進行中的賽道(包括正在賽道上駕駛的車手及最佳成績車手)。";
 
 /* SportChrono Buttons */
 "kSportChronoButtonLabelResetCalibration" = "重置";
@@ -155,13 +155,13 @@
 "Event" = "活動";
 
 /* Update rate gadget for GPS - needs to be short */
-"GPS Rate" = "刷新率";
+"GPS Rate" = "更新率";
 
 /* Update rate gadget for Accelerometer - needs to be short */
-"Accelerometer Rate" = "刷新率";
+"Accelerometer Rate" = "更新率";
 
 /* Update rate gadget for OBD - needs to be short */
-"OBD Rate" = "刷新率";
+"OBD Rate" = "更新率";
 
 /* Tile View Help */
 "kTileHelpUsingRearCam" = "界面上顯示的<ui>後視畫面</ui>會有<hl>5秒左右的延遲</hl>\n\n故本功能不能替代後視鏡。";
@@ -185,7 +185,7 @@
 "kSportChronoButtonLabelAdvancedCalibration" = "手動校準";
 
 /* Update rate gadget for Accelerometer - needs to be short */
-"Raw Accelerometer Rate" = "刷新率";
+"Raw Accelerometer Rate" = "更新率";
 
 /* e.g. from lap A *to* lap B */
 "kFromTo" = "到";
@@ -201,7 +201,7 @@
 "Groups" = "分組";
 
 /* Controller titles */
-"Classic" = "經典秒錶";
+"Classic" = "經典碼錶";
 
 "Racer's" = "車手視圖";
 
@@ -219,7 +219,7 @@
 
 "Trim" = "平衡";
 
-"Trip" = "出行";
+"Trip" = "旅程";
 
 "Add-ons" = "功能插件";
 
@@ -227,9 +227,9 @@
 
 "SuperGPS" = "超級GPS";
 
-"Server" = "服務器";
+"Server" = "伺服器";
 
-"Online" = "在線實況";
+"Online" = "連線實況";
 
 "Satellites" = "衛星";
 
@@ -243,13 +243,13 @@
 
 "Sensor List" = "傳感器列表";
 
-"Video List" = "視頻列表";
+"Video List" = "影像列表";
 
 /* Units */
 "%.0fs" = "%.0fs";
 
 /* Gadget titles */
-"Signal" = "信號";
+"Signal" = "訊號";
 
 "Fix Date" = "採樣日期";
 
@@ -259,7 +259,7 @@
 
 "Approach" = "通道";
 
-"Engine" = "發動機";
+"Engine" = "引擎";
 
 "Speed" = "速度";
 
@@ -309,7 +309,7 @@
 
 "Current Lap" = "當前計時圈";
 
-"GPS Ref. Gap" = "對照圈GPS差時";
+"GPS Ref. Gap" = "對照圈GPS時間差";
 
 "Current Sector" = "當前計時段";
 
@@ -319,7 +319,7 @@
 
 "Speedometer" = "時速表";
 
-"Engine RPM" = "發動機轉速";
+"Engine RPM" = "引擎轉速";
 
 "Avg." = "平均";
 
@@ -327,17 +327,17 @@
 
 "Current Time" = "當前時間";
 
-"Travel Time" = "行程時間";
+"Travel Time" = "旅程時間";
 
-"Time Moving" = "運動時間";
+"Time Moving" = "移動時間";
 
 "Time not Moving" = "靜止時間";
 
 "Avg. Speed" = "平均速度";
 
-"Avg. Speed Moving" = "運動中平均速度";
+"Avg. Speed Moving" = "移動中平均速度";
 
-"Travel Distance" = "行程距離";
+"Travel Distance" = "旅程距離";
 
 "Time of Arrival" = "到達時間";
 
@@ -359,11 +359,11 @@
 
 "Sector vs. %@" = "計時段 vs. %@";
 
-"Gap vs. %@ (%s)" = "差時 vs. %@(%s)";
+"Gap vs. %@ (%s)" = "時間差 vs. %@(%s)";
 
-"Gap vs. %@" = "差時 vs. %@";
+"Gap vs. %@" = "時間差 vs. %@";
 
-"Gap" = "差時";
+"Gap" = "時間差";
 
 "Best Lap" = "最快圈";
 
@@ -403,7 +403,7 @@
 
 "Turbocharged" = "渦輪增壓";
 
-"Engine Type" = "發動機類型";
+"Engine Type" = "引擎類型";
 
 "Otto" = "汽油";
 
@@ -420,7 +420,7 @@
 
 "Active" = "啓用";
 
-"Reload" = "刷新";
+"Reload" = "重新載入";
 
 "Load" = "載入";
 
@@ -433,7 +433,7 @@
 /* Footer Buttons */
 "Reference" = "對照";
 
-"Export" = "導出";
+"Export" = "匯出";
 
 "Send" = "發送";
 
@@ -459,7 +459,7 @@
 
 "Certify" = "認證";
 
-"System Information" = "系統信息";
+"System Information" = "系統訊息";
 
 "Navigate" = "導航";
 
@@ -484,17 +484,17 @@
 
 "Deleting Lap" = "刪除計時圈";
 
-"Lap #" = "計時圈 #";
+"Lap #" = "計時圈#";
 
 "Results" = "結果";
 
 "Speeds" = "時速";
 
-"Track Info" = "賽道信息";
+"Track Info" = "賽道資訊";
 
-"Regularity" = "節奏感";
+"Regularity" = "規律性";
 
-"Data Recording" = "數據採集";
+"Data Recording" = "收集數據";
 
 "Date" = "日期";
 
@@ -504,15 +504,15 @@
 
 "Vehicle" = "車輛";
 
-"Video" = "視頻";
+"Video" = "影像";
 
-"Add Video" = "添加視頻";
+"Add Video" = "新增影像";
 
-"Master" = "主視頻";
+"Master" = "主影像";
 
-"Picture in Picture" = "畫中畫";
+"Picture in Picture" = "子母螢幕";
 
-"Picture in Picture #%hu" = "畫中畫 #%hu";
+"Picture in Picture #%hu" = "子母螢幕 #%hu";
 
 "Joint End" = "合併結尾";
 
@@ -520,7 +520,7 @@
 
 "Metadata" = "元數據";
 
-"Add Note" = "添加筆記";
+"Add Note" = "新增筆記";
 
 "Note" = "筆記";
 
@@ -528,7 +528,7 @@
 
 "Lap Time" = "圈時";
 
-"Virtual Best" = "最佳擬合";
+"Virtual Best" = "虛擬最佳";
 
 "Split %lu" = "分段 %lu";
 
@@ -550,7 +550,7 @@
 
 "'Send Trackday' sends latest trackday's lap data." = "“發送賽道日”可把最近一次賽道日的全部計時圈打包發送。";
 
-"Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "檢視計時圈的詳細信息，而後決定是否發送或導出計時圈數據。";
+"Navigate into a single lap (Lap Details) to either send or export a single lap's data." = "檢視計時圈的詳細資訊，而後決定是否發送或匯出計時圈數據。";
 
 "Cancel" = "取消";
 
@@ -564,13 +564,13 @@
 
 "Removing Old Databases" = "正在移除舊數據…";
 
-"Receive Lap from Friend" = "自好友處接收計時圈數據";
+"Receive Lap from Friend" = "自好友接收計時圈數據";
 
 "Send Trackday to Friend" = "發送賽道日數據給好友";
 
-"Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如您不清楚這些功能對於維護的意義, 請按“取消”";
+"Press 'Cancel' in case you are not sure what these functions do, they are for maintenance only." = "如果您不確定這些功能是什麼, 請按“取消”,它們僅用於維護。";
 
-"GPS Sensor" = "GPS傳感器";
+"GPS Sensor" = "GPS接收器";
 
 "Internal" = "內部";
 
@@ -616,7 +616,7 @@
 "Configuration" = "配置";
 
 /* Data Loader / Mailer */
-"Importing..." = "正在導入…";
+"Importing..." = "正在載入…";
 
 "%s Contact" = "%s聯絡";
 
@@ -624,45 +624,45 @@
 
 "%s POI Set Certification" = "%s地標組認證";
 
-"Hello,\n\nI have compiled the attached POI Set and would like to make it available to the community.\nI provide this POI Set 'as is', and without any warranty. You are welcome to redistribute it as you like.\n\nIn addition to the POI Set attached, I'd like to add the following information:\n\nTitle:\nTITLE SHOWN IN ADD ON VIEW\n\nDescription:\nONE OR TWO SENTENCES ON THE TRACK / THE POI SET\n\nValidation / Accuracy:\n I have tested the data on track: YES/NO\n GPS positions were collected using: A DEVICE/GOOGLE MAPS\n\nSource Information\nPlease cite my name in the Source Section: YES/NO\n\nFurther Information:\nANYTHING ELSE\n\nGreetings NAME\n\n" = "您好，\n\n我已經完成地標信息的採集，並希望可以公開分享。\n我原樣提交此套地標信息，且無法提供任何後續支持。您可以在任何時間重新分配此地標組。\n\n除了地標組數據，我同時提供以下信息：\n\n名稱：\n【在“功能插件”視圖中將展示的名稱】\n\n描述：\n【對賽道/地標組的一兩句描述】\n\n可信度/精度：\n我已在賽道上測試過此數據：【YES/NO】\n GPS數據蒐集方式：【硬件設備/Google Map】\n\n來源信息：\n在來源說明中展示我的名字：【YES/NO】\n\n更多信息：\n【其他任何信息】\n\n此致 【姓名】\n\n";
+"Hello,\n\nI have compiled the attached POI Set and would like to make it available to the community.\nI provide this POI Set 'as is', and without any warranty. You are welcome to redistribute it as you like.\n\nIn addition to the POI Set attached, I'd like to add the following information:\n\nTitle:\nTITLE SHOWN IN ADD ON VIEW\n\nDescription:\nONE OR TWO SENTENCES ON THE TRACK / THE POI SET\n\nValidation / Accuracy:\n I have tested the data on track: YES/NO\n GPS positions were collected using: A DEVICE/GOOGLE MAPS\n\nSource Information\nPlease cite my name in the Source Section: YES/NO\n\nFurther Information:\nANYTHING ELSE\n\nGreetings NAME\n\n" = "您好，\n\n我已經完成地標資訊的蒐集，並希望可以公開分享。\n我同意提交此套地標資訊，且無法提供任何後續支持。您可以在任何時間重新分配此地標組。\n\n除了地標組數據，我同時提供以下資訊：\n\n名稱：\n【在“功能插件”視圖中將展示的名稱】\n\n描述：\n【對賽道/地標組的一兩句描述】\n\n可信度/精度：\n我已在賽道上測試過此數據：【YES/NO】\n GPS數據蒐集方式：【硬件設備/Google Map】\n\n來源資訊：\n在來源說明中展示我的名字：【YES/NO】\n\n更多資訊：\n【其他任何資訊】\n\n此致 【姓名】\n\n";
 
 "... and forwarding to Mail" = "... 並轉發至信箱";
 
-"%s Trace Log" = "%s 定位日誌";
+"%s Trace Log" = "%s 定位紀錄";
 
 "Trace file from former run found, preparing..." = "發現上一次駕駛的定位文件，正在進行準備…";
 
-"Creating Export Files..." = "製作導出文件中…";
+"Creating Export Files..." = "製作匯出文件中…";
 
-"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "此%@包含以下導出格式，比較大的文件會利用GZIP來壓縮：\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "此%@包含以下匯出格式，比較大的文件會使用GZIP來壓縮：\n\n";
 
 "mail" = "郵件";
 
 "folder" = "文件夾";
 
-"%@: PDF export of one lap\n" = "%@：單計時圈的PDF文件\n";
+"%@: PDF export of one lap\n" = "%@：單一計時圈的PDF文件\n";
 
-"%@: database in LapTimer XML format\n" = "%@：LapTimer XML格式數據庫\n";
+"%@: database in LapTimer XML format\n" = "%@：LapTimer XML格式資料庫\n";
 
 "%@: Google Earth KML file\n" = "%@：Google Earth KML格式\n";
 
 "%@: lapped times as universal CSV format\n" = "%@：以通用CSV格式整理的圈時數據\n";
 
-"%@: recorded GPS fixes as universal CSV format\n" = "%@：以通用CSV格式整理的GPS採樣點數據\n";
+"%@: recorded GPS fixes as universal CSV format\n" = "%@：以通用CSV格式整理的GPS數據\n";
 
-"%@: recorded GPS fixes prepared for TrackVision and DashWare data logger input\n" = "%@：爲TrackVision以及DashWare數據採集器輸入優化的GPS採樣點數據\n";
+"%@: recorded GPS fixes prepared for TrackVision and DashWare data logger input\n" = "%@：支援匯入TrackVision以及DashWare的GPS數據\n";
 
-"%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@：爲Circuit Tools分析工具優化的GPS採樣點數據\n";
+"%@: recorded GPS fixes prepared for Circuit Tools analytic tool\n" = "%@：支援匯入Circuit Tools分析工具的GPS數據\n";
 
-"This %@ contains the following export files:\n\n" = "此%@包含以下導出格式：\n\n";
+"This %@ contains the following export files:\n\n" = "此%@包含以下匯出格式：\n\n";
 
-"%@: vehicle database in XML format\n" = "%@：XML格式車輛數據庫\n";
+"%@: vehicle database in XML format\n" = "%@：XML格式車輛資料庫\n";
 
-"%s Export" = "%s導出";
+"%s Export" = "%s匯出";
 
-"Adding POI Set:\nDownloading from Net..." = "添加地標組：\n正在下載中…";
+"Adding POI Set:\nDownloading from Net..." = "新增地標組：\n正在下載中…";
 
-"Adding POI Set:\n%hu POIs read..." = "添加地標組：\n已讀取%hu地標…";
+"Adding POI Set:\n%hu POIs read..." = "新增地標組：\n已讀取%hu地標…";
 
 "Day" = "天";
 
@@ -706,9 +706,9 @@
 
 "Sort" = "排序";
 
-"best lap first" = "圈時排序";
+"best lap first" = "依圈時排序";
 
-"most recent lap first" = "更新時間排序";
+"most recent lap first" = "依更新時間排序";
 
 "Length" = "長度";
 
@@ -718,20 +718,20 @@
 
 " on %@" = " 駕駛 %@";
 
-"Add-on URL" = "加入URL ";
+"Add-on URL" = "加入網址 ";
 
-"Please enter an URL to a valid XML / KML file. More infos are available on www.gps-laptimer.de, follow the link to page 'Tracks'." = "請輸入有效的URL(XML/KML數據)，更多的訊息請參照www.gps-laptimer.de中的“Tracks”項目。";
+"Please enter an URL to a valid XML / KML file. More infos are available on www.gps-laptimer.de, follow the link to page 'Tracks'." = "請輸入有效的網址(XML/KML數據)，更多的訊息請參照www.gps-laptimer.de中的“Tracks”項目。";
 
-"Processing App Store Payment..." = "正在處理App Store付款...";
+"Processing App Store Payment..." = "App Store付款處理中...";
 
-"Validating earlier App Store Payment..." = "正在查驗過往的App Store付款信息...";
+"Validating earlier App Store Payment..." = "過往的App Store付款資訊查驗中...";
 
-"Retrieving Product Data from App Store..." = "正在檢索App Store商品信息...";
+"Retrieving Product Data from App Store..." = "App Store商品資訊檢索中...";
 
 /* Add-on Manager */
-"Updating Add On List from Server..." = "從服務器上更新添加名單...";
+"Updating Add On List from Server..." = "從伺服器上更新新增名單...";
 
-"Reloading Add On List from Server..." = "從服務器上重新讀取添加名單...";
+"Reloading Add On List from Server..." = "從伺服器上重新讀取新增名單...";
 
 "Speed [%s] @ %@" = "速度[%s] @ %@";
 
@@ -751,14 +751,14 @@
 
 "Lineal acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "以“g”數來顯示縱向加速度 (g爲9.78-9.82m/s2之間)。";
 
-"Overall acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "以“g”數來顯示合成加速度 (g爲9.78-9.82m/s2之間)。 ";
+"Overall acceleration as a multiple of 'g' (between 9.78 and 9.82 m/s2)." = "以“g”數來顯示合力加速度 (g爲9.78-9.82m/s2之間)。 ";
 
 "Satellites used for GPS positioning. Only for supported NMEA devices." = "GPS定位所連接的衛星，只支持NMEA設備。";
 
 "Accuracy (%s) of GPS fix." = "GPS採樣點的精度(%s)。";
 
 /* Status Gadget */
-"No position information available" = "無可用的定位信息";
+"No position information available" = "無可用的定位資訊";
 
 "Triangulation" = "三角測量";
 
@@ -773,7 +773,7 @@
 "Sensor connected, using NMEA interface" = "傳感器已連接，使用NMEA接口";
 
 /* Signal / GPS Gadget */
-"Acquiring Satellites" = "正在檢測衛星信號";
+"Acquiring Satellites" = "正在檢測衛星訊號";
 
 "No Fix" = "無定位點";
 
@@ -802,7 +802,7 @@
 
 "VIN defined" = "通過VIN確定";
 
-"- no details -" = "- 無信息 -";
+"- no details -" = "- 無資訊 -";
 
 "Add new %@" = "增加新的%@";
 
@@ -812,7 +812,7 @@
 
 "Vehicle Type" = "車輛種類";
 
-"Car" = "車輛";
+"Car" = "汽車";
 
 "Motorbike" = "摩托車";
 
@@ -830,7 +830,7 @@
 
 "Sailboat" = "帆船";
 
-"Wheel Drive Type" = "驅動輪佈局";
+"Wheel Drive Type" = "驅動方式";
 
 "Rear-wheel" = "後輪驅動";
 
@@ -842,13 +842,13 @@
 
 "Image" = "照片";
 
-"Add Image" = "添加照片";
+"Add Image" = "新增照片";
 
 "VIN" = "VIN";
 
-"Add VIN" = "添加 VIN";
+"Add VIN" = "新增 VIN";
 
-"Max Torque" = "最大扭矩";
+"Max Torque" = "最大扭力";
 
 "Max Power" = "最大功率";
 
@@ -864,7 +864,7 @@
 
 "Rear Wheel" = "後輪";
 
-"Drive" = "傳動";
+"Drive" = "驅動";
 
 "Chart" = "圖表";
 
@@ -908,23 +908,23 @@
 
 "Edit VIN" = "編輯 VIN";
 
-"A Vehicle Identification Number (VIN), is a unique 17 digit number used to identify motor vehicles." = "車輛辨識號(VIN)是一組用於辨識車輛信息的17位編號。";
+"A Vehicle Identification Number (VIN), is a unique 17 digit number used to identify motor vehicles." = "車輛辨識號(VIN)是一組用於辨識車輛資訊的17位編號。";
 
-"Torque" = "扭矩";
+"Torque" = "扭力";
 
-"Maximum torque developed by vehicle's engine." = "車輛發動機提供的最大扭矩。";
+"Maximum torque developed by vehicle's engine." = "車輛引擎提供的最大扭力。";
 
-"Engine rounds per minute at which maximum torque is developed." = "發動機輸出最大扭矩時的轉速。";
+"Engine rounds per minute at which maximum torque is developed." = "引擎輸出最大扭力時的轉速。";
 
-"Maximum power developed by vehicle's engine." = "車輛發動機提供的最大功率。";
+"Maximum power developed by vehicle's engine." = "引擎提供的最大功率。";
 
-"Engine rounds per minute at which maximum power is developed." = "發動機輸出最大功率時的轉速。";
+"Engine rounds per minute at which maximum power is developed." = "引擎輸出最大功率時的轉速。";
 
-"Engine rounds per minute at which the rev limiter is activated." = "發動機斷油轉速。";
+"Engine rounds per minute at which the rev limiter is activated." = "引擎斷油轉速。";
 
 "Threshold" = "觸發線";
 
-"Percentage of max engine rounds per minute at which the Shift Gear Flash gets active." = "換檔提示燈觸發時的轉速與發動機最大轉速的比值。";
+"Percentage of max engine rounds per minute at which the Shift Gear Flash gets active." = "換檔提示燈觸發時的轉速與引擎最大轉速的比值。";
 
 "Front Wheels" = "前輪";
 
@@ -936,7 +936,7 @@
 
 "The drive ratio is the relationship between the gear box's and the axle's rounds per minute." = "終傳比是變速箱輸出軸與驅動軸之間的轉速比例。";
 
-"Gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "齒比是特定檔位上發動機轉速與變速箱輸出軸轉速的比值。";
+"Gear ratio is the relationship between the engine's and the gear box's rounds per minute." = "齒比是特定檔位上引擎轉速與變速箱輸出軸轉速的比值。";
 
 "%.2f (limit %hu %s)" = "%.2f (極速 %hu %s)";
 
@@ -981,7 +981,7 @@
 
 "Not Available" = "不可用";
 
-"Available, Resolution %hu x %hu" = "可用，分辨率 %hu x %hu";
+"Available, Resolution %hu x %hu" = "可用，解析度 %hu x %hu";
 
 "Not Available (%@)" = "不可用(%@)";
 
@@ -1000,7 +1000,7 @@
 "This feature is not available in this app edition. Please check 'Add-ons' for upgrades available." = "此功能在這個版本無法使用，請在'功能插件'查看升級選項。";
 
 /* Sensors */
-"NMEA sentences received:" = "接收到NMEA信息:";
+"NMEA sentences received:" = "接收到NMEA資訊:";
 
 "PIDs received: %@" = "接收到PIDs: %@";
 
@@ -1018,7 +1018,7 @@
 
 "Define User" = "定義用戶";
 
-"Autocross" = "計時繞樁賽";
+"Autocross" = "計時繞錐賽";
 
 "New Track" = "新的賽道";
 
@@ -1040,7 +1040,7 @@
 
 "Select Track" = "選擇賽道";
 
-"Track Selected" = "已選選擇";
+"Track Selected" = "已選賽道";
 
 "Drive!" = "開始駕駛！";
 
@@ -1059,7 +1059,7 @@
 "Three character driver name used for Online Racing" = "在線車手排行榜中駕駛員名字以3個字母顯示";
 
 /* Online View */
-"No Server Status" = "沒有服務器信息";
+"No Server Status" = "沒有伺服器資訊";
 
 "Track: -" = "賽道: -";
 
@@ -1131,7 +1131,7 @@
 
 "Latitude" = "緯度";
 
-"Font Size" = "字號";
+"Font Size" = "文字大小";
 
 "Direction" = "方向";
 
@@ -1165,7 +1165,7 @@
 
 "Trigger Type" = "觸發點類型";
 
-"Information" = "信息";
+"Information" = "資訊";
 
 "Stop / Go" = "起點/終點線";
 
@@ -1179,7 +1179,7 @@
 
 "Select the event you want to happen once you pass the Point of Interest." = "選擇經過地標後您想執行的動作。";
 
-"The Position defines how labels are positioned relative to the POI's polar coordinate." = "位置決定標籤相對於路點的極座標未知。";
+"The Position defines how labels are positioned relative to the POI's polar coordinate." = "位置定義標籤相對於POI極坐標的定位方式。";
 
 /* Recalculation buttons */
 "Splits" = "分段";
@@ -1219,7 +1219,7 @@
 
 "Fastest sector or lap at time recorded" = "最快計時段或計時圈成績";
 
-"Virtually best lap (sum of best sector times)" = "潛力單圈成績(各計時段最好成績的總和)";
+"Virtually best lap (sum of best sector times)" = "虛擬最佳圈成績(各計時段最好成績的總和)";
 
 "Lap selected (%@ - %@)" = "已選計時圈 (%@ - %@)";
 
@@ -1231,7 +1231,7 @@
 
 "Lineal Acceleration [g] @ %@" = "縱向加速度[g] @ %@";
 
-"Overall Acceleration [g-g]" = "合成加速度[g-g]";
+"Overall Acceleration [g-g]" = "合力加速度[g-g]";
 
 "Yaw Rate [°/s] @ %@" = "偏轉速率[°/s] @ %@";
 
@@ -1271,15 +1271,15 @@
 
 "Lap# %hu/%hu" = "計時圈# %hu/%hu";
 
-"Processing Video..." = "正在合成視頻...";
+"Processing Video..." = "正在合成影像...";
 
-"Overlaying Video...\n%.0f%% processed (%lu frames)" = "壓制數據圖層...\n%.0f%% 已處理 (%lu 幀)";
+"Overlaying Video...\n%.0f%% processed (%lu frames)" = "合成數據圖層...\n%.0f%% 已處理 (%lu 幀)";
 
 "Rendering Lead...\n%.0f%% processed (%lu frames)" = "運算時間...\n%.0f%%已處理 (%lu 幀)";
 
 "Skipping frames..." = "跳過幀...";
 
-"Transfering Video to Library..." = "正將視頻轉輸至儲存庫...";
+"Transfering Video to Library..." = "正將影像轉輸至儲存庫...";
 
 "Corner" = "彎道";
 
@@ -1289,32 +1289,32 @@
 
 "Start Videoing" = "開始錄製";
 
-"Master video o.k." = "主機位視頻正常";
+"Master video o.k." = "主機位影像正常";
 
 ", overlay data available" = "，數據圖層可用";
 
-", low memory (%.1f GB missing)" = ", 內存不足 (缺少 %.1f GB)";
+", low memory (%.1f GB missing)" = ", 儲存空間不足 (缺少 %.1f GB)";
 
 ", overlay data missing" = "，數據圖層不可用";
 
-"Invalid master video" = "無效的主拍攝機位視頻";
+"Invalid master video" = "無效的主拍攝機位影像";
 
-", reference PiP video not valid - excluded" = "，沒有對照圈的畫中畫視頻 – 已排除";
+", reference PiP video not valid - excluded" = "，沒有對照圈的子母畫面影像 – 已排除";
 
-", reference PiP video included" = "，包含對照圈的畫中畫視頻";
+", reference PiP video included" = "，包含對照圈的子母畫面影像";
 
-", %u out of %u MultiCam PiP video(s) valid and included" = "，%u 中 %u 有效的多鏡頭畫中畫視頻";
+", %u out of %u MultiCam PiP video(s) valid and included" = "，%u 中 %u 有效的多鏡頭子母畫面影像";
 
-", %u MultiCam PiP video(s) included" = ", %u有效的MultiCam畫中畫視頻並放入";
+", %u MultiCam PiP video(s) included" = ", %u有效的MultiCam子母畫面影像並放入";
 
-"Reference Video" = "對照圈視頻";
+"Reference Video" = "對照圈影像;
 
 "Reference Sector" = "對照計時段";
 
 "Cam #%hu" = "相機 #%hu";
 
 /* Videos */
-"Videos" = "視頻";
+"Videos" = "影像";
 
 "File Properties" = "文件屬性";
 
@@ -1326,11 +1326,11 @@
 
 "MultiCam Recordings" = "MultiCam 記錄";
 
-"Camera Roll" = "相機膠捲";
+"Camera Roll" = "相機相簿";
 
-"Overlaid Video" = "帶有數據圖層的視頻";
+"Overlaid Video" = "帶有數據圖層的影像";
 
-"Raw Video" = "原始視頻";
+"Raw Video" = "原始影像";
 
 "Housekeeping" = "清理";
 
@@ -1338,7 +1338,7 @@
 
 "Re-Link" = "重新關聯";
 
-"Video Details" = "視頻信息";
+"Video Details" = "影像資訊";
 
 "Location" = "位置";
 
@@ -1352,7 +1352,7 @@
 
 "Overlay Type" = "數據圖層類型";
 
-"Overlaid" = "已添加數據圖層";
+"Overlaid" = "已新增數據圖層";
 
 "Raw" = "原始";
 
@@ -1360,9 +1360,9 @@
 
 "Select" = "選擇";
 
-"Raw Videos" = "原始視頻";
+"Raw Videos" = "原始影像";
 
-"Remote" = "遠程";
+"Remote" = "遠端";
 
 "Local" = "本地";
 
@@ -1381,20 +1381,20 @@
 /* Video List */
 "iCloud is disabled currently. To use it, sign in first. iCloud space can be valuable to free up space locally." = "iCloud 目前已關閉，如需啓用，請先登入。iCloud可以幫助釋放本地空間。";
 
-"Videos stored locally in %@'s sandbox. Footage you record will be stored here initially. Do housekeeping from here." = "視頻保存於%@s 的沙盒空間。您錄製的片段將會存在此處，您可以在這裏進行數據清理。";
+"Videos stored locally in %@'s sandbox. Footage you record will be stored here initially. Do housekeeping from here." = "影像保存於%@s 的沙盒空間。您錄製的片段將會存在此處，您可以在這裏進行數據清理。";
 
-"Videos in iCloud get transferred automatically to %@'s recordings currently. You can change that behavior in Settings." = "iCloud中的視頻會自動傳輸至 %@s 的錄製區，您可以在設置菜單中修改。";
+"Videos in iCloud get transferred automatically to %@'s recordings currently. You can change that behavior in Settings." = "iCloud中的影像會自動傳輸至 %@s 的錄製區，您可以在設置選單中修改。";
 
-"Videos stored in iCloud and typically recorded using MultiCam. 'Offline' videos are in the iCloud but not copied locally. Move videos here to free up space locally." = "數據儲存於iCloud，通常是用MultiCam錄製的多機位視頻。'脫機' 視頻將會保存在iCloud中，但不會複製到設備上。移出視頻可釋放本地設備的存儲空間。";
+"Videos stored in iCloud and typically recorded using MultiCam. 'Offline' videos are in the iCloud but not copied locally. Move videos here to free up space locally." = "數據儲存於iCloud，通常是用MultiCam錄製的多機位影像。'離線' 影像將會保存在iCloud中，但不會複製到設備上。移出影像可釋放本地設備的存儲空間。";
 
-"Videos stored locally in Photo app. Overlaid videos go here. Move to desktop using iTunes synchronization." = "視頻儲存於本地照片應用程序。已壓印數據圖層的視頻將保存在此處。建議使用iTunes來移動文件到桌面端。";
+"Videos stored locally in Photo app. Overlaid videos go here. Move to desktop using iTunes synchronization." = "影像儲存於本地照片應用程序。已合成數據圖層的影像將保存在此處。建議使用iTunes來移動文件到桌面端。";
 
-"Videos stored on %@. Use iCloud to transfer footage to this device." = "視頻儲存於%@。使用iCloud來傳輸到此設備。";
+"Videos stored on %@. Use iCloud to transfer footage to this device." = "影像儲存於%@。使用iCloud來傳輸到此設備。";
 
 /* Satellites View */
 "No supported NMEA device connected." = "未連接支持的NMEA設備。";
 
-"Acquiring Satellites..." = "正在接收衛星信號…";
+"Acquiring Satellites..." = "正在接收衛星訊號…";
 
 "Continuous autofocus set" = "連續自動對焦";
 
@@ -1404,17 +1404,17 @@
 
 "Lap timing started!" = "圈時記錄已開始！";
 
-"Video recording started!" = "視頻錄製已開始！";
+"Video recording started!" = "已開始錄影！";
 
-"Lap finished! Make sure you stop video recording later..." = "圈時記錄已完成！稍後請結束視頻錄製…";
+"Lap finished! Make sure you stop video recording later..." = "圈時記錄已完成！稍後請結束錄影…";
 
 "Lap finished!" = "圈時記錄已完成！";
 
-"Stopped recording..." = "錄製已停止…";
+"Stopped recording..." = "已停止錄影…";
 
 "Lap recorded, next lap started!" = "本圈記錄已完成，開始新一圈！";
 
-"Low memory, video recording stopped / disabled! Please free up space and return." = "儲存空間不足，視頻錄像已停止或禁用！請清理出更多空間後繼續操作。";
+"Low memory, video recording stopped / disabled! Please free up space and return." = "儲存空間不足，錄已停止或禁用！請清理出更多空間後繼續操作。";
 
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "請把設備直立，傾斜和換檔操作都是容許的。";
@@ -1427,21 +1427,21 @@
 
 "Device calibrated successfully. Please reset calibration when changing the mount." = "設備校準已完成，如改變固定方式，請重新校準。";
 
-"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "從<hl>PRODUCTNAME</hl>數據庫中選擇您所在的賽道後，便可立刻開始賽道競速！";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "從<hl>PRODUCTNAME</hl>資料庫中選擇您所在的賽道後，便可立刻開始賽道競速！";
 
-"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "賽道數據載入完成！點擊<ui>開始駕駛！</ui>按鈕即刻開始駕駛, 無需再控制<hl>PRODUCTNAME</hl>，它將自動計時!";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "賽道數據載入完成！點擊<ui>開始駕駛！按下</ui>按鈕即開始駕駛, 無需再操作<hl>PRODUCTNAME</hl>，它將自動計時!";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "走到起點線並按下<ui>設定</ui>按鈕來建立自定義繞樁賽賽道。";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "走到起點線並按下<ui>設定</ui>按鈕來建立自定義繞錐賽賽道。";
 
-"Walk <hl>directly</hl> to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "走到終點線並按下<ui>設定</ui>按鈕。請確保GPS信號良好！";
+"Walk <hl>directly</hl> to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "走到終點線並按下<ui>設定</ui>按鈕。請確保GPS訊號良好！";
 
-"Your autocross course is ready to use! Just mount your device and start driving." = "您的繞樁賽賽道已可以使用！固定好設備後，即可開始駕駛。";
+"Your autocross course is ready to use! Just mount your device and start driving." = "您的繞錐賽賽道已可以使用！固定好設備後，即可開始駕駛。";
 
-"Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "請輸入準備上傳至名人堂的3字母的姓名縮寫。";
+"Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "請輸入準備上傳至名人堂的3個字母的姓名縮寫。";
 
-"Select an existing, or add a new vehicle for driving. Can be changed later on." = "選擇一款現有，或加入某款全新的車輛來進行駕駛。也可以在之後修改。";
+"Select an existing, or add a new vehicle for driving. Can be changed later on." = "選擇一款已存在，或加入某款全新的車輛來進行駕駛。也可以在之後修改。";
 
-"Basic user settings defined. Progress by loading your track or defining an autocross." = "用戶基礎設定已完成，請載入您所在的賽道或定義一個新的繞樁賽賽道。";
+"Basic user settings defined. Progress by loading your track or defining an autocross." = "用戶基本設定已完成，請載入您所在的賽道或定義一個新的繞錐賽賽道。";
 
 "To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "走到起點/終點線並按下<ui>設定</ui>按鈕建立自定義賽道。";
 
@@ -1468,31 +1468,31 @@
 
 "Speed Trap 20" = "測速 20";
 
-"Speed Trap 30 and Stop Light" = "測速 30 信號燈";
+"Speed Trap 30 and Stop Light" = "測速 30 訊號燈";
 
 "Speed Trap 30" = "測速 30";
 
-"Speed Trap 40 and Stop Light" = "測速 40 信號燈";
+"Speed Trap 40 and Stop Light" = "測速 40 訊號燈";
 
 "Speed Trap 40" = "測速 40";
 
-"Speed Trap 50 and Stop Light" = "測速 50 信號燈";
+"Speed Trap 50 and Stop Light" = "測速 50 訊號燈";
 
 "Speed Trap 50" = "測速 50";
 
-"Speed Trap 60 and Stop Light" = "測速 60 信號燈";
+"Speed Trap 60 and Stop Light" = "測速 60 訊號燈";
 
 "Speed Trap 60" = "測速 60";
 
-"Speed Trap 70 and Stop Light" = "測速 70 信號燈";
+"Speed Trap 70 and Stop Light" = "測速 70 訊號燈";
 
 "Speed Trap 70" = "測速 70";
 
-"Speed Trap 80 and Stop Light" = "測速 80 信號燈";
+"Speed Trap 80 and Stop Light" = "測速 80 訊號燈";
 
 "Speed Trap 80" = "測速 80";
 
-"Speed Trap 90 and Stop Light" = "測速 90 信號燈";
+"Speed Trap 90 and Stop Light" = "測速 90 訊號燈";
 
 "Speed Trap 90" = "測速 90";
 
@@ -1500,18 +1500,18 @@
 
 "Speed Trap variabel" = "測速 可變限速";
 
-"Stop Light Trap" = "信號燈探頭";
+"Stop Light Trap" = "訊號燈探頭";
 
 /* VideoPro and FollowMe additions */
-"Recording List" = "視頻列表";
+"Recording List" = "影像列表";
 
-"Recordings: %hu / GPS Fixes: %lu" = "視頻：%hu / GPS採樣點：%lu";
+"Recordings: %hu / GPS Fixes: %lu" = "影像：%hu / GPS採樣點：%lu";
 
 "Back" = "返回";
 
 "Forward" = "向前";
 
-"Recording #%hu" = "視頻 #%hu";
+"Recording #%hu" = "影像 #%hu";
 
 /* Satellite Sky directions */
 "N" = "北";
@@ -1527,17 +1527,17 @@
 
 "Migrating to 32bit Recording" = "正在轉爲32bit數據";
 
-"Migrating Recording Database" = "正在遷移數據";
+"Migrating Recording Database" = "正在搬移數據";
 
 "Recalculating Acceleration" = "正在重新計算加速度";
 
 "Adjusting Accuracy Calculation" = "正在測算數據精度";
 
-"Migrating Lap Database" = "正在遷移圈時數據庫";
+"Migrating Lap Database" = "正在搬移圈時資料庫";
 
-"Migrating Lap #%hu Recording" = "正在遷移計時圈 #%hu";
+"Migrating Lap #%hu Recording" = "正在搬移計時圈 #%hu";
 
-"Migrating Lap #%hu" = "正在遷移計時圈 #%hu";
+"Migrating Lap #%hu" = "正在搬移計時圈 #%hu";
 
 "Recalculating Recordings" = "重新計算錄製中";
 
@@ -1547,13 +1547,13 @@
 
 "Migrating Points of Interest" = "移動地標中";
 
-"Exporting Points of Interest" = "導出地標中";
+"Exporting Points of Interest" = "匯出地標中";
 
 "Sending Lap #%ldkB" = "正在發送計時圈 #%ldkB";
 
 "Recalculating Distances for Lap #" = "重新計算計時圈裏程 #";
 
-"Checking Databases" = "正在檢查數據庫";
+"Checking Databases" = "正在檢查資料庫";
 
 "Re-sorting GPS Data\n(%lu of %lu)..." = "正在重新排列GPS數據\n(%lu / %lu)";
 
@@ -1594,17 +1594,17 @@
 
 "Triggers have a direction" = "觸發點帶方向過濾";
 
-"Information POIs exist" = "存在地標信息";
+"Information POIs exist" = "存在地標資訊";
 
-"POIs have a description" = "地標帶描述信息";
+"POIs have a description" = "地標帶描述資訊";
 
 "Intermediates exist (1 to 4)" = "存在分段(1到4之間) ";
 
 "POI Set:" = "地標組：";
 
-"Please complete the list if possible. However, please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting LapTimer!" = "請儘可能填寫完整。如發現缺少您需要的功能，請直接提出。我將認真評估可行性。感謝支持LapTimer！";
+"Please complete the list if possible. However, please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting LapTimer!" = "請儘可能填寫完整。如發現缺少您需要的功能，請直接提出。我會認真評估可行性。感謝支持LapTimer！";
 
-"Please complete the list if possible. Please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting Harry!" = "請儘可能填寫完整。如發現缺少您需要的功能，請直接提出。我將認真評估可行性。感謝支持Harry！";
+"Please complete the list if possible. Please do not feel discouraged to certify despite some missing features. I will augment. Thanks for supporting Harry!" = "請儘可能填寫完整。如發現缺少您需要的功能，請直接提出。我會認真評估可行性。感謝支持Harry！";
 
 "Rework" = "重做";
 
@@ -1631,22 +1631,22 @@
 
 "Vehicle Selection" = "車輛選擇";
 
-"Export Type" = "導出文件格式";
+"Export Type" = "匯出文件格式";
 
 "LapTimer (.hvehl)" = "LapTimer格式 (.hvehl)";
 
-"This will export the selected vehicle's or all vehicle's definitions to LapTimer's own format. Like all other LapTimer formats, you can open / install this exported file selecting it - e.g. in Mail." = "此功能可將所選或所有車輛信息導出爲LapTimer專用格式。跟所有其他LapTimer格式一樣，您可以使用LapTimer打開或裝載文件。";
+"This will export the selected vehicle's or all vehicle's definitions to LapTimer's own format. Like all other LapTimer formats, you can open / install this exported file selecting it - e.g. in Mail." = "此功能可將所選或所有車輛資訊匯出爲LapTimer專用格式。跟所有其他LapTimer格式一樣，您可以使用LapTimer打開或匯入文件。";
 
 /* Android Help View */
-"Quick Reference" = "快捷手冊";
+"Quick Reference" = "簡易操作手冊";
 
-"offline, iOS-ish" = "脫機，iOS版本";
+"offline, iOS-ish" = "離線，iOS版本";
 
-"online, iOS-ish" = "在線，iOS版本";
+"online, iOS-ish" = "連線，iOS版本";
 
-"online" = "在線";
+"online" = "連線";
 
-"Offline Documentation - How to Use LapTimer" = "脫機文檔 – LapTimer使用入門";
+"Offline Documentation - How to Use LapTimer" = "離線文檔 – LapTimer使用入門";
 
 /* Social Networks */
 "LapTimer Forum" = "LapTimer 官方討論區";
@@ -1655,11 +1655,11 @@
 
 "LapTimer on Facebook" = "LapTimer Facebook頁面";
 
-"The Place to Share - Please Like and Share Your Videos" = "分享之地 – 快去點贊並分享您的視頻";
+"The Place to Share - Please Like and Share Your Videos" = "分享之地 – 快去點讚並分享您的影像";
 
-"Quick Start Video" = "快速啓動視頻";
+"Quick Start Video" = "快速啓動影像";
 
-"Video Tutorial - Available on YouTube" = "視頻教學 – 可在YouTube上找到喲";
+"Video Tutorial - Available on YouTube" = "影像教學 – 可在YouTube上找到喲";
 
 /* Social Networks */
 "Facebook" = "Facebook";
@@ -1686,7 +1686,7 @@
 "Lap #%d (%s)" = "計時圈 #%d (%s)";
 
 /* Sensors */
-"Add Sensor" = "增加傳感器";
+"Add Sensor" = "新增傳感器";
 
 /* Assistants */
 "Best" = "最快圈";
@@ -1697,9 +1697,9 @@
 
 "Define" = "定義";
 
-"Advanced Mode" = "高級模式";
+"Advanced Mode" = "進階模式";
 
-"Rename" = "重命名";
+"Rename" = "重新命名";
 
 "Define Start / Finish" = "定義起點/終點線";
 
@@ -1708,13 +1708,13 @@
 "Ready for Driving" = "可開始駕駛";
 
 /* Android preferences help texts */
-"Short driver ID used for Online Racing: CURRENTVALUE" = "車手在線排行中使用的短字母代號: CURRENTVALUE";
+"Short driver ID used for Online Racing: CURRENTVALUE" = "車手線上排行中使用的短字母代號: CURRENTVALUE";
 
 /* Android preferences help texts */
-"Define the publishing level for Online Racing; Never turns activities off: CURRENTVALUE" = "圈時上傳服務器設置；可選擇停用: CURRENTVALUE";
+"Define the publishing level for Online Racing; Never turns activities off: CURRENTVALUE" = "圈時上傳伺服器設置；可選擇停用: CURRENTVALUE";
 
 /* Android preferences help texts */
-"Turn (loud) startup sound on and off" = "啓動聲效開關";
+"Turn (loud) startup sound on and off" = "啓動音效開關";
 
 /* Android preferences help texts */
 "Turn audio signals (e.g. trigger activities) on and off" = "提示音(如經過觸發點)開關";
@@ -1726,13 +1726,13 @@
 "Select the reference lap the current lap is compared to: CURRENTVALUE" = "與當前計時圈進行比較的對照圈: CURRENTVALUE";
 
 /* Android preferences help texts */
-"Select the width of corridor LapTimer uses for trigger detection: CURRENTVALUE" = "設置終點直道寬度，LapTimer將由此調整圈時算法: CURRENTVALUE";
+"Select the width of corridor LapTimer uses for trigger detection: CURRENTVALUE" = "設置終點線寬度，LapTimer將由此調整圈時算法: CURRENTVALUE";
 
 /* Android preferences help texts */
 "Select data compression for GPS recordings: CURRENTVALUE" = "GPS數據的壓縮等級: CURRENTVALUE";
 
 /* Android preferences help texts */
-"Select GPS information shown in GPS View: CURRENTVALUE" = "在GPS視圖中的GPS 信息: CURRENTVALUE";
+"Select GPS information shown in GPS View: CURRENTVALUE" = "在GPS視圖中的GPS 資訊: CURRENTVALUE";
 
 "Selects button style to feature small indicators for action performed" = "小時速表的按鈕樣式";
 
@@ -1743,7 +1743,7 @@
 "Select unit system, use System to get your country defaults: CURRENTVALUE" = "度量單位設置，默認匹配系統的國家地區設置：CURRENTVALUE";
 
 /* Android preferences help texts */
-"Select power and torque units: CURRENTVALUE" = "功率和扭矩單位：CURRENTVALUE";
+"Select power and torque units: CURRENTVALUE" = "功率和扭力單位：CURRENTVALUE";
 
 /* Android preferences help texts */
 "Select whether manual operation is supported" = "手動計時";
@@ -1802,9 +1802,9 @@
 
 "Year" = "年份";
 
-"Make Default" = "設爲默認項";
+"Make Default" = "設爲預設值";
 
-"Load Default" = "加載默認項";
+"Load Default" = "加載預設值";
 
 "Delete List" = "刪除名單";
 
@@ -1831,9 +1831,9 @@
 
 "GPS Position" = "GPS位置";
 
-"GPS Update Rate" = "GPS採樣率";
+"GPS Update Rate" = "GPS更新率";
 
-"OBD Update Rate" = "OBD採樣率";
+"OBD Update Rate" = "OBD更新率";
 
 "Track Nearby" = "附近賽道";
 
@@ -1855,11 +1855,11 @@
 
 "External GPS sensor is available but not used currently. To connect to this sensor, please tick 'Use Accessories' in 'Expert Settings'." = "偵測到外置GPS傳感器，但未被使用。如要連接此傳感器，請勾選專家設定中的“Use Accessories”。";
 
-"No GPS position available currently. The reason is either the GPS sensor has no satellite lock so far, or your device allows wifi / mobile triangulation only." = "GPS傳感器沒有連接到任何衛星，無法定位。或是設備只支持Wifi/ 蜂窩基站定位。";
+"No GPS position available currently. The reason is either the GPS sensor has no satellite lock so far, or your device allows wifi / mobile triangulation only." = "GPS傳感器沒有連接到任何衛星，無法定位。或是設備只支持WiFi/ 蜂窩基地台定位。";
 
-"The GPS sensor delivers a lower update rate than expected. The reason is most probably a bad GPS reception. Please mount your device in a place it has a better view to the sky." = "GPS傳感器的更新率比預期的低，GPS或許信號接收不良，請把設備固定在正對天空且無遮擋的位置。";
+"The GPS sensor delivers a lower update rate than expected. The reason is most probably a bad GPS reception. Please mount your device in a place it has a better view to the sky." = "GPS傳感器的更新率比預期的低，可能因為GPS訊號接收不良，請把設備固定在正對天空且無遮擋的位置。";
 
-"The GPS sensor does not receive positions. The reason is either the GPS sensor has no satellite lock so far, or the connection is broken. In case of the later, please restart the device." = "GPS傳感器無法執行定位。有可能是無法鎖定衛星信號或連接出錯。若始終如此，請重啓設備。";
+"The GPS sensor does not receive positions. The reason is either the GPS sensor has no satellite lock so far, or the connection is broken. In case of the later, please restart the device." = "GPS傳感器無法執行定位。有可能是無法鎖定衛星訊號或連接出錯。若始終如此，請重啓設備。";
 
 "GPS accuracy is too low for proper operation. Please mount your device in a place it has a better view to the sky." = "GPS定位精度過低，請把設備固定在正對天空無遮擋的位置。";
 
@@ -1867,9 +1867,9 @@
 
 "The acceleration sensor is not yet calibrated. Please make sure your device is mounted properly and stand still on flat surface. You may restart calibration manually." = "加速傳感器尚未校準。請確保設備是否被正確緊固於平坦的表面上。您可以重新進行手動校準。";
 
-"Acceleration sensor calibration is prepared for track use but is not yet finished. You can ignore this as the calibration will be finished during the first hard brake on a straight." = "加速傳感器已可用於賽道，但完整的校準過程尚在進行。校準將在第一次直線大力制動後完成。";
+"Acceleration sensor calibration is prepared for track use but is not yet finished. You can ignore this as the calibration will be finished during the first hard brake on a straight." = "加速傳感器已可用於賽道，但完整的校準過程尚在進行。校準將在第一次直線大力煞車後完成。";
 
-"The track set nearby is not certfied. In case you have set up your own track set, this is o.k. In case you use a prepared track set, please reload it from the tracks database." = "附近的賽道組未通過認證。如果您已設置自己的賽道組則不影響使用。如果您準備使用應用預設的賽道組，請在數據庫中重新載入賽道。";
+"The track set nearby is not certfied. In case you have set up your own track set, this is o.k. In case you use a prepared track set, please reload it from the tracks database." = "附近的賽道組未通過認證。如果您已設置自己的賽道組則不影響使用。如果您準備使用應用預設的賽道組，請在資料庫中重新載入賽道。";
 
 "The track set nearby shows conflicts to other track sets. This will keep LapTimer from detecting laps reliantly. Please remove the conflicts from 'Lap List'." = "賽道組與附近其他賽道發生衝突。LapTimer 會自行檢測賽道可信度。請從“計時圈列表”內移除衝突的賽道。";
 
@@ -1877,13 +1877,13 @@
 
 "Location service is disabled for either your device, or LapTimer. Please enable in Settings ‣ Privacy ‣ Location Services, LapTimer requires this service to work correctly." = "設備或是LapTimer的定位服務已被關閉，請在設定 ‣ 隱私 ‣ 定位服務中重新開啓，LapTimer的運行需要定位服務的支持。";
 
-"The OBD sensor does not receive data at an expected rate. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "OBD傳感器無法在預期速率下接收數據。請檢查車輛，OBD傳感器和LapTimer之間的兼容性。更多資料，請查看www.gps-laptimer.de中的設備兼容性頁面。";
+"The OBD sensor does not receive data at an expected rate. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "OBD傳感器無法在預期速率下接收數據。請檢查車輛，OBD傳感器和LapTimer之間的相容性。更多資料，請查看www.gps-laptimer.de中的設備相容性頁面。";
 
-"An OBD sensor seems to be available, but cannot be connected. Please turn off and on to force a reset. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "搜尋到一個OBD傳感器, 但無法連接。請關閉後重新啓動設備來重置。請檢查車輛，OBD傳感器和LapTimer之間的兼容性。更多資料，請查看www.gps-laptimer.de中的設備兼容性頁面。";
+"An OBD sensor seems to be available, but cannot be connected. Please turn off and on to force a reset. Please check compatibility bewteen car, OBD dongle, and LapTimer. For further information, check LapTimer's Compatibility page on www.gps-laptimer.de" = "搜尋到一個OBD傳感器, 但無法連接。請關閉後重新啓動設備來重置。請檢查車輛，OBD傳感器和LapTimer之間的相容性。更多資料，請查看www.gps-laptimer.de中的設備相容性頁面。";
 
-"Please check your storage available. Both data and video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "請檢查設備存儲空間是否足夠。存儲空間過小會造成數據和視頻錄製失敗。請刪除之前的視頻和照片來釋放一些空間。";
+"Please check your storage available. Both data and video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "請檢查設備存儲空間是否足夠。存儲空間過小會造成數據和影像錄製失敗。請刪除之前的影像和照片來釋放一些空間。";
 
-"Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "視頻當前的分辨率低於系統最高可支持的分辨率。如果您不需要最高分辨率，可以忽略此訊息。如果您要使用高分辨率，可以在設置中選擇。";
+"Video recording resolution is set to a lower resolution than the max supported by your device. This warning can be ignored in case you want to save space or do not need max resolution. In case you want to use HiRes, select it in Settings." = "影像當前的解析度低於系統最高可支持的解析度。如果您不需要最高解析度，可以忽略此訊息。如果您要使用高解析度以節省儲存空間。如果您想使用高解析度，可以在設置中選擇。";
 
 "Correct Mounting (Upright)" = "確認固定方式(直立設備)";
 
@@ -1895,15 +1895,15 @@
 
 "Force Calibration" = "強制校準";
 
-"Add" = "添加";
+"Add" = "新增";
 
 "Reference Lap" = "對照圈";
 
-"Front Camera" = "前置攝像頭";
+"Front Camera" = "前置鏡頭";
 
 "Lock Autofocus" = "鎖定對焦";
 
-"Video Stabilizer" = "視頻防抖";
+"Video Stabilizer" = "影像防手震";
 
 "External Mic" = "外置麥克風";
 
@@ -1917,11 +1917,11 @@
 
 "Countdown" = "倒數計時";
 
-"Engine Data" = "發動機數據";
+"Engine Data" = "引擎數據";
 
 "Date and Timing" = "日期與時間";
 
-"Video Sync Setting" = "視頻同步設定";
+"Video Sync Setting" = "影像同步設定";
 
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "選擇與計時圈末尾符合的畫面幀，然後按下“設定”。長按滑軌可放大比例";
 
@@ -2003,7 +2003,7 @@
 
 "Submit" = "提交";
 
-"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "如要提交此挑戰，請確認“%FULLNAME”是您的真實姓名，且提交的計時圈數據是您個人的真實駕駛記錄。並同意您的單圈數據將會被複制到Harry’s LapTimer服務器，傳輸給其他對這個挑戰感興趣的用戶。";
+"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "如要提交此挑戰，請確認“%FULLNAME”是您的真實姓名，且提交的計時圈數據是您個人的真實駕駛記錄。並同意您的單圈數據將會被複制到Harry’s LapTimer伺服器，傳輸給其他對這個挑戰感興趣的用戶。";
 
 "Challenges Available" = "存在可挑戰項目";
 
@@ -2021,9 +2021,9 @@
 
 "List Code" = "挑戰代碼";
 
-"Retrieving Active Tracks from Server..." = "正從服務器獲取存在活動的賽道列表…";
+"Retrieving Active Tracks from Server..." = "正從伺服器獲取存在活動的賽道列表…";
 
-"Connecting to Server..." = "正在連接服務器…";
+"Connecting to Server..." = "正在連接伺服器…";
 
 "Challenges" = "挑戰";
 
@@ -2033,7 +2033,7 @@
 
 "Payload" = "載重";
 
-"Full Weight" = "整備質量";
+"Full Weight" = "整備重量";
 
 "Weight" = "重量";
 
@@ -2051,15 +2051,15 @@
 
 "Efficiency" = "效率";
 
-"Measure for efficiency with which the engine can move charge into and out of cylinders." = "發動機活塞缸體充氣與排氣的效率。";
+"Measure for efficiency with which the engine can move charge into and out of cylinders." = "引擎活塞缸體充氣與排氣的效率。";
 
-"Engine Displacement" = "發動機排量";
+"Engine Displacement" = "引擎排氣量";
 
 "Volume" = "容量";
 
-"Engine displacement in cubic centimeters (1000 cc = 1 litre)." = "以立方厘米計算的發動機排量（1000cc = 1升）。 ";
+"Engine displacement in cubic centimeters (1000 cc = 1 litre)." = "以立方厘米計算的引擎排量（1000cc = 1升）。 ";
 
-"Displacement" = "排量";
+"Displacement" = "排氣量";
 
 "cc" = "cc";
 
@@ -2067,9 +2067,9 @@
 
 "Initialization" = "初始化";
 
-"Sensor Information" = "傳感器信息";
+"Sensor Information" = "傳感器資訊";
 
-"Info" = "信息";
+"Info" = "資訊";
 
 "Expert Setting (ASCII)" = "專家設定(ASCII)";
 
@@ -2083,7 +2083,7 @@
 
 "Binary" = "二進制";
 
-"Actual support for update rates depends on model and firmware / hardware revisions" = "更新頻率取決於設備型號和固件/硬件版本";
+"Actual support for update rates depends on model and firmware / hardware revisions" = "更新頻率取決於設備型號和韌體/硬體版本";
 
 "High" = "高";
 
@@ -2093,13 +2093,13 @@
 
 "Please check your storage available. Data recordings will fail in case remaining storage is too low. To free up space, please consider removing apps and other data." = "請檢查可用存儲空間。剩餘空間太少會造成數據記錄失敗。若要釋放空間，請考慮刪除應用程序和其他數據。";
 
-"Please check your media storage (SD Card) available. Video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "請檢查儲存空間（SD卡）。剩餘空間太少會造成數據記錄失敗。如要釋放空間，請考慮刪除之前的視頻與照片。";
+"Please check your media storage (SD Card) available. Video recordings will fail in case remaining storage is too low. To free up space, please consider removing old footage and photos." = "請檢查儲存空間（SD卡）。剩餘空間太少會造成數據記錄失敗。如要釋放空間，請考慮刪除之前的影像與照片。";
 
 "High Update Rate" = "高更新率";
 
 "Extended" = "拓展";
 
-"Laps to Overlay" = "壓印數據圖層的計時圈";
+"Laps to Overlay" = "合成數據圖層的計時圈";
 
 ", processing laps" = "，正在生成計時圈";
 
@@ -2132,15 +2132,15 @@
 "GPS Speed" = "GPS時速";
 
 /* Overlay configuration */
-"Engine Gadget" = "發動機顯示";
+"Engine Gadget" = "引擎顯示";
 
-"Please wait..." = "請等待…";
+"Please wait..." = "請稍後…";
 
-"Master Missing" = "缺少主拍攝機位";
+"Master Missing" = "缺少主拍攝鏡頭";
 
 "warning: " = "警告：";
 
-"hardware under design for %s" = "爲%s所設計的硬件";
+"hardware under design for %s" = "爲%s所設計的硬體";
 
 "kcal" = "千卡";
 
@@ -2164,20 +2164,20 @@
 "Huge Size, Highest Quality" = "超大尺寸，最高畫質";
 
 /* Android preferences help texts */
-"Select resolution used for video recording: CURRENTVALUE" = "視頻錄製分辨率：CURRENTVALUE";
+"Select resolution used for video recording: CURRENTVALUE" = "影像錄製解析度：CURRENTVALUE";
 
 /* Android preferences help texts */
 "Select overlay encoding size and quality: CURRENTVALUE" = "數據圖層的尺寸與畫質：CURRENTVALUE";
 
 "Emulated" = "模擬";
 
-"Videos stored locally in ‘%@‘. Footage you record will be stored here initially. Do housekeeping from here." = "視頻保存於“%@”。新的視頻將被保存在此。您可以在此進行數據清理。";
+"Videos stored locally in ‘%@‘. Footage you record will be stored here initially. Do housekeeping from here." = "影像保存於“%@”。新的影像將被保存在此。您可以在此進行數據清理。";
 
-"Videos stored locally in ‘%@‘. Do housekeeping from here." = "視頻保存於“%@”。您可以在此進行數據清理。";
+"Videos stored locally in ‘%@‘. Do housekeeping from here." = "影像保存於“%@”。您可以在此進行數據清理。";
 
 "Air" = "空氣";
 
-"Master video too big" = "主機位視頻文件過大";
+"Master video too big" = "主鏡頭影像檔案過大";
 
 "Boost" = "增壓";
 
@@ -2190,9 +2190,9 @@
 /* Export help texts */
 "Comma Seperated Values (.csv) is a versatile export format used for post processing. Desktop software: e.g. Microsoft Excel(TM)." = "逗號分隔列表 (.csv)格式，是多功能的後期處理輸出格式。桌面端應用軟件：例如Microsoft Excel(TM)";
 
-"Harry's LapTimer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between LapTimer apps." = "Harry's LapTimer專用(.hlptrl)格式，包括完整的賽道與車輛數據庫信息，可用以備份，或在LapTimer應用間共享數據。";
+"Harry's LapTimer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between LapTimer apps." = "Harry's LapTimer專用(.hlptrl)格式，包括完整的賽道與車輛資料庫資訊，可用以備份，或在LapTimer應用間共享數據。";
 
-"MICHELIN Lap Timer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between Lap Timer apps." = "MICHELIN Lap Timer專用(.hlptrl)格式，包括完整的賽道與車輛數據庫信息，可用以備份，或在LapTimer應用間共享數據。";
+"MICHELIN Lap Timer format (.hlptrl) includes complete lap and vehicle database information. Used for backups and data transfer between Lap Timer apps." = "MICHELIN Lap Timer專用(.hlptrl)格式，包括完整的賽道與車輛資料庫資訊，可用以備份，或在LapTimer應用間共享數據。";
 
 "Keyhole Markup Language (.kml) is Google's format for geographic annotation and visualization. Desktop software: Google Earth(TM)." = "Keyhole Markup Language(.kml)格式，谷歌發佈的地理標註與可視化格式。桌面端應用軟件：Google Earth(TM)。";
 
@@ -2204,7 +2204,7 @@
 
 "GPS Exchange Format (.gpx) is an XML schema designed as a common GPS data format. Desktop software: most GPS viewers." = "GPS交換(.gpx)格式，以XML架構所設計的常見GPS數據格式。桌面端應用軟件：絕大部分的GPS瀏覽器。";
 
-"Press any format extension above to get a description on the format and desktop programs to use. Selected extensions are exported, availability depends on the export scope selected." = "點擊以上任意格式擴展名，可查閱詳細的格式介紹以及應用軟件推薦。最終數據將被導出爲選擇的格式。";
+"Press any format extension above to get a description on the format and desktop programs to use. Selected extensions are exported, availability depends on the export scope selected." = "點擊以上任意格式擴展名，可查閱詳細的格式介紹以及應用軟件推薦。最終數據將被匯出爲選擇的格式。";
 
 "Electric" = "電動";
 
@@ -2212,7 +2212,7 @@
 "Laps: %hu" = "計時圈: %hu";
 
 /* Vehicle Details */
-"Recordings: %hu" = "錄像：%hu";
+"Recordings: %hu" = "錄影：%hu";
 
 "Country" = "國家";
 
@@ -2290,7 +2290,7 @@
 
 "Rear View" = "後視視角";
 
-"Trip Computer" = "行車電腦";
+"Trip Computer" = "旅程電腦";
 
 "Park Vehicle" = "停車";
 
@@ -2345,13 +2345,13 @@
 
 "Loading Styles..." = "正在載入款式…";
 
-"Loading Engines..." = "正在載入發動機數據…";
+"Loading Engines..." = "正在載入引擎數據…";
 
 "Loading Equipment..." = "正在載入配置數據…";
 
 "Loading Car..." = "正在載入車輛數據…";
 
-"For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "請填寫發動機與傳動系統部分內容以獲得合適的檔位和OBD功能適配。如果沒有可用的OBD傳感器，只需完成“常規”部分的內容。";
+"For OBD functions, fill in the Engine and Power Transmission sections to get reasonable gear, shift flash and other displays. In case no OBD sensor is used, please complete the General section only." = "請填寫引擎與傳動系統部分內容以獲得合適的檔位和OBD功能適配。如果沒有可用的OBD傳感器，只需完成“常規”部分的內容。";
 
 /* Title for vehicle description */
 "Vehicle Description" = "車輛描述";
@@ -2443,15 +2443,15 @@
 
 "Roadbook" = "路書";
 
-"Trips" = "出行";
+"Trips" = "旅程";
 
 "Race" = "競速";
 
-"Prepare Race" = "賽前整備";
+"Prepare Race" = "賽前準備";
 
 "Analysis" = "數據分析";
 
-"Realtime" = "實時數據";
+"Realtime" = "即時數據";
 
 "Lock Calibration" = "鎖定校準";
 
@@ -2459,7 +2459,7 @@
 
 "Recording" = "正在錄製";
 
-"Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "錄製已在進行中。當您完成駕駛，請轉到計時器功能菜單，取消未完成的冷卻圈。";
+"Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "錄製已在進行中。當您完成駕駛，請轉到計時器功能選單，取消未完成的冷卻圈。";
 
 /* Databases view */
 "Restore" = "恢復";
@@ -2579,7 +2579,7 @@
 
 "Fuel Tank" = "油箱";
 
-"Add Default Gear Set" = "添加默認檔位齒比模板";
+"Add Default Gear Set" = "新增預設檔位齒比組";
 
 "Result" = "結果";
 
@@ -2603,7 +2603,7 @@
 
 "Duplicate Checklist" = "複製表單";
 
-"To create a copy of '%@', enter a unique name for the new checklist and press 'Save'." = "請輸入新表單的名稱，並點擊‘保存’，以創建'%@'的副本。";
+"To create a copy of '%@', enter a unique name for the new checklist and press 'Save'." = "請輸入新表單的名稱，並點擊‘儲存’，以創建'%@'的副本。";
 
 "To track repeating procedures, either load a predefined checklist from Add-ons or create your own." = "請讀取已創建的表單或在功能插件中創建一個新的表單，以實行重複的任務。";
 
@@ -2611,7 +2611,7 @@
 
 "New Top-Level Action" = "新建頂層項目";
 
-"New Group" = "新建羣組";
+"New Group" = "新建群組";
 
 "%u available" = "%u可用";
 
@@ -2621,27 +2621,27 @@
 
 "Create Checklist" = "創建表單";
 
-"Please enter a unique name for the new checklist and press 'Save'." = "請爲新賽前檢查表輸入名稱，並點擊‘保存’。";
+"Please enter a unique name for the new checklist and press 'Save'." = "請爲新賽前檢查表輸入名稱，並點擊‘儲存’。";
 
 "by myself" = "由我創建";
 
 "Create Action" = "創建項目";
 
-"Please enter your action's description and press 'Save'. To add an action with both a subject and details what to do, use the 'Subject: Details' convention." = "請輸入項目描述並點擊“保存”。添加包括主題和描述的任務，請使用“主題：描述”選項。";
+"Please enter your action's description and press 'Save'. To add an action with both a subject and details what to do, use the 'Subject: Details' convention." = "請輸入項目描述並點擊“儲存”。新增包括主題和描述的任務，請使用“主題：描述”選項。";
 
 "Create Top Level Action" = "創建頂層項目";
 
-"Create New Group" = "創建新羣組";
+"Create New Group" = "創建新群組";
 
-"Please enter a new group's title and press 'Save' to create it. Add the group's actions afterwards." = "請輸入新的羣組名稱並點擊“保存”以創建。您也可以爲羣組添加項目。";
+"Please enter a new group's title and press 'Save' to create it. Add the group's actions afterwards." = "請輸入新的群組名稱並點擊“儲存”以建立。您也可以爲群組新增項目。";
 
-"Group" = "羣組";
+"Group" = "群組";
 
-"Rename Action" = "項目重命名";
+"Rename Action" = "重新命名項目";
 
-"Rename Checklist" = "表單重命名";
+"Rename Checklist" = "重新命名表單";
 
-"Adding Checklist:\nDownloading from Net..." = "添加表單：\n下載中…";
+"Adding Checklist:\nDownloading from Net..." = "新增表單：\n下載中…";
 
 "Searching for %@" = "搜尋 %@";
 
@@ -2660,7 +2660,7 @@
 "Motorhome" = "野營車";
 
 /* HeavyDuty */
-"Select an existing, or add a new trailer for towing. Can be changed later on." = "請選擇已經儲存的車輛，或者添加新拖車。可在之後修改";
+"Select an existing, or add a new trailer for towing. Can be changed later on." = "請選擇已經儲存的車輛，或者新增新拖車。可在之後修改";
 
 /* HeavyDuty */
 "Select Trailer" = "選擇拖車";
@@ -2670,7 +2670,7 @@
 
 "Your vehicle is defined now. Continue with one of the Driving or Parking actions." = "您的車輛已設置。請使用駕駛或停車選項以繼續。";
 
-"In case your vehicle is not listed for selection, add a new one by pressing 'Edit' and selecting 'Add new Vehicle' afterwards." = "如果您的車沒有被列爲選項，請點擊“編輯”和“添加新車”以繼續。";
+"In case your vehicle is not listed for selection, add a new one by pressing 'Edit' and selecting 'Add new Vehicle' afterwards." = "如果您的車沒有被列爲選項，請點擊“編輯”和“新增車輛”以繼續。";
 
 /* HeavyDuty */
 "Install TI SensorTag with the power button towards ground and level. Let the top point to the hitch. The app will issue directions to raise or lower trailer." = "安裝TI SensorTag時，請把電源按鈕朝下並保持與地面水平。保持最高點朝向牽引杆。本應用將會指引您調整朝向。";
@@ -2721,7 +2721,7 @@
 /* Weather */
 "Please enter a location or any name for this sensor. Adding a location allows you to identify individual sensors." = "請爲這個傳感器輸入一個位置或名字。位置標註可用以識別各個傳感器。";
 
-"You can add an arbitrary number of wireless <hl>TI SensorTags</hl> measuring temperature, barometric pressure, and humidity. For more information, please check our <ln>Compatibility</ln> page.\n\nStation data by OpenWeatherMap.com" = "您可以添加任意數量的無線<hl>TI SensorTags</hl>以測量氣溫，氣壓，空氣溼度。更多信息，請查看<ln>兼容性</ln>頁面。\n\n氣象信息由OpenWeatherMap.com提供。";
+"You can add an arbitrary number of wireless <hl>TI SensorTags</hl> measuring temperature, barometric pressure, and humidity. For more information, please check our <ln>Compatibility</ln> page.\n\nStation data by OpenWeatherMap.com" = "您可以新增任意數量的無線<hl>TI SensorTags</hl>以測量氣溫，氣壓，空氣溼度。更多資訊，請查看<ln>相容性</ln>頁面。\n\n氣象資訊由OpenWeatherMap.com提供。";
 
 /* Weather */
 "Wind Speed Unit" = "風速單位";
@@ -2762,7 +2762,7 @@
 
 "(Lateral acceleration dotted)" = "(虛線標出側向加速度)";
 
-"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLive View Streaming: %@\nNumber of Videos: %hu\n" = "%@\n電池狀態：%hu%%\n剩餘錄製時間：%s\n錄製中：%@\n視頻流：%@\n視頻數量：%hu\n";
+"%@\nBattery Level: %hu%%\nRemaining Video Time: %s\nRecording: %@\nLive View Streaming: %@\nNumber of Videos: %hu\n" = "%@\n電池狀態：%hu%%\n剩餘錄製時間：%s\n錄製中：%@\n影像串流：%@\n影像數量：%hu\n";
 
 "Auto Preset" = "自動選擇配置";
 
@@ -2770,7 +2770,7 @@
 
 "LHT Preset" = "左行地區配置";
 
-"Cam Preset" = "攝像機配置";
+"Cam Preset" = "相機配置";
 
 "Measured" = "已測量";
 
@@ -2788,13 +2788,13 @@
 
 "Average heart rate" = "平均心率";
 
-"Videos stored on %@. While in a Wifi, footage can be transferred to this device." = "視頻儲存於%@。當設備連接Wifi時，可以傳輸視頻至本設備。";
+"Videos stored on %@. While in a Wifi, footage can be transferred to this device." = "影像儲存於%@。當設備連接WiFi時，可以傳輸影像至本設備。";
 
 /* Quick Reference - keep length */
 "Personalize <hl>PRODUCTNAME</hl> by entering your <ui>Driver ID</ui>. Then specify a vehicle. Be sure to select the right type (e.g. <ui>Car</ui> or <ui>Bike</ui>)!" = "請輸入<ui>車手 ID</ui>以及車輛種類以設置<hl>PRODUCTNAME</hl>。請確保您選擇了正確的車輛類型（例如：<ui>車</ui>或者<ui>摩托車</ui>）！";
 
 /* Quick Reference - keep length */
-"Select <ui>Load Track</ui> for new track locations and configurations. Or set up your own track using <ui>New Autocross</ui> or <ui>New Track</ui>." = "請選擇<ui>載入賽道</ui>以設置新的賽道地點。或者使用<ui>新建繞樁賽</ui>或<ui>新建賽道</ui>創建自己的賽道。";
+"Select <ui>Load Track</ui> for new track locations and configurations. Or set up your own track using <ui>New Autocross</ui> or <ui>New Track</ui>." = "請選擇<ui>載入賽道</ui>以設置新的賽道地點。或者使用<ui>新建繞錐賽</ui>或<ui>新建賽道</ui>創建自己的賽道。";
 
 /* Quick Reference - keep length */
 "Use a stable mount and a power supply. Choose position with best possible GPS accuracy. Ideally, add an <ln>external GPS</ln>." = "請使用穩定的支架與電源，選擇最好的位置以確保GPS精度。使用<ln>外置GPS設備</ln>效果更佳。";
@@ -2806,16 +2806,16 @@
 "Be sure <hl>PRODUCTNAME's</hl> <ui>System Status</ui> shows an overall rating <ui>All Set</ui>. A red alert should not be ignored—press it to get help." = "請確認<hl>PRODUCTNAME</hl>的<ui>系統狀態</ui>界面顯示<ui>所有項目就緒</ui>的顯示。請不要忽視任何紅色警告框————點擊可獲得相關幫助。";
 
 /* Quick Reference - keep length */
-"Select a timer view (e.g. <ui>Timer</ui> or <ui>Speedo</ui>) before leaving the pits. For video, press the <ui>Video</ui> button." = "離開維修站前，請進入計時菜單（如<ui>計時器</ui>或<ui>時速表</ui>）。若要拍攝視頻，請點擊<ui>視頻</ui>按鈕。";
+"Select a timer view (e.g. <ui>Timer</ui> or <ui>Speedo</ui>) before leaving the pits. For video, press the <ui>Video</ui> button." = "離開維修站前，請進入計時選單（如<ui>計時器</ui>或<ui>時速表</ui>）。若要拍攝影像，請點擊<ui>影像</ui>按鈕。";
 
 /* Quick Reference - keep length */
-"Back in the pits, <ui>Cancel</ui> the cool down lap. This will purge an incomplete lap entry from <ui>Lap List</ui> and finish video recording." = "返回維修站後，請<ui>取消</ui>冷胎圈。這將刪除冷卻圈並結束視頻錄製。";
+"Back in the pits, <ui>Cancel</ui> the cool down lap. This will purge an incomplete lap entry from <ui>Lap List</ui> and finish video recording." = "返回維修站後，請<ui>取消</ui>冷胎圈。這將刪除冷卻圈並結束錄影。";
 
 /* Quick Reference - keep length */
 "Select any lap from <ui>Lap List</ui> and follow <ui>Data Recordings</ui> to analyse your drive using the many built-in charts and graphs." = "請選擇<ui>計時圈列表</ui>中的任意計時圈，並使用<ui>數據記錄</ui>中的圖表來分析您的駕駛過程。";
 
 /* Quick Reference - keep length */
-"Select any lap from <ui>Lap List</ui> and press <ui>Overlay</ui> to add telemetry to your video ready for upload to <ln>YouTube</ln>." = "請選擇<ui>計時圈列表</ui>中的任意計時圈，並點擊<ui>數據圖層</ui>以在視頻中壓印行駛數據。視頻可以隨時上傳至<ln>Youtube</ln>。";
+"Select any lap from <ui>Lap List</ui> and press <ui>Overlay</ui> to add telemetry to your video ready for upload to <ln>YouTube</ln>." = "請選擇<ui>計時圈列表</ui>中的任意計時圈，並點擊<ui>數據圖層</ui>以在影像中壓印行駛數據。影像可以隨時上傳至<ln>Youtube</ln>。";
 
 "My Motorbike" = "我的摩托車";
 
@@ -2823,7 +2823,7 @@
 
 "Lean Angle [°] @ %@" = "傾角[°] @ %@";
 
-"Videos stored on %@. Access is not available for this app edition or cam type-or MultiCam is disabled currently." = "視頻存儲於%@。視頻不能用於當前的應用版本/相機型號。";
+"Videos stored on %@. Access is not available for this app edition or cam type-or MultiCam is disabled currently." = "影像存儲於%@。影像不能用於當前的應用版本/相機型號。";
 
 "Heart Rate [bpm] @ %@" = "心率[bpm] @ %@";
 
@@ -2831,35 +2831,35 @@
 "Medium Size, Medium Quality" = "中等尺寸，中等畫質";
 
 /* HeavyDuty */
-"Recording Trip..." = "正在錄製出行…";
+"Recording Trip..." = "正在錄製旅程…";
 
-"Ready to Start a Trip!" = "開始出行！";
+"Ready to Start a Trip!" = "開始旅程！";
 
-"Trips: %hu / GPS Fixes: %lu" = "出行記錄：%hu / GPS採樣點：%lu ";
+"Trips: %hu / GPS Fixes: %lu" = "旅程記錄：%hu / GPS採樣點：%lu ";
 
-"Trips: %hu" = "出行記錄：%hu";
+"Trips: %hu" = "旅程記錄：%hu";
 
-"%hu Trips" = "%hu 出行記錄";
+"%hu Trips" = "%hu 旅程記錄";
 
 "Options" = "選項";
 
 "Edit" = "編輯";
 
-"Trip Name" = "出行名稱";
+"Trip Name" = "旅程名稱";
 
-"Please enter a short name for your trip. It will allow you to identify it in your list of trips later. Try e.g. 'Summer Holiday 2016'" = "請輸入簡短的出行名稱。比如：“2016年夏”。您的出行記錄將會被儲存在系統中。";
+"Please enter a short name for your trip. It will allow you to identify it in your list of trips later. Try e.g. 'Summer Holiday 2016'" = "請輸入簡短的旅程名稱。比如：“2016年夏”。您的旅程記錄將會被儲存在系統中。";
 
-"My Trips" = "我的出行";
+"My Trips" = "我的旅程";
 
 "Google Earth" = "Google地球";
 
-"No Trip Recording" = "無出行記錄";
+"No Trip Recording" = "無旅程記錄";
 
-"Currently trip recording is inactive. In case you want LapTimer to provide trip plots later, please turn recording on in LapTimer ‣ Roadbook." = "當前出行的錄製功能不已禁用。如果您想用LapTimer顯示已行駛的軌跡。請轉到Laptimer ‣ 路書，並打開錄製功能。";
+"Currently trip recording is inactive. In case you want LapTimer to provide trip plots later, please turn recording on in LapTimer ‣ Roadbook." = "當前旅程的錄製功能不已禁用。如果您想用LapTimer顯示已行駛的軌跡。請轉到Laptimer ‣ 路書，並打開錄製功能。";
 
-"Augment Trip" = "繼續出行";
+"Augment Trip" = "繼續旅程";
 
-"Remove Augmentation" = "刪除出行段落";
+"Remove Augmentation" = "刪除旅程段落";
 
 "%ld minute" = "%ld 分";
 
@@ -2871,31 +2871,31 @@
 
 "%ld days" = "%ld 天";
 
-"Augmenting Trip\n(Google Directions)..." = "計算航程\n(Google Directions)...";
+"Augmenting Trip\n(Google Directions)..." = "計算旅程\n(Google Directions)...";
 
-"Augmenting Trip #%hu\n(Google Directions)..." = "計算航程 #%hu\n(Google Directions)...";
+"Augmenting Trip #%hu\n(Google Directions)..." = "計算旅程 #%hu\n(Google Directions)...";
 
-"Please check <ln>Compatibility</ln> for recommended accessories and sensors." = "請檢查推薦配件與傳感器的<ln>兼容性</ln>。";
+"Please check <ln>Compatibility</ln> for recommended accessories and sensors." = "請檢查推薦配件與傳感器的<ln>相容性</ln>。";
 
-"Daily Trip" = "每日航程";
+"Daily Trip" = "每日旅程";
 
-"No trips matching filter criteria" = "沒有找到合適的航程";
+"No trips matching filter criteria" = "沒有找到合適的旅程";
 
-"%hu '%@' trip(s) selected" = "%hu '%@'航程已選擇";
+"%hu '%@' trip(s) selected" = "%hu '%@'旅程已選擇";
 
-"%hu trip(s) selected" = "%hu 航程已選擇";
+"%hu trip(s) selected" = "%hu 旅程已選擇";
 
 /* About Dialog Duplicates */
 "The author is not responsible for any injuries or property damage that may occur during use of this software." = "作者對使用本軟件過程中發生的受傷或財產損失概不負責。";
 
-"Trip #%hu" = "出行 #%hu";
+"Trip #%hu" = "旅程 #%hu";
 
 /* Campground etc */
 "Station" = "營地";
 
 "Station Description" = "營地描述";
 
-"Set the name you want to see for the station selected. This will actually create or change a Waypoint. To fully manage it, please use Waypoints View." = "請選擇營地的名稱。它將創建或改變一個航點。若要管理航點，請轉到航點菜單。";
+"Set the name you want to see for the station selected. This will actually create or change a Waypoint. To fully manage it, please use Waypoints View." = "請選擇營地的名稱。它將創建或改變一個航點。若要管理航點，請轉到航點選單。";
 
 /* Campgrounds etc */
 "Stations" = "營地";
@@ -2904,7 +2904,7 @@
 "Battery status is low and/or no power supply is connected. Please attach a power supply as soon as possible." = "低電量/外接電源沒有連接。請儘快連接電源。";
 
 /* Android preferences help texts */
-"This preference's current value: CURRENTVALUE" = "當前設置值：CURRENTVALUE";
+"This preference's current value: CURRENTVALUE" = "當前設定值：CURRENTVALUE";
 
 /* Android preferences help texts */
 "Monitor power supply status and issue a warning if not connected" = "檢查外接電源狀態。如沒有連接外接電源，則給出警告";
@@ -2938,10 +2938,10 @@
 "Odometer value at start of recordings. For new vehicles, tracked from the beginning, this will be zero." = "開始記錄時的里程錶數值。對於新車，數值爲零。";
 
 /* Update rate gadget for GPS - needs to be short */
-"NMEA Rate" = "刷新率";
+"NMEA Rate" = "更新率";
 
 /* Update rate gadget for OBD - needs to be short */
-"PID Rate" = "刷新率";
+"PID Rate" = "更新率";
 
 "update rates (raw/gross/net/requests): %hu/%hu/%hu/%hu Hz" = "更新率 (原始/總計/淨值/請求)：%hu/%hu/%hu/%hu Hz";
 
@@ -2967,9 +2967,9 @@
 
 "Administration" = "管理";
 
-"HiRes" = "高分辨率";
+"HiRes" = "高解析度";
 
-"LoRes" = "低分辨率";
+"LoRes" = "低解析度";
 
 "Battery" = "電池";
 
@@ -3036,3 +3036,4 @@
 
 "System" = "系統";
 
+"Track Set / Water" = "賽道組 / 水";

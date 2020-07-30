@@ -2,17 +2,17 @@
 "X" = "X";
 
 /* Current speed, abbreviation without  speed */
-"kCurrentSpeedSegment" = "當前時速";
+"kCurrentSpeedSegment" = "即時時速";
 
 /* Last top speed abbreviation without speed */
 "kLastTopSpeedSegment" = "短時極速";
 
 /* Highest speed ever, abbreviation without speed */
-"kTopSpeedSegment" = "最高速";
+"kTopSpeedSegment" = "最快速度";
 
 "LapTimer" = "LapTimer";
 
-"Online Racing" = "在線競賽";
+"Online Racing" = "線上競賽";
 
 "Driver ID" = "車手ID";
 
@@ -22,7 +22,7 @@
 
 "Lapping" = "成績提高時";
 
-"Always" = "始終";
+"Always" = "總是";
 
 "Event" = "活動";
 
@@ -62,7 +62,7 @@
 
 "High" = "高";
 
-"Display" = "界面";
+"Display" = "顯示";
 
 "Stop Go Mode" = "排位發車模式";
 
@@ -72,9 +72,9 @@
 
 "Speed" = "速度顯示";
 
-"Skin" = "界面皮膚";
+"Skin" = "界面配色";
 
-"Default" = "默認";
+"Default" = "預設";
 
 "Black" = "暗色";
 
@@ -108,9 +108,9 @@
 
 "Overlay Units" = "信息圖層單位";
 
-"Preferred Resolution" = "偏好分辨率";
+"Preferred Resolution" = "偏好解析度";
 
-"Resolution" = "分辨率";
+"Resolution" = "解析度";
 
 "192x144 - Low, 3G" = "192x144 - 低畫質, 3G";
 
@@ -120,33 +120,33 @@
 
 "1280x720 - HD" = "1280x720 - 高清";
 
-"Best Available - High" = "最高分辨率 - 最高畫質";
+"Best Available - High" = "最高解析度 - 最高畫質";
 
 "Use iCloud" = "使用 iCloud";
 
-"Auto Receive Videos" = "自動接收視頻";
+"Auto Receive Videos" = "自動接收影像";
 
-"Auto Send Videos" = "自動發送視頻";
+"Auto Send Videos" = "自動發送影像";
 
-"MultiCam Control" = "MultiCam 多機位控制";
+"MultiCam Control" = "MultiCam多機位控制";
 
 "Discover MultiCams" = "自動偵測MultiCam設備";
 
 "Master" = "主拍攝機位";
 
-"Picture in Picture" = "畫中畫";
+"Picture in Picture" = "子母畫面";
 
 "MultiCam Preset" = "MultiCam配置";
 
 "GoPro Preset" = "GoPro配置";
 
-"HERO3/3+ Wifi Password" = "HERO3/3+ Wifi密碼";
+"HERO3/3+ Wifi Password" = "HERO3/3+ WiFi密碼";
 
 "Use MultiCam Settings (None)" = "沿用MultiCam設備設定（不調整）";
 
-"Maximum Resolution (Master)" = "最高分辨率（主拍攝機位）";
+"Maximum Resolution (Master)" = "最高解析度（主拍攝機位）";
 
-"Single Density (Picture in Picture)" = "統一像素密度（畫中畫）";
+"Single Density (Picture in Picture)" = "統一像素密度（子母畫面）";
 
 "Startup" = "程序啓動";
 
@@ -158,7 +158,7 @@
 
 "Behavior" = "操作設置";
 
-"Video" = "視頻";
+"Video" = "影像";
 
 "Speech" = "語音";
 
@@ -186,9 +186,9 @@
 
 "Auto Preset" = "自動選擇配置";
 
-"RHT Preset" = "右行配置";
+"RHT Preset" = "右駕配置";
 
-"LHT Preset" = "左行配置";
+"LHT Preset" = "左駕配置";
 
 "Cam Preset" = "相機配置";
 
@@ -200,15 +200,15 @@
 
 "Standard Speed" = "標準速度";
 
-"Meter per Second" = "米/秒";
+"Meter per Second" = "公尺/秒";
 
 "GoPro HERO3/3+" = "GoPro HERO3/3+";
 
 "GoPro HERO4" = "GoPro HERO4";
 
-"Internal Cam" = "內置相機";
+"Internal Cam" = "內建相機";
 
-"External Cam" = "外置相機";
+"External Cam" = "外接相機";
 
 "Motorbike Preset" = "摩托車配置";
 
@@ -220,7 +220,7 @@
 
 "Motorbike Use" = "摩托車使用";
 
-"Show Large Hundreds" = "秒數字號放大";
+"Show Large Hundreds" = "秒數字體放大";
 
 "Freemium Edition" = "免費版";
 
@@ -240,7 +240,7 @@
 
 "GoPro HERO+ (LCD)" = "GoPro HERO+ (LCD)";
 
-"Online" = "在線實況";
+"Online" = "線上實況";
 
 "GoPro HERO5 BE" = "GoPro HERO5 BE";
 
@@ -249,4 +249,3 @@
 "GoPro HERO7 SE/BE" = "GoPro HERO7 SE/BE";
 
 "GoPro HERO 2018" = "GoPro HERO 2018";
-
