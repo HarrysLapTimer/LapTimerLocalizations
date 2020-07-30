@@ -1884,7 +1884,7 @@
 
 "Drivetrain" = "Transmission";
 
-"Track Set / Temporary" = "Track Set (circuit)  / Temporaire";
+"Track Set / Temporary" = "Circuit  / Temporaire";
 
 "Track Set / Permanent" = "Circuit / Permanent";
 
@@ -2578,4 +2578,6 @@
 "%hu Satellites, %@ GPS" = "%hu Satellites, %@ GPS";
 
 "%@ GPS" = "%@ GPS";
+
+"Track Set / Water" = "Circuit / Eau";
 
